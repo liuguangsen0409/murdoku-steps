@@ -1,0 +1,2153 @@
+{
+  "cases": 36,
+  "results": [
+    {
+      "slug": "a-messy-situation",
+      "steps": 21,
+      "allSingletonPlacementsVerified": true,
+      "finalMatchesSourceProof": true,
+      "killer": "G",
+      "placements": [
+        {
+          "step": "a-messy-situation-lesson-7",
+          "character": "G",
+          "cell": "R7C1",
+          "singletonVerified": true
+        },
+        {
+          "step": "a-messy-situation-lesson-9",
+          "character": "F",
+          "cell": "R8C3",
+          "singletonVerified": true
+        },
+        {
+          "step": "a-messy-situation-lesson-13",
+          "character": "A",
+          "cell": "R3C2",
+          "singletonVerified": true
+        },
+        {
+          "step": "a-messy-situation-lesson-14",
+          "character": "C",
+          "cell": "R1C4",
+          "singletonVerified": true
+        },
+        {
+          "step": "a-messy-situation-lesson-15",
+          "character": "E",
+          "cell": "R9C9",
+          "singletonVerified": true
+        },
+        {
+          "step": "a-messy-situation-lesson-17",
+          "character": "D",
+          "cell": "R2C7",
+          "singletonVerified": true
+        },
+        {
+          "step": "a-messy-situation-lesson-18",
+          "character": "H",
+          "cell": "R6C8",
+          "singletonVerified": true
+        },
+        {
+          "step": "a-messy-situation-lesson-19",
+          "character": "B",
+          "cell": "R4C6",
+          "singletonVerified": true
+        },
+        {
+          "step": "a-messy-situation-lesson-20",
+          "character": "V",
+          "cell": "R5C5",
+          "singletonVerified": true
+        }
+      ]
+    },
+    {
+      "slug": "backyard-garden",
+      "steps": 16,
+      "allSingletonPlacementsVerified": true,
+      "finalMatchesSourceProof": true,
+      "killer": "C",
+      "placements": [
+        {
+          "step": "backyard-garden-lesson-5",
+          "character": "A",
+          "cell": "R8C6",
+          "singletonVerified": true
+        },
+        {
+          "step": "backyard-garden-lesson-6",
+          "character": "E",
+          "cell": "R9C5",
+          "singletonVerified": true
+        },
+        {
+          "step": "backyard-garden-lesson-7",
+          "character": "F",
+          "cell": "R6C7",
+          "singletonVerified": true
+        },
+        {
+          "step": "backyard-garden-lesson-8",
+          "character": "D",
+          "cell": "R7C3",
+          "singletonVerified": true
+        },
+        {
+          "step": "backyard-garden-lesson-9",
+          "character": "B",
+          "cell": "R5C2",
+          "singletonVerified": true
+        },
+        {
+          "step": "backyard-garden-lesson-10",
+          "character": "C",
+          "cell": "R1C1",
+          "singletonVerified": true
+        },
+        {
+          "step": "backyard-garden-lesson-12",
+          "character": "G",
+          "cell": "R3C9",
+          "singletonVerified": true
+        },
+        {
+          "step": "backyard-garden-lesson-13",
+          "character": "H",
+          "cell": "R2C4",
+          "singletonVerified": true
+        },
+        {
+          "step": "backyard-garden-lesson-15",
+          "character": "V",
+          "cell": "R4C8",
+          "singletonVerified": true
+        }
+      ]
+    },
+    {
+      "slug": "book-club",
+      "steps": 14,
+      "allSingletonPlacementsVerified": true,
+      "finalMatchesSourceProof": true,
+      "killer": "C",
+      "placements": [
+        {
+          "step": "book-club-lesson-6",
+          "character": "E",
+          "cell": "R2C3",
+          "singletonVerified": true
+        },
+        {
+          "step": "book-club-lesson-9",
+          "character": "C",
+          "cell": "R5C5",
+          "singletonVerified": true
+        },
+        {
+          "step": "book-club-lesson-10",
+          "character": "A",
+          "cell": "R1C4",
+          "singletonVerified": true
+        },
+        {
+          "step": "book-club-lesson-11",
+          "character": "B",
+          "cell": "R6C2",
+          "singletonVerified": true
+        },
+        {
+          "step": "book-club-lesson-12",
+          "character": "D",
+          "cell": "R4C1",
+          "singletonVerified": true
+        },
+        {
+          "step": "book-club-lesson-13",
+          "character": "V",
+          "cell": "R3C6",
+          "singletonVerified": true
+        }
+      ]
+    },
+    {
+      "slug": "car-repair",
+      "steps": 14,
+      "allSingletonPlacementsVerified": true,
+      "finalMatchesSourceProof": true,
+      "killer": "C",
+      "placements": [
+        {
+          "step": "car-repair-lesson-8",
+          "character": "C",
+          "cell": "R1C2",
+          "singletonVerified": true
+        },
+        {
+          "step": "car-repair-lesson-9",
+          "character": "B",
+          "cell": "R5C4",
+          "singletonVerified": true
+        },
+        {
+          "step": "car-repair-lesson-10",
+          "character": "A",
+          "cell": "R6C5",
+          "singletonVerified": true
+        },
+        {
+          "step": "car-repair-lesson-11",
+          "character": "D",
+          "cell": "R3C6",
+          "singletonVerified": true
+        },
+        {
+          "step": "car-repair-lesson-12",
+          "character": "E",
+          "cell": "R4C3",
+          "singletonVerified": true
+        },
+        {
+          "step": "car-repair-lesson-13",
+          "character": "V",
+          "cell": "R2C1",
+          "singletonVerified": true
+        }
+      ]
+    },
+    {
+      "slug": "fireside-beach",
+      "steps": 11,
+      "allSingletonPlacementsVerified": true,
+      "finalMatchesSourceProof": true,
+      "killer": "B",
+      "placements": [
+        {
+          "step": "fireside-beach-lesson-5",
+          "character": "D",
+          "cell": "R5C4",
+          "singletonVerified": true
+        },
+        {
+          "step": "fireside-beach-lesson-7",
+          "character": "B",
+          "cell": "R1C1",
+          "singletonVerified": true
+        },
+        {
+          "step": "fireside-beach-lesson-8",
+          "character": "C",
+          "cell": "R3C5",
+          "singletonVerified": true
+        },
+        {
+          "step": "fireside-beach-lesson-9",
+          "character": "A",
+          "cell": "R4C2",
+          "singletonVerified": true
+        },
+        {
+          "step": "fireside-beach-lesson-10",
+          "character": "V",
+          "cell": "R2C3",
+          "singletonVerified": true
+        }
+      ]
+    },
+    {
+      "slug": "grizzly-night",
+      "steps": 17,
+      "allSingletonPlacementsVerified": true,
+      "finalMatchesSourceProof": true,
+      "killer": "D",
+      "placements": [
+        {
+          "step": "grizzly-night-lesson-7",
+          "character": "G",
+          "cell": "R5C7",
+          "singletonVerified": true
+        },
+        {
+          "step": "grizzly-night-lesson-9",
+          "character": "C",
+          "cell": "R4C4",
+          "singletonVerified": true
+        },
+        {
+          "step": "grizzly-night-lesson-10",
+          "character": "E",
+          "cell": "R2C5",
+          "singletonVerified": true
+        },
+        {
+          "step": "grizzly-night-lesson-11",
+          "character": "B",
+          "cell": "R1C8",
+          "singletonVerified": true
+        },
+        {
+          "step": "grizzly-night-lesson-12",
+          "character": "F",
+          "cell": "R8C9",
+          "singletonVerified": true
+        },
+        {
+          "step": "grizzly-night-lesson-13",
+          "character": "H",
+          "cell": "R3C3",
+          "singletonVerified": true
+        },
+        {
+          "step": "grizzly-night-lesson-14",
+          "character": "A",
+          "cell": "R9C6",
+          "singletonVerified": true
+        },
+        {
+          "step": "grizzly-night-lesson-15",
+          "character": "D",
+          "cell": "R7C2",
+          "singletonVerified": true
+        },
+        {
+          "step": "grizzly-night-lesson-16",
+          "character": "V",
+          "cell": "R6C1",
+          "singletonVerified": true
+        }
+      ]
+    },
+    {
+      "slug": "horse-with-no-name",
+      "steps": 14,
+      "allSingletonPlacementsVerified": true,
+      "finalMatchesSourceProof": true,
+      "killer": "D",
+      "placements": [
+        {
+          "step": "horse-with-no-name-lesson-8",
+          "character": "A",
+          "cell": "R5C6",
+          "singletonVerified": true
+        },
+        {
+          "step": "horse-with-no-name-lesson-9",
+          "character": "D",
+          "cell": "R6C2",
+          "singletonVerified": true
+        },
+        {
+          "step": "horse-with-no-name-lesson-10",
+          "character": "B",
+          "cell": "R2C3",
+          "singletonVerified": true
+        },
+        {
+          "step": "horse-with-no-name-lesson-11",
+          "character": "E",
+          "cell": "R1C4",
+          "singletonVerified": true
+        },
+        {
+          "step": "horse-with-no-name-lesson-12",
+          "character": "C",
+          "cell": "R3C5",
+          "singletonVerified": true
+        },
+        {
+          "step": "horse-with-no-name-lesson-13",
+          "character": "V",
+          "cell": "R4C1",
+          "singletonVerified": true
+        }
+      ]
+    },
+    {
+      "slug": "lake-fishing",
+      "steps": 19,
+      "allSingletonPlacementsVerified": true,
+      "finalMatchesSourceProof": true,
+      "killer": "C",
+      "placements": [
+        {
+          "step": "lake-fishing-lesson-8",
+          "character": "B",
+          "cell": "R3C2",
+          "singletonVerified": true
+        },
+        {
+          "step": "lake-fishing-lesson-9",
+          "character": "A",
+          "cell": "R5C3",
+          "singletonVerified": true
+        },
+        {
+          "step": "lake-fishing-lesson-12",
+          "character": "D",
+          "cell": "R4C1",
+          "singletonVerified": true
+        },
+        {
+          "step": "lake-fishing-lesson-13",
+          "character": "F",
+          "cell": "R1C4",
+          "singletonVerified": true
+        },
+        {
+          "step": "lake-fishing-lesson-14",
+          "character": "C",
+          "cell": "R8C7",
+          "singletonVerified": true
+        },
+        {
+          "step": "lake-fishing-lesson-16",
+          "character": "G",
+          "cell": "R2C8",
+          "singletonVerified": true
+        },
+        {
+          "step": "lake-fishing-lesson-17",
+          "character": "V",
+          "cell": "R7C5",
+          "singletonVerified": true
+        },
+        {
+          "step": "lake-fishing-lesson-18",
+          "character": "E",
+          "cell": "R6C6",
+          "singletonVerified": true
+        }
+      ]
+    },
+    {
+      "slug": "main-street",
+      "steps": 29,
+      "allSingletonPlacementsVerified": true,
+      "finalMatchesSourceProof": true,
+      "killer": "F",
+      "placements": [
+        {
+          "step": "main-street-lesson-8",
+          "character": "B",
+          "cell": "R11C8",
+          "singletonVerified": true
+        },
+        {
+          "step": "main-street-lesson-13",
+          "character": "H",
+          "cell": "R9C11",
+          "singletonVerified": true
+        },
+        {
+          "step": "main-street-lesson-16",
+          "character": "E",
+          "cell": "R1C3",
+          "singletonVerified": true
+        },
+        {
+          "step": "main-street-lesson-18",
+          "character": "K",
+          "cell": "R12C12",
+          "singletonVerified": true
+        },
+        {
+          "step": "main-street-lesson-19",
+          "character": "C",
+          "cell": "R10C4",
+          "singletonVerified": true
+        },
+        {
+          "step": "main-street-lesson-20",
+          "character": "A",
+          "cell": "R2C10",
+          "singletonVerified": true
+        },
+        {
+          "step": "main-street-lesson-23",
+          "character": "J",
+          "cell": "R8C7",
+          "singletonVerified": true
+        },
+        {
+          "step": "main-street-lesson-24",
+          "character": "D",
+          "cell": "R3C5",
+          "singletonVerified": true
+        },
+        {
+          "step": "main-street-lesson-25",
+          "character": "I",
+          "cell": "R5C9",
+          "singletonVerified": true
+        },
+        {
+          "step": "main-street-lesson-26",
+          "character": "F",
+          "cell": "R7C1",
+          "singletonVerified": true
+        },
+        {
+          "step": "main-street-lesson-27",
+          "character": "G",
+          "cell": "R4C2",
+          "singletonVerified": true
+        },
+        {
+          "step": "main-street-lesson-28",
+          "character": "V",
+          "cell": "R6C6",
+          "singletonVerified": true
+        }
+      ]
+    },
+    {
+      "slug": "midnight-rain",
+      "steps": 17,
+      "allSingletonPlacementsVerified": true,
+      "finalMatchesSourceProof": true,
+      "killer": "A",
+      "placements": [
+        {
+          "step": "midnight-rain-lesson-3",
+          "character": "B",
+          "cell": "R1C2",
+          "singletonVerified": true
+        },
+        {
+          "step": "midnight-rain-lesson-9",
+          "character": "C",
+          "cell": "R3C4",
+          "singletonVerified": true
+        },
+        {
+          "step": "midnight-rain-lesson-12",
+          "character": "A",
+          "cell": "R6C1",
+          "singletonVerified": true
+        },
+        {
+          "step": "midnight-rain-lesson-13",
+          "character": "D",
+          "cell": "R4C6",
+          "singletonVerified": true
+        },
+        {
+          "step": "midnight-rain-lesson-14",
+          "character": "E",
+          "cell": "R2C3",
+          "singletonVerified": true
+        },
+        {
+          "step": "midnight-rain-lesson-15",
+          "character": "F",
+          "cell": "R5C7",
+          "singletonVerified": true
+        },
+        {
+          "step": "midnight-rain-lesson-16",
+          "character": "V",
+          "cell": "R7C5",
+          "singletonVerified": true
+        }
+      ]
+    },
+    {
+      "slug": "minigolf",
+      "steps": 23,
+      "allSingletonPlacementsVerified": true,
+      "finalMatchesSourceProof": true,
+      "killer": "E",
+      "placements": [
+        {
+          "step": "minigolf-lesson-11",
+          "character": "H",
+          "cell": "R5C3",
+          "singletonVerified": true
+        },
+        {
+          "step": "minigolf-lesson-13",
+          "character": "E",
+          "cell": "R6C8",
+          "singletonVerified": true
+        },
+        {
+          "step": "minigolf-lesson-14",
+          "character": "B",
+          "cell": "R3C4",
+          "singletonVerified": true
+        },
+        {
+          "step": "minigolf-lesson-16",
+          "character": "G",
+          "cell": "R1C2",
+          "singletonVerified": true
+        },
+        {
+          "step": "minigolf-lesson-17",
+          "character": "I",
+          "cell": "R2C5",
+          "singletonVerified": true
+        },
+        {
+          "step": "minigolf-lesson-18",
+          "character": "D",
+          "cell": "R7C6",
+          "singletonVerified": true
+        },
+        {
+          "step": "minigolf-lesson-19",
+          "character": "F",
+          "cell": "R9C1",
+          "singletonVerified": true
+        },
+        {
+          "step": "minigolf-lesson-20",
+          "character": "V",
+          "cell": "R4C9",
+          "singletonVerified": true
+        },
+        {
+          "step": "minigolf-lesson-21",
+          "character": "A",
+          "cell": "R10C10",
+          "singletonVerified": true
+        },
+        {
+          "step": "minigolf-lesson-22",
+          "character": "C",
+          "cell": "R8C7",
+          "singletonVerified": true
+        }
+      ]
+    },
+    {
+      "slug": "neighbour-dispute",
+      "steps": 18,
+      "allSingletonPlacementsVerified": true,
+      "finalMatchesSourceProof": true,
+      "killer": "G",
+      "placements": [
+        {
+          "step": "neighbour-dispute-lesson-8",
+          "character": "F",
+          "cell": "R2C4",
+          "singletonVerified": true
+        },
+        {
+          "step": "neighbour-dispute-lesson-9",
+          "character": "G",
+          "cell": "R6C3",
+          "singletonVerified": true
+        },
+        {
+          "step": "neighbour-dispute-lesson-10",
+          "character": "A",
+          "cell": "R1C2",
+          "singletonVerified": true
+        },
+        {
+          "step": "neighbour-dispute-lesson-13",
+          "character": "B",
+          "cell": "R3C5",
+          "singletonVerified": true
+        },
+        {
+          "step": "neighbour-dispute-lesson-14",
+          "character": "C",
+          "cell": "R7C7",
+          "singletonVerified": true
+        },
+        {
+          "step": "neighbour-dispute-lesson-15",
+          "character": "E",
+          "cell": "R4C6",
+          "singletonVerified": true
+        },
+        {
+          "step": "neighbour-dispute-lesson-16",
+          "character": "D",
+          "cell": "R5C8",
+          "singletonVerified": true
+        },
+        {
+          "step": "neighbour-dispute-lesson-17",
+          "character": "V",
+          "cell": "R8C1",
+          "singletonVerified": true
+        }
+      ]
+    },
+    {
+      "slug": "netflix-and-kill",
+      "steps": 13,
+      "allSingletonPlacementsVerified": true,
+      "finalMatchesSourceProof": true,
+      "killer": "B",
+      "placements": [
+        {
+          "step": "netflix-and-kill-lesson-6",
+          "character": "E",
+          "cell": "R4C6",
+          "singletonVerified": true
+        },
+        {
+          "step": "netflix-and-kill-lesson-8",
+          "character": "D",
+          "cell": "R5C2",
+          "singletonVerified": true
+        },
+        {
+          "step": "netflix-and-kill-lesson-9",
+          "character": "B",
+          "cell": "R1C1",
+          "singletonVerified": true
+        },
+        {
+          "step": "netflix-and-kill-lesson-10",
+          "character": "A",
+          "cell": "R6C4",
+          "singletonVerified": true
+        },
+        {
+          "step": "netflix-and-kill-lesson-11",
+          "character": "C",
+          "cell": "R3C5",
+          "singletonVerified": true
+        },
+        {
+          "step": "netflix-and-kill-lesson-12",
+          "character": "V",
+          "cell": "R2C3",
+          "singletonVerified": true
+        }
+      ]
+    },
+    {
+      "slug": "outdoor-painting",
+      "steps": 14,
+      "allSingletonPlacementsVerified": true,
+      "finalMatchesSourceProof": true,
+      "killer": "D",
+      "placements": [
+        {
+          "step": "outdoor-painting-lesson-8",
+          "character": "B",
+          "cell": "R5C6",
+          "singletonVerified": true
+        },
+        {
+          "step": "outdoor-painting-lesson-9",
+          "character": "D",
+          "cell": "R4C5",
+          "singletonVerified": true
+        },
+        {
+          "step": "outdoor-painting-lesson-10",
+          "character": "C",
+          "cell": "R1C2",
+          "singletonVerified": true
+        },
+        {
+          "step": "outdoor-painting-lesson-11",
+          "character": "E",
+          "cell": "R6C4",
+          "singletonVerified": true
+        },
+        {
+          "step": "outdoor-painting-lesson-12",
+          "character": "A",
+          "cell": "R2C1",
+          "singletonVerified": true
+        },
+        {
+          "step": "outdoor-painting-lesson-13",
+          "character": "V",
+          "cell": "R3C3",
+          "singletonVerified": true
+        }
+      ]
+    },
+    {
+      "slug": "piano-lesson",
+      "steps": 18,
+      "allSingletonPlacementsVerified": true,
+      "finalMatchesSourceProof": true,
+      "killer": "E",
+      "placements": [
+        {
+          "step": "piano-lesson-lesson-11",
+          "character": "E",
+          "cell": "R3C5",
+          "singletonVerified": true
+        },
+        {
+          "step": "piano-lesson-lesson-13",
+          "character": "B",
+          "cell": "R5C2",
+          "singletonVerified": true
+        },
+        {
+          "step": "piano-lesson-lesson-14",
+          "character": "A",
+          "cell": "R4C1",
+          "singletonVerified": true
+        },
+        {
+          "step": "piano-lesson-lesson-15",
+          "character": "D",
+          "cell": "R1C6",
+          "singletonVerified": true
+        },
+        {
+          "step": "piano-lesson-lesson-16",
+          "character": "C",
+          "cell": "R6C4",
+          "singletonVerified": true
+        },
+        {
+          "step": "piano-lesson-lesson-17",
+          "character": "V",
+          "cell": "R2C3",
+          "singletonVerified": true
+        }
+      ]
+    },
+    {
+      "slug": "preppers",
+      "steps": 19,
+      "allSingletonPlacementsVerified": true,
+      "finalMatchesSourceProof": true,
+      "killer": "A",
+      "placements": [
+        {
+          "step": "preppers-lesson-6",
+          "character": "H",
+          "cell": "R6C2",
+          "singletonVerified": true
+        },
+        {
+          "step": "preppers-lesson-9",
+          "character": "B",
+          "cell": "R5C6",
+          "singletonVerified": true
+        },
+        {
+          "step": "preppers-lesson-10",
+          "character": "F",
+          "cell": "R2C7",
+          "singletonVerified": true
+        },
+        {
+          "step": "preppers-lesson-12",
+          "character": "C",
+          "cell": "R7C5",
+          "singletonVerified": true
+        },
+        {
+          "step": "preppers-lesson-13",
+          "character": "G",
+          "cell": "R4C4",
+          "singletonVerified": true
+        },
+        {
+          "step": "preppers-lesson-15",
+          "character": "A",
+          "cell": "R1C9",
+          "singletonVerified": true
+        },
+        {
+          "step": "preppers-lesson-16",
+          "character": "D",
+          "cell": "R8C1",
+          "singletonVerified": true
+        },
+        {
+          "step": "preppers-lesson-17",
+          "character": "E",
+          "cell": "R9C3",
+          "singletonVerified": true
+        },
+        {
+          "step": "preppers-lesson-18",
+          "character": "V",
+          "cell": "R3C8",
+          "singletonVerified": true
+        }
+      ]
+    },
+    {
+      "slug": "remote-village",
+      "steps": 22,
+      "allSingletonPlacementsVerified": true,
+      "finalMatchesSourceProof": true,
+      "killer": "G",
+      "placements": [
+        {
+          "step": "remote-village-lesson-9",
+          "character": "H",
+          "cell": "R6C6",
+          "singletonVerified": true
+        },
+        {
+          "step": "remote-village-lesson-10",
+          "character": "B",
+          "cell": "R7C7",
+          "singletonVerified": true
+        },
+        {
+          "step": "remote-village-lesson-12",
+          "character": "F",
+          "cell": "R4C8",
+          "singletonVerified": true
+        },
+        {
+          "step": "remote-village-lesson-15",
+          "character": "A",
+          "cell": "R5C4",
+          "singletonVerified": true
+        },
+        {
+          "step": "remote-village-lesson-17",
+          "character": "D",
+          "cell": "R3C2",
+          "singletonVerified": true
+        },
+        {
+          "step": "remote-village-lesson-18",
+          "character": "V",
+          "cell": "R8C1",
+          "singletonVerified": true
+        },
+        {
+          "step": "remote-village-lesson-19",
+          "character": "G",
+          "cell": "R9C5",
+          "singletonVerified": true
+        },
+        {
+          "step": "remote-village-lesson-20",
+          "character": "C",
+          "cell": "R1C3",
+          "singletonVerified": true
+        },
+        {
+          "step": "remote-village-lesson-21",
+          "character": "E",
+          "cell": "R2C9",
+          "singletonVerified": true
+        }
+      ]
+    },
+    {
+      "slug": "river-crossing",
+      "steps": 19,
+      "allSingletonPlacementsVerified": true,
+      "finalMatchesSourceProof": true,
+      "killer": "A",
+      "placements": [
+        {
+          "step": "river-crossing-lesson-6",
+          "character": "B",
+          "cell": "R4C5",
+          "singletonVerified": true
+        },
+        {
+          "step": "river-crossing-lesson-8",
+          "character": "D",
+          "cell": "R6C6",
+          "singletonVerified": true
+        },
+        {
+          "step": "river-crossing-lesson-11",
+          "character": "A",
+          "cell": "R8C8",
+          "singletonVerified": true
+        },
+        {
+          "step": "river-crossing-lesson-12",
+          "character": "F",
+          "cell": "R7C3",
+          "singletonVerified": true
+        },
+        {
+          "step": "river-crossing-lesson-14",
+          "character": "C",
+          "cell": "R5C7",
+          "singletonVerified": true
+        },
+        {
+          "step": "river-crossing-lesson-15",
+          "character": "H",
+          "cell": "R3C4",
+          "singletonVerified": true
+        },
+        {
+          "step": "river-crossing-lesson-16",
+          "character": "G",
+          "cell": "R2C2",
+          "singletonVerified": true
+        },
+        {
+          "step": "river-crossing-lesson-17",
+          "character": "E",
+          "cell": "R10C1",
+          "singletonVerified": true
+        },
+        {
+          "step": "river-crossing-lesson-18",
+          "character": "V",
+          "cell": "R9C9",
+          "singletonVerified": true
+        }
+      ]
+    },
+    {
+      "slug": "surprise-visitors",
+      "steps": 18,
+      "allSingletonPlacementsVerified": true,
+      "finalMatchesSourceProof": true,
+      "killer": "E",
+      "placements": [
+        {
+          "step": "surprise-visitors-lesson-8",
+          "character": "H",
+          "cell": "R5C3",
+          "singletonVerified": true
+        },
+        {
+          "step": "surprise-visitors-lesson-9",
+          "character": "F",
+          "cell": "R1C4",
+          "singletonVerified": true
+        },
+        {
+          "step": "surprise-visitors-lesson-11",
+          "character": "A",
+          "cell": "R3C6",
+          "singletonVerified": true
+        },
+        {
+          "step": "surprise-visitors-lesson-12",
+          "character": "B",
+          "cell": "R2C8",
+          "singletonVerified": true
+        },
+        {
+          "step": "surprise-visitors-lesson-13",
+          "character": "E",
+          "cell": "R7C7",
+          "singletonVerified": true
+        },
+        {
+          "step": "surprise-visitors-lesson-14",
+          "character": "D",
+          "cell": "R6C2",
+          "singletonVerified": true
+        },
+        {
+          "step": "surprise-visitors-lesson-15",
+          "character": "G",
+          "cell": "R4C1",
+          "singletonVerified": true
+        },
+        {
+          "step": "surprise-visitors-lesson-16",
+          "character": "C",
+          "cell": "R9C9",
+          "singletonVerified": true
+        },
+        {
+          "step": "surprise-visitors-lesson-17",
+          "character": "V",
+          "cell": "R8C5",
+          "singletonVerified": true
+        }
+      ]
+    },
+    {
+      "slug": "the-abandoned-museum",
+      "steps": 20,
+      "allSingletonPlacementsVerified": true,
+      "finalMatchesSourceProof": true,
+      "killer": "H",
+      "placements": [
+        {
+          "step": "the-abandoned-museum-lesson-7",
+          "character": "B",
+          "cell": "R8C3",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-abandoned-museum-lesson-9",
+          "character": "A",
+          "cell": "R2C4",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-abandoned-museum-lesson-12",
+          "character": "G",
+          "cell": "R6C5",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-abandoned-museum-lesson-14",
+          "character": "C",
+          "cell": "R3C1",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-abandoned-museum-lesson-15",
+          "character": "F",
+          "cell": "R9C2",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-abandoned-museum-lesson-16",
+          "character": "H",
+          "cell": "R1C8",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-abandoned-museum-lesson-17",
+          "character": "D",
+          "cell": "R7C6",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-abandoned-museum-lesson-18",
+          "character": "E",
+          "cell": "R5C7",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-abandoned-museum-lesson-19",
+          "character": "V",
+          "cell": "R4C9",
+          "singletonVerified": true
+        }
+      ]
+    },
+    {
+      "slug": "the-beach",
+      "steps": 16,
+      "allSingletonPlacementsVerified": true,
+      "finalMatchesSourceProof": true,
+      "killer": "A",
+      "placements": [
+        {
+          "step": "the-beach-lesson-9",
+          "character": "C",
+          "cell": "R2C7",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-beach-lesson-10",
+          "character": "F",
+          "cell": "R1C1",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-beach-lesson-11",
+          "character": "A",
+          "cell": "R6C2",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-beach-lesson-12",
+          "character": "B",
+          "cell": "R5C6",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-beach-lesson-13",
+          "character": "E",
+          "cell": "R4C3",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-beach-lesson-14",
+          "character": "D",
+          "cell": "R3C4",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-beach-lesson-15",
+          "character": "V",
+          "cell": "R7C5",
+          "singletonVerified": true
+        }
+      ]
+    },
+    {
+      "slug": "the-bus-stop",
+      "steps": 16,
+      "allSingletonPlacementsVerified": true,
+      "finalMatchesSourceProof": true,
+      "killer": "A",
+      "placements": [
+        {
+          "step": "the-bus-stop-lesson-6",
+          "character": "E",
+          "cell": "R4C1",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-bus-stop-lesson-9",
+          "character": "C",
+          "cell": "R2C2",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-bus-stop-lesson-10",
+          "character": "B",
+          "cell": "R6C3",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-bus-stop-lesson-11",
+          "character": "D",
+          "cell": "R1C4",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-bus-stop-lesson-13",
+          "character": "A",
+          "cell": "R5C6",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-bus-stop-lesson-14",
+          "character": "F",
+          "cell": "R7C5",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-bus-stop-lesson-15",
+          "character": "V",
+          "cell": "R3C7",
+          "singletonVerified": true
+        }
+      ]
+    },
+    {
+      "slug": "the-ceos-office",
+      "steps": 23,
+      "allSingletonPlacementsVerified": true,
+      "finalMatchesSourceProof": true,
+      "killer": "C",
+      "placements": [
+        {
+          "step": "the-ceos-office-3",
+          "character": "J",
+          "cell": "R10C9",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-ceos-office-5",
+          "character": "G",
+          "cell": "R1C14",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-ceos-office-9",
+          "character": "C",
+          "cell": "R12C13",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-ceos-office-10",
+          "character": "F",
+          "cell": "R2C10",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-ceos-office-11",
+          "character": "A",
+          "cell": "R14C12",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-ceos-office-12",
+          "character": "E",
+          "cell": "R13C8",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-ceos-office-13",
+          "character": "L",
+          "cell": "R16C6",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-ceos-office-14",
+          "character": "I",
+          "cell": "R15C2",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-ceos-office-15",
+          "character": "O",
+          "cell": "R8C5",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-ceos-office-16",
+          "character": "K",
+          "cell": "R7C3",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-ceos-office-17",
+          "character": "M",
+          "cell": "R3C4",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-ceos-office-18",
+          "character": "N",
+          "cell": "R9C1",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-ceos-office-19",
+          "character": "D",
+          "cell": "R6C16",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-ceos-office-20",
+          "character": "B",
+          "cell": "R5C11",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-ceos-office-21",
+          "character": "H",
+          "cell": "R4C7",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-ceos-office-22",
+          "character": "V",
+          "cell": "R11C15",
+          "singletonVerified": true
+        }
+      ]
+    },
+    {
+      "slug": "the-donut-house",
+      "steps": 18,
+      "allSingletonPlacementsVerified": true,
+      "finalMatchesSourceProof": true,
+      "killer": "B",
+      "placements": [
+        {
+          "step": "the-donut-house-lesson-6",
+          "character": "C",
+          "cell": "R5C9",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-donut-house-lesson-7",
+          "character": "A",
+          "cell": "R3C8",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-donut-house-lesson-10",
+          "character": "B",
+          "cell": "R4C3",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-donut-house-lesson-11",
+          "character": "G",
+          "cell": "R2C5",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-donut-house-lesson-12",
+          "character": "D",
+          "cell": "R1C2",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-donut-house-lesson-13",
+          "character": "E",
+          "cell": "R6C1",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-donut-house-lesson-15",
+          "character": "H",
+          "cell": "R8C6",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-donut-house-lesson-16",
+          "character": "F",
+          "cell": "R9C7",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-donut-house-lesson-17",
+          "character": "V",
+          "cell": "R7C4",
+          "singletonVerified": true
+        }
+      ]
+    },
+    {
+      "slug": "the-flower-store",
+      "steps": 16,
+      "allSingletonPlacementsVerified": true,
+      "finalMatchesSourceProof": true,
+      "killer": "A",
+      "placements": [
+        {
+          "step": "the-flower-store-lesson-9",
+          "character": "D",
+          "cell": "R2C2",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-flower-store-lesson-10",
+          "character": "E",
+          "cell": "R5C1",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-flower-store-lesson-11",
+          "character": "A",
+          "cell": "R6C7",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-flower-store-lesson-12",
+          "character": "C",
+          "cell": "R3C6",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-flower-store-lesson-13",
+          "character": "B",
+          "cell": "R1C3",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-flower-store-lesson-14",
+          "character": "F",
+          "cell": "R4C4",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-flower-store-lesson-15",
+          "character": "V",
+          "cell": "R7C5",
+          "singletonVerified": true
+        }
+      ]
+    },
+    {
+      "slug": "the-french-restaurant",
+      "steps": 16,
+      "allSingletonPlacementsVerified": true,
+      "finalMatchesSourceProof": true,
+      "killer": "D",
+      "placements": [
+        {
+          "step": "the-french-restaurant-lesson-4",
+          "character": "G",
+          "cell": "R7C8",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-french-restaurant-lesson-6",
+          "character": "E",
+          "cell": "R9C9",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-french-restaurant-lesson-7",
+          "character": "D",
+          "cell": "R3C7",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-french-restaurant-lesson-8",
+          "character": "B",
+          "cell": "R8C3",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-french-restaurant-lesson-11",
+          "character": "H",
+          "cell": "R5C5",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-french-restaurant-lesson-12",
+          "character": "A",
+          "cell": "R6C2",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-french-restaurant-lesson-13",
+          "character": "C",
+          "cell": "R4C4",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-french-restaurant-lesson-14",
+          "character": "F",
+          "cell": "R2C1",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-french-restaurant-lesson-15",
+          "character": "V",
+          "cell": "R1C6",
+          "singletonVerified": true
+        }
+      ]
+    },
+    {
+      "slug": "the-garage-band",
+      "steps": 16,
+      "allSingletonPlacementsVerified": true,
+      "finalMatchesSourceProof": true,
+      "killer": "A",
+      "placements": [
+        {
+          "step": "the-garage-band-lesson-7",
+          "character": "F",
+          "cell": "R7C6",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-garage-band-lesson-9",
+          "character": "B",
+          "cell": "R1C5",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-garage-band-lesson-10",
+          "character": "A",
+          "cell": "R5C7",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-garage-band-lesson-11",
+          "character": "C",
+          "cell": "R2C3",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-garage-band-lesson-13",
+          "character": "E",
+          "cell": "R4C1",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-garage-band-lesson-14",
+          "character": "D",
+          "cell": "R3C2",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-garage-band-lesson-15",
+          "character": "V",
+          "cell": "R6C4",
+          "singletonVerified": true
+        }
+      ]
+    },
+    {
+      "slug": "the-golf",
+      "steps": 21,
+      "allSingletonPlacementsVerified": true,
+      "finalMatchesSourceProof": true,
+      "killer": "B",
+      "placements": [
+        {
+          "step": "the-golf-3",
+          "character": "M",
+          "cell": "R3C15",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-golf-4",
+          "character": "O",
+          "cell": "R1C12",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-golf-6",
+          "character": "E",
+          "cell": "R13C5",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-golf-7",
+          "character": "J",
+          "cell": "R14C9",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-golf-8",
+          "character": "K",
+          "cell": "R2C11",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-golf-10",
+          "character": "G",
+          "cell": "R5C2",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-golf-11",
+          "character": "F",
+          "cell": "R12C4",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-golf-11",
+          "character": "H",
+          "cell": "R15C1",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-golf-13",
+          "character": "D",
+          "cell": "R11C10",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-golf-14",
+          "character": "I",
+          "cell": "R10C3",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-golf-15",
+          "character": "A",
+          "cell": "R16C13",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-golf-16",
+          "character": "N",
+          "cell": "R7C7",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-golf-17",
+          "character": "B",
+          "cell": "R9C14",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-golf-18",
+          "character": "L",
+          "cell": "R8C8",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-golf-19",
+          "character": "C",
+          "cell": "R4C6",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-golf-20",
+          "character": "V",
+          "cell": "R6C16",
+          "singletonVerified": true
+        }
+      ]
+    },
+    {
+      "slug": "the-panic-room",
+      "steps": 24,
+      "allSingletonPlacementsVerified": true,
+      "finalMatchesSourceProof": true,
+      "killer": "H",
+      "placements": [
+        {
+          "step": "the-panic-room-lesson-8",
+          "character": "D",
+          "cell": "R2C6",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-panic-room-lesson-10",
+          "character": "E",
+          "cell": "R3C9",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-panic-room-lesson-12",
+          "character": "B",
+          "cell": "R6C7",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-panic-room-lesson-14",
+          "character": "C",
+          "cell": "R9C8",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-panic-room-lesson-16",
+          "character": "F",
+          "cell": "R5C10",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-panic-room-lesson-17",
+          "character": "A",
+          "cell": "R7C2",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-panic-room-lesson-18",
+          "character": "G",
+          "cell": "R10C5",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-panic-room-lesson-21",
+          "character": "H",
+          "cell": "R1C4",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-panic-room-lesson-22",
+          "character": "I",
+          "cell": "R8C3",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-panic-room-lesson-23",
+          "character": "V",
+          "cell": "R4C1",
+          "singletonVerified": true
+        }
+      ]
+    },
+    {
+      "slug": "the-picnic",
+      "steps": 16,
+      "allSingletonPlacementsVerified": true,
+      "finalMatchesSourceProof": true,
+      "killer": "B",
+      "placements": [
+        {
+          "step": "the-picnic-lesson-5",
+          "character": "D",
+          "cell": "R3C7",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-picnic-lesson-9",
+          "character": "B",
+          "cell": "R7C5",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-picnic-lesson-11",
+          "character": "E",
+          "cell": "R5C1",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-picnic-lesson-12",
+          "character": "F",
+          "cell": "R4C3",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-picnic-lesson-13",
+          "character": "A",
+          "cell": "R2C2",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-picnic-lesson-14",
+          "character": "C",
+          "cell": "R1C4",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-picnic-lesson-15",
+          "character": "V",
+          "cell": "R6C6",
+          "singletonVerified": true
+        }
+      ]
+    },
+    {
+      "slug": "the-pigsty",
+      "steps": 11,
+      "allSingletonPlacementsVerified": true,
+      "finalMatchesSourceProof": true,
+      "killer": "B",
+      "placements": [
+        {
+          "step": "the-pigsty-lesson-4",
+          "character": "C",
+          "cell": "R5C4",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-pigsty-lesson-7",
+          "character": "A",
+          "cell": "R3C5",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-pigsty-lesson-8",
+          "character": "D",
+          "cell": "R4C2",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-pigsty-lesson-9",
+          "character": "B",
+          "cell": "R1C1",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-pigsty-lesson-10",
+          "character": "V",
+          "cell": "R2C3",
+          "singletonVerified": true
+        }
+      ]
+    },
+    {
+      "slug": "the-retirement-community",
+      "steps": 22,
+      "allSingletonPlacementsVerified": true,
+      "finalMatchesSourceProof": true,
+      "killer": "E",
+      "placements": [
+        {
+          "step": "the-retirement-community-lesson-7",
+          "character": "C",
+          "cell": "R5C2",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-retirement-community-lesson-8",
+          "character": "F",
+          "cell": "R8C7",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-retirement-community-lesson-11",
+          "character": "D",
+          "cell": "R9C1",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-retirement-community-lesson-13",
+          "character": "E",
+          "cell": "R2C4",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-retirement-community-lesson-14",
+          "character": "B",
+          "cell": "R4C10",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-retirement-community-lesson-15",
+          "character": "A",
+          "cell": "R7C3",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-retirement-community-lesson-17",
+          "character": "I",
+          "cell": "R10C8",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-retirement-community-lesson-19",
+          "character": "G",
+          "cell": "R1C9",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-retirement-community-lesson-20",
+          "character": "H",
+          "cell": "R6C6",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-retirement-community-lesson-21",
+          "character": "V",
+          "cell": "R3C5",
+          "singletonVerified": true
+        }
+      ]
+    },
+    {
+      "slug": "the-riding-lesson",
+      "steps": 17,
+      "allSingletonPlacementsVerified": true,
+      "finalMatchesSourceProof": true,
+      "killer": "A",
+      "placements": [
+        {
+          "step": "the-riding-lesson-lesson-5",
+          "character": "B",
+          "cell": "R2C2",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-riding-lesson-lesson-7",
+          "character": "F",
+          "cell": "R6C6",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-riding-lesson-lesson-8",
+          "character": "G",
+          "cell": "R4C1",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-riding-lesson-lesson-9",
+          "character": "H",
+          "cell": "R5C3",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-riding-lesson-lesson-11",
+          "character": "A",
+          "cell": "R9C4",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-riding-lesson-lesson-13",
+          "character": "D",
+          "cell": "R7C5",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-riding-lesson-lesson-14",
+          "character": "C",
+          "cell": "R1C8",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-riding-lesson-lesson-15",
+          "character": "E",
+          "cell": "R3C9",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-riding-lesson-lesson-16",
+          "character": "V",
+          "cell": "R8C7",
+          "singletonVerified": true
+        }
+      ]
+    },
+    {
+      "slug": "the-terracotta-courtyard",
+      "steps": 17,
+      "allSingletonPlacementsVerified": true,
+      "finalMatchesSourceProof": true,
+      "killer": "H",
+      "placements": [
+        {
+          "step": "the-terracotta-courtyard-lesson-6",
+          "character": "G",
+          "cell": "R7C9",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-terracotta-courtyard-lesson-7",
+          "character": "C",
+          "cell": "R9C1",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-terracotta-courtyard-lesson-8",
+          "character": "D",
+          "cell": "R8C3",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-terracotta-courtyard-lesson-10",
+          "character": "H",
+          "cell": "R4C6",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-terracotta-courtyard-lesson-11",
+          "character": "A",
+          "cell": "R2C4",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-terracotta-courtyard-lesson-12",
+          "character": "B",
+          "cell": "R3C8",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-terracotta-courtyard-lesson-13",
+          "character": "E",
+          "cell": "R6C2",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-terracotta-courtyard-lesson-14",
+          "character": "F",
+          "cell": "R1C5",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-terracotta-courtyard-lesson-16",
+          "character": "V",
+          "cell": "R5C7",
+          "singletonVerified": true
+        }
+      ]
+    },
+    {
+      "slug": "the-wine-cellar",
+      "steps": 21,
+      "allSingletonPlacementsVerified": true,
+      "finalMatchesSourceProof": true,
+      "killer": "E",
+      "placements": [
+        {
+          "step": "the-wine-cellar-lesson-6",
+          "character": "B",
+          "cell": "R9C7",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-wine-cellar-lesson-9",
+          "character": "F",
+          "cell": "R5C3",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-wine-cellar-lesson-12",
+          "character": "C",
+          "cell": "R8C4",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-wine-cellar-lesson-15",
+          "character": "E",
+          "cell": "R6C6",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-wine-cellar-lesson-16",
+          "character": "H",
+          "cell": "R3C9",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-wine-cellar-lesson-17",
+          "character": "D",
+          "cell": "R4C8",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-wine-cellar-lesson-18",
+          "character": "G",
+          "cell": "R2C1",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-wine-cellar-lesson-19",
+          "character": "A",
+          "cell": "R1C5",
+          "singletonVerified": true
+        },
+        {
+          "step": "the-wine-cellar-lesson-20",
+          "character": "V",
+          "cell": "R7C2",
+          "singletonVerified": true
+        }
+      ]
+    },
+    {
+      "slug": "white-wedding",
+      "steps": 19,
+      "allSingletonPlacementsVerified": true,
+      "finalMatchesSourceProof": true,
+      "killer": "G",
+      "placements": [
+        {
+          "step": "white-wedding-lesson-6",
+          "character": "C",
+          "cell": "R2C5",
+          "singletonVerified": true
+        },
+        {
+          "step": "white-wedding-lesson-8",
+          "character": "D",
+          "cell": "R9C4",
+          "singletonVerified": true
+        },
+        {
+          "step": "white-wedding-lesson-10",
+          "character": "E",
+          "cell": "R1C6",
+          "singletonVerified": true
+        },
+        {
+          "step": "white-wedding-lesson-11",
+          "character": "F",
+          "cell": "R7C7",
+          "singletonVerified": true
+        },
+        {
+          "step": "white-wedding-lesson-13",
+          "character": "H",
+          "cell": "R5C3",
+          "singletonVerified": true
+        },
+        {
+          "step": "white-wedding-lesson-14",
+          "character": "A",
+          "cell": "R6C9",
+          "singletonVerified": true
+        },
+        {
+          "step": "white-wedding-lesson-15",
+          "character": "B",
+          "cell": "R8C8",
+          "singletonVerified": true
+        },
+        {
+          "step": "white-wedding-lesson-17",
+          "character": "G",
+          "cell": "R4C2",
+          "singletonVerified": true
+        },
+        {
+          "step": "white-wedding-lesson-18",
+          "character": "V",
+          "cell": "R3C1",
+          "singletonVerified": true
+        }
+      ]
+    }
+  ]
+}

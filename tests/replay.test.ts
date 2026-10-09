@@ -1,0 +1,11 @@
+import {expect,test} from 'vitest';
+import data from '../src/case/data/24h-delivery.json';
+import {type Puzzle} from '../src/case/types';
+import {steps} from '../scripts/lessons/steps';
+import {buildSnapshots} from '../src/tutorial/replay';
+import type {Step} from '../src/tutorial/types';
+const p=data as Puzzle;
+test('replays 24 steps to the reference positions',()=>{const s=buildSnapshots(p,steps);expect(steps).toHaveLength(24);expect(s).toHaveLength(25);expect(s[0].placements).toEqual({});for(const [n,id,pos] of [[5,'A','R6C1'],[9,'B','R1C2'],[13,'D','R2C4'],[16,'C','R3C5'],[20,'E','R5C3']] as const)expect(s[n].placements[id]).toBe(pos);expect(s[22].placements).toEqual({A:'R6C1',B:'R1C2',C:'R3C5',D:'R2C4',E:'R5C3',V:'R4C6'});});
+test('does not mutate earlier snapshots after advancing',()=>{const s=buildSnapshots(p,steps);const before=JSON.stringify(s[2]);s[16].candidates.A.push('R1C1');expect(JSON.stringify(s[2])).toBe(before);expect(s[2].placements).toEqual({});expect(s[2].candidates.A).toEqual(['R5C2','R6C1']);});
+test('excludes only the named character',()=>{const sample:Step[]=[{id:'step-01',title:'',explanation:'',clueRefs:['C-clue'],focusCharacters:['A'],highlightCells:[],actions:[{type:'setCandidates',character:'A',cells:['R5C2']},{type:'setCandidates',character:'C',cells:['R5C2']},{type:'removeCandidate',character:'A',cell:'R5C2',reason:{ruleId:'carpet-only',clueRefs:['C-clue'],dependsOn:[]}}]}];const s=buildSnapshots(p,sample);expect(s[1].candidates.A).toEqual([]);expect(s[1].candidates.C).toEqual(['R5C2']);});
+test('rejects row conflicts and unknown evidence',()=>{const sample=structuredClone(steps.slice(0,5));sample[4].actions.push({type:'placeCharacter',character:'B',cell:'R6C3',reason:{ruleId:'test',clueRefs:['B-clue'],dependsOn:[]}});expect(()=>buildSnapshots(p,sample)).toThrow(/行列/);const broken=structuredClone(steps);broken[3].actions[0]={type:'removeCandidate',character:'A',cell:'R5C2',reason:{ruleId:'test',clueRefs:['missing'],dependsOn:[]}};expect(()=>buildSnapshots(p,broken)).toThrow(/证据/);});

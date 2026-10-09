@@ -1,0 +1,5988 @@
+[
+  {
+    "id": "preppers-lesson-1",
+    "title": "先读地图与全局规则",
+    "explanation": "9 人共用 9 行、9 列；先从地形、家具与明确区域建立候选。",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [],
+    "candidateCharacters": [],
+    "highlightCells": [],
+    "actions": [
+      {
+        "type": "setCandidates",
+        "character": "A",
+        "cells": [
+          "R1C1",
+          "R1C2",
+          "R1C3",
+          "R1C4",
+          "R1C5",
+          "R1C6",
+          "R1C7",
+          "R1C9",
+          "R2C1",
+          "R3C1",
+          "R4C8",
+          "R4C9",
+          "R5C1",
+          "R5C8",
+          "R5C9",
+          "R6C1",
+          "R8C1",
+          "R8C6",
+          "R9C1"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "B",
+        "cells": [
+          "R5C5",
+          "R5C6",
+          "R5C7",
+          "R6C5",
+          "R6C6",
+          "R6C7",
+          "R7C5"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "C",
+        "cells": [
+          "R1C1",
+          "R1C2",
+          "R1C3",
+          "R1C4",
+          "R1C5",
+          "R1C6",
+          "R1C7",
+          "R1C8",
+          "R1C9",
+          "R2C1",
+          "R2C4",
+          "R2C5",
+          "R2C6",
+          "R2C7",
+          "R2C9",
+          "R3C1",
+          "R3C3",
+          "R3C5",
+          "R3C6",
+          "R3C8",
+          "R4C2",
+          "R4C3",
+          "R4C4",
+          "R4C5",
+          "R4C6",
+          "R4C8",
+          "R4C9",
+          "R5C1",
+          "R5C2",
+          "R5C3",
+          "R5C5",
+          "R5C6",
+          "R5C7",
+          "R5C8",
+          "R5C9",
+          "R6C1",
+          "R6C2",
+          "R6C5",
+          "R6C6",
+          "R6C7",
+          "R7C4",
+          "R7C5",
+          "R7C8",
+          "R7C9",
+          "R8C1",
+          "R8C2",
+          "R8C4",
+          "R8C5",
+          "R8C6",
+          "R8C7",
+          "R9C1",
+          "R9C3",
+          "R9C4",
+          "R9C6",
+          "R9C9"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "D",
+        "cells": [
+          "R1C1",
+          "R1C2",
+          "R1C3",
+          "R1C4",
+          "R1C5",
+          "R1C6",
+          "R1C7",
+          "R1C8",
+          "R1C9",
+          "R2C1",
+          "R2C4",
+          "R2C5",
+          "R2C6",
+          "R2C7",
+          "R2C9",
+          "R3C1",
+          "R3C3",
+          "R3C5",
+          "R3C6",
+          "R3C8",
+          "R4C2",
+          "R4C3",
+          "R4C4",
+          "R4C5",
+          "R4C6",
+          "R4C8",
+          "R4C9",
+          "R5C1",
+          "R5C2",
+          "R5C3",
+          "R5C5",
+          "R5C6",
+          "R5C7",
+          "R5C8",
+          "R5C9",
+          "R6C1",
+          "R6C2",
+          "R6C5",
+          "R6C6",
+          "R6C7",
+          "R7C4",
+          "R7C5",
+          "R7C8",
+          "R7C9",
+          "R8C1",
+          "R8C2",
+          "R8C4",
+          "R8C5",
+          "R8C6",
+          "R8C7",
+          "R9C1",
+          "R9C3",
+          "R9C4",
+          "R9C6",
+          "R9C9"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "E",
+        "cells": [
+          "R9C1",
+          "R9C3",
+          "R9C4",
+          "R9C6",
+          "R9C9"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "F",
+        "cells": [
+          "R2C7",
+          "R3C6",
+          "R8C2"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "G",
+        "cells": [
+          "R2C5",
+          "R3C5",
+          "R4C4",
+          "R6C2",
+          "R8C2"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "H",
+        "cells": [
+          "R5C2",
+          "R5C3",
+          "R6C2"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "V",
+        "cells": [
+          "R1C1",
+          "R1C2",
+          "R1C3",
+          "R1C4",
+          "R1C5",
+          "R1C6",
+          "R1C7",
+          "R1C8",
+          "R1C9",
+          "R2C1",
+          "R2C4",
+          "R2C5",
+          "R2C6",
+          "R2C7",
+          "R2C9",
+          "R3C1",
+          "R3C3",
+          "R3C5",
+          "R3C6",
+          "R3C8",
+          "R4C2",
+          "R4C3",
+          "R4C4",
+          "R4C5",
+          "R4C6",
+          "R4C8",
+          "R4C9",
+          "R5C1",
+          "R5C2",
+          "R5C3",
+          "R5C5",
+          "R5C6",
+          "R5C7",
+          "R5C8",
+          "R5C9",
+          "R6C1",
+          "R6C2",
+          "R6C5",
+          "R6C6",
+          "R6C7",
+          "R7C4",
+          "R7C5",
+          "R7C8",
+          "R7C9",
+          "R8C1",
+          "R8C2",
+          "R8C4",
+          "R8C5",
+          "R8C6",
+          "R8C7",
+          "R9C1",
+          "R9C3",
+          "R9C4",
+          "R9C6",
+          "R9C9"
+        ]
+      }
+    ],
+    "rule": "地图与初始单人条件",
+    "details": [
+      "每行、每列最多一人；死者 V 也参与行列限制。",
+      "旁边按同一逻辑区域内的上下左右判断；家具是否可站立，以地图格子的属性为准。",
+      "本页逐步保存候选排除。只有某人的候选恰好剩一格时，才执行落位。"
+    ]
+  },
+  {
+    "id": "preppers-lesson-2",
+    "title": "先看 Angelo、Blake、Carolina 的候选",
+    "explanation": "A：所在区域里有一个箱子。 不在它旁边。（19 个候选）；B：在卧室里。（7 个候选）；C：她所在的房间里， 床上有一个男人。（55 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "A",
+      "B",
+      "C"
+    ],
+    "candidateCharacters": [
+      "A",
+      "B",
+      "C"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R1C2",
+      "R1C3",
+      "R1C4",
+      "R1C5",
+      "R1C6",
+      "R1C7",
+      "R1C8",
+      "R1C9",
+      "R2C1",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R2C7",
+      "R2C9",
+      "R3C1",
+      "R3C3",
+      "R3C5",
+      "R3C6",
+      "R3C8",
+      "R4C2",
+      "R4C3",
+      "R4C4",
+      "R4C5",
+      "R4C6",
+      "R4C8",
+      "R4C9",
+      "R5C1",
+      "R5C2",
+      "R5C3",
+      "R5C5",
+      "R5C6",
+      "R5C7",
+      "R5C8",
+      "R5C9",
+      "R6C1",
+      "R6C2",
+      "R6C5",
+      "R6C6",
+      "R6C7",
+      "R7C4",
+      "R7C5",
+      "R7C8",
+      "R7C9",
+      "R8C1",
+      "R8C2",
+      "R8C4",
+      "R8C5",
+      "R8C6",
+      "R8C7",
+      "R9C1",
+      "R9C3",
+      "R9C4",
+      "R9C6",
+      "R9C9"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Angelo（A） 的原始线索：所在区域里有一个箱子。 不在它旁边。",
+      "A 候选：19 格，分布在 R1–R9 / C1–C9（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Blake（B） 的原始线索：在卧室里。",
+      "B 候选：R5C5–7；R6C5–7；R7C5。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Carolina（C） 的原始线索：她所在的房间里， 床上有一个男人。",
+      "C 候选：55 格，分布在 R1–R9 / C1–C9（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "preppers-lesson-3",
+    "title": "先看 Darla、Emelia、Friedrich 的候选",
+    "explanation": "D：她所在区域里， 另有一人在架子旁边。（55 个候选）；E：在最底行。（5 个候选）；F：在一台电视旁边。（3 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "D",
+      "E",
+      "F"
+    ],
+    "candidateCharacters": [
+      "D",
+      "E",
+      "F"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R1C2",
+      "R1C3",
+      "R1C4",
+      "R1C5",
+      "R1C6",
+      "R1C7",
+      "R1C8",
+      "R1C9",
+      "R2C1",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R2C7",
+      "R2C9",
+      "R3C1",
+      "R3C3",
+      "R3C5",
+      "R3C6",
+      "R3C8",
+      "R4C2",
+      "R4C3",
+      "R4C4",
+      "R4C5",
+      "R4C6",
+      "R4C8",
+      "R4C9",
+      "R5C1",
+      "R5C2",
+      "R5C3",
+      "R5C5",
+      "R5C6",
+      "R5C7",
+      "R5C8",
+      "R5C9",
+      "R6C1",
+      "R6C2",
+      "R6C5",
+      "R6C6",
+      "R6C7",
+      "R7C4",
+      "R7C5",
+      "R7C8",
+      "R7C9",
+      "R8C1",
+      "R8C2",
+      "R8C4",
+      "R8C5",
+      "R8C6",
+      "R8C7",
+      "R9C1",
+      "R9C3",
+      "R9C4",
+      "R9C6",
+      "R9C9"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Darla（D） 的原始线索：她所在区域里， 另有一人在架子旁边。",
+      "D 候选：55 格，分布在 R1–R9 / C1–C9（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Emelia（E） 的原始线索：在最底行。",
+      "E 候选：R9C1、3–4、6、9。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Friedrich（F） 的原始线索：在一台电视旁边。",
+      "F 候选：R2C7；R3C6；R8C2。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "preppers-lesson-4",
+    "title": "先看 Grady、Howie、Vivianna 的候选",
+    "explanation": "G：坐在 一把椅子上。（5 个候选）；H：在浴室里。（3 个候选）；V：被害者。和凶手单独在一起。（55 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "G",
+      "H",
+      "V"
+    ],
+    "candidateCharacters": [
+      "G",
+      "H",
+      "V"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R1C2",
+      "R1C3",
+      "R1C4",
+      "R1C5",
+      "R1C6",
+      "R1C7",
+      "R1C8",
+      "R1C9",
+      "R2C1",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R2C7",
+      "R2C9",
+      "R3C1",
+      "R3C3",
+      "R3C5",
+      "R3C6",
+      "R3C8",
+      "R4C2",
+      "R4C3",
+      "R4C4",
+      "R4C5",
+      "R4C6",
+      "R4C8",
+      "R4C9",
+      "R5C1",
+      "R5C2",
+      "R5C3",
+      "R5C5",
+      "R5C6",
+      "R5C7",
+      "R5C8",
+      "R5C9",
+      "R6C1",
+      "R6C2",
+      "R6C5",
+      "R6C6",
+      "R6C7",
+      "R7C4",
+      "R7C5",
+      "R7C8",
+      "R7C9",
+      "R8C1",
+      "R8C2",
+      "R8C4",
+      "R8C5",
+      "R8C6",
+      "R8C7",
+      "R9C1",
+      "R9C3",
+      "R9C4",
+      "R9C6",
+      "R9C9"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Grady（G） 的原始线索：坐在 一把椅子上。",
+      "G 候选：R2C5；R3C5；R4C4；R6C2；R8C2。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Howie（H） 的原始线索：在浴室里。",
+      "H 候选：R5C2–3；R6C2。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Vivianna（V） 的原始线索：被害者。和凶手单独在一起。",
+      "V 候选：55 格，分布在 R1–R9 / C1–C9（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "preppers-lesson-5",
+    "title": "Vivianna：候选缩至 50 格",
+    "explanation": "H 的 3 个候选共同排除同行同列冲突格，D 从 50 格缩到 49 格；E 的 5 个候选共同排除同行同列冲突格，V 从 55 格缩到 50 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "V",
+      "A",
+      "E",
+      "C"
+    ],
+    "candidateCharacters": [
+      "V",
+      "A",
+      "E"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R1C2",
+      "R1C3",
+      "R1C4",
+      "R1C5",
+      "R1C6",
+      "R1C7",
+      "R1C8",
+      "R1C9",
+      "R2C1",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R2C7",
+      "R2C9",
+      "R3C1",
+      "R3C3",
+      "R3C5",
+      "R3C6",
+      "R3C8",
+      "R4C2",
+      "R4C3",
+      "R4C4",
+      "R4C5",
+      "R4C6",
+      "R4C8",
+      "R4C9",
+      "R5C1",
+      "R5C2",
+      "R5C3",
+      "R5C5",
+      "R5C6",
+      "R5C7",
+      "R5C8",
+      "R5C9",
+      "R6C1",
+      "R6C2",
+      "R6C5",
+      "R6C6",
+      "R6C7",
+      "R7C4",
+      "R7C5",
+      "R7C8",
+      "R7C9",
+      "R8C1",
+      "R8C2",
+      "R8C4",
+      "R8C5",
+      "R8C6",
+      "R8C7",
+      "R9C1",
+      "R9C3",
+      "R9C4",
+      "R9C6",
+      "R9C9"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R9C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R9C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R9C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R9C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R9C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R9C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R5C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R9C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R9C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R9C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R9C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R9C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R5C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R9C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R9C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R9C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R9C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R9C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-4"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "A：每行、每列最多一人。候选从 19 格减至 18 格；剩余 18 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "C：每行、每列最多一人。候选从 55 格减至 50 格；剩余 50 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "C：每行、每列最多一人。候选从 50 格减至 49 格；剩余 49 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "D：每行、每列最多一人。候选从 55 格减至 50 格；剩余 50 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "D：每行、每列最多一人。候选从 50 格减至 49 格；剩余 49 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 55 格减至 50 格；剩余 50 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "例如 V 在 R9C1，会与 E 的全部剩余位置同行或同列，无法配对。E 现有候选：R9C1、3–4、6、9。"
+    ]
+  },
+  {
+    "id": "preppers-lesson-6",
+    "title": "确定 Howie",
+    "explanation": "H 只剩 R6C2。B 的 2 个候选共同排除同行同列冲突格，H 从 3 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "H",
+      "V",
+      "A",
+      "B"
+    ],
+    "candidateCharacters": [
+      "V",
+      "A",
+      "B"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R1C2",
+      "R1C3",
+      "R1C4",
+      "R1C5",
+      "R1C6",
+      "R1C7",
+      "R1C8",
+      "R1C9",
+      "R2C1",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R2C7",
+      "R2C9",
+      "R3C1",
+      "R3C3",
+      "R3C5",
+      "R3C6",
+      "R3C8",
+      "R4C2",
+      "R4C3",
+      "R4C4",
+      "R4C5",
+      "R4C6",
+      "R4C8",
+      "R4C9",
+      "R5C1",
+      "R5C3",
+      "R5C5",
+      "R5C6",
+      "R5C7",
+      "R5C8",
+      "R5C9",
+      "R6C1",
+      "R6C2",
+      "R6C5",
+      "R6C6",
+      "R6C7",
+      "R7C4",
+      "R7C5",
+      "R7C8",
+      "R7C9",
+      "R8C1",
+      "R8C2",
+      "R8C4",
+      "R8C5",
+      "R8C6",
+      "R8C7"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R5C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R5C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R5C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R5C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R6C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R6C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R6C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R7C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R5C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R5C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R5C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R5C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R5C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R5C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R5C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R5C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R5C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R5C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R5C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R5C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R5C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R5C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R5C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R5C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "H",
+        "cell": "R6C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-5"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "V：每行、每列最多一人。候选从 50 格减至 49 格；剩余 49 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "A：C 的区域里有一名男性在床上。候选从 18 格减至 15 格；剩余 15 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "B：C 的区域里有一名男性在床上。候选从 7 格减至 2 格；剩余 R5C5–6。",
+      "C：每行、每列最多一人。候选从 49 格减至 42 格；剩余 42 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "D：每行、每列最多一人。候选从 49 格减至 42 格；剩余 42 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "H：每行、每列最多一人。候选从 3 格减至 1 格；剩余 R6C2。",
+      "例如 H 在 R5C2，会与 B 的全部剩余位置同行或同列，无法配对。B 现有候选：R5C5–6。"
+    ]
+  },
+  {
+    "id": "preppers-lesson-7",
+    "title": "Darla：候选缩至 33 格",
+    "explanation": "F 的 2 个候选共同排除同行同列冲突格，C 从 34 格缩到 33 格；F 的 2 个候选共同排除同行同列冲突格，D 从 34 格缩到 33 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "D",
+      "A",
+      "H",
+      "C"
+    ],
+    "candidateCharacters": [
+      "D",
+      "A",
+      "C"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R1C3",
+      "R1C4",
+      "R1C5",
+      "R1C6",
+      "R1C7",
+      "R1C8",
+      "R1C9",
+      "R2C1",
+      "R2C4",
+      "R2C5",
+      "R2C7",
+      "R2C9",
+      "R3C1",
+      "R3C3",
+      "R3C5",
+      "R3C6",
+      "R3C8",
+      "R4C3",
+      "R4C4",
+      "R4C5",
+      "R4C6",
+      "R4C8",
+      "R4C9",
+      "R6C2",
+      "R7C4",
+      "R7C5",
+      "R7C8",
+      "R7C9",
+      "R8C1",
+      "R8C4",
+      "R8C5",
+      "R8C6",
+      "R8C7"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R1C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R6C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R1C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R4C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R6C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R6C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R6C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R6C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R6C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R8C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R1C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R4C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R6C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R6C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R6C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R6C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R6C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R8C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R8C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R2C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R2C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-6"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "A：每行、每列最多一人。候选从 15 格减至 13 格；剩余 13 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "C：每行、每列最多一人。候选从 42 格减至 34 格；剩余 34 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "D：每行、每列最多一人。候选从 42 格减至 34 格；剩余 34 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "F：每行、每列最多一人。候选从 3 格减至 2 格；剩余 R2C7；R3C6。",
+      "C：每行、每列最多一人。候选从 34 格减至 33 格；剩余 33 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "D：每行、每列最多一人。候选从 34 格减至 33 格；剩余 33 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "例如 D 在 R2C6，会与 F 的全部剩余位置同行或同列，无法配对。F 现有候选：R2C7；R3C6。"
+    ]
+  },
+  {
+    "id": "preppers-lesson-8",
+    "title": "Vivianna：候选缩至 40 格",
+    "explanation": "F 的 2 个候选共同排除同行同列冲突格，V 从 42 格缩到 41 格；G 的 3 个候选共同排除同行同列冲突格，V 从 41 格缩到 40 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "V",
+      "G",
+      "H",
+      "C"
+    ],
+    "candidateCharacters": [
+      "V",
+      "G",
+      "C"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R1C2",
+      "R1C3",
+      "R1C4",
+      "R1C5",
+      "R1C6",
+      "R1C7",
+      "R1C8",
+      "R1C9",
+      "R2C1",
+      "R2C4",
+      "R2C5",
+      "R2C7",
+      "R2C9",
+      "R3C1",
+      "R3C3",
+      "R3C5",
+      "R3C6",
+      "R3C8",
+      "R4C2",
+      "R4C3",
+      "R4C4",
+      "R4C6",
+      "R4C8",
+      "R4C9",
+      "R6C1",
+      "R6C2",
+      "R6C5",
+      "R6C6",
+      "R6C7",
+      "R7C4",
+      "R7C5",
+      "R7C8",
+      "R7C9",
+      "R8C1",
+      "R8C2",
+      "R8C4",
+      "R8C5",
+      "R8C6",
+      "R8C7"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "G",
+        "cell": "R6C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "G",
+        "cell": "R8C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R4C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R4C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-7"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "G：每行、每列最多一人。候选从 5 格减至 3 格；剩余 R2C5；R3C5；R4C4。",
+      "C：每行、每列最多一人。候选从 33 格减至 32 格；剩余 32 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "D：每行、每列最多一人。候选从 33 格减至 32 格；剩余 32 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 49 格减至 42 格；剩余 42 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 42 格减至 41 格；剩余 41 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 41 格减至 40 格；剩余 40 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "例如 V 在 R4C5，会与 G 的全部剩余位置同行或同列，无法配对。G 现有候选：R2C5；R3C5；R4C4。"
+    ]
+  },
+  {
+    "id": "preppers-lesson-9",
+    "title": "确定 Blake",
+    "explanation": "B 只剩 R5C6。C 的区域里有一名男性在床上，B 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "B",
+      "V",
+      "H",
+      "A"
+    ],
+    "candidateCharacters": [
+      "V",
+      "A"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R1C3",
+      "R1C4",
+      "R1C5",
+      "R1C6",
+      "R1C7",
+      "R1C8",
+      "R1C9",
+      "R2C1",
+      "R2C4",
+      "R2C5",
+      "R2C7",
+      "R2C9",
+      "R3C1",
+      "R3C3",
+      "R3C5",
+      "R3C6",
+      "R3C8",
+      "R4C3",
+      "R4C4",
+      "R4C6",
+      "R4C8",
+      "R4C9",
+      "R5C6",
+      "R6C2",
+      "R7C4",
+      "R7C5",
+      "R7C8",
+      "R7C9",
+      "R8C1",
+      "R8C4",
+      "R8C5",
+      "R8C6",
+      "R8C7"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R8C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R1C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R1C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R8C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R5C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "B",
+        "cell": "R5C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-8"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "V：每行、每列最多一人。候选从 40 格减至 32 格；剩余 32 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "A：C 的区域里有一名男性在床上。候选从 13 格减至 10 格；剩余 10 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "B：C 的区域里有一名男性在床上。候选从 2 格减至 1 格；剩余 R5C6。",
+      "例如假设 B 在 R5C5，同步排除其他人的行列及关系冲突后，“C 的区域里有一名男性在床上”已没有足够的人数或合适同伴，所以这格不成立。其余被删候选按相同条件逐一核验。"
+    ]
+  },
+  {
+    "id": "preppers-lesson-10",
+    "title": "确定 Friedrich",
+    "explanation": "F 只剩 R2C7。B 已锁定 R5C6，F 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "F",
+      "C",
+      "B",
+      "D"
+    ],
+    "candidateCharacters": [
+      "C",
+      "D"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R1C3",
+      "R1C4",
+      "R1C5",
+      "R1C7",
+      "R1C8",
+      "R1C9",
+      "R2C1",
+      "R2C4",
+      "R2C5",
+      "R2C7",
+      "R2C9",
+      "R3C1",
+      "R3C3",
+      "R3C5",
+      "R3C8",
+      "R4C3",
+      "R4C4",
+      "R4C8",
+      "R4C9",
+      "R5C6",
+      "R7C4",
+      "R7C5",
+      "R7C8",
+      "R7C9",
+      "R8C1",
+      "R8C4",
+      "R8C5",
+      "R8C7"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R1C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R3C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R4C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R8C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R1C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R3C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R4C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R8C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R9C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R3C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "F",
+        "cell": "R2C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-9"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "C：每行、每列最多一人。候选从 32 格减至 28 格；剩余 28 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "D：每行、每列最多一人。候选从 32 格减至 28 格；剩余 28 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "E：每行、每列最多一人。候选从 5 格减至 4 格；剩余 R9C1、3–4、9。",
+      "F：每行、每列最多一人。候选从 2 格减至 1 格；剩余 R2C7。",
+      "例如 F 在 R3C6，会与 B 的全部剩余位置同行或同列，无法配对。B 现有候选：R5C6。"
+    ]
+  },
+  {
+    "id": "preppers-lesson-11",
+    "title": "Vivianna：候选缩至 21 格",
+    "explanation": "B 已锁定 R5C6，V 从 32 格缩到 28 格；F 已锁定 R2C7，V 从 28 格缩到 21 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "V",
+      "A",
+      "F",
+      "C"
+    ],
+    "candidateCharacters": [
+      "V",
+      "A",
+      "C"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R1C3",
+      "R1C4",
+      "R1C5",
+      "R1C8",
+      "R1C9",
+      "R2C7",
+      "R3C1",
+      "R3C3",
+      "R3C5",
+      "R3C8",
+      "R4C3",
+      "R4C4",
+      "R4C8",
+      "R4C9",
+      "R7C4",
+      "R7C5",
+      "R7C8",
+      "R7C9",
+      "R8C1",
+      "R8C4",
+      "R8C5"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R1C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R2C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R1C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R2C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R2C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R2C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R2C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R2C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R8C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R1C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R2C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R2C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R2C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R2C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R2C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R8C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "G",
+        "cell": "R2C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R8C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R8C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-10"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "A：每行、每列最多一人。候选从 10 格减至 8 格；剩余 R1C1、3–4、9；R3C1；R4C8–9；R8C1。",
+      "C：每行、每列最多一人。候选从 28 格减至 21 格；剩余 21 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "D：每行、每列最多一人。候选从 28 格减至 21 格；剩余 21 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "G：每行、每列最多一人。候选从 3 格减至 2 格；剩余 R3C5；R4C4。",
+      "V：每行、每列最多一人。候选从 32 格减至 28 格；剩余 28 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 28 格减至 21 格；剩余 21 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "例如 V 在 R1C7，会与 F 的全部剩余位置同行或同列，无法配对。F 现有候选：R2C7。"
+    ]
+  },
+  {
+    "id": "preppers-lesson-12",
+    "title": "确定 Carolina",
+    "explanation": "C 只剩 R7C5。C 的区域里有一名男性在床上，C 从 21 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "C"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R7C5"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R1C1",
+        "reason": {
+          "ruleId": "C 的区域里有一名男性在床上",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R1C3",
+        "reason": {
+          "ruleId": "C 的区域里有一名男性在床上",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R1C4",
+        "reason": {
+          "ruleId": "C 的区域里有一名男性在床上",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R1C5",
+        "reason": {
+          "ruleId": "C 的区域里有一名男性在床上",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R1C8",
+        "reason": {
+          "ruleId": "C 的区域里有一名男性在床上",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R1C9",
+        "reason": {
+          "ruleId": "C 的区域里有一名男性在床上",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R3C1",
+        "reason": {
+          "ruleId": "C 的区域里有一名男性在床上",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R3C3",
+        "reason": {
+          "ruleId": "C 的区域里有一名男性在床上",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R3C5",
+        "reason": {
+          "ruleId": "C 的区域里有一名男性在床上",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R3C8",
+        "reason": {
+          "ruleId": "C 的区域里有一名男性在床上",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R4C3",
+        "reason": {
+          "ruleId": "C 的区域里有一名男性在床上",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R4C4",
+        "reason": {
+          "ruleId": "C 的区域里有一名男性在床上",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R4C8",
+        "reason": {
+          "ruleId": "C 的区域里有一名男性在床上",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R4C9",
+        "reason": {
+          "ruleId": "C 的区域里有一名男性在床上",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R7C4",
+        "reason": {
+          "ruleId": "C 的区域里有一名男性在床上",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R7C8",
+        "reason": {
+          "ruleId": "C 的区域里有一名男性在床上",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R7C9",
+        "reason": {
+          "ruleId": "C 的区域里有一名男性在床上",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R8C1",
+        "reason": {
+          "ruleId": "C 的区域里有一名男性在床上",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R8C4",
+        "reason": {
+          "ruleId": "C 的区域里有一名男性在床上",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R8C5",
+        "reason": {
+          "ruleId": "C 的区域里有一名男性在床上",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "C",
+        "cell": "R7C5",
+        "reason": {
+          "ruleId": "C 的区域里有一名男性在床上",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-11"
+          ]
+        }
+      }
+    ],
+    "rule": "C 的区域里有一名男性在床上",
+    "details": [
+      "C：C 的区域里有一名男性在床上。候选从 21 格减至 1 格；剩余 R7C5。",
+      "例如假设 C 在 R1C1，同步排除其他人的行列及关系冲突后，“C 的区域里有一名男性在床上”已没有足够的人数或合适同伴，所以这格不成立。其余被删候选按相同条件逐一核验。"
+    ]
+  },
+  {
+    "id": "preppers-lesson-13",
+    "title": "确定 Grady",
+    "explanation": "G 只剩 R4C4。C 已锁定 R7C5，G 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "G",
+      "D",
+      "C"
+    ],
+    "candidateCharacters": [
+      "D"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R1C3",
+      "R1C4",
+      "R1C8",
+      "R1C9",
+      "R3C1",
+      "R3C3",
+      "R3C8",
+      "R4C3",
+      "R4C4",
+      "R4C8",
+      "R4C9",
+      "R7C5",
+      "R8C1",
+      "R8C4"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R1C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R3C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R7C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R7C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R7C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R7C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R8C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "G",
+        "cell": "R3C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "G",
+        "cell": "R4C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-12"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "D：每行、每列最多一人。候选从 21 格减至 14 格；剩余 14 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "G：每行、每列最多一人。候选从 2 格减至 1 格；剩余 R4C4。",
+      "例如 G 在 R3C5，会与 C 的全部剩余位置同行或同列，无法配对。C 现有候选：R7C5。"
+    ]
+  },
+  {
+    "id": "preppers-lesson-14",
+    "title": "Vivianna：候选缩至 13 格",
+    "explanation": "A 的 5 个候选共同排除同行同列冲突格，V 从 21 格缩到 20 格；C 已锁定 R7C5，V 从 20 格缩到 13 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "V",
+      "A",
+      "G",
+      "D"
+    ],
+    "candidateCharacters": [
+      "V",
+      "A",
+      "D"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R1C3",
+      "R1C4",
+      "R1C8",
+      "R1C9",
+      "R3C1",
+      "R3C3",
+      "R3C8",
+      "R4C3",
+      "R4C4",
+      "R4C8",
+      "R4C9",
+      "R8C1",
+      "R8C4"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R1C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R4C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R4C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R1C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R1C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R4C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R4C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R4C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R4C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R8C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R9C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R8C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-13"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "A：每行、每列最多一人。候选从 8 格减至 5 格；剩余 R1C1、3、9；R3C1；R8C1。",
+      "D：每行、每列最多一人。候选从 14 格减至 13 格；剩余 13 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "D：每行、每列最多一人。候选从 13 格减至 7 格；剩余 R1C3、8–9；R3C1、3、8；R8C1。",
+      "E：每行、每列最多一人。候选从 4 格减至 3 格；剩余 R9C1、3、9。",
+      "V：每行、每列最多一人。候选从 21 格减至 20 格；剩余 20 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 20 格减至 13 格；剩余 13 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "例如 V 在 R1C5，会与 C 的全部剩余位置同行或同列，无法配对。C 现有候选：R7C5。"
+    ]
+  },
+  {
+    "id": "preppers-lesson-15",
+    "title": "确定 Angelo",
+    "explanation": "A 只剩 R1C9。D 的区域里另有人在书架旁，A 从 5 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "A",
+      "V",
+      "G"
+    ],
+    "candidateCharacters": [
+      "V"
+    ],
+    "highlightCells": [
+      "R1C3",
+      "R1C8",
+      "R1C9",
+      "R3C1",
+      "R3C3",
+      "R3C8",
+      "R4C4",
+      "R8C1"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R8C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R1C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R1C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R3C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R8C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "A",
+        "cell": "R1C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-14"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "V：每行、每列最多一人。候选从 13 格减至 7 格；剩余 R1C3、8–9；R3C1、3、8；R8C1。",
+      "A：D 的区域里另有人在书架旁。候选从 5 格减至 1 格；剩余 R1C9。",
+      "例如假设 A 在 R1C1，同步排除其他人的行列及关系冲突后，“D 的区域里另有人在书架旁”已没有足够的人数或合适同伴，所以这格不成立。其余被删候选按相同条件逐一核验。"
+    ]
+  },
+  {
+    "id": "preppers-lesson-16",
+    "title": "确定 Darla",
+    "explanation": "D 只剩 R8C1。D 的区域里另有人在书架旁，D 从 3 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "D",
+      "A",
+      "E",
+      "V"
+    ],
+    "candidateCharacters": [
+      "E",
+      "V"
+    ],
+    "highlightCells": [
+      "R1C9",
+      "R3C3",
+      "R3C8",
+      "R8C1",
+      "R9C1",
+      "R9C3"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R1C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R1C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R1C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R9C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R3C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R3C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R3C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "D",
+        "cell": "R8C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-15"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "D：每行、每列最多一人。候选从 7 格减至 4 格；剩余 R3C1、3、8；R8C1。",
+      "E：每行、每列最多一人。候选从 3 格减至 2 格；剩余 R9C1、3。",
+      "V：每行、每列最多一人。候选从 7 格减至 4 格；剩余 R3C1、3、8；R8C1。",
+      "D：每行、每列最多一人。候选从 4 格减至 3 格；剩余 R3C3、8；R8C1。",
+      "V：每行、每列最多一人。候选从 4 格减至 3 格；剩余 R3C3、8；R8C1。",
+      "D：D 的区域里另有人在书架旁。候选从 3 格减至 1 格；剩余 R8C1。",
+      "例如假设 D 在 R3C3，同步排除其他人的行列及关系冲突后，“D 的区域里另有人在书架旁”已没有足够的人数或合适同伴，所以这格不成立。其余被删候选按相同条件逐一核验。"
+    ]
+  },
+  {
+    "id": "preppers-lesson-17",
+    "title": "确定 Emelia",
+    "explanation": "E 只剩 R9C3。D 已锁定 R8C1，E 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "E",
+      "D"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R8C1",
+      "R9C3"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R9C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-16"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "E",
+        "cell": "R9C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-16"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "E：每行、每列最多一人。候选从 2 格减至 1 格；剩余 R9C3。",
+      "例如 E 在 R9C1，会与 D 的全部剩余位置同行或同列，无法配对。D 现有候选：R8C1。"
+    ]
+  },
+  {
+    "id": "preppers-lesson-18",
+    "title": "确定 Vivianna",
+    "explanation": "V 只剩 R3C8。E 已锁定 R9C3，V 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "V",
+      "D",
+      "E"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R3C8",
+      "R8C1",
+      "R9C3"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R8C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-17"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-17"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "V",
+        "cell": "R3C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "preppers-lesson-17"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "V：每行、每列最多一人。候选从 3 格减至 2 格；剩余 R3C3、8。",
+      "V：每行、每列最多一人。候选从 2 格减至 1 格；剩余 R3C8。",
+      "例如 V 在 R3C3，会与 E 的全部剩余位置同行或同列，无法配对。E 现有候选：R9C3。"
+    ]
+  },
+  {
+    "id": "preppers-lesson-19",
+    "title": "Angelo 是凶手",
+    "explanation": "死者 V 位于院子的 R3C8；同区唯一另一人是 Angelo（A），位置为 R1C9。",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "A",
+      "V"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R1C9",
+      "R3C8"
+    ],
+    "actions": [],
+    "rule": "死者与凶手独处",
+    "details": [
+      "死者线索要求与凶手独处，必须以最终逻辑区域的同区人数判定。",
+      "院子实际人物：A 在 R1C9、V 在 R3C8；其余所有人都在其他区域。",
+      "9 人全部有位置，且每行、每列均无冲突。",
+      "最终位置由初始候选与记录中的约束排除得到；原始答案只由求解脚本在结束时作一致性核对。"
+    ]
+  }
+]

@@ -1,0 +1,1113 @@
+{
+  "id": "netflix-and-kill",
+  "width": 6,
+  "height": 6,
+  "cells": [
+    {
+      "id": "R1C1",
+      "row": 1,
+      "col": 1,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        6
+      ],
+      "fill": "#e3e0db",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R1C2",
+      "row": 1,
+      "col": 2,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        6
+      ],
+      "fill": "#e3e0db",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R1C3",
+      "row": 1,
+      "col": 3,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#e3e0db",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R1C4",
+      "row": 1,
+      "col": 4,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#e3e0db",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R1C5",
+      "row": 1,
+      "col": 5,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        1
+      ],
+      "fill": "#b7d2c7",
+      "texture": "plain",
+      "floorType": 9,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R1C6",
+      "row": 1,
+      "col": 6,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        2
+      ],
+      "fill": "#b7d2c7",
+      "texture": "plain",
+      "floorType": 9,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R2C1",
+      "row": 2,
+      "col": 1,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#e3e0db",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R2C2",
+      "row": 2,
+      "col": 2,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#e3e0db",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R2C3",
+      "row": 2,
+      "col": 3,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#e3e0db",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R2C4",
+      "row": 2,
+      "col": 4,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        2
+      ],
+      "fill": "#e3e0db",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R2C5",
+      "row": 2,
+      "col": 5,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#b7d2c7",
+      "texture": "plain",
+      "floorType": 9,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R2C6",
+      "row": 2,
+      "col": 6,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#b7d2c7",
+      "texture": "plain",
+      "floorType": 9,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R3C1",
+      "row": 3,
+      "col": 1,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        13
+      ],
+      "fill": "#e3e0db",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R3C2",
+      "row": 3,
+      "col": 2,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        1
+      ],
+      "fill": "#e3e0db",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R3C3",
+      "row": 3,
+      "col": 3,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#c4ecf5",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R3C4",
+      "row": 3,
+      "col": 4,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        2
+      ],
+      "fill": "#c4ecf5",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R3C5",
+      "row": 3,
+      "col": 5,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        2
+      ],
+      "fill": "#c4ecf5",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R3C6",
+      "row": 3,
+      "col": 6,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#b7d2c7",
+      "texture": "plain",
+      "floorType": 9,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R4C1",
+      "row": 4,
+      "col": 1,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#fee9cf",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R4C2",
+      "row": 4,
+      "col": 2,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#fee9cf",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R4C3",
+      "row": 4,
+      "col": 3,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#c4ecf5",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R4C4",
+      "row": 4,
+      "col": 4,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#c4ecf5",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R4C5",
+      "row": 4,
+      "col": 5,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#c4ecf5",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R4C6",
+      "row": 4,
+      "col": 6,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#c4ecf5",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R5C1",
+      "row": 5,
+      "col": 1,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        13
+      ],
+      "fill": "#fee9cf",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R5C2",
+      "row": 5,
+      "col": 2,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#fee9cf",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R5C3",
+      "row": 5,
+      "col": 3,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        2
+      ],
+      "fill": "#c4ecf5",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R5C4",
+      "row": 5,
+      "col": 4,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#c4ecf5",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R5C5",
+      "row": 5,
+      "col": 5,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        2
+      ],
+      "fill": "#c4ecf5",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R5C6",
+      "row": 5,
+      "col": 6,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        3
+      ],
+      "fill": "#c4ecf5",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R6C1",
+      "row": 6,
+      "col": 1,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        4
+      ],
+      "fill": "#fee9cf",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R6C2",
+      "row": 6,
+      "col": 2,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        4
+      ],
+      "fill": "#fee9cf",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R6C3",
+      "row": 6,
+      "col": 3,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        13
+      ],
+      "fill": "#c4ecf5",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R6C4",
+      "row": 6,
+      "col": 4,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#c4ecf5",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R6C5",
+      "row": 6,
+      "col": 5,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#c4ecf5",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R6C6",
+      "row": 6,
+      "col": 6,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        1
+      ],
+      "fill": "#c4ecf5",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    }
+  ],
+  "objects": [
+    {
+      "id": "object-1-1",
+      "kind": "bed",
+      "cells": [
+        "R1C1",
+        "R1C2"
+      ],
+      "asset": "/assets/catalog/netflix-and-kill/objects/bed.svg",
+      "x": 0,
+      "y": 0,
+      "width": 2,
+      "height": 1,
+      "objectId": 6
+    },
+    {
+      "id": "object-1-5",
+      "kind": "plant",
+      "cells": [
+        "R1C5"
+      ],
+      "asset": "/assets/catalog/netflix-and-kill/objects/plant.svg",
+      "x": 4,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "objectId": 1
+    },
+    {
+      "id": "object-1-6",
+      "kind": "chair",
+      "cells": [
+        "R1C6"
+      ],
+      "asset": "/assets/catalog/netflix-and-kill/objects/chair.svg",
+      "x": 5,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "objectId": 2
+    },
+    {
+      "id": "object-2-4",
+      "kind": "chair",
+      "cells": [
+        "R2C4"
+      ],
+      "asset": "/assets/catalog/netflix-and-kill/objects/chair.svg",
+      "x": 3,
+      "y": 1,
+      "width": 1,
+      "height": 1,
+      "objectId": 2
+    },
+    {
+      "id": "object-3-1",
+      "kind": "shelf",
+      "cells": [
+        "R3C1"
+      ],
+      "asset": "/assets/catalog/netflix-and-kill/objects/shelf.svg",
+      "x": 0,
+      "y": 2,
+      "width": 1,
+      "height": 1,
+      "objectId": 13
+    },
+    {
+      "id": "object-3-2",
+      "kind": "plant",
+      "cells": [
+        "R3C2"
+      ],
+      "asset": "/assets/catalog/netflix-and-kill/objects/plant.svg",
+      "x": 1,
+      "y": 2,
+      "width": 1,
+      "height": 1,
+      "objectId": 1
+    },
+    {
+      "id": "object-3-4",
+      "kind": "chair",
+      "cells": [
+        "R3C4"
+      ],
+      "asset": "/assets/catalog/netflix-and-kill/objects/chair.svg",
+      "x": 3,
+      "y": 2,
+      "width": 1,
+      "height": 1,
+      "objectId": 2
+    },
+    {
+      "id": "object-3-5",
+      "kind": "chair",
+      "cells": [
+        "R3C5"
+      ],
+      "asset": "/assets/catalog/netflix-and-kill/objects/chair.svg",
+      "x": 4,
+      "y": 2,
+      "width": 1,
+      "height": 1,
+      "objectId": 2
+    },
+    {
+      "id": "object-5-1",
+      "kind": "shelf",
+      "cells": [
+        "R5C1"
+      ],
+      "asset": "/assets/catalog/netflix-and-kill/objects/shelf.svg",
+      "x": 0,
+      "y": 4,
+      "width": 1,
+      "height": 1,
+      "objectId": 13
+    },
+    {
+      "id": "object-5-3",
+      "kind": "chair",
+      "cells": [
+        "R5C3"
+      ],
+      "asset": "/assets/catalog/netflix-and-kill/objects/chair.svg",
+      "x": 2,
+      "y": 4,
+      "width": 1,
+      "height": 1,
+      "objectId": 2
+    },
+    {
+      "id": "object-5-5",
+      "kind": "chair",
+      "cells": [
+        "R5C5"
+      ],
+      "asset": "/assets/catalog/netflix-and-kill/objects/chair.svg",
+      "x": 4,
+      "y": 4,
+      "width": 1,
+      "height": 1,
+      "objectId": 2
+    },
+    {
+      "id": "object-5-6",
+      "kind": "tv",
+      "cells": [
+        "R5C6"
+      ],
+      "asset": "/assets/catalog/netflix-and-kill/objects/tv.svg",
+      "x": 5,
+      "y": 4,
+      "width": 1,
+      "height": 1,
+      "objectId": 3
+    },
+    {
+      "id": "object-6-1",
+      "kind": "table",
+      "cells": [
+        "R6C1"
+      ],
+      "asset": "/assets/catalog/netflix-and-kill/objects/table.svg",
+      "x": 0,
+      "y": 5,
+      "width": 1,
+      "height": 1,
+      "objectId": 4
+    },
+    {
+      "id": "object-6-2",
+      "kind": "table",
+      "cells": [
+        "R6C2"
+      ],
+      "asset": "/assets/catalog/netflix-and-kill/objects/table.svg",
+      "x": 1,
+      "y": 5,
+      "width": 1,
+      "height": 1,
+      "objectId": 4
+    },
+    {
+      "id": "object-6-3",
+      "kind": "shelf",
+      "cells": [
+        "R6C3"
+      ],
+      "asset": "/assets/catalog/netflix-and-kill/objects/shelf.svg",
+      "x": 2,
+      "y": 5,
+      "width": 1,
+      "height": 1,
+      "objectId": 13
+    },
+    {
+      "id": "object-6-6",
+      "kind": "plant",
+      "cells": [
+        "R6C6"
+      ],
+      "asset": "/assets/catalog/netflix-and-kill/objects/plant.svg",
+      "x": 5,
+      "y": 5,
+      "width": 1,
+      "height": 1,
+      "objectId": 1
+    }
+  ],
+  "rooms": [
+    {
+      "id": 0,
+      "label": "客厅",
+      "labelEn": "Living Room",
+      "cells": [
+        "R3C3",
+        "R3C4",
+        "R3C5",
+        "R4C3",
+        "R4C4",
+        "R4C5",
+        "R4C6",
+        "R5C3",
+        "R5C4",
+        "R5C5",
+        "R5C6",
+        "R6C3",
+        "R6C4",
+        "R6C5",
+        "R6C6"
+      ],
+      "fill": "#c4ecf5"
+    },
+    {
+      "id": 1,
+      "label": "厨房",
+      "labelEn": "Kitchen",
+      "cells": [
+        "R4C1",
+        "R4C2",
+        "R5C1",
+        "R5C2",
+        "R6C1",
+        "R6C2"
+      ],
+      "fill": "#fee9cf"
+    },
+    {
+      "id": 2,
+      "label": "卧室",
+      "labelEn": "Bedroom",
+      "cells": [
+        "R1C1",
+        "R1C2",
+        "R1C3",
+        "R1C4",
+        "R2C1",
+        "R2C2",
+        "R2C3",
+        "R2C4",
+        "R3C1",
+        "R3C2"
+      ],
+      "fill": "#e3e0db"
+    },
+    {
+      "id": 3,
+      "label": "浴室",
+      "labelEn": "Bathroom",
+      "cells": [
+        "R1C5",
+        "R1C6",
+        "R2C5",
+        "R2C6",
+        "R3C6"
+      ],
+      "fill": "#b7d2c7"
+    }
+  ],
+  "roomLabels": [
+    {
+      "id": 0,
+      "label": "客厅",
+      "x": 396.8888888888889,
+      "y": 578.2222222222222,
+      "mainRoomId": 0,
+      "isSubarea": false
+    },
+    {
+      "id": 1,
+      "label": "厨房",
+      "x": 56.00000000000001,
+      "y": 573.7777777777777,
+      "mainRoomId": 1,
+      "isSubarea": false
+    },
+    {
+      "id": 2,
+      "label": "卧室",
+      "x": 48.888888888888886,
+      "y": 277.33333333333337,
+      "mainRoomId": 2,
+      "isSubarea": false
+    },
+    {
+      "id": 3,
+      "label": "浴室",
+      "x": 398.6666666666667,
+      "y": 72.0,
+      "mainRoomId": 3,
+      "isSubarea": false
+    }
+  ],
+  "objectNames": {
+    "1": "Plant",
+    "2": "Chair",
+    "3": "TV",
+    "4": "Table",
+    "6": "Bed",
+    "13": "Shelf"
+  },
+  "characters": [
+    {
+      "id": "A",
+      "name": "Austin",
+      "portrait": "/assets/catalog/netflix-and-kill/portraits/A.svg",
+      "clueId": "A-clue",
+      "clueEn": "He was beside a shelf.",
+      "clueZh": "在一个架子旁边。",
+      "sex": 0
+    },
+    {
+      "id": "B",
+      "name": "Barbara",
+      "portrait": "/assets/catalog/netflix-and-kill/portraits/B.svg",
+      "clueId": "B-clue",
+      "clueEn": "She was on the bed.",
+      "clueZh": "躺在床上。",
+      "sex": 1
+    },
+    {
+      "id": "C",
+      "name": "Charlotte",
+      "portrait": "/assets/catalog/netflix-and-kill/portraits/C.svg",
+      "clueId": "C-clue",
+      "clueEn": "She was the only person sitting in a chair.",
+      "clueZh": "是唯一 坐在椅子上的人。",
+      "sex": 1
+    },
+    {
+      "id": "D",
+      "name": "Dean",
+      "portrait": "/assets/catalog/netflix-and-kill/portraits/D.svg",
+      "clueId": "D-clue",
+      "clueEn": "He was in the Kitchen.",
+      "clueZh": "在厨房里。",
+      "sex": 0
+    },
+    {
+      "id": "E",
+      "name": "Enid",
+      "portrait": "/assets/catalog/netflix-and-kill/portraits/E.svg",
+      "clueId": "E-clue",
+      "clueEn": "She was beside the TV.",
+      "clueZh": "在电视旁边。",
+      "sex": 1
+    },
+    {
+      "id": "V",
+      "name": "Vaughn",
+      "portrait": "/assets/catalog/netflix-and-kill/portraits/V.svg",
+      "clueId": "V-clue",
+      "clueEn": "The Victim. He was alone with the murderer.",
+      "clueZh": "被害者。和凶手单独在一起。",
+      "sex": 0
+    }
+  ],
+  "generalClues": [],
+  "metadata": {
+    "sourceId": "puzzle-netflix-and-kill-easy",
+    "sourceFile": "puzzle-netflix-and-kill-easy.json",
+    "version": 1,
+    "coordinateOrder": "col_row",
+    "roomLabels": [
+      {
+        "id": 0,
+        "label": "Living Room",
+        "x": 396.8888888888889,
+        "y": 578.2222222222222,
+        "mainRoomId": 0,
+        "isSubarea": false
+      },
+      {
+        "id": 1,
+        "label": "Kitchen",
+        "x": 56.00000000000001,
+        "y": 573.7777777777777,
+        "mainRoomId": 1,
+        "isSubarea": false
+      },
+      {
+        "id": 2,
+        "label": "Bedroom",
+        "x": 48.888888888888886,
+        "y": 277.33333333333337,
+        "mainRoomId": 2,
+        "isSubarea": false
+      },
+      {
+        "id": 3,
+        "label": "Bathroom",
+        "x": 398.6666666666667,
+        "y": 72.0,
+        "mainRoomId": 3,
+        "isSubarea": false
+      }
+    ],
+    "edges": [],
+    "unsupportedObjectIds": [],
+    "titleEn": "Netflix and Kill",
+    "titleZh": "看片杀机"
+  }
+}

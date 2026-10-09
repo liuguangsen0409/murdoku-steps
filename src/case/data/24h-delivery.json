@@ -1,0 +1,663 @@
+{
+  "id": "24h-delivery",
+  "width": 6,
+  "height": 6,
+  "cells": [
+    {
+      "id": "R1C1",
+      "row": 1,
+      "col": 1,
+      "roomId": 3,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R1C2",
+      "row": 1,
+      "col": 2,
+      "roomId": 3,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": [
+        2
+      ]
+    },
+    {
+      "id": "R1C3",
+      "row": 1,
+      "col": 3,
+      "roomId": 3,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R1C4",
+      "row": 1,
+      "col": 4,
+      "roomId": 4,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": [
+        6
+      ]
+    },
+    {
+      "id": "R1C5",
+      "row": 1,
+      "col": 5,
+      "roomId": 4,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": [
+        6
+      ]
+    },
+    {
+      "id": "R1C6",
+      "row": 1,
+      "col": 6,
+      "roomId": 4,
+      "occupiable": true,
+      "carpet": true,
+      "objectIds": []
+    },
+    {
+      "id": "R2C1",
+      "row": 2,
+      "col": 1,
+      "roomId": 3,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": [
+        2
+      ]
+    },
+    {
+      "id": "R2C2",
+      "row": 2,
+      "col": 2,
+      "roomId": 3,
+      "occupiable": false,
+      "carpet": false,
+      "objectIds": [
+        4
+      ]
+    },
+    {
+      "id": "R2C3",
+      "row": 2,
+      "col": 3,
+      "roomId": 3,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R2C4",
+      "row": 2,
+      "col": 4,
+      "roomId": 4,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R2C5",
+      "row": 2,
+      "col": 5,
+      "roomId": 4,
+      "occupiable": false,
+      "carpet": false,
+      "objectIds": [
+        1
+      ]
+    },
+    {
+      "id": "R2C6",
+      "row": 2,
+      "col": 6,
+      "roomId": 4,
+      "occupiable": true,
+      "carpet": true,
+      "objectIds": []
+    },
+    {
+      "id": "R3C1",
+      "row": 3,
+      "col": 1,
+      "roomId": 3,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": [
+        2
+      ]
+    },
+    {
+      "id": "R3C2",
+      "row": 3,
+      "col": 2,
+      "roomId": 3,
+      "occupiable": false,
+      "carpet": false,
+      "objectIds": [
+        4
+      ]
+    },
+    {
+      "id": "R3C3",
+      "row": 3,
+      "col": 3,
+      "roomId": 3,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R3C4",
+      "row": 3,
+      "col": 4,
+      "roomId": 5,
+      "occupiable": true,
+      "carpet": true,
+      "objectIds": []
+    },
+    {
+      "id": "R3C5",
+      "row": 3,
+      "col": 5,
+      "roomId": 5,
+      "occupiable": true,
+      "carpet": true,
+      "objectIds": []
+    },
+    {
+      "id": "R3C6",
+      "row": 3,
+      "col": 6,
+      "roomId": 5,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R4C1",
+      "row": 4,
+      "col": 1,
+      "roomId": 3,
+      "occupiable": false,
+      "carpet": false,
+      "objectIds": [
+        1
+      ]
+    },
+    {
+      "id": "R4C2",
+      "row": 4,
+      "col": 2,
+      "roomId": 3,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R4C3",
+      "row": 4,
+      "col": 3,
+      "roomId": 3,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R4C4",
+      "row": 4,
+      "col": 4,
+      "roomId": 5,
+      "occupiable": false,
+      "carpet": false,
+      "objectIds": [
+        4
+      ]
+    },
+    {
+      "id": "R4C5",
+      "row": 4,
+      "col": 5,
+      "roomId": 5,
+      "occupiable": false,
+      "carpet": false,
+      "objectIds": [
+        4
+      ]
+    },
+    {
+      "id": "R4C6",
+      "row": 4,
+      "col": 6,
+      "roomId": 5,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R5C1",
+      "row": 5,
+      "col": 1,
+      "roomId": 0,
+      "occupiable": true,
+      "carpet": true,
+      "objectIds": []
+    },
+    {
+      "id": "R5C2",
+      "row": 5,
+      "col": 2,
+      "roomId": 0,
+      "occupiable": true,
+      "carpet": true,
+      "objectIds": []
+    },
+    {
+      "id": "R5C3",
+      "row": 5,
+      "col": 3,
+      "roomId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R5C4",
+      "row": 5,
+      "col": 4,
+      "roomId": 1,
+      "occupiable": false,
+      "carpet": false,
+      "objectIds": [
+        37
+      ]
+    },
+    {
+      "id": "R5C5",
+      "row": 5,
+      "col": 5,
+      "roomId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R5C6",
+      "row": 5,
+      "col": 6,
+      "roomId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R6C1",
+      "row": 6,
+      "col": 1,
+      "roomId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R6C2",
+      "row": 6,
+      "col": 2,
+      "roomId": 0,
+      "occupiable": false,
+      "carpet": false,
+      "objectIds": [
+        42
+      ]
+    },
+    {
+      "id": "R6C3",
+      "row": 6,
+      "col": 3,
+      "roomId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R6C4",
+      "row": 6,
+      "col": 4,
+      "roomId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R6C5",
+      "row": 6,
+      "col": 5,
+      "roomId": 1,
+      "occupiable": false,
+      "carpet": false,
+      "objectIds": [
+        37
+      ]
+    },
+    {
+      "id": "R6C6",
+      "row": 6,
+      "col": 6,
+      "roomId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    }
+  ],
+  "objects": [
+    {
+      "id": "object-1-0",
+      "kind": "chair",
+      "cells": [
+        "R1C2"
+      ],
+      "asset": "/assets/objects/chair.svg",
+      "x": 1,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-3-0",
+      "kind": "bed",
+      "cells": [
+        "R1C4",
+        "R1C5"
+      ],
+      "asset": "/assets/objects/bed.svg",
+      "x": 3,
+      "y": 0,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "id": "object-0-1",
+      "kind": "chair",
+      "cells": [
+        "R2C1"
+      ],
+      "asset": "/assets/objects/chair.svg",
+      "x": 0,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-4-1",
+      "kind": "plant",
+      "cells": [
+        "R2C5"
+      ],
+      "asset": "/assets/objects/plant.svg",
+      "x": 4,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-0-2",
+      "kind": "chair",
+      "cells": [
+        "R3C1"
+      ],
+      "asset": "/assets/objects/chair.svg",
+      "x": 0,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-0-3",
+      "kind": "plant",
+      "cells": [
+        "R4C1"
+      ],
+      "asset": "/assets/objects/plant.svg",
+      "x": 0,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-3-4",
+      "kind": "shrub",
+      "cells": [
+        "R5C4"
+      ],
+      "asset": "/assets/objects/shrub.svg",
+      "x": 3,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-1-5",
+      "kind": "box",
+      "cells": [
+        "R6C2"
+      ],
+      "asset": "/assets/objects/box.svg",
+      "x": 1,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-4-5",
+      "kind": "shrub",
+      "cells": [
+        "R6C5"
+      ],
+      "asset": "/assets/objects/shrub.svg",
+      "x": 4,
+      "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "table-1-1",
+      "kind": "table",
+      "cells": [
+        "R2C2",
+        "R3C2"
+      ],
+      "asset": "/assets/objects/table.svg",
+      "x": 1,
+      "y": 1,
+      "width": 1,
+      "height": 2,
+      "carpet": false
+    },
+    {
+      "id": "table-3-3",
+      "kind": "table",
+      "cells": [
+        "R4C4",
+        "R4C5"
+      ],
+      "asset": "/assets/objects/table.svg",
+      "x": 3,
+      "y": 3,
+      "width": 2,
+      "height": 1,
+      "carpet": false
+    },
+    {
+      "id": "carpet-0-4",
+      "kind": "carpet",
+      "cells": [
+        "R5C1",
+        "R5C2"
+      ],
+      "asset": "/assets/objects/carpet.svg",
+      "x": 0,
+      "y": 4,
+      "width": 2,
+      "height": 1,
+      "carpet": true
+    },
+    {
+      "id": "carpet-3-2",
+      "kind": "carpet",
+      "cells": [
+        "R3C4",
+        "R3C5"
+      ],
+      "asset": "/assets/objects/carpet.svg",
+      "x": 3,
+      "y": 2,
+      "width": 2,
+      "height": 1,
+      "carpet": true
+    },
+    {
+      "id": "carpet-5-0",
+      "kind": "carpet",
+      "cells": [
+        "R1C6",
+        "R2C6"
+      ],
+      "asset": "/assets/objects/carpet.svg",
+      "x": 5,
+      "y": 0,
+      "width": 1,
+      "height": 2,
+      "carpet": true
+    }
+  ],
+  "rooms": [
+    {
+      "id": 3,
+      "label": "餐厅",
+      "fill": "#e4d2b9",
+      "cells": [
+        "R1C1",
+        "R1C2",
+        "R1C3",
+        "R2C1",
+        "R2C2",
+        "R2C3",
+        "R3C1",
+        "R3C2",
+        "R3C3",
+        "R4C1",
+        "R4C2",
+        "R4C3"
+      ]
+    },
+    {
+      "id": 4,
+      "label": "卧室",
+      "fill": "#feeda6",
+      "cells": [
+        "R1C4",
+        "R1C5",
+        "R1C6",
+        "R2C4",
+        "R2C5",
+        "R2C6"
+      ]
+    },
+    {
+      "id": 5,
+      "label": "厨房",
+      "fill": "#fde5b2",
+      "cells": [
+        "R3C4",
+        "R3C5",
+        "R3C6",
+        "R4C4",
+        "R4C5",
+        "R4C6"
+      ]
+    },
+    {
+      "id": 0,
+      "label": "门廊",
+      "fill": "#dbb98f",
+      "cells": [
+        "R5C1",
+        "R5C2",
+        "R6C1",
+        "R6C2"
+      ]
+    },
+    {
+      "id": 1,
+      "label": "前院",
+      "fill": "#b3fbdd",
+      "cells": [
+        "R5C3",
+        "R5C4",
+        "R5C5",
+        "R5C6",
+        "R6C3",
+        "R6C4",
+        "R6C5",
+        "R6C6"
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "id": "A",
+      "name": "Alexander",
+      "portrait": "/assets/portraits/A.svg",
+      "clueId": "A-clue",
+      "clueZh": "他在箱子旁边。",
+      "clueEn": "He was beside the box."
+    },
+    {
+      "id": "B",
+      "name": "Bella",
+      "portrait": "/assets/portraits/B.svg",
+      "clueId": "B-clue",
+      "clueZh": "她坐在椅子上。",
+      "clueEn": "She was sitting in a chair."
+    },
+    {
+      "id": "C",
+      "name": "Carol",
+      "portrait": "/assets/portraits/C.svg",
+      "clueId": "C-clue",
+      "clueZh": "她是唯一站在地毯上的人。",
+      "clueEn": "She was the only person on a carpet."
+    },
+    {
+      "id": "D",
+      "name": "Dalia",
+      "portrait": "/assets/portraits/D.svg",
+      "clueId": "D-clue",
+      "clueZh": "她在卧室里。",
+      "clueEn": "She was in the Bedroom."
+    },
+    {
+      "id": "E",
+      "name": "Evangeline",
+      "portrait": "/assets/portraits/E.svg",
+      "clueId": "E-clue",
+      "clueZh": "她在灌木或盆栽旁边。",
+      "clueEn": "She was either beside a shrub or a plant."
+    },
+    {
+      "id": "V",
+      "name": "Viraj",
+      "portrait": "/assets/portraits/V.svg",
+      "clueId": "V-clue",
+      "clueZh": "他是死者。案发时，他与凶手在同一区域独处。",
+      "clueEn": "The Victim. He was alone with the murderer."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "PROPERTIES": {
+    "player_hint_1_zh_hans": "先用铅笔标出(G)的可能格子。她挨着一张床，但不能挨着植物，因为(E)是唯一挨着植物的人。她也不能在最后一列，因为(C)在那一列。这样(G)应该被限定在三个格子，全都在地毯上。而根据只有一个人在地毯上的总体线索，我们知道(G)就是那个人。划掉其他所有地毯格。我们还可以划掉R3 C1，因为如果有人占据那一格，(G)能占据的格子就会全部被排除。",
+    "player_hint_2_zh_hans": "由于(A)挨着电视，他必须在R3，在C4或C6。划掉那一行的其他所有格子。这样(G)就被限定在R4 C1。",
+    "player_hint_3_zh_hans": "由于(B)在床上，她必须在C8。但她不能在R1 C8，因为(E)是唯一挨着植物的人，所以(B)在R2 C8。",
+    "player_hint_4_zh_hans": "在剩下的所有椅子中，(H)必须占据R5 C3，因为其他椅子都挨着植物，而只有(E)能挨着植物。(F)会在R1 C4，因为那是他能挨着架子的最后一格。这样(A)就被限定在R3 C6。",
+    "player_hint_5_zh_hans": "(E)会占据R7 C7，以便挨着植物。(D)在R6 C2，以便挨着桌子。由于(C)在最后一列，她必须在R9 C9。",
+    "player_hint_6_zh_hans": "这样最后一格R8 C5留给(V)，所以凶手是(E)。",
+    "puzzle_version": "2",
+    "clue_custom_text1": "地毯上正好有一个人。",
+    "general_clue_0": "地毯上正好有一个人。"
+  },
+  "GRID": {
+    "room_name_0": "客厅",
+    "room_name_1": "餐厅",
+    "room_name_2": "客房",
+    "room_name_3": "浴室",
+    "room_name_4": "主卧",
+    "room_name_5": "厨房"
+  },
+  "CHARACTERS": {
+    "char_name_0": "Angelo",
+    "char_quote_zh_hans_0": "在一台电视旁边。",
+    "char_subquote_zh_hans_0": "",
+    "char_name_1": "Brigitte",
+    "char_quote_zh_hans_1": "躺在床上。",
+    "char_subquote_zh_hans_1": "",
+    "char_name_2": "Catherine",
+    "char_quote_zh_hans_2": "在最后一列。",
+    "char_subquote_zh_hans_2": "",
+    "char_name_3": "Dalton",
+    "char_quote_zh_hans_3": "在一张桌子旁边。",
+    "char_subquote_zh_hans_3": "",
+    "char_name_4": "Elliot",
+    "char_quote_zh_hans_4": "是唯一在植物旁边的人。",
+    "char_subquote_zh_hans_4": "",
+    "char_name_5": "Fabrice",
+    "char_quote_zh_hans_5": "在一个架子旁边。",
+    "char_subquote_zh_hans_5": "",
+    "char_name_6": "Genevieve",
+    "char_quote_zh_hans_6": "在一张床旁边。",
+    "char_subquote_zh_hans_6": "",
+    "char_name_7": "Hayden",
+    "char_quote_zh_hans_7": "坐在一把椅子上。",
+    "char_subquote_zh_hans_7": "",
+    "char_name_8": "Virginia",
+    "char_quote_zh_hans_8": "被害者。和凶手单独在一起。",
+    "char_subquote_zh_hans_8": ""
+  }
+}

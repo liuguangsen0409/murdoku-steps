@@ -1,0 +1,3694 @@
+[
+  {
+    "id": "surprise-visitors-lesson-1",
+    "title": "先读地图与全局规则",
+    "explanation": "9 人共用 9 行、9 列；先从地形、家具与明确区域建立候选。",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [],
+    "candidateCharacters": [],
+    "highlightCells": [],
+    "actions": [
+      {
+        "type": "setCandidates",
+        "character": "A",
+        "cells": [
+          "R3C4",
+          "R3C6",
+          "R4C5"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "B",
+        "cells": [
+          "R2C1",
+          "R2C8",
+          "R3C1"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "C",
+        "cells": [
+          "R1C9",
+          "R2C9",
+          "R3C9",
+          "R5C9",
+          "R6C9",
+          "R7C9",
+          "R8C9",
+          "R9C9"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "D",
+        "cells": [
+          "R2C5",
+          "R6C2",
+          "R7C1",
+          "R7C2",
+          "R7C8",
+          "R8C1",
+          "R8C3",
+          "R9C1",
+          "R9C7",
+          "R9C8"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "E",
+        "cells": [
+          "R1C6",
+          "R1C8",
+          "R2C2",
+          "R2C7",
+          "R4C2",
+          "R5C1",
+          "R5C7",
+          "R6C6",
+          "R7C7",
+          "R8C6"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "F",
+        "cells": [
+          "R1C4",
+          "R2C1",
+          "R2C3",
+          "R3C2",
+          "R3C9",
+          "R4C4",
+          "R4C8",
+          "R5C3",
+          "R5C8",
+          "R6C9",
+          "R8C3"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "G",
+        "cells": [
+          "R1C9",
+          "R2C1",
+          "R2C8",
+          "R2C9",
+          "R3C1",
+          "R3C2",
+          "R3C8",
+          "R4C1"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "H",
+        "cells": [
+          "R3C9",
+          "R4C7",
+          "R5C3",
+          "R5C8",
+          "R7C1",
+          "R7C8",
+          "R9C8"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "V",
+        "cells": [
+          "R1C4",
+          "R1C9",
+          "R2C1",
+          "R2C3",
+          "R2C4",
+          "R2C5",
+          "R2C6",
+          "R2C8",
+          "R2C9",
+          "R3C1",
+          "R3C2",
+          "R3C4",
+          "R3C6",
+          "R3C7",
+          "R3C8",
+          "R3C9",
+          "R4C1",
+          "R4C4",
+          "R4C5",
+          "R4C6",
+          "R4C7",
+          "R4C8",
+          "R5C3",
+          "R5C4",
+          "R5C5",
+          "R5C6",
+          "R5C8",
+          "R5C9",
+          "R6C2",
+          "R6C3",
+          "R6C4",
+          "R6C5",
+          "R6C9",
+          "R7C1",
+          "R7C2",
+          "R7C3",
+          "R7C4",
+          "R7C5",
+          "R7C8",
+          "R7C9",
+          "R8C1",
+          "R8C3",
+          "R8C4",
+          "R8C5",
+          "R8C9",
+          "R9C1",
+          "R9C4",
+          "R9C5",
+          "R9C6",
+          "R9C7",
+          "R9C8",
+          "R9C9"
+        ]
+      }
+    ],
+    "rule": "地图与初始单人条件",
+    "details": [
+      "每行、每列最多一人；死者 V 也参与行列限制。",
+      "旁边按同一逻辑区域内的上下左右判断；家具是否可站立，以地图格子的属性为准。",
+      "本页逐步保存候选排除。只有某人的候选恰好剩一格时，才执行落位。",
+      "全员都要应用 Elliot（E） 的排他线索：是唯一在植物旁边的人。。因此其他人的初始候选也可能受这条线索影响。",
+      "全局条件：地毯上正好有一个人。"
+    ]
+  },
+  {
+    "id": "surprise-visitors-lesson-2",
+    "title": "先看 Angelo、Brigitte、Catherine 的候选",
+    "explanation": "A：在一台电视旁边。（3 个候选）；B：躺在床上。（3 个候选）；C：在最后一列。（8 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "A",
+      "B",
+      "C"
+    ],
+    "candidateCharacters": [
+      "A",
+      "B",
+      "C"
+    ],
+    "highlightCells": [
+      "R1C9",
+      "R2C1",
+      "R2C8",
+      "R2C9",
+      "R3C1",
+      "R3C4",
+      "R3C6",
+      "R3C9",
+      "R4C5",
+      "R5C9",
+      "R6C9",
+      "R7C9",
+      "R8C9",
+      "R9C9"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Angelo（A） 的原始线索：在一台电视旁边。",
+      "A 候选：R3C4、6；R4C5。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Brigitte（B） 的原始线索：躺在床上。",
+      "B 候选：R2C1、8；R3C1。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Catherine（C） 的原始线索：在最后一列。",
+      "C 候选：R1C9；R2C9；R3C9；R5C9；R6C9；R7C9；R8C9；R9C9。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "surprise-visitors-lesson-3",
+    "title": "先看 Dalton、Elliot、Fabrice 的候选",
+    "explanation": "D：在一张桌子旁边。（10 个候选）；E：是唯一在植物旁边的人。（10 个候选）；F：在一个架子旁边。（11 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "D",
+      "E",
+      "F"
+    ],
+    "candidateCharacters": [
+      "D",
+      "E",
+      "F"
+    ],
+    "highlightCells": [
+      "R1C4",
+      "R1C6",
+      "R1C8",
+      "R2C1",
+      "R2C2",
+      "R2C3",
+      "R2C5",
+      "R2C7",
+      "R3C2",
+      "R3C9",
+      "R4C2",
+      "R4C4",
+      "R4C8",
+      "R5C1",
+      "R5C3",
+      "R5C7",
+      "R5C8",
+      "R6C2",
+      "R6C6",
+      "R6C9",
+      "R7C1",
+      "R7C2",
+      "R7C7",
+      "R7C8",
+      "R8C1",
+      "R8C3",
+      "R8C6",
+      "R9C1",
+      "R9C7",
+      "R9C8"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Dalton（D） 的原始线索：在一张桌子旁边。",
+      "D 候选：10 格，分布在 R2–R9 / C1–C8（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Elliot（E） 的原始线索：是唯一在植物旁边的人。",
+      "E 候选：10 格，分布在 R1–R8 / C1–C8（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Fabrice（F） 的原始线索：在一个架子旁边。",
+      "F 候选：11 格，分布在 R1–R8 / C1–C9（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "surprise-visitors-lesson-4",
+    "title": "先看 Genevieve、Hayden、Virginia 的候选",
+    "explanation": "G：在一张床旁边。（8 个候选）；H：坐在一把椅子上。（7 个候选）；V：被害者。和凶手单独在一起。（52 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "G",
+      "H",
+      "V"
+    ],
+    "candidateCharacters": [
+      "G",
+      "H",
+      "V"
+    ],
+    "highlightCells": [
+      "R1C4",
+      "R1C9",
+      "R2C1",
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R2C8",
+      "R2C9",
+      "R3C1",
+      "R3C2",
+      "R3C4",
+      "R3C6",
+      "R3C7",
+      "R3C8",
+      "R3C9",
+      "R4C1",
+      "R4C4",
+      "R4C5",
+      "R4C6",
+      "R4C7",
+      "R4C8",
+      "R5C3",
+      "R5C4",
+      "R5C5",
+      "R5C6",
+      "R5C8",
+      "R5C9",
+      "R6C2",
+      "R6C3",
+      "R6C4",
+      "R6C5",
+      "R6C9",
+      "R7C1",
+      "R7C2",
+      "R7C3",
+      "R7C4",
+      "R7C5",
+      "R7C8",
+      "R7C9",
+      "R8C1",
+      "R8C3",
+      "R8C4",
+      "R8C5",
+      "R8C9",
+      "R9C1",
+      "R9C4",
+      "R9C5",
+      "R9C6",
+      "R9C7",
+      "R9C8",
+      "R9C9"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Genevieve（G） 的原始线索：在一张床旁边。",
+      "G 候选：R1C9；R2C1、8–9；R3C1–2、8；R4C1。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Hayden（H） 的原始线索：坐在一把椅子上。",
+      "H 候选：R3C9；R4C7；R5C3、8；R7C1、8；R9C8。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Virginia（V） 的原始线索：被害者。和凶手单独在一起。",
+      "V 候选：52 格，分布在 R1–R9 / C1–C9（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "surprise-visitors-lesson-5",
+    "title": "Virginia：候选缩至 51 格",
+    "explanation": "C 的 8 个候选共同排除同行同列冲突格，H 从 7 格缩到 6 格；B 的 3 个候选共同排除同行同列冲突格，V 从 52 格缩到 51 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "V",
+      "F",
+      "B",
+      "C"
+    ],
+    "candidateCharacters": [
+      "V",
+      "F",
+      "B"
+    ],
+    "highlightCells": [
+      "R1C4",
+      "R1C9",
+      "R2C1",
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R2C8",
+      "R2C9",
+      "R3C1",
+      "R3C2",
+      "R3C4",
+      "R3C6",
+      "R3C7",
+      "R3C8",
+      "R3C9",
+      "R4C1",
+      "R4C4",
+      "R4C5",
+      "R4C6",
+      "R4C7",
+      "R4C8",
+      "R5C3",
+      "R5C4",
+      "R5C5",
+      "R5C6",
+      "R5C8",
+      "R5C9",
+      "R6C2",
+      "R6C3",
+      "R6C4",
+      "R6C5",
+      "R6C9",
+      "R7C1",
+      "R7C2",
+      "R7C3",
+      "R7C4",
+      "R7C5",
+      "R7C8",
+      "R7C9",
+      "R8C1",
+      "R8C3",
+      "R8C4",
+      "R8C5",
+      "R8C9",
+      "R9C1",
+      "R9C4",
+      "R9C5",
+      "R9C6",
+      "R9C7",
+      "R9C8",
+      "R9C9"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R2C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R3C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R6C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "G",
+        "cell": "R2C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "G",
+        "cell": "R1C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "G",
+        "cell": "R2C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R3C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-4"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "F：每行、每列最多一人。候选从 11 格减至 10 格；剩余 10 格，分布在 R1–R8 / C2–C9（点人物查看候选）。",
+      "F：每行、每列最多一人。候选从 10 格减至 8 格；剩余 R1C4；R2C3；R3C2；R4C4、8；R5C3、8；R8C3。",
+      "G：每行、每列最多一人。候选从 8 格减至 7 格；剩余 R1C9；R2C8–9；R3C1–2、8；R4C1。",
+      "G：每行、每列最多一人。候选从 7 格减至 5 格；剩余 R2C8；R3C1–2、8；R4C1。",
+      "H：每行、每列最多一人。候选从 7 格减至 6 格；剩余 R4C7；R5C3、8；R7C1、8；R9C8。",
+      "V：每行、每列最多一人。候选从 52 格减至 51 格；剩余 51 格，分布在 R1–R9 / C1–C9（点人物查看候选）。",
+      "例如 V 在 R2C1，会与 B 的全部剩余位置同行或同列，无法配对。B 现有候选：R2C1、8；R3C1。"
+    ]
+  },
+  {
+    "id": "surprise-visitors-lesson-6",
+    "title": "Hayden：候选缩至 5 格",
+    "explanation": "A、B、G 共 3 人锁定第 2、3、4 行，F 从 8 格缩到 4 格；A、B、G 共 3 人锁定第 2、3、4 行，H 从 6 格缩到 5 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "H",
+      "V",
+      "C",
+      "A"
+    ],
+    "candidateCharacters": [
+      "H",
+      "V",
+      "C"
+    ],
+    "highlightCells": [
+      "R1C4",
+      "R1C9",
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R2C8",
+      "R3C1",
+      "R3C2",
+      "R3C4",
+      "R3C6",
+      "R3C7",
+      "R3C8",
+      "R4C1",
+      "R4C4",
+      "R4C5",
+      "R4C6",
+      "R4C7",
+      "R4C8",
+      "R5C3",
+      "R5C4",
+      "R5C5",
+      "R5C6",
+      "R5C8",
+      "R5C9",
+      "R6C2",
+      "R6C3",
+      "R6C4",
+      "R6C5",
+      "R6C9",
+      "R7C1",
+      "R7C2",
+      "R7C3",
+      "R7C4",
+      "R7C5",
+      "R7C8",
+      "R7C9",
+      "R8C1",
+      "R8C3",
+      "R8C4",
+      "R8C5",
+      "R8C9",
+      "R9C1",
+      "R9C4",
+      "R9C5",
+      "R9C6",
+      "R9C7",
+      "R9C8",
+      "R9C9"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R8C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R9C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R2C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R3C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R2C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R2C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R2C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R4C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R2C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R3C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R4C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R4C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R4C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-5"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "V：每行、每列最多一人。候选从 51 格减至 43 格；剩余 43 格，分布在 R1–R9 / C1–C8（点人物查看候选）。",
+      "C：A、B、G 共 3 人锁定第 2、3、4 行。候选从 8 格减至 6 格；剩余 R1C9；R5C9；R6C9；R7C9；R8C9；R9C9。",
+      "D：A、B、G 共 3 人锁定第 2、3、4 行。候选从 10 格减至 9 格；剩余 9 格，分布在 R6–R9 / C1–C8（点人物查看候选）。",
+      "E：A、B、G 共 3 人锁定第 2、3、4 行。候选从 10 格减至 7 格；剩余 R1C6、8；R5C1、7；R6C6；R7C7；R8C6。",
+      "F：A、B、G 共 3 人锁定第 2、3、4 行。候选从 8 格减至 4 格；剩余 R1C4；R5C3、8；R8C3。",
+      "H：A、B、G 共 3 人锁定第 2、3、4 行。候选从 6 格减至 5 格；剩余 R5C3、8；R7C1、8；R9C8。",
+      "A、B、G 共 3 人，只能用第 2–4 行，必须恰好占满；H 因此不能用这些行。各人范围：A 在第 3–4 行；B 在第 2–3 行；G 在第 2–4 行。"
+    ]
+  },
+  {
+    "id": "surprise-visitors-lesson-7",
+    "title": "Fabrice：候选缩至 3 格",
+    "explanation": "B、G 共 2 人锁定第 1、8 列，E 从 7 格缩到 5 格；B、G 共 2 人锁定第 1、8 列，F 从 4 格缩到 3 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "F",
+      "V",
+      "A",
+      "B"
+    ],
+    "candidateCharacters": [
+      "F",
+      "V",
+      "A"
+    ],
+    "highlightCells": [
+      "R1C4",
+      "R2C8",
+      "R3C1",
+      "R3C4",
+      "R3C6",
+      "R4C5",
+      "R5C3",
+      "R5C4",
+      "R5C5",
+      "R5C6",
+      "R5C8",
+      "R6C2",
+      "R6C3",
+      "R6C4",
+      "R6C5",
+      "R7C1",
+      "R7C2",
+      "R7C3",
+      "R7C4",
+      "R7C5",
+      "R7C8",
+      "R8C1",
+      "R8C3",
+      "R8C4",
+      "R8C5",
+      "R9C1",
+      "R9C4",
+      "R9C5",
+      "R9C6",
+      "R9C7",
+      "R9C8"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "G",
+        "cell": "R3C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "G",
+        "cell": "R3C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R2C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R7C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R7C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R8C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R9C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R9C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R1C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R5C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R5C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-6"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "V：A、B、G 共 3 人锁定第 2、3、4 行。候选从 43 格减至 26 格；剩余 26 格，分布在 R1–R9 / C1–C8（点人物查看候选）。",
+      "G：恰好一人在地毯上。候选从 5 格减至 3 格；剩余 R2C8；R3C1；R4C1。",
+      "B：每行、每列最多一人。候选从 3 格减至 2 格；剩余 R2C8；R3C1。",
+      "D：B、G 共 2 人锁定第 1、8 列。候选从 9 格减至 4 格；剩余 R6C2；R7C2；R8C3；R9C7。",
+      "E：B、G 共 2 人锁定第 1、8 列。候选从 7 格减至 5 格；剩余 R1C6；R5C7；R6C6；R7C7；R8C6。",
+      "F：B、G 共 2 人锁定第 1、8 列。候选从 4 格减至 3 格；剩余 R1C4；R5C3；R8C3。",
+      "B、G 共 2 人，只能用第 1、8 列，必须恰好占满；F 因此不能用这些列。各人范围：B 在第 1、8 列；G 在第 1、8 列。"
+    ]
+  },
+  {
+    "id": "surprise-visitors-lesson-8",
+    "title": "确定 Hayden",
+    "explanation": "H 只剩 R5C3。B、G 共 2 人锁定第 1、8 列，H 从 5 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "H",
+      "B",
+      "G"
+    ],
+    "candidateCharacters": [
+      "B",
+      "G"
+    ],
+    "highlightCells": [
+      "R2C8",
+      "R3C1",
+      "R4C1",
+      "R5C3"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R5C8",
+        "reason": {
+          "ruleId": "B、G 共 2 人锁定第 1、8 列",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R7C1",
+        "reason": {
+          "ruleId": "B、G 共 2 人锁定第 1、8 列",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R7C8",
+        "reason": {
+          "ruleId": "B、G 共 2 人锁定第 1、8 列",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R9C8",
+        "reason": {
+          "ruleId": "B、G 共 2 人锁定第 1、8 列",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "H",
+        "cell": "R5C3",
+        "reason": {
+          "ruleId": "B、G 共 2 人锁定第 1、8 列",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-7"
+          ]
+        }
+      }
+    ],
+    "rule": "B、G 共 2 人锁定第 1、8 列",
+    "details": [
+      "H：B、G 共 2 人锁定第 1、8 列。候选从 5 格减至 1 格；剩余 R5C3。",
+      "B、G 共 2 人，只能用第 1、8 列，必须恰好占满；H 因此不能用这些列。各人范围：B 在第 1、8 列；G 在第 1、8 列。"
+    ]
+  },
+  {
+    "id": "surprise-visitors-lesson-9",
+    "title": "确定 Fabrice",
+    "explanation": "F 只剩 R1C4。H 已锁定 R5C3，F 从 3 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "F",
+      "C",
+      "H",
+      "D"
+    ],
+    "candidateCharacters": [
+      "C",
+      "D"
+    ],
+    "highlightCells": [
+      "R1C4",
+      "R1C9",
+      "R5C3",
+      "R6C2",
+      "R6C9",
+      "R7C2",
+      "R7C9",
+      "R8C9",
+      "R9C7",
+      "R9C9"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R5C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R8C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R5C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R5C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R8C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "F",
+        "cell": "R1C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-8"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "C：每行、每列最多一人。候选从 6 格减至 5 格；剩余 R1C9；R6C9；R7C9；R8C9；R9C9。",
+      "D：每行、每列最多一人。候选从 4 格减至 3 格；剩余 R6C2；R7C2；R9C7。",
+      "E：每行、每列最多一人。候选从 5 格减至 4 格；剩余 R1C6；R6C6；R7C7；R8C6。",
+      "F：每行、每列最多一人。候选从 3 格减至 1 格；剩余 R1C4。",
+      "例如 F 在 R5C3，会与 H 的全部剩余位置同行或同列，无法配对。H 现有候选：R5C3。"
+    ]
+  },
+  {
+    "id": "surprise-visitors-lesson-10",
+    "title": "Virginia：候选缩至 8 格",
+    "explanation": "H 已锁定 R5C3，V 从 20 格缩到 13 格；B、G 共 2 人锁定第 1、8 列，V 从 13 格缩到 8 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "V",
+      "A",
+      "F",
+      "C"
+    ],
+    "candidateCharacters": [
+      "V",
+      "A",
+      "C"
+    ],
+    "highlightCells": [
+      "R1C4",
+      "R3C6",
+      "R4C5",
+      "R6C2",
+      "R6C5",
+      "R6C9",
+      "R7C2",
+      "R7C5",
+      "R7C9",
+      "R8C5",
+      "R8C9",
+      "R9C5",
+      "R9C6",
+      "R9C7",
+      "R9C9"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R3C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R1C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R1C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R8C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R9C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R8C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R8C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R9C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R9C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-9"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "A：每行、每列最多一人。候选从 3 格减至 2 格；剩余 R3C6；R4C5。",
+      "C：每行、每列最多一人。候选从 5 格减至 4 格；剩余 R6C9；R7C9；R8C9；R9C9。",
+      "E：每行、每列最多一人。候选从 4 格减至 3 格；剩余 R6C6；R7C7；R8C6。",
+      "V：每行、每列最多一人。候选从 26 格减至 20 格；剩余 20 格，分布在 R5–R9 / C1–C8（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 20 格减至 13 格；剩余 13 格，分布在 R6–R9 / C1–C8（点人物查看候选）。",
+      "V：B、G 共 2 人锁定第 1、8 列。候选从 13 格减至 8 格；剩余 R6C2、5；R7C2、5；R8C5；R9C5–7。",
+      "B、G 共 2 人，只能用第 1、8 列，必须恰好占满；V 因此不能用这些列。各人范围：B 在第 1、8 列；G 在第 1、8 列。"
+    ]
+  },
+  {
+    "id": "surprise-visitors-lesson-11",
+    "title": "确定 Angelo",
+    "explanation": "A 只剩 R3C6。逐个假设并排除矛盾，A 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "A",
+      "V",
+      "D",
+      "E"
+    ],
+    "candidateCharacters": [
+      "V",
+      "D",
+      "E"
+    ],
+    "highlightCells": [
+      "R3C6",
+      "R6C2",
+      "R6C6",
+      "R7C2",
+      "R7C5",
+      "R7C7",
+      "R8C5",
+      "R8C6",
+      "R9C5",
+      "R9C7"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R9C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R9C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R4C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "A",
+        "cell": "R3C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-10"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "V：恰好一人在地毯上。候选从 8 格减至 7 格；剩余 R6C2、5；R7C2、5；R8C5；R9C5、7。",
+      "V：死者与凶手独处，所在区域恰好两人。候选从 7 格减至 4 格；剩余 R7C5；R8C5；R9C5、7。",
+      "D：A、E、V 共 3 人锁定第 5、6、7 列。候选从 3 格减至 2 格；剩余 R6C2；R7C2。",
+      "A：逐个假设 2 个候选，排除 1 个无解分支，剩余 R3C6。这是约束传播与必要时的完整枚举，不是直接看出的唯一位置。",
+      "代表分支 A=R4C5：A 因“恰好一人在地毯上无法满足”从 1 个候选变为 0 个。候选清空，假设矛盾。完整分支记录保存在证据文件。"
+    ]
+  },
+  {
+    "id": "surprise-visitors-lesson-12",
+    "title": "确定 Brigitte",
+    "explanation": "B 只剩 R2C8。A 已锁定 R3C6，B 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "B",
+      "A"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R2C8",
+      "R3C6"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R3C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "B",
+        "cell": "R2C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-11"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "B：每行、每列最多一人。候选从 2 格减至 1 格；剩余 R2C8。",
+      "例如 B 在 R3C1，会与 A 的全部剩余位置同行或同列，无法配对。A 现有候选：R3C6。"
+    ]
+  },
+  {
+    "id": "surprise-visitors-lesson-13",
+    "title": "确定 Elliot",
+    "explanation": "E 只剩 R7C7。A 已锁定 R3C6，E 从 3 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "E",
+      "A"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R3C6",
+      "R7C7"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R6C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R8C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "E",
+        "cell": "R7C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-12"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "E：每行、每列最多一人。候选从 3 格减至 1 格；剩余 R7C7。",
+      "例如 E 在 R6C6，会与 A 的全部剩余位置同行或同列，无法配对。A 现有候选：R3C6。"
+    ]
+  },
+  {
+    "id": "surprise-visitors-lesson-14",
+    "title": "确定 Dalton",
+    "explanation": "D 只剩 R6C2。E 已锁定 R7C7，D 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "D",
+      "C",
+      "E"
+    ],
+    "candidateCharacters": [
+      "C"
+    ],
+    "highlightCells": [
+      "R6C2",
+      "R6C9",
+      "R7C7",
+      "R8C9",
+      "R9C9"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R7C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R7C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "D",
+        "cell": "R6C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-13"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "C：每行、每列最多一人。候选从 4 格减至 3 格；剩余 R6C9；R8C9；R9C9。",
+      "D：每行、每列最多一人。候选从 2 格减至 1 格；剩余 R6C2。",
+      "例如 D 在 R7C2，会与 E 的全部剩余位置同行或同列，无法配对。E 现有候选：R7C7。"
+    ]
+  },
+  {
+    "id": "surprise-visitors-lesson-15",
+    "title": "确定 Genevieve",
+    "explanation": "G 只剩 R4C1。B 已锁定 R2C8，G 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "G",
+      "C",
+      "D",
+      "A"
+    ],
+    "candidateCharacters": [
+      "C"
+    ],
+    "highlightCells": [
+      "R3C6",
+      "R4C1",
+      "R6C2",
+      "R8C9",
+      "R9C9"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R6C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "G",
+        "cell": "R3C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "G",
+        "cell": "R2C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "G",
+        "cell": "R4C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-14"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "C：每行、每列最多一人。候选从 3 格减至 2 格；剩余 R8C9；R9C9。",
+      "G：每行、每列最多一人。候选从 3 格减至 2 格；剩余 R2C8；R4C1。",
+      "G：每行、每列最多一人。候选从 2 格减至 1 格；剩余 R4C1。",
+      "例如 G 在 R2C8，会与 B 的全部剩余位置同行或同列，无法配对。B 现有候选：R2C8。"
+    ]
+  },
+  {
+    "id": "surprise-visitors-lesson-16",
+    "title": "确定 Catherine",
+    "explanation": "C 只剩 R9C9。恰好一人在地毯上，C 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "C",
+      "V",
+      "E"
+    ],
+    "candidateCharacters": [
+      "V"
+    ],
+    "highlightCells": [
+      "R7C7",
+      "R8C5",
+      "R9C5",
+      "R9C9"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R9C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R8C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "C",
+        "cell": "R9C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-15"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "V：每行、每列最多一人。候选从 4 格减至 2 格；剩余 R8C5；R9C5。",
+      "C：恰好一人在地毯上。候选从 2 格减至 1 格；剩余 R9C9。",
+      "例如假设 C 在 R8C9，同步排除其他人的行列及关系冲突后，“恰好一人在地毯上”已没有足够的人数或合适同伴，所以这格不成立。其余被删候选按相同条件逐一核验。"
+    ]
+  },
+  {
+    "id": "surprise-visitors-lesson-17",
+    "title": "确定 Virginia",
+    "explanation": "V 只剩 R8C5。C 已锁定 R9C9，V 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "V",
+      "C"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R8C5",
+      "R9C9"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R9C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-16"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "V",
+        "cell": "R8C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "surprise-visitors-lesson-16"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "V：每行、每列最多一人。候选从 2 格减至 1 格；剩余 R8C5。",
+      "例如 V 在 R9C5，会与 C 的全部剩余位置同行或同列，无法配对。C 现有候选：R9C9。"
+    ]
+  },
+  {
+    "id": "surprise-visitors-lesson-18",
+    "title": "Elliot 是凶手",
+    "explanation": "死者 V 位于餐厅的 R8C5；同区唯一另一人是 Elliot（E），位置为 R7C7。",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "E",
+      "V"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R7C7",
+      "R8C5"
+    ],
+    "actions": [],
+    "rule": "死者与凶手独处",
+    "details": [
+      "死者线索要求与凶手独处，必须以最终逻辑区域的同区人数判定。",
+      "餐厅实际人物：E 在 R7C7、V 在 R8C5；其余所有人都在其他区域。",
+      "9 人全部有位置，且每行、每列均无冲突。",
+      "最终位置由初始候选与记录中的约束排除得到；原始答案只由求解脚本在结束时作一致性核对。"
+    ]
+  }
+]

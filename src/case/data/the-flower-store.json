@@ -1,0 +1,1467 @@
+{
+  "id": "the-flower-store",
+  "width": 7,
+  "height": 7,
+  "cells": [
+    {
+      "id": "R1C1",
+      "row": 1,
+      "col": 1,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        4
+      ],
+      "fill": "#fff7f0",
+      "texture": "minitiles",
+      "floorType": 8,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_minitiles.svg"
+    },
+    {
+      "id": "R1C2",
+      "row": 1,
+      "col": 2,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        4
+      ],
+      "fill": "#fff7f0",
+      "texture": "minitiles",
+      "floorType": 8,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_minitiles.svg"
+    },
+    {
+      "id": "R1C3",
+      "row": 1,
+      "col": 3,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#fff7f0",
+      "texture": "minitiles",
+      "floorType": 8,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_minitiles.svg"
+    },
+    {
+      "id": "R1C4",
+      "row": 1,
+      "col": 4,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        13
+      ],
+      "fill": "#fff7f0",
+      "texture": "minitiles",
+      "floorType": 8,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_minitiles.svg"
+    },
+    {
+      "id": "R1C5",
+      "row": 1,
+      "col": 5,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        80
+      ],
+      "fill": "#fff7f0",
+      "texture": "minitiles",
+      "floorType": 8,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_minitiles.svg"
+    },
+    {
+      "id": "R1C6",
+      "row": 1,
+      "col": 6,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        80
+      ],
+      "fill": "#fff7f0",
+      "texture": "minitiles",
+      "floorType": 8,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_minitiles.svg"
+    },
+    {
+      "id": "R1C7",
+      "row": 1,
+      "col": 7,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#fff7f0",
+      "texture": "minitiles",
+      "floorType": 8,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_minitiles.svg"
+    },
+    {
+      "id": "R2C1",
+      "row": 2,
+      "col": 1,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#fff7f0",
+      "texture": "minitiles",
+      "floorType": 8,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_minitiles.svg"
+    },
+    {
+      "id": "R2C2",
+      "row": 2,
+      "col": 2,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        2
+      ],
+      "fill": "#fff7f0",
+      "texture": "minitiles",
+      "floorType": 8,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_minitiles.svg"
+    },
+    {
+      "id": "R2C3",
+      "row": 2,
+      "col": 3,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#fff7f0",
+      "texture": "minitiles",
+      "floorType": 8,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_minitiles.svg"
+    },
+    {
+      "id": "R2C4",
+      "row": 2,
+      "col": 4,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#fff7f0",
+      "texture": "minitiles",
+      "floorType": 8,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_minitiles.svg"
+    },
+    {
+      "id": "R2C5",
+      "row": 2,
+      "col": 5,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": true,
+      "carpet": true,
+      "water": false,
+      "objectIds": [
+        5
+      ],
+      "fill": "#fff7f0",
+      "texture": "minitiles",
+      "floorType": 8,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_minitiles.svg"
+    },
+    {
+      "id": "R2C6",
+      "row": 2,
+      "col": 6,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": true,
+      "carpet": true,
+      "water": false,
+      "objectIds": [
+        5
+      ],
+      "fill": "#fff7f0",
+      "texture": "minitiles",
+      "floorType": 8,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_minitiles.svg"
+    },
+    {
+      "id": "R2C7",
+      "row": 2,
+      "col": 7,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#fff7f0",
+      "texture": "minitiles",
+      "floorType": 8,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_minitiles.svg"
+    },
+    {
+      "id": "R3C1",
+      "row": 3,
+      "col": 1,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        80
+      ],
+      "fill": "#fee7d2",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R3C2",
+      "row": 3,
+      "col": 2,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#fee7d2",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R3C3",
+      "row": 3,
+      "col": 3,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        80
+      ],
+      "fill": "#fee7d2",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R3C4",
+      "row": 3,
+      "col": 4,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#fee7d2",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R3C5",
+      "row": 3,
+      "col": 5,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#fff7f0",
+      "texture": "minitiles",
+      "floorType": 8,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_minitiles.svg"
+    },
+    {
+      "id": "R3C6",
+      "row": 3,
+      "col": 6,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": true,
+      "carpet": true,
+      "water": false,
+      "objectIds": [
+        5
+      ],
+      "fill": "#fff7f0",
+      "texture": "minitiles",
+      "floorType": 8,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_minitiles.svg"
+    },
+    {
+      "id": "R3C7",
+      "row": 3,
+      "col": 7,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        13
+      ],
+      "fill": "#fff7f0",
+      "texture": "minitiles",
+      "floorType": 8,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_minitiles.svg"
+    },
+    {
+      "id": "R4C1",
+      "row": 4,
+      "col": 1,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        80
+      ],
+      "fill": "#fee7d2",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R4C2",
+      "row": 4,
+      "col": 2,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#fee7d2",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R4C3",
+      "row": 4,
+      "col": 3,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#fee7d2",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R4C4",
+      "row": 4,
+      "col": 4,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#fee7d2",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R4C5",
+      "row": 4,
+      "col": 5,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#ffccd2",
+      "texture": "woodentile_scrap",
+      "floorType": 3,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile_scrap.svg"
+    },
+    {
+      "id": "R4C6",
+      "row": 4,
+      "col": 6,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#ffccd2",
+      "texture": "woodentile_scrap",
+      "floorType": 3,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile_scrap.svg"
+    },
+    {
+      "id": "R4C7",
+      "row": 4,
+      "col": 7,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        13
+      ],
+      "fill": "#ffccd2",
+      "texture": "woodentile_scrap",
+      "floorType": 3,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile_scrap.svg"
+    },
+    {
+      "id": "R5C1",
+      "row": 5,
+      "col": 1,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#fee7d2",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R5C2",
+      "row": 5,
+      "col": 2,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#fee7d2",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R5C3",
+      "row": 5,
+      "col": 3,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": true,
+      "water": false,
+      "objectIds": [
+        5
+      ],
+      "fill": "#fee7d2",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R5C4",
+      "row": 5,
+      "col": 4,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        80
+      ],
+      "fill": "#fee7d2",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R5C5",
+      "row": 5,
+      "col": 5,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        28
+      ],
+      "fill": "#ffccd2",
+      "texture": "woodentile_scrap",
+      "floorType": 3,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile_scrap.svg"
+    },
+    {
+      "id": "R5C6",
+      "row": 5,
+      "col": 6,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#ffccd2",
+      "texture": "woodentile_scrap",
+      "floorType": 3,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile_scrap.svg"
+    },
+    {
+      "id": "R5C7",
+      "row": 5,
+      "col": 7,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        44
+      ],
+      "fill": "#ffccd2",
+      "texture": "woodentile_scrap",
+      "floorType": 3,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile_scrap.svg"
+    },
+    {
+      "id": "R6C1",
+      "row": 6,
+      "col": 1,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        13
+      ],
+      "fill": "#fee7d2",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R6C2",
+      "row": 6,
+      "col": 2,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#fee7d2",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R6C3",
+      "row": 6,
+      "col": 3,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": true,
+      "water": false,
+      "objectIds": [
+        5
+      ],
+      "fill": "#fee7d2",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R6C4",
+      "row": 6,
+      "col": 4,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#fee7d2",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R6C5",
+      "row": 6,
+      "col": 5,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        4
+      ],
+      "fill": "#ffccd2",
+      "texture": "woodentile_scrap",
+      "floorType": 3,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile_scrap.svg"
+    },
+    {
+      "id": "R6C6",
+      "row": 6,
+      "col": 6,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        2
+      ],
+      "fill": "#ffccd2",
+      "texture": "woodentile_scrap",
+      "floorType": 3,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile_scrap.svg"
+    },
+    {
+      "id": "R6C7",
+      "row": 6,
+      "col": 7,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#ffccd2",
+      "texture": "woodentile_scrap",
+      "floorType": 3,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile_scrap.svg"
+    },
+    {
+      "id": "R7C1",
+      "row": 7,
+      "col": 1,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        80
+      ],
+      "fill": "#fee7d2",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R7C2",
+      "row": 7,
+      "col": 2,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#fee7d2",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R7C3",
+      "row": 7,
+      "col": 3,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#fee7d2",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R7C4",
+      "row": 7,
+      "col": 4,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        13
+      ],
+      "fill": "#fee7d2",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R7C5",
+      "row": 7,
+      "col": 5,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#ffccd2",
+      "texture": "woodentile_scrap",
+      "floorType": 3,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile_scrap.svg"
+    },
+    {
+      "id": "R7C6",
+      "row": 7,
+      "col": 6,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#ffccd2",
+      "texture": "woodentile_scrap",
+      "floorType": 3,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile_scrap.svg"
+    },
+    {
+      "id": "R7C7",
+      "row": 7,
+      "col": 7,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#ffccd2",
+      "texture": "woodentile_scrap",
+      "floorType": 3,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile_scrap.svg"
+    }
+  ],
+  "objects": [
+    {
+      "id": "object-1-1",
+      "kind": "table",
+      "cells": [
+        "R1C1"
+      ],
+      "asset": "/assets/catalog/the-flower-store/objects/table.svg",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "objectId": 4
+    },
+    {
+      "id": "object-1-2",
+      "kind": "table",
+      "cells": [
+        "R1C2"
+      ],
+      "asset": "/assets/catalog/the-flower-store/objects/table.svg",
+      "x": 1,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "objectId": 4
+    },
+    {
+      "id": "object-1-4",
+      "kind": "shelf",
+      "cells": [
+        "R1C4"
+      ],
+      "asset": "/assets/catalog/the-flower-store/objects/shelf.svg",
+      "x": 3,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "objectId": 13
+    },
+    {
+      "id": "object-1-5",
+      "kind": "flowers",
+      "cells": [
+        "R1C5"
+      ],
+      "asset": "/assets/catalog/the-flower-store/objects/flowers.svg",
+      "x": 4,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "objectId": 80
+    },
+    {
+      "id": "object-1-6",
+      "kind": "flowers",
+      "cells": [
+        "R1C6"
+      ],
+      "asset": "/assets/catalog/the-flower-store/objects/flowers.svg",
+      "x": 5,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "objectId": 80
+    },
+    {
+      "id": "object-2-2",
+      "kind": "chair",
+      "cells": [
+        "R2C2"
+      ],
+      "asset": "/assets/catalog/the-flower-store/objects/chair.svg",
+      "x": 1,
+      "y": 1,
+      "width": 1,
+      "height": 1,
+      "objectId": 2
+    },
+    {
+      "id": "object-3-1",
+      "kind": "flowers",
+      "cells": [
+        "R3C1"
+      ],
+      "asset": "/assets/catalog/the-flower-store/objects/flowers.svg",
+      "x": 0,
+      "y": 2,
+      "width": 1,
+      "height": 1,
+      "objectId": 80
+    },
+    {
+      "id": "object-3-3",
+      "kind": "flowers",
+      "cells": [
+        "R3C3"
+      ],
+      "asset": "/assets/catalog/the-flower-store/objects/flowers.svg",
+      "x": 2,
+      "y": 2,
+      "width": 1,
+      "height": 1,
+      "objectId": 80
+    },
+    {
+      "id": "object-3-7",
+      "kind": "shelf",
+      "cells": [
+        "R3C7"
+      ],
+      "asset": "/assets/catalog/the-flower-store/objects/shelf.svg",
+      "x": 6,
+      "y": 2,
+      "width": 1,
+      "height": 1,
+      "objectId": 13
+    },
+    {
+      "id": "object-4-1",
+      "kind": "flowers",
+      "cells": [
+        "R4C1"
+      ],
+      "asset": "/assets/catalog/the-flower-store/objects/flowers.svg",
+      "x": 0,
+      "y": 3,
+      "width": 1,
+      "height": 1,
+      "objectId": 80
+    },
+    {
+      "id": "object-4-7",
+      "kind": "shelf",
+      "cells": [
+        "R4C7"
+      ],
+      "asset": "/assets/catalog/the-flower-store/objects/shelf.svg",
+      "x": 6,
+      "y": 3,
+      "width": 1,
+      "height": 1,
+      "objectId": 13
+    },
+    {
+      "id": "object-5-4",
+      "kind": "flowers",
+      "cells": [
+        "R5C4"
+      ],
+      "asset": "/assets/catalog/the-flower-store/objects/flowers.svg",
+      "x": 3,
+      "y": 4,
+      "width": 1,
+      "height": 1,
+      "objectId": 80
+    },
+    {
+      "id": "object-5-5",
+      "kind": "register",
+      "cells": [
+        "R5C5"
+      ],
+      "asset": "/assets/catalog/the-flower-store/objects/register.svg",
+      "x": 4,
+      "y": 4,
+      "width": 1,
+      "height": 1,
+      "objectId": 28
+    },
+    {
+      "id": "object-5-7",
+      "kind": "bonsai",
+      "cells": [
+        "R5C7"
+      ],
+      "asset": "/assets/catalog/the-flower-store/objects/bonsai.svg",
+      "x": 6,
+      "y": 4,
+      "width": 1,
+      "height": 1,
+      "objectId": 44
+    },
+    {
+      "id": "object-6-1",
+      "kind": "shelf",
+      "cells": [
+        "R6C1"
+      ],
+      "asset": "/assets/catalog/the-flower-store/objects/shelf.svg",
+      "x": 0,
+      "y": 5,
+      "width": 1,
+      "height": 1,
+      "objectId": 13
+    },
+    {
+      "id": "object-6-5",
+      "kind": "table",
+      "cells": [
+        "R6C5"
+      ],
+      "asset": "/assets/catalog/the-flower-store/objects/table.svg",
+      "x": 4,
+      "y": 5,
+      "width": 1,
+      "height": 1,
+      "objectId": 4
+    },
+    {
+      "id": "object-6-6",
+      "kind": "chair",
+      "cells": [
+        "R6C6"
+      ],
+      "asset": "/assets/catalog/the-flower-store/objects/chair.svg",
+      "x": 5,
+      "y": 5,
+      "width": 1,
+      "height": 1,
+      "objectId": 2
+    },
+    {
+      "id": "object-7-1",
+      "kind": "flowers",
+      "cells": [
+        "R7C1"
+      ],
+      "asset": "/assets/catalog/the-flower-store/objects/flowers.svg",
+      "x": 0,
+      "y": 6,
+      "width": 1,
+      "height": 1,
+      "objectId": 80
+    },
+    {
+      "id": "object-7-4",
+      "kind": "shelf",
+      "cells": [
+        "R7C4"
+      ],
+      "asset": "/assets/catalog/the-flower-store/objects/shelf.svg",
+      "x": 3,
+      "y": 6,
+      "width": 1,
+      "height": 1,
+      "objectId": 13
+    },
+    {
+      "id": "carpet-R6C3",
+      "kind": "carpet",
+      "cells": [
+        "R6C3"
+      ],
+      "asset": "/assets/catalog/the-flower-store/objects/carpet.svg",
+      "x": 2,
+      "y": 5,
+      "width": 1,
+      "height": 1,
+      "objectId": 5,
+      "carpet": true
+    },
+    {
+      "id": "carpet-R5C3",
+      "kind": "carpet",
+      "cells": [
+        "R5C3"
+      ],
+      "asset": "/assets/catalog/the-flower-store/objects/carpet.svg",
+      "x": 2,
+      "y": 4,
+      "width": 1,
+      "height": 1,
+      "objectId": 5,
+      "carpet": true
+    },
+    {
+      "id": "carpet-R3C6",
+      "kind": "carpet",
+      "cells": [
+        "R3C6"
+      ],
+      "asset": "/assets/catalog/the-flower-store/objects/carpet.svg",
+      "x": 5,
+      "y": 2,
+      "width": 1,
+      "height": 1,
+      "objectId": 5,
+      "carpet": true
+    },
+    {
+      "id": "carpet-R2C6",
+      "kind": "carpet",
+      "cells": [
+        "R2C6"
+      ],
+      "asset": "/assets/catalog/the-flower-store/objects/carpet.svg",
+      "x": 5,
+      "y": 1,
+      "width": 1,
+      "height": 1,
+      "objectId": 5,
+      "carpet": true
+    },
+    {
+      "id": "carpet-R2C5",
+      "kind": "carpet",
+      "cells": [
+        "R2C5"
+      ],
+      "asset": "/assets/catalog/the-flower-store/objects/carpet.svg",
+      "x": 4,
+      "y": 1,
+      "width": 1,
+      "height": 1,
+      "objectId": 5,
+      "carpet": true
+    }
+  ],
+  "rooms": [
+    {
+      "id": 0,
+      "label": "卖场",
+      "labelEn": "Store Floor",
+      "cells": [
+        "R3C1",
+        "R3C2",
+        "R3C3",
+        "R3C4",
+        "R4C1",
+        "R4C2",
+        "R4C3",
+        "R4C4",
+        "R5C1",
+        "R5C2",
+        "R5C3",
+        "R5C4",
+        "R6C1",
+        "R6C2",
+        "R6C3",
+        "R6C4",
+        "R7C1",
+        "R7C2",
+        "R7C3",
+        "R7C4"
+      ],
+      "fill": "#fee7d2"
+    },
+    {
+      "id": 1,
+      "label": "收银台",
+      "labelEn": "cashier",
+      "cells": [
+        "R4C5",
+        "R4C6",
+        "R4C7",
+        "R5C5",
+        "R5C6",
+        "R5C7",
+        "R6C5",
+        "R6C6",
+        "R6C7",
+        "R7C5",
+        "R7C6",
+        "R7C7"
+      ],
+      "fill": "#ffccd2"
+    },
+    {
+      "id": 4,
+      "label": "准备区",
+      "labelEn": "Preparation",
+      "cells": [
+        "R1C1",
+        "R1C2",
+        "R1C3",
+        "R1C4",
+        "R1C5",
+        "R1C6",
+        "R1C7",
+        "R2C1",
+        "R2C2",
+        "R2C3",
+        "R2C4",
+        "R2C5",
+        "R2C6",
+        "R2C7",
+        "R3C5",
+        "R3C6",
+        "R3C7"
+      ],
+      "fill": "#fff7f0"
+    }
+  ],
+  "roomLabels": [
+    {
+      "id": 0,
+      "label": "卖场",
+      "x": 200.0,
+      "y": 685.3333333333334,
+      "mainRoomId": 0,
+      "isSubarea": false
+    },
+    {
+      "id": 1,
+      "label": "收银台",
+      "x": 550.0,
+      "y": 685.3333333333334,
+      "mainRoomId": 1,
+      "isSubarea": false
+    },
+    {
+      "id": 4,
+      "label": "准备区",
+      "x": 550.0,
+      "y": 285.33333333333337,
+      "mainRoomId": 4,
+      "isSubarea": false
+    }
+  ],
+  "objectNames": {
+    "2": "Chair",
+    "4": "Table",
+    "13": "Shelf",
+    "28": "Register",
+    "44": "Bonsai",
+    "80": "Flowers"
+  },
+  "characters": [
+    {
+      "id": "A",
+      "name": "Amir",
+      "portrait": "/assets/catalog/the-flower-store/portraits/A.svg",
+      "clueId": "A-clue",
+      "clueEn": "He was beside the bonsai.",
+      "clueZh": "在一棵盆景旁边。",
+      "sex": 0
+    },
+    {
+      "id": "B",
+      "name": "Bianca",
+      "portrait": "/assets/catalog/the-flower-store/portraits/B.svg",
+      "clueId": "B-clue",
+      "clueEn": "She was in the Preparation area.",
+      "clueZh": "在准备区。",
+      "sex": 1
+    },
+    {
+      "id": "C",
+      "name": "Carly",
+      "portrait": "/assets/catalog/the-flower-store/portraits/C.svg",
+      "clueId": "C-clue",
+      "clueEn": "She was on a carpet.",
+      "clueZh": "在一块地毯上。",
+      "sex": 1
+    },
+    {
+      "id": "D",
+      "name": "Diane",
+      "portrait": "/assets/catalog/the-flower-store/portraits/D.svg",
+      "clueId": "D-clue",
+      "clueEn": "She was sitting in a chair.",
+      "clueZh": "坐在一把椅子上。",
+      "sex": 1
+    },
+    {
+      "id": "E",
+      "name": "Emmett",
+      "portrait": "/assets/catalog/the-flower-store/portraits/E.svg",
+      "clueId": "E-clue",
+      "clueEn": "He was in the first column.",
+      "clueZh": "在第一列。",
+      "sex": 0
+    },
+    {
+      "id": "F",
+      "name": "Felicia",
+      "portrait": "/assets/catalog/the-flower-store/portraits/F.svg",
+      "clueId": "F-clue",
+      "clueEn": "She was on the Store Floor. There was a man in her area.",
+      "clueZh": "在卖场。所在区域里有一个男人。",
+      "sex": 1
+    },
+    {
+      "id": "V",
+      "name": "Vickie",
+      "portrait": "/assets/catalog/the-flower-store/portraits/V.svg",
+      "clueId": "V-clue",
+      "clueEn": "The Victim. She was alone with the murderer.",
+      "clueZh": "被害者。和凶手单独在一起。",
+      "sex": 1
+    }
+  ],
+  "generalClues": [],
+  "metadata": {
+    "sourceId": "puzzle-the-flower-store-easy",
+    "sourceFile": "puzzle-the-flower-store-easy.json",
+    "version": 2,
+    "coordinateOrder": "row_col",
+    "roomLabels": [
+      {
+        "id": 0,
+        "label": "Store Floor",
+        "x": 200.0,
+        "y": 685.3333333333334,
+        "mainRoomId": 0,
+        "isSubarea": false
+      },
+      {
+        "id": 1,
+        "label": "cashier",
+        "x": 550.0,
+        "y": 685.3333333333334,
+        "mainRoomId": 1,
+        "isSubarea": false
+      },
+      {
+        "id": 4,
+        "label": "Preparation",
+        "x": 550.0,
+        "y": 285.33333333333337,
+        "mainRoomId": 4,
+        "isSubarea": false
+      }
+    ],
+    "edges": [],
+    "unsupportedObjectIds": [],
+    "titleEn": "The Flower Store",
+    "titleZh": "花店"
+  }
+}

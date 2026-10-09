@@ -1,0 +1,6114 @@
+[
+  {
+    "id": "the-wine-cellar-lesson-1",
+    "title": "先读地图与全局规则",
+    "explanation": "9 人共用 9 行、9 列；先从地形、家具与明确区域建立候选。",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1",
+      "general-2",
+      "general-3"
+    ],
+    "focusCharacters": [],
+    "candidateCharacters": [],
+    "highlightCells": [],
+    "actions": [
+      {
+        "type": "setCandidates",
+        "character": "A",
+        "cells": [
+          "R1C4",
+          "R1C5",
+          "R1C6",
+          "R1C7",
+          "R2C1",
+          "R2C3",
+          "R2C4",
+          "R2C5",
+          "R2C6",
+          "R3C1",
+          "R3C2",
+          "R3C3",
+          "R3C4",
+          "R3C5",
+          "R3C6",
+          "R3C7",
+          "R4C5",
+          "R4C8",
+          "R4C9",
+          "R5C2",
+          "R5C4",
+          "R5C5",
+          "R5C7",
+          "R5C8",
+          "R6C2",
+          "R6C3",
+          "R6C4",
+          "R6C5",
+          "R6C6",
+          "R6C7",
+          "R7C1",
+          "R7C2",
+          "R7C5",
+          "R8C4",
+          "R8C5",
+          "R8C7",
+          "R8C8",
+          "R9C5",
+          "R9C7",
+          "R9C9"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "B",
+        "cells": [
+          "R9C5",
+          "R9C7",
+          "R9C9"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "C",
+        "cells": [
+          "R4C9",
+          "R5C8",
+          "R6C2",
+          "R7C1",
+          "R7C5",
+          "R8C4",
+          "R8C7",
+          "R9C5",
+          "R9C7"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "D",
+        "cells": [
+          "R1C4",
+          "R1C5",
+          "R1C6",
+          "R1C7",
+          "R2C1",
+          "R2C3",
+          "R2C4",
+          "R2C5",
+          "R2C6",
+          "R3C1",
+          "R3C2",
+          "R3C3",
+          "R3C4",
+          "R3C5",
+          "R3C6",
+          "R3C7",
+          "R4C5",
+          "R4C8",
+          "R4C9",
+          "R5C2",
+          "R5C4",
+          "R5C5",
+          "R5C7",
+          "R5C8",
+          "R6C2",
+          "R6C3",
+          "R6C4",
+          "R6C5",
+          "R6C6",
+          "R6C7",
+          "R7C1",
+          "R7C2",
+          "R7C5",
+          "R8C4",
+          "R8C5",
+          "R8C7",
+          "R8C8",
+          "R9C5",
+          "R9C7",
+          "R9C9"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "E",
+        "cells": [
+          "R6C2",
+          "R6C3",
+          "R6C4",
+          "R6C5",
+          "R6C6",
+          "R6C7",
+          "R6C8",
+          "R7C1",
+          "R7C8",
+          "R8C8",
+          "R8C9",
+          "R9C9"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "F",
+        "cells": [
+          "R1C4",
+          "R1C7",
+          "R2C1",
+          "R3C2",
+          "R4C7",
+          "R5C3",
+          "R5C6",
+          "R6C2",
+          "R6C4"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "G",
+        "cells": [
+          "R1C3",
+          "R1C4",
+          "R2C1",
+          "R2C2",
+          "R2C3"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "H",
+        "cells": [
+          "R1C3",
+          "R2C2",
+          "R2C8",
+          "R2C9",
+          "R3C9",
+          "R4C2",
+          "R4C4",
+          "R4C7",
+          "R5C3",
+          "R5C6",
+          "R6C8",
+          "R7C8",
+          "R8C9"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "V",
+        "cells": [
+          "R1C3",
+          "R1C4",
+          "R1C5",
+          "R1C6",
+          "R1C7",
+          "R2C1",
+          "R2C2",
+          "R2C3",
+          "R2C4",
+          "R2C5",
+          "R2C6",
+          "R2C8",
+          "R2C9",
+          "R3C1",
+          "R3C2",
+          "R3C3",
+          "R3C4",
+          "R3C5",
+          "R3C6",
+          "R3C7",
+          "R3C9",
+          "R4C2",
+          "R4C4",
+          "R4C5",
+          "R4C7",
+          "R4C8",
+          "R4C9",
+          "R5C2",
+          "R5C3",
+          "R5C4",
+          "R5C5",
+          "R5C6",
+          "R5C7",
+          "R5C8",
+          "R6C2",
+          "R6C3",
+          "R6C4",
+          "R6C5",
+          "R6C6",
+          "R6C7",
+          "R6C8",
+          "R7C1",
+          "R7C2",
+          "R7C5",
+          "R7C8",
+          "R8C4",
+          "R8C5",
+          "R8C7",
+          "R8C8",
+          "R8C9",
+          "R9C5",
+          "R9C7",
+          "R9C9"
+        ]
+      }
+    ],
+    "rule": "地图与初始单人条件",
+    "details": [
+      "每行、每列最多一人；死者 V 也参与行列限制。",
+      "旁边按同一逻辑区域内的上下左右判断；家具是否可站立，以地图格子的属性为准。",
+      "本页逐步保存候选排除。只有某人的候选恰好剩一格时，才执行落位。",
+      "全局条件：床上只有一个人。",
+      "全局条件：没有空房间。",
+      "全局条件：只有两个人坐在椅子上。"
+    ]
+  },
+  {
+    "id": "the-wine-cellar-lesson-2",
+    "title": "先看 Austin、Benton、Chloe 的候选",
+    "explanation": "A：他不在桌子旁边。（40 个候选）；B：他在最下面一行。（3 个候选）；C：她在架子旁边。（9 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1",
+      "general-2",
+      "general-3"
+    ],
+    "focusCharacters": [
+      "A",
+      "B",
+      "C"
+    ],
+    "candidateCharacters": [
+      "A",
+      "B",
+      "C"
+    ],
+    "highlightCells": [
+      "R1C4",
+      "R1C5",
+      "R1C6",
+      "R1C7",
+      "R2C1",
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R3C1",
+      "R3C2",
+      "R3C3",
+      "R3C4",
+      "R3C5",
+      "R3C6",
+      "R3C7",
+      "R4C5",
+      "R4C8",
+      "R4C9",
+      "R5C2",
+      "R5C4",
+      "R5C5",
+      "R5C7",
+      "R5C8",
+      "R6C2",
+      "R6C3",
+      "R6C4",
+      "R6C5",
+      "R6C6",
+      "R6C7",
+      "R7C1",
+      "R7C2",
+      "R7C5",
+      "R8C4",
+      "R8C5",
+      "R8C7",
+      "R8C8",
+      "R9C5",
+      "R9C7",
+      "R9C9"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Austin（A） 的原始线索：他不在桌子旁边。",
+      "A 候选：40 格，分布在 R1–R9 / C1–C9（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Benton（B） 的原始线索：他在最下面一行。",
+      "B 候选：R9C5、7、9。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Chloe（C） 的原始线索：她在架子旁边。",
+      "C 候选：9 格，分布在 R4–R9 / C1–C9（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "the-wine-cellar-lesson-3",
+    "title": "先看 Dawn、Elodie、Fred 的候选",
+    "explanation": "D：她在Benton的东边。她不在桌子旁边。（40 个候选）；E：她在地下室。她不在电视旁边。（12 个候选）；F：他独自一人。他坐在椅子上。（9 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1",
+      "general-2",
+      "general-3"
+    ],
+    "focusCharacters": [
+      "D",
+      "E",
+      "F"
+    ],
+    "candidateCharacters": [
+      "D",
+      "E",
+      "F"
+    ],
+    "highlightCells": [
+      "R1C4",
+      "R1C5",
+      "R1C6",
+      "R1C7",
+      "R2C1",
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R3C1",
+      "R3C2",
+      "R3C3",
+      "R3C4",
+      "R3C5",
+      "R3C6",
+      "R3C7",
+      "R4C5",
+      "R4C7",
+      "R4C8",
+      "R4C9",
+      "R5C2",
+      "R5C3",
+      "R5C4",
+      "R5C5",
+      "R5C6",
+      "R5C7",
+      "R5C8",
+      "R6C2",
+      "R6C3",
+      "R6C4",
+      "R6C5",
+      "R6C6",
+      "R6C7",
+      "R6C8",
+      "R7C1",
+      "R7C2",
+      "R7C5",
+      "R7C8",
+      "R8C4",
+      "R8C5",
+      "R8C7",
+      "R8C8",
+      "R8C9",
+      "R9C5",
+      "R9C7",
+      "R9C9"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Dawn（D） 的原始线索：她在Benton的东边。她不在桌子旁边。",
+      "D 候选：40 格，分布在 R1–R9 / C1–C9（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Elodie（E） 的原始线索：她在地下室。她不在电视旁边。",
+      "E 候选：12 格，分布在 R6–R9 / C1–C9（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Fred（F） 的原始线索：他独自一人。他坐在椅子上。",
+      "F 候选：9 格，分布在 R1–R6 / C1–C7（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "the-wine-cellar-lesson-4",
+    "title": "先看 Gino、Herman、Vin 的候选",
+    "explanation": "G：他在浴室。（5 个候选）；H：他在桌子旁边。（13 个候选）；V：被害者。和凶手单独在一起。（53 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1",
+      "general-2",
+      "general-3"
+    ],
+    "focusCharacters": [
+      "G",
+      "H",
+      "V"
+    ],
+    "candidateCharacters": [
+      "G",
+      "H",
+      "V"
+    ],
+    "highlightCells": [
+      "R1C3",
+      "R1C4",
+      "R1C5",
+      "R1C6",
+      "R1C7",
+      "R2C1",
+      "R2C2",
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R2C8",
+      "R2C9",
+      "R3C1",
+      "R3C2",
+      "R3C3",
+      "R3C4",
+      "R3C5",
+      "R3C6",
+      "R3C7",
+      "R3C9",
+      "R4C2",
+      "R4C4",
+      "R4C5",
+      "R4C7",
+      "R4C8",
+      "R4C9",
+      "R5C2",
+      "R5C3",
+      "R5C4",
+      "R5C5",
+      "R5C6",
+      "R5C7",
+      "R5C8",
+      "R6C2",
+      "R6C3",
+      "R6C4",
+      "R6C5",
+      "R6C6",
+      "R6C7",
+      "R6C8",
+      "R7C1",
+      "R7C2",
+      "R7C5",
+      "R7C8",
+      "R8C4",
+      "R8C5",
+      "R8C7",
+      "R8C8",
+      "R8C9",
+      "R9C5",
+      "R9C7",
+      "R9C9"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Gino（G） 的原始线索：他在浴室。",
+      "G 候选：R1C3–4；R2C1–3。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Herman（H） 的原始线索：他在桌子旁边。",
+      "H 候选：13 格，分布在 R1–R8 / C2–C9（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Vin（V） 的原始线索：被害者。和凶手单独在一起。",
+      "V 候选：53 格，分布在 R1–R9 / C1–C9（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "the-wine-cellar-lesson-5",
+    "title": "Fred：候选缩至 7 格",
+    "explanation": "B 的 2 个候选共同排除同行同列冲突格，E 从 12 格缩到 11 格；Fred 独处，其他人必须在不同区域，F 从 9 格缩到 7 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1",
+      "general-2",
+      "general-3"
+    ],
+    "focusCharacters": [
+      "F",
+      "A",
+      "B",
+      "D"
+    ],
+    "candidateCharacters": [
+      "F",
+      "A",
+      "B"
+    ],
+    "highlightCells": [
+      "R1C4",
+      "R1C5",
+      "R1C6",
+      "R1C7",
+      "R2C1",
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R3C1",
+      "R3C2",
+      "R3C3",
+      "R3C4",
+      "R3C5",
+      "R3C6",
+      "R3C7",
+      "R4C5",
+      "R4C7",
+      "R4C8",
+      "R4C9",
+      "R5C2",
+      "R5C3",
+      "R5C4",
+      "R5C5",
+      "R5C6",
+      "R5C7",
+      "R5C8",
+      "R6C2",
+      "R6C3",
+      "R6C4",
+      "R6C5",
+      "R6C6",
+      "R6C7",
+      "R7C1",
+      "R7C2",
+      "R7C5",
+      "R8C4",
+      "R8C5",
+      "R8C7",
+      "R8C8",
+      "R9C5",
+      "R9C7"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R9C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R9C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R9C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R9C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R9C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R9C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R1C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R1C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R2C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R2C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R2C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R2C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R3C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R3C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R3C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R3C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R3C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R4C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R5C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R5C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R5C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R6C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R6C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R6C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R6C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R7C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R7C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R7C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R8C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R8C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R9C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R9C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R9C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R9C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R6C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R6C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-4"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "A：每行、每列最多一人。候选从 40 格减至 37 格；剩余 37 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "B：Benton 与 Dawn 的关系线索。候选从 3 格减至 2 格；剩余 R9C5、7。",
+      "C：每行、每列最多一人。候选从 9 格减至 7 格；剩余 R4C9；R5C8；R6C2；R7C1、5；R8C4、7。",
+      "D：Benton 与 Dawn 的关系线索。候选从 40 格减至 13 格；剩余 13 格，分布在 R1–R8 / C6–C9（点人物查看候选）。",
+      "E：每行、每列最多一人。候选从 12 格减至 11 格；剩余 11 格，分布在 R6–R8 / C1–C9（点人物查看候选）。",
+      "F：Fred 独处，其他人必须在不同区域。候选从 9 格减至 7 格；剩余 R1C4、7；R2C1；R3C2；R4C7；R5C3、6。",
+      "例如 F 在 R6C2，找不到既满足两人关系、又不同行同列的 E。E 现有候选：11 格，分布在 R6–R8 / C1–C9（点人物查看候选）。"
+    ]
+  },
+  {
+    "id": "the-wine-cellar-lesson-6",
+    "title": "确定 Benton",
+    "explanation": "B 只剩 R9C7。恰好一人在床上，B 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1",
+      "general-2",
+      "general-3"
+    ],
+    "focusCharacters": [
+      "B",
+      "F",
+      "G",
+      "V"
+    ],
+    "candidateCharacters": [
+      "F",
+      "G",
+      "V"
+    ],
+    "highlightCells": [
+      "R1C3",
+      "R1C4",
+      "R1C5",
+      "R1C6",
+      "R1C7",
+      "R2C1",
+      "R2C2",
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R2C8",
+      "R2C9",
+      "R3C1",
+      "R3C2",
+      "R3C3",
+      "R3C4",
+      "R3C5",
+      "R3C6",
+      "R3C7",
+      "R3C9",
+      "R4C2",
+      "R4C4",
+      "R4C5",
+      "R4C7",
+      "R4C8",
+      "R4C9",
+      "R5C2",
+      "R5C3",
+      "R5C4",
+      "R5C5",
+      "R5C6",
+      "R5C7",
+      "R5C8",
+      "R6C2",
+      "R6C3",
+      "R6C4",
+      "R6C5",
+      "R6C6",
+      "R6C7",
+      "R6C8",
+      "R7C1",
+      "R7C2",
+      "R7C5",
+      "R7C8",
+      "R8C4",
+      "R8C5",
+      "R8C7",
+      "R8C8",
+      "R8C9",
+      "R9C7"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R1C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R2C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R9C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R9C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R9C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R3C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R4C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R5C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R6C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R7C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R8C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R9C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "B",
+        "cell": "R9C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-5"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "F：Fred 独处，其他人必须在不同区域。候选从 7 格减至 5 格；剩余 R1C7；R3C2；R4C7；R5C3、6。",
+      "V：每行、每列最多一人。候选从 53 格减至 50 格；剩余 50 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "A：恰好一人在床上。候选从 37 格减至 31 格；剩余 31 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "B：恰好一人在床上。候选从 2 格减至 1 格；剩余 R9C7。",
+      "例如假设 B 在 R9C5，同步排除其他人的行列及关系冲突后，“恰好一人在床上”已没有足够的人数或合适同伴，所以这格不成立。其余被删候选按相同条件逐一核验。"
+    ]
+  },
+  {
+    "id": "the-wine-cellar-lesson-7",
+    "title": "Fred：候选缩至 3 格",
+    "explanation": "B 已锁定 R9C7，E 从 11 格缩到 10 格；Fred 独处，其他人必须在不同区域，F 从 5 格缩到 3 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1",
+      "general-2",
+      "general-3"
+    ],
+    "focusCharacters": [
+      "F",
+      "A",
+      "B",
+      "C"
+    ],
+    "candidateCharacters": [
+      "F",
+      "A",
+      "C"
+    ],
+    "highlightCells": [
+      "R1C4",
+      "R1C5",
+      "R1C6",
+      "R2C1",
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R3C1",
+      "R3C2",
+      "R3C3",
+      "R3C4",
+      "R3C6",
+      "R4C9",
+      "R5C2",
+      "R5C3",
+      "R5C4",
+      "R5C6",
+      "R5C8",
+      "R6C2",
+      "R6C3",
+      "R6C4",
+      "R6C6",
+      "R7C1",
+      "R7C2",
+      "R7C5",
+      "R8C4",
+      "R8C8",
+      "R9C7"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R1C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R3C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R5C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R6C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R8C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R8C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R1C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R1C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R2C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R3C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R3C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R5C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R6C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R6C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R8C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R4C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R6C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R1C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R4C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-6"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "A：每行、每列最多一人。候选从 31 格减至 26 格；剩余 26 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "C：每行、每列最多一人。候选从 7 格减至 6 格；剩余 R4C9；R5C8；R6C2；R7C1、5；R8C4。",
+      "D：Benton 与 Dawn 的关系线索。候选从 13 格减至 4 格；剩余 R4C8–9；R5C8；R8C8。",
+      "A：每行、每列最多一人。候选从 26 格减至 25 格；剩余 25 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "E：每行、每列最多一人。候选从 11 格减至 10 格；剩余 10 格，分布在 R6–R8 / C1–C9（点人物查看候选）。",
+      "F：Fred 独处，其他人必须在不同区域。候选从 5 格减至 3 格；剩余 R3C2；R5C3、6。",
+      "例如 F 在 R1C7，找不到既满足两人关系、又不同行同列的 B。B 现有候选：R9C7。"
+    ]
+  },
+  {
+    "id": "the-wine-cellar-lesson-8",
+    "title": "Vin：候选缩至 39 格",
+    "explanation": "D 的 4 个候选共同排除同行同列冲突格，V 从 44 格缩到 43 格；Fred 独处，其他人必须在不同区域，V 从 43 格缩到 39 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1",
+      "general-2",
+      "general-3"
+    ],
+    "focusCharacters": [
+      "V",
+      "A",
+      "F",
+      "H"
+    ],
+    "candidateCharacters": [
+      "V",
+      "A",
+      "F"
+    ],
+    "highlightCells": [
+      "R1C3",
+      "R1C4",
+      "R1C5",
+      "R1C6",
+      "R2C1",
+      "R2C2",
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R2C8",
+      "R2C9",
+      "R3C1",
+      "R3C2",
+      "R3C3",
+      "R3C4",
+      "R3C5",
+      "R3C6",
+      "R3C9",
+      "R4C2",
+      "R4C4",
+      "R4C5",
+      "R4C9",
+      "R5C3",
+      "R5C6",
+      "R5C8",
+      "R6C2",
+      "R6C3",
+      "R6C4",
+      "R6C5",
+      "R6C6",
+      "R6C8",
+      "R7C1",
+      "R7C2",
+      "R7C5",
+      "R7C8",
+      "R8C4",
+      "R8C5",
+      "R8C8",
+      "R8C9"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R5C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R5C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R4C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R5C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R8C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-7"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "A：Fred 独处，其他人必须在不同区域。候选从 25 格减至 23 格；剩余 23 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "H：每行、每列最多一人。候选从 13 格减至 12 格；剩余 12 格，分布在 R1–R8 / C2–C9（点人物查看候选）。",
+      "H：Fred 独处，其他人必须在不同区域。候选从 12 格减至 11 格；剩余 11 格，分布在 R1–R8 / C2–C9（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 50 格减至 44 格；剩余 44 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 44 格减至 43 格；剩余 43 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "V：Fred 独处，其他人必须在不同区域。候选从 43 格减至 39 格；剩余 39 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "例如 V 在 R5C2，找不到既满足两人关系、又不同行同列的 F。F 现有候选：R3C2；R5C3、6。"
+    ]
+  },
+  {
+    "id": "the-wine-cellar-lesson-9",
+    "title": "确定 Fred",
+    "explanation": "F 只剩 R5C3。逐个假设并排除矛盾，F 从 3 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1",
+      "general-2",
+      "general-3"
+    ],
+    "focusCharacters": [
+      "F",
+      "C",
+      "E",
+      "V"
+    ],
+    "candidateCharacters": [
+      "C",
+      "E",
+      "V"
+    ],
+    "highlightCells": [
+      "R1C3",
+      "R1C4",
+      "R1C5",
+      "R1C6",
+      "R2C1",
+      "R2C2",
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R2C8",
+      "R3C1",
+      "R3C2",
+      "R3C3",
+      "R3C4",
+      "R3C6",
+      "R3C9",
+      "R4C2",
+      "R4C4",
+      "R4C9",
+      "R5C3",
+      "R5C6",
+      "R5C8",
+      "R6C2",
+      "R6C3",
+      "R6C4",
+      "R6C6",
+      "R6C8",
+      "R7C1",
+      "R7C2",
+      "R7C8",
+      "R8C4",
+      "R8C8",
+      "R8C9"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R7C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R6C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R8C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R3C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R5C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "F",
+        "cell": "R5C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-8"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "C：恰好一人在床上。候选从 6 格减至 5 格；剩余 R4C9；R5C8；R6C2；R7C1；R8C4。",
+      "E：恰好一人在床上。候选从 10 格减至 9 格；剩余 9 格，分布在 R6–R8 / C1–C9（点人物查看候选）。",
+      "V：恰好一人在床上。候选从 39 格减至 34 格；剩余 34 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "V：死者与凶手独处，所在区域恰好两人。候选从 34 格减至 33 格；剩余 33 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "F：逐个假设 3 个候选，排除 2 个无解分支，剩余 R5C3。这是约束传播与必要时的完整枚举，不是直接看出的唯一位置。",
+      "代表分支 F=R3C2：A 因“每个区域都必须有人无法满足”从 8 个候选变为 0 个。候选清空，假设矛盾。完整分支记录保存在证据文件。"
+    ]
+  },
+  {
+    "id": "the-wine-cellar-lesson-10",
+    "title": "Austin：候选缩至 16 格",
+    "explanation": "Fred 独处，其他人必须在不同区域，G 从 5 格缩到 3 格；G 的 3 个候选共同排除同行同列冲突格，A 从 17 格缩到 16 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1",
+      "general-2",
+      "general-3"
+    ],
+    "focusCharacters": [
+      "A",
+      "F",
+      "C",
+      "D"
+    ],
+    "candidateCharacters": [
+      "A",
+      "C",
+      "D"
+    ],
+    "highlightCells": [
+      "R1C4",
+      "R1C5",
+      "R1C6",
+      "R2C1",
+      "R2C5",
+      "R2C6",
+      "R3C4",
+      "R3C6",
+      "R4C8",
+      "R4C9",
+      "R5C3",
+      "R6C2",
+      "R6C4",
+      "R6C6",
+      "R7C1",
+      "R7C2",
+      "R8C4",
+      "R8C8"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R2C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R3C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R3C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R3C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R5C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R6C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R5C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R5C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R6C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "G",
+        "cell": "R1C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "G",
+        "cell": "R2C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R2C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-9"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "A：Fred 独处，其他人必须在不同区域。候选从 23 格减至 17 格；剩余 17 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "C：Fred 独处，其他人必须在不同区域。候选从 5 格减至 4 格；剩余 R4C9；R6C2；R7C1；R8C4。",
+      "D：Fred 独处，其他人必须在不同区域。候选从 4 格减至 3 格；剩余 R4C8–9；R8C8。",
+      "E：Fred 独处，其他人必须在不同区域。候选从 9 格减至 8 格；剩余 R6C2、4、6、8；R7C1、8；R8C8–9。",
+      "G：Fred 独处，其他人必须在不同区域。候选从 5 格减至 3 格；剩余 R1C4；R2C1–2。",
+      "A：每行、每列最多一人。候选从 17 格减至 16 格；剩余 16 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "例如 A 在 R2C4，会与 G 的全部剩余位置同行或同列，无法配对。G 现有候选：R1C4；R2C1–2。"
+    ]
+  },
+  {
+    "id": "the-wine-cellar-lesson-11",
+    "title": "Elodie：候选缩至 7 格",
+    "explanation": "恰好两人坐椅子，C 从 4 格缩到 3 格；恰好两人坐椅子，E 从 8 格缩到 7 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1",
+      "general-2",
+      "general-3"
+    ],
+    "focusCharacters": [
+      "E",
+      "H",
+      "F",
+      "V"
+    ],
+    "candidateCharacters": [
+      "E",
+      "H",
+      "V"
+    ],
+    "highlightCells": [
+      "R1C4",
+      "R1C5",
+      "R1C6",
+      "R2C1",
+      "R2C2",
+      "R2C5",
+      "R2C6",
+      "R2C8",
+      "R2C9",
+      "R3C4",
+      "R3C6",
+      "R3C9",
+      "R4C9",
+      "R5C3",
+      "R6C2",
+      "R6C4",
+      "R6C6",
+      "R6C8",
+      "R7C1",
+      "R7C2",
+      "R7C8",
+      "R8C4",
+      "R8C8",
+      "R8C9"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R1C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R4C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R4C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R5C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R2C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R6C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R6C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R6C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-10"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "H：Fred 独处，其他人必须在不同区域。候选从 11 格减至 7 格；剩余 R2C2、8–9；R3C9；R6C8；R7C8；R8C9。",
+      "V：Fred 独处，其他人必须在不同区域。候选从 33 格减至 23 格；剩余 23 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 23 格减至 22 格；剩余 22 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "A：恰好两人坐椅子。候选从 16 格减至 14 格；剩余 14 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "C：恰好两人坐椅子。候选从 4 格减至 3 格；剩余 R4C9；R7C1；R8C4。",
+      "E：恰好两人坐椅子。候选从 8 格减至 7 格；剩余 R6C4、6、8；R7C1、8；R8C8–9。",
+      "例如假设 E 在 R6C2，同步排除其他人的行列及关系冲突后，“恰好两人坐椅子”已没有足够的人数或合适同伴，所以这格不成立。其余被删候选按相同条件逐一核验。"
+    ]
+  },
+  {
+    "id": "the-wine-cellar-lesson-12",
+    "title": "确定 Chloe",
+    "explanation": "C 只剩 R8C4。逐个假设并排除矛盾，C 从 3 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1",
+      "general-2",
+      "general-3"
+    ],
+    "focusCharacters": [
+      "C",
+      "V"
+    ],
+    "candidateCharacters": [
+      "V"
+    ],
+    "highlightCells": [
+      "R1C4",
+      "R1C5",
+      "R1C6",
+      "R2C2",
+      "R2C5",
+      "R2C6",
+      "R2C8",
+      "R3C4",
+      "R3C6",
+      "R3C9",
+      "R6C4",
+      "R6C6",
+      "R6C8",
+      "R7C1",
+      "R7C2",
+      "R7C8",
+      "R8C4",
+      "R8C8"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R8C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R4C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R7C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "C",
+        "cell": "R8C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-11"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "V：恰好两人坐椅子。候选从 22 格减至 20 格；剩余 20 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "V：死者与凶手独处，所在区域恰好两人。候选从 20 格减至 18 格；剩余 18 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "C：逐个假设 3 个候选，排除 2 个无解分支，剩余 R8C4。这是约束传播与必要时的完整枚举，不是直接看出的唯一位置。",
+      "代表分支 C=R4C9：V 因“A、E 共 2 人锁定第 1、6 列”从 3 个候选变为 0 个。候选清空，假设矛盾。完整分支记录保存在证据文件。"
+    ]
+  },
+  {
+    "id": "the-wine-cellar-lesson-13",
+    "title": "Austin：候选缩至 6 格",
+    "explanation": "C 已锁定 R8C4，G 从 3 格缩到 2 格；G 的 2 个候选共同排除同行同列冲突格，A 从 8 格缩到 6 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1",
+      "general-2",
+      "general-3"
+    ],
+    "focusCharacters": [
+      "A",
+      "C",
+      "D",
+      "E"
+    ],
+    "candidateCharacters": [
+      "A",
+      "D",
+      "E"
+    ],
+    "highlightCells": [
+      "R1C5",
+      "R1C6",
+      "R3C6",
+      "R4C8",
+      "R4C9",
+      "R6C6",
+      "R6C8",
+      "R7C1",
+      "R7C2",
+      "R7C8",
+      "R8C4"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R1C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R3C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R6C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R8C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R8C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R8C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R4C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R6C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R8C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R8C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "G",
+        "cell": "R1C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R2C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R2C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-12"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "A：每行、每列最多一人。候选从 14 格减至 9 格；剩余 9 格，分布在 R1–R7 / C1–C9（点人物查看候选）。",
+      "D：每行、每列最多一人。候选从 3 格减至 2 格；剩余 R4C8–9。",
+      "A：每行、每列最多一人。候选从 9 格减至 8 格；剩余 R1C5–6；R2C5–6；R3C6；R6C6；R7C1–2。",
+      "E：每行、每列最多一人。候选从 7 格减至 4 格；剩余 R6C6、8；R7C1、8。",
+      "G：每行、每列最多一人。候选从 3 格减至 2 格；剩余 R2C1–2。",
+      "A：每行、每列最多一人。候选从 8 格减至 6 格；剩余 R1C5–6；R3C6；R6C6；R7C1–2。",
+      "例如 A 在 R2C5，会与 G 的全部剩余位置同行或同列，无法配对。G 现有候选：R2C1–2。"
+    ]
+  },
+  {
+    "id": "the-wine-cellar-lesson-14",
+    "title": "Vin：候选缩至 6 格",
+    "explanation": "D、H 共 2 人锁定第 8、9 列，E 从 4 格缩到 2 格；D、H 共 2 人锁定第 8、9 列，V 从 9 格缩到 6 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1",
+      "general-2",
+      "general-3"
+    ],
+    "focusCharacters": [
+      "V",
+      "H",
+      "C",
+      "G"
+    ],
+    "candidateCharacters": [
+      "V",
+      "H",
+      "G"
+    ],
+    "highlightCells": [
+      "R1C5",
+      "R1C6",
+      "R2C1",
+      "R2C2",
+      "R3C6",
+      "R3C9",
+      "R6C6",
+      "R6C8",
+      "R7C1",
+      "R7C2",
+      "R7C8",
+      "R8C4"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R8C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R2C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R2C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R2C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R8C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R8C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R6C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R7C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-13"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "H：每行、每列最多一人。候选从 7 格减至 6 格；剩余 R2C2、8–9；R3C9；R6C8；R7C8。",
+      "H：每行、每列最多一人。候选从 6 格减至 3 格；剩余 R3C9；R6C8；R7C8。",
+      "V：每行、每列最多一人。候选从 18 格减至 13 格；剩余 13 格，分布在 R1–R7 / C1–C9（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 13 格减至 9 格；剩余 9 格，分布在 R1–R7 / C1–C9（点人物查看候选）。",
+      "E：D、H 共 2 人锁定第 8、9 列。候选从 4 格减至 2 格；剩余 R6C6；R7C1。",
+      "V：D、H 共 2 人锁定第 8、9 列。候选从 9 格减至 6 格；剩余 R1C5–6；R3C6；R6C6；R7C1–2。",
+      "D、H 共 2 人，只能用第 8–9 列，必须恰好占满；V 因此不能用这些列。各人范围：D 在第 8–9 列；H 在第 8–9 列。"
+    ]
+  },
+  {
+    "id": "the-wine-cellar-lesson-15",
+    "title": "确定 Elodie",
+    "explanation": "E 只剩 R6C6。恰好两人坐椅子，E 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1",
+      "general-2",
+      "general-3"
+    ],
+    "focusCharacters": [
+      "E",
+      "A",
+      "V"
+    ],
+    "candidateCharacters": [
+      "A",
+      "V"
+    ],
+    "highlightCells": [
+      "R1C5",
+      "R3C6",
+      "R6C6",
+      "R7C1",
+      "R7C2"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R1C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R7C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R7C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "E",
+        "cell": "R6C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-14"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "A：恰好一人在床上。候选从 6 格减至 5 格；剩余 R1C5；R3C6；R6C6；R7C1–2。",
+      "V：恰好一人在床上。候选从 6 格减至 5 格；剩余 R1C5；R3C6；R6C6；R7C1–2。",
+      "A：恰好两人坐椅子。候选从 5 格减至 4 格；剩余 R1C5；R3C6；R6C6；R7C2。",
+      "E：恰好两人坐椅子。候选从 2 格减至 1 格；剩余 R6C6。",
+      "例如假设 E 在 R7C1，同步排除其他人的行列及关系冲突后，“恰好两人坐椅子”已没有足够的人数或合适同伴，所以这格不成立。其余被删候选按相同条件逐一核验。"
+    ]
+  },
+  {
+    "id": "the-wine-cellar-lesson-16",
+    "title": "确定 Herman",
+    "explanation": "H 只剩 R3C9。A、V 共 2 人锁定第 1、7 行，H 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1",
+      "general-2",
+      "general-3"
+    ],
+    "focusCharacters": [
+      "H",
+      "A",
+      "E",
+      "V"
+    ],
+    "candidateCharacters": [
+      "A",
+      "V"
+    ],
+    "highlightCells": [
+      "R1C5",
+      "R3C9",
+      "R6C6",
+      "R7C1",
+      "R7C2"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R3C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R6C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R6C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R7C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "H",
+        "cell": "R3C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-15"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "A：每行、每列最多一人。候选从 4 格减至 2 格；剩余 R1C5；R7C2。",
+      "H：每行、每列最多一人。候选从 3 格减至 2 格；剩余 R3C9；R7C8。",
+      "V：每行、每列最多一人。候选从 5 格减至 3 格；剩余 R1C5；R7C1–2。",
+      "H：A、V 共 2 人锁定第 1、7 行。候选从 2 格减至 1 格；剩余 R3C9。",
+      "A、V 共 2 人，只能用第 1、7 行，必须恰好占满；H 因此不能用这些行。各人范围：A 在第 1、7 行；V 在第 1、7 行。"
+    ]
+  },
+  {
+    "id": "the-wine-cellar-lesson-17",
+    "title": "确定 Dawn",
+    "explanation": "D 只剩 R4C8。H 已锁定 R3C9，D 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1",
+      "general-2",
+      "general-3"
+    ],
+    "focusCharacters": [
+      "D",
+      "H"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R3C9",
+      "R4C8"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R4C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-16"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "D",
+        "cell": "R4C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-16"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "D：每行、每列最多一人。候选从 2 格减至 1 格；剩余 R4C8。",
+      "例如 D 在 R4C9，会与 H 的全部剩余位置同行或同列，无法配对。H 现有候选：R3C9。"
+    ]
+  },
+  {
+    "id": "the-wine-cellar-lesson-18",
+    "title": "确定 Gino",
+    "explanation": "G 只剩 R2C1。恰好两人坐椅子，G 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1",
+      "general-2",
+      "general-3"
+    ],
+    "focusCharacters": [
+      "G"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R2C1"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "G",
+        "cell": "R2C2",
+        "reason": {
+          "ruleId": "恰好两人坐椅子",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-17"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "G",
+        "cell": "R2C1",
+        "reason": {
+          "ruleId": "恰好两人坐椅子",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-17"
+          ]
+        }
+      }
+    ],
+    "rule": "恰好两人坐椅子",
+    "details": [
+      "G：恰好两人坐椅子。候选从 2 格减至 1 格；剩余 R2C1。",
+      "例如假设 G 在 R2C2，同步排除其他人的行列及关系冲突后，“恰好两人坐椅子”已没有足够的人数或合适同伴，所以这格不成立。其余被删候选按相同条件逐一核验。"
+    ]
+  },
+  {
+    "id": "the-wine-cellar-lesson-19",
+    "title": "确定 Austin",
+    "explanation": "A 只剩 R1C5。死者与凶手独处，所在区域恰好两人，A 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1",
+      "general-2",
+      "general-3"
+    ],
+    "focusCharacters": [
+      "A",
+      "V",
+      "G"
+    ],
+    "candidateCharacters": [
+      "V"
+    ],
+    "highlightCells": [
+      "R1C5",
+      "R2C1",
+      "R7C2"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-18"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R7C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-18"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "A",
+        "cell": "R1C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-18"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "V：每行、每列最多一人。候选从 3 格减至 2 格；剩余 R1C5；R7C2。",
+      "A：死者与凶手独处，所在区域恰好两人。候选从 2 格减至 1 格；剩余 R1C5。",
+      "例如假设 A 在 R7C2，同步排除其他人的行列及关系冲突后，“死者与凶手独处，所在区域恰好两人”已没有足够的人数或合适同伴，所以这格不成立。其余被删候选按相同条件逐一核验。"
+    ]
+  },
+  {
+    "id": "the-wine-cellar-lesson-20",
+    "title": "确定 Vin",
+    "explanation": "V 只剩 R7C2。A 已锁定 R1C5，V 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1",
+      "general-2",
+      "general-3"
+    ],
+    "focusCharacters": [
+      "V",
+      "A"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R1C5",
+      "R7C2"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-19"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "V",
+        "cell": "R7C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1",
+            "general-2",
+            "general-3"
+          ],
+          "dependsOn": [
+            "the-wine-cellar-lesson-19"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "V：每行、每列最多一人。候选从 2 格减至 1 格；剩余 R7C2。",
+      "例如 V 在 R1C5，会与 A 的全部剩余位置同行或同列，无法配对。A 现有候选：R1C5。"
+    ]
+  },
+  {
+    "id": "the-wine-cellar-lesson-21",
+    "title": "Elodie 是凶手",
+    "explanation": "死者 V 位于地下室的 R7C2；同区唯一另一人是 Elodie（E），位置为 R6C6。",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1",
+      "general-2",
+      "general-3"
+    ],
+    "focusCharacters": [
+      "E",
+      "V"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R6C6",
+      "R7C2"
+    ],
+    "actions": [],
+    "rule": "死者与凶手独处",
+    "details": [
+      "死者线索要求与凶手独处，必须以最终逻辑区域的同区人数判定。",
+      "地下室实际人物：E 在 R6C6、V 在 R7C2；其余所有人都在其他区域。",
+      "9 人全部有位置，且每行、每列均无冲突。",
+      "最终位置由初始候选与记录中的约束排除得到；原始答案只由求解脚本在结束时作一致性核对。"
+    ]
+  }
+]

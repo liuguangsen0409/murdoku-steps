@@ -1,0 +1,50 @@
+{
+  "PROPERTIES": {
+    "player_hint_1_zh_hans": "由于(C)是唯一坐在椅子上的人，(E)能挨着电视的格子只有一个：R4 C6。",
+    "player_hint_2_zh_hans": "这样厨房里就剩一格给(D)。",
+    "player_hint_3_zh_hans": "由于(B)在床上，她必须占据仅剩的床格R1 C1。",
+    "player_hint_4_zh_hans": "之后，(A)能挨着架子的格子只剩R6 C4。",
+    "player_hint_5_zh_hans": "(C)必须占据R3 C5的最后一把椅子。这样(V)就锁定在最后剩下的格子。",
+    "solution_text_EN_0": "There is only one square where D can be, this isolates D.",
+    "solution_text_zh_hans_0": "D 只可能在一个格子里，这样就锁定了 D。",
+    "solution_text_EN_1": "This isolates B on the last square on a bed.",
+    "solution_text_zh_hans_1": "这样就锁定了一张床上最后一格的 B。",
+    "solution_text_EN_2": "This isolates A on the last square beside a shelf.",
+    "solution_text_zh_hans_2": "这样就锁定了一个架子旁边最后一格的 A。",
+    "solution_text_EN_3": "This isolates C on the last chair.",
+    "solution_text_zh_hans_3": "这样就锁定了最后一把椅子上的 C。",
+    "solution_text_EN_4": "This isolates E beside the TV.",
+    "solution_text_zh_hans_4": "这样就锁定了电视旁边的 E。",
+    "solution_text_EN_5": "This isolates V.",
+    "solution_text_zh_hans_5": "这样就锁定了 V。"
+  },
+  "GRID": {
+    "title_zh_hans_": "Netflix and Kill",
+    "room_name_0": "客厅",
+    "room_name_1": "厨房",
+    "room_name_2": "卧室",
+    "room_name_3": "浴室",
+    "room_name_4": "",
+    "room_name_5": "餐厅"
+  },
+  "CHARACTERS": {
+    "char_name_0": "Austin",
+    "char_quote_zh_hans_0": "在一个架子旁边。",
+    "char_subquote_zh_hans_0": "",
+    "char_name_1": "Barbara",
+    "char_quote_zh_hans_1": "躺在床上。",
+    "char_subquote_zh_hans_1": "",
+    "char_name_2": "Charlotte",
+    "char_quote_zh_hans_2": "是唯一",
+    "char_subquote_zh_hans_2": "坐在椅子上的人。",
+    "char_name_3": "Dean",
+    "char_quote_zh_hans_3": "在厨房里。",
+    "char_subquote_zh_hans_3": "",
+    "char_name_4": "Enid",
+    "char_quote_zh_hans_4": "在电视旁边。",
+    "char_subquote_zh_hans_4": "",
+    "char_name_5": "Vaughn",
+    "char_quote_zh_hans_5": "被害者。和凶手单独在一起。",
+    "char_subquote_zh_hans_5": ""
+  }
+}

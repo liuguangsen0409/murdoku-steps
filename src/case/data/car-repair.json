@@ -1,0 +1,1132 @@
+{
+  "id": "car-repair",
+  "width": 6,
+  "height": 6,
+  "cells": [
+    {
+      "id": "R1C1",
+      "row": 1,
+      "col": 1,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        4
+      ],
+      "fill": "#a4a4d1",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R1C2",
+      "row": 1,
+      "col": 2,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        2
+      ],
+      "fill": "#a4a4d1",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R1C3",
+      "row": 1,
+      "col": 3,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        4
+      ],
+      "fill": "#a4a4d1",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R1C4",
+      "row": 1,
+      "col": 4,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        3
+      ],
+      "fill": "#b2a5da",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R1C5",
+      "row": 1,
+      "col": 5,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#9f8eb0",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R1C6",
+      "row": 1,
+      "col": 6,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        13
+      ],
+      "fill": "#9f8eb0",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R2C1",
+      "row": 2,
+      "col": 1,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#a4a4d1",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R2C2",
+      "row": 2,
+      "col": 2,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        4
+      ],
+      "fill": "#a4a4d1",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R2C3",
+      "row": 2,
+      "col": 3,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        4
+      ],
+      "fill": "#a4a4d1",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R2C4",
+      "row": 2,
+      "col": 4,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#b2a5da",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R2C5",
+      "row": 2,
+      "col": 5,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        1
+      ],
+      "fill": "#b2a5da",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R2C6",
+      "row": 2,
+      "col": 6,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#9f8eb0",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R3C1",
+      "row": 3,
+      "col": 1,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#a4a4d1",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R3C2",
+      "row": 3,
+      "col": 2,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#a4a4d1",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R3C3",
+      "row": 3,
+      "col": 3,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        13
+      ],
+      "fill": "#a4a4d1",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R3C4",
+      "row": 3,
+      "col": 4,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        2
+      ],
+      "fill": "#b2a5da",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R3C5",
+      "row": 3,
+      "col": 5,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        2
+      ],
+      "fill": "#b2a5da",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R3C6",
+      "row": 3,
+      "col": 6,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#b2a5da",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R4C1",
+      "row": 4,
+      "col": 1,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#a4a4d1",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R4C2",
+      "row": 4,
+      "col": 2,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#a388a5",
+      "texture": "bigwood",
+      "floorType": 18,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_bigwood.svg"
+    },
+    {
+      "id": "R4C3",
+      "row": 4,
+      "col": 3,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#a388a5",
+      "texture": "bigwood",
+      "floorType": 18,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_bigwood.svg"
+    },
+    {
+      "id": "R4C4",
+      "row": 4,
+      "col": 4,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        13
+      ],
+      "fill": "#a388a5",
+      "texture": "bigwood",
+      "floorType": 18,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_bigwood.svg"
+    },
+    {
+      "id": "R4C5",
+      "row": 4,
+      "col": 5,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        13
+      ],
+      "fill": "#a388a5",
+      "texture": "bigwood",
+      "floorType": 18,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_bigwood.svg"
+    },
+    {
+      "id": "R4C6",
+      "row": 4,
+      "col": 6,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#a388a5",
+      "texture": "bigwood",
+      "floorType": 18,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_bigwood.svg"
+    },
+    {
+      "id": "R5C1",
+      "row": 5,
+      "col": 1,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#a388a5",
+      "texture": "bigwood",
+      "floorType": 18,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_bigwood.svg"
+    },
+    {
+      "id": "R5C2",
+      "row": 5,
+      "col": 2,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        22
+      ],
+      "fill": "#a388a5",
+      "texture": "bigwood",
+      "floorType": 18,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_bigwood.svg"
+    },
+    {
+      "id": "R5C3",
+      "row": 5,
+      "col": 3,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        22
+      ],
+      "fill": "#a388a5",
+      "texture": "bigwood",
+      "floorType": 18,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_bigwood.svg"
+    },
+    {
+      "id": "R5C4",
+      "row": 5,
+      "col": 4,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        138
+      ],
+      "fill": "#a388a5",
+      "texture": "bigwood",
+      "floorType": 18,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_bigwood.svg"
+    },
+    {
+      "id": "R5C5",
+      "row": 5,
+      "col": 5,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#a388a5",
+      "texture": "bigwood",
+      "floorType": 18,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_bigwood.svg"
+    },
+    {
+      "id": "R5C6",
+      "row": 5,
+      "col": 6,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#a388a5",
+      "texture": "bigwood",
+      "floorType": 18,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_bigwood.svg"
+    },
+    {
+      "id": "R6C1",
+      "row": 6,
+      "col": 1,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#a388a5",
+      "texture": "bigwood",
+      "floorType": 18,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_bigwood.svg"
+    },
+    {
+      "id": "R6C2",
+      "row": 6,
+      "col": 2,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        138
+      ],
+      "fill": "#a388a5",
+      "texture": "bigwood",
+      "floorType": 18,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_bigwood.svg"
+    },
+    {
+      "id": "R6C3",
+      "row": 6,
+      "col": 3,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#a388a5",
+      "texture": "bigwood",
+      "floorType": 18,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_bigwood.svg"
+    },
+    {
+      "id": "R6C4",
+      "row": 6,
+      "col": 4,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        22
+      ],
+      "fill": "#a388a5",
+      "texture": "bigwood",
+      "floorType": 18,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_bigwood.svg"
+    },
+    {
+      "id": "R6C5",
+      "row": 6,
+      "col": 5,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        22
+      ],
+      "fill": "#a388a5",
+      "texture": "bigwood",
+      "floorType": 18,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_bigwood.svg"
+    },
+    {
+      "id": "R6C6",
+      "row": 6,
+      "col": 6,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#a388a5",
+      "texture": "bigwood",
+      "floorType": 18,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_bigwood.svg"
+    }
+  ],
+  "objects": [
+    {
+      "id": "object-1-1",
+      "kind": "table",
+      "cells": [
+        "R1C1"
+      ],
+      "asset": "/assets/catalog/car-repair/objects/table.svg",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "objectId": 4
+    },
+    {
+      "id": "object-1-2",
+      "kind": "chair",
+      "cells": [
+        "R1C2"
+      ],
+      "asset": "/assets/catalog/car-repair/objects/chair.svg",
+      "x": 1,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "objectId": 2
+    },
+    {
+      "id": "object-1-3",
+      "kind": "table",
+      "cells": [
+        "R1C3"
+      ],
+      "asset": "/assets/catalog/car-repair/objects/table.svg",
+      "x": 2,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "objectId": 4
+    },
+    {
+      "id": "object-1-4",
+      "kind": "tv",
+      "cells": [
+        "R1C4"
+      ],
+      "asset": "/assets/catalog/car-repair/objects/tv.svg",
+      "x": 3,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "objectId": 3
+    },
+    {
+      "id": "object-1-6",
+      "kind": "shelf",
+      "cells": [
+        "R1C6"
+      ],
+      "asset": "/assets/catalog/car-repair/objects/shelf.svg",
+      "x": 5,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "objectId": 13
+    },
+    {
+      "id": "object-2-2",
+      "kind": "table",
+      "cells": [
+        "R2C2"
+      ],
+      "asset": "/assets/catalog/car-repair/objects/table.svg",
+      "x": 1,
+      "y": 1,
+      "width": 1,
+      "height": 1,
+      "objectId": 4
+    },
+    {
+      "id": "object-2-3",
+      "kind": "table",
+      "cells": [
+        "R2C3"
+      ],
+      "asset": "/assets/catalog/car-repair/objects/table.svg",
+      "x": 2,
+      "y": 1,
+      "width": 1,
+      "height": 1,
+      "objectId": 4
+    },
+    {
+      "id": "object-2-5",
+      "kind": "plant",
+      "cells": [
+        "R2C5"
+      ],
+      "asset": "/assets/catalog/car-repair/objects/plant.svg",
+      "x": 4,
+      "y": 1,
+      "width": 1,
+      "height": 1,
+      "objectId": 1
+    },
+    {
+      "id": "object-3-3",
+      "kind": "shelf",
+      "cells": [
+        "R3C3"
+      ],
+      "asset": "/assets/catalog/car-repair/objects/shelf.svg",
+      "x": 2,
+      "y": 2,
+      "width": 1,
+      "height": 1,
+      "objectId": 13
+    },
+    {
+      "id": "object-3-4",
+      "kind": "chair",
+      "cells": [
+        "R3C4"
+      ],
+      "asset": "/assets/catalog/car-repair/objects/chair.svg",
+      "x": 3,
+      "y": 2,
+      "width": 1,
+      "height": 1,
+      "objectId": 2
+    },
+    {
+      "id": "object-3-5",
+      "kind": "chair",
+      "cells": [
+        "R3C5"
+      ],
+      "asset": "/assets/catalog/car-repair/objects/chair.svg",
+      "x": 4,
+      "y": 2,
+      "width": 1,
+      "height": 1,
+      "objectId": 2
+    },
+    {
+      "id": "object-4-4",
+      "kind": "shelf",
+      "cells": [
+        "R4C4"
+      ],
+      "asset": "/assets/catalog/car-repair/objects/shelf.svg",
+      "x": 3,
+      "y": 3,
+      "width": 1,
+      "height": 1,
+      "objectId": 13
+    },
+    {
+      "id": "object-4-5",
+      "kind": "shelf",
+      "cells": [
+        "R4C5"
+      ],
+      "asset": "/assets/catalog/car-repair/objects/shelf.svg",
+      "x": 4,
+      "y": 3,
+      "width": 1,
+      "height": 1,
+      "objectId": 13
+    },
+    {
+      "id": "object-5-2",
+      "kind": "car_reverse",
+      "cells": [
+        "R5C2",
+        "R5C3"
+      ],
+      "asset": "/assets/catalog/car-repair/objects/car_reverse.svg",
+      "x": 1,
+      "y": 4,
+      "width": 2,
+      "height": 1,
+      "objectId": 22
+    },
+    {
+      "id": "object-5-4",
+      "kind": "puddle",
+      "cells": [
+        "R5C4"
+      ],
+      "asset": "/assets/catalog/car-repair/objects/puddle.svg",
+      "x": 3,
+      "y": 4,
+      "width": 1,
+      "height": 1,
+      "objectId": 138
+    },
+    {
+      "id": "object-6-2",
+      "kind": "puddle",
+      "cells": [
+        "R6C2"
+      ],
+      "asset": "/assets/catalog/car-repair/objects/puddle.svg",
+      "x": 1,
+      "y": 5,
+      "width": 1,
+      "height": 1,
+      "objectId": 138
+    },
+    {
+      "id": "object-6-4",
+      "kind": "car_reverse",
+      "cells": [
+        "R6C4",
+        "R6C5"
+      ],
+      "asset": "/assets/catalog/car-repair/objects/car_reverse.svg",
+      "x": 3,
+      "y": 5,
+      "width": 2,
+      "height": 1,
+      "objectId": 22
+    }
+  ],
+  "rooms": [
+    {
+      "id": 0,
+      "label": "车库",
+      "labelEn": "Garage",
+      "cells": [
+        "R4C2",
+        "R4C3",
+        "R4C4",
+        "R4C5",
+        "R4C6",
+        "R5C1",
+        "R5C2",
+        "R5C3",
+        "R5C4",
+        "R5C5",
+        "R5C6",
+        "R6C1",
+        "R6C2",
+        "R6C3",
+        "R6C4",
+        "R6C5",
+        "R6C6"
+      ],
+      "fill": "#a388a5"
+    },
+    {
+      "id": 1,
+      "label": "等候区",
+      "labelEn": "Waiting Area",
+      "cells": [
+        "R1C4",
+        "R2C4",
+        "R2C5",
+        "R3C4",
+        "R3C5",
+        "R3C6"
+      ],
+      "fill": "#b2a5da"
+    },
+    {
+      "id": 2,
+      "label": "接待处",
+      "labelEn": "Reception",
+      "cells": [
+        "R1C1",
+        "R1C2",
+        "R1C3",
+        "R2C1",
+        "R2C2",
+        "R2C3",
+        "R3C1",
+        "R3C2",
+        "R3C3",
+        "R4C1"
+      ],
+      "fill": "#a4a4d1"
+    },
+    {
+      "id": 3,
+      "label": "储藏室",
+      "labelEn": "Storage",
+      "cells": [
+        "R1C5",
+        "R1C6",
+        "R2C6"
+      ],
+      "fill": "#9f8eb0"
+    }
+  ],
+  "roomLabels": [
+    {
+      "id": 0,
+      "label": "车库",
+      "x": 300.0,
+      "y": 585.3333333333334,
+      "mainRoomId": 0,
+      "isSubarea": false
+    },
+    {
+      "id": 1,
+      "label": "等候区",
+      "x": 450.0,
+      "y": 285.33333333333337,
+      "mainRoomId": 1,
+      "isSubarea": false
+    },
+    {
+      "id": 2,
+      "label": "接待处",
+      "x": 50.0,
+      "y": 385.33333333333337,
+      "mainRoomId": 2,
+      "isSubarea": false
+    },
+    {
+      "id": 3,
+      "label": "储藏室",
+      "x": 550.0,
+      "y": 185.33333333333331,
+      "mainRoomId": 3,
+      "isSubarea": false
+    }
+  ],
+  "objectNames": {
+    "1": "Plant",
+    "2": "Chair",
+    "3": "TV",
+    "4": "Table",
+    "13": "Shelf",
+    "22": "Car",
+    "138": "Oil Slick"
+  },
+  "characters": [
+    {
+      "id": "A",
+      "name": "Anthony",
+      "portrait": "/assets/catalog/car-repair/portraits/A.svg",
+      "clueId": "A-clue",
+      "clueEn": "He was in a car.",
+      "clueZh": "在一辆车里。",
+      "sex": 0
+    },
+    {
+      "id": "B",
+      "name": "Brock",
+      "portrait": "/assets/catalog/car-repair/portraits/B.svg",
+      "clueId": "B-clue",
+      "clueEn": "He was on an oil slick.",
+      "clueZh": "在一摊油渍上。",
+      "sex": 0
+    },
+    {
+      "id": "C",
+      "name": "Crystal",
+      "portrait": "/assets/catalog/car-repair/portraits/C.svg",
+      "clueId": "C-clue",
+      "clueEn": "She was sitting in a chair.",
+      "clueZh": "坐在一把椅子上。",
+      "sex": 1
+    },
+    {
+      "id": "D",
+      "name": "Diane",
+      "portrait": "/assets/catalog/car-repair/portraits/D.svg",
+      "clueId": "D-clue",
+      "clueEn": "She was alone in the Waiting Area.",
+      "clueZh": "独自在\n等候区。",
+      "sex": 1
+    },
+    {
+      "id": "E",
+      "name": "Emilio",
+      "portrait": "/assets/catalog/car-repair/portraits/E.svg",
+      "clueId": "E-clue",
+      "clueEn": "He was beside a shelf.",
+      "clueZh": "在一个架子旁边。",
+      "sex": 0
+    },
+    {
+      "id": "V",
+      "name": "Vaughn",
+      "portrait": "/assets/catalog/car-repair/portraits/V.svg",
+      "clueId": "V-clue",
+      "clueEn": "The Victim. He was alone with the murderer.",
+      "clueZh": "被害者。和凶手单独在一起。",
+      "sex": 0
+    }
+  ],
+  "generalClues": [],
+  "metadata": {
+    "sourceId": "puzzle-car-repair-easy",
+    "sourceFile": "puzzle-car-repair-easy.json",
+    "version": 2,
+    "coordinateOrder": "row_col",
+    "roomLabels": [
+      {
+        "id": 0,
+        "label": "Garage",
+        "x": 300.0,
+        "y": 585.3333333333334,
+        "mainRoomId": 0,
+        "isSubarea": false
+      },
+      {
+        "id": 1,
+        "label": "Waiting Area",
+        "x": 450.0,
+        "y": 285.33333333333337,
+        "mainRoomId": 1,
+        "isSubarea": false
+      },
+      {
+        "id": 2,
+        "label": "Reception",
+        "x": 50.0,
+        "y": 385.33333333333337,
+        "mainRoomId": 2,
+        "isSubarea": false
+      },
+      {
+        "id": 3,
+        "label": "Storage",
+        "x": 550.0,
+        "y": 185.33333333333331,
+        "mainRoomId": 3,
+        "isSubarea": false
+      }
+    ],
+    "edges": [],
+    "unsupportedObjectIds": [],
+    "titleEn": "Car Repair",
+    "titleZh": "汽车维修"
+  }
+}

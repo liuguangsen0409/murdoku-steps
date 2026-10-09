@@ -1,0 +1,2879 @@
+[
+  {
+    "id": "piano-lesson-lesson-1",
+    "title": "先读地图与全局规则",
+    "explanation": "6 人共用 6 行、6 列；先从地形、家具与明确区域建立候选。",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [],
+    "candidateCharacters": [],
+    "highlightCells": [],
+    "actions": [
+      {
+        "type": "setCandidates",
+        "character": "A",
+        "cells": [
+          "R4C1",
+          "R4C2",
+          "R5C1"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "B",
+        "cells": [
+          "R5C2",
+          "R5C4",
+          "R6C3"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "C",
+        "cells": [
+          "R1C1",
+          "R1C2",
+          "R1C5",
+          "R1C6",
+          "R2C2",
+          "R2C3",
+          "R2C4",
+          "R2C5",
+          "R2C6",
+          "R3C1",
+          "R3C2",
+          "R3C3",
+          "R3C4",
+          "R3C5",
+          "R3C6",
+          "R4C1",
+          "R4C2",
+          "R4C3",
+          "R4C4",
+          "R4C5",
+          "R4C6",
+          "R5C1",
+          "R5C2",
+          "R5C4",
+          "R5C5",
+          "R6C2",
+          "R6C3",
+          "R6C4",
+          "R6C5",
+          "R6C6"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "D",
+        "cells": [
+          "R1C1",
+          "R1C2",
+          "R1C5",
+          "R1C6",
+          "R2C2",
+          "R2C3",
+          "R2C4",
+          "R2C5",
+          "R2C6",
+          "R3C1",
+          "R3C2",
+          "R3C3",
+          "R3C4",
+          "R3C5",
+          "R3C6",
+          "R4C1",
+          "R4C2",
+          "R4C3",
+          "R4C4",
+          "R4C5",
+          "R4C6",
+          "R5C1",
+          "R5C2",
+          "R5C4",
+          "R5C5",
+          "R6C2",
+          "R6C3",
+          "R6C4",
+          "R6C5",
+          "R6C6"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "E",
+        "cells": [
+          "R1C1",
+          "R3C5",
+          "R4C3"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "V",
+        "cells": [
+          "R1C1",
+          "R1C2",
+          "R1C5",
+          "R1C6",
+          "R2C2",
+          "R2C3",
+          "R2C4",
+          "R2C5",
+          "R2C6",
+          "R3C1",
+          "R3C2",
+          "R3C3",
+          "R3C4",
+          "R3C5",
+          "R3C6",
+          "R4C1",
+          "R4C2",
+          "R4C3",
+          "R4C4",
+          "R4C5",
+          "R4C6",
+          "R5C1",
+          "R5C2",
+          "R5C4",
+          "R5C5",
+          "R6C2",
+          "R6C3",
+          "R6C4",
+          "R6C5",
+          "R6C6"
+        ]
+      }
+    ],
+    "rule": "地图与初始单人条件",
+    "details": [
+      "每行、每列最多一人；死者 V 也参与行列限制。",
+      "旁边按同一逻辑区域内的上下左右判断；家具是否可站立，以地图格子的属性为准。",
+      "本页逐步保存候选排除。只有某人的候选恰好剩一格时，才执行落位。",
+      "全局条件：地毯上恰好只有一个人。"
+    ]
+  },
+  {
+    "id": "piano-lesson-lesson-2",
+    "title": "先看 Annie 的候选",
+    "explanation": "A：她在储藏室里。（3 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "A"
+    ],
+    "candidateCharacters": [
+      "A"
+    ],
+    "highlightCells": [
+      "R4C1",
+      "R4C2",
+      "R5C1"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Annie（A） 的原始线索：她在储藏室里。",
+      "A 候选：R4C1–2；R5C1。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "piano-lesson-lesson-3",
+    "title": "先看 Boris 的候选",
+    "explanation": "B：他在雕像旁边。（3 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "B"
+    ],
+    "candidateCharacters": [
+      "B"
+    ],
+    "highlightCells": [
+      "R5C2",
+      "R5C4",
+      "R6C3"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Boris（B） 的原始线索：他在雕像旁边。",
+      "B 候选：R5C2、4；R6C3。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "piano-lesson-lesson-4",
+    "title": "先看 Clover 的候选",
+    "explanation": "C：同一区域里有人在她的北边。（30 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "C"
+    ],
+    "candidateCharacters": [
+      "C"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R1C2",
+      "R1C5",
+      "R1C6",
+      "R2C2",
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R3C1",
+      "R3C2",
+      "R3C3",
+      "R3C4",
+      "R3C5",
+      "R3C6",
+      "R4C1",
+      "R4C2",
+      "R4C3",
+      "R4C4",
+      "R4C5",
+      "R4C6",
+      "R5C1",
+      "R5C2",
+      "R5C4",
+      "R5C5",
+      "R6C2",
+      "R6C3",
+      "R6C4",
+      "R6C5",
+      "R6C6"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Clover（C） 的原始线索：同一区域里有人在她的北边。",
+      "C 候选：30 格，分布在 R1–R6 / C1–C6（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "piano-lesson-lesson-5",
+    "title": "先看 Daryl 的候选",
+    "explanation": "D：她恰好在钢琴旁边某人的北边一行。（30 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "D"
+    ],
+    "candidateCharacters": [
+      "D"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R1C2",
+      "R1C5",
+      "R1C6",
+      "R2C2",
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R3C1",
+      "R3C2",
+      "R3C3",
+      "R3C4",
+      "R3C5",
+      "R3C6",
+      "R4C1",
+      "R4C2",
+      "R4C3",
+      "R4C4",
+      "R4C5",
+      "R4C6",
+      "R5C1",
+      "R5C2",
+      "R5C4",
+      "R5C5",
+      "R6C2",
+      "R6C3",
+      "R6C4",
+      "R6C5",
+      "R6C6"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Daryl（D） 的原始线索：她恰好在钢琴旁边某人的北边一行。",
+      "D 候选：30 格，分布在 R1–R6 / C1–C6（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "piano-lesson-lesson-6",
+    "title": "先看 Eve 的候选",
+    "explanation": "E：她坐在椅子上。（3 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "E"
+    ],
+    "candidateCharacters": [
+      "E"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R3C5",
+      "R4C3"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Eve（E） 的原始线索：她坐在椅子上。",
+      "E 候选：R1C1；R3C5；R4C3。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "piano-lesson-lesson-7",
+    "title": "先看 Vada 的候选",
+    "explanation": "V：被害者。和凶手单独在一起。（30 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "V"
+    ],
+    "candidateCharacters": [
+      "V"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R1C2",
+      "R1C5",
+      "R1C6",
+      "R2C2",
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R3C1",
+      "R3C2",
+      "R3C3",
+      "R3C4",
+      "R3C5",
+      "R3C6",
+      "R4C1",
+      "R4C2",
+      "R4C3",
+      "R4C4",
+      "R4C5",
+      "R4C6",
+      "R5C1",
+      "R5C2",
+      "R5C4",
+      "R5C5",
+      "R6C2",
+      "R6C3",
+      "R6C4",
+      "R6C5",
+      "R6C6"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Vada（V） 的原始线索：被害者。和凶手单独在一起。",
+      "V 候选：30 格，分布在 R1–R6 / C1–C6（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "piano-lesson-lesson-8",
+    "title": "Annie：候选缩至 2 格",
+    "explanation": "D 南边恰一行处有人在钢琴旁，B 从 3 格缩到 2 格；B 的 2 个候选共同排除同行同列冲突格，A 从 3 格缩到 2 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "A",
+      "C",
+      "D",
+      "V"
+    ],
+    "candidateCharacters": [
+      "A",
+      "C",
+      "D"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R1C2",
+      "R1C5",
+      "R1C6",
+      "R2C2",
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R3C1",
+      "R3C2",
+      "R3C3",
+      "R3C4",
+      "R3C5",
+      "R3C6",
+      "R4C1",
+      "R4C2",
+      "R4C3",
+      "R4C4",
+      "R4C5",
+      "R4C6",
+      "R5C1",
+      "R5C2",
+      "R5C4",
+      "R5C5",
+      "R6C2",
+      "R6C3",
+      "R6C4",
+      "R6C5",
+      "R6C6"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R4C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R4C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R1C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R1C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R1C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R1C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R2C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R3C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R4C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R4C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R5C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R5C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R5C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R6C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R5C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-7"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "C：每行、每列最多一人。候选从 30 格减至 29 格；剩余 29 格，分布在 R1–R6 / C1–C6（点人物查看候选）。",
+      "D：每行、每列最多一人。候选从 30 格减至 29 格；剩余 29 格，分布在 R1–R6 / C1–C6（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 30 格减至 29 格；剩余 29 格，分布在 R1–R6 / C1–C6（点人物查看候选）。",
+      "C：C 的同区有人在她北方。候选从 29 格减至 18 格；剩余 18 格，分布在 R2–R6 / C1–C6（点人物查看候选）。",
+      "B：D 南边恰一行处有人在钢琴旁。候选从 3 格减至 2 格；剩余 R5C2、4。",
+      "A：每行、每列最多一人。候选从 3 格减至 2 格；剩余 R4C1–2。",
+      "例如 A 在 R5C1，会与 B 的全部剩余位置同行或同列，无法配对。B 现有候选：R5C2、4。"
+    ]
+  },
+  {
+    "id": "piano-lesson-lesson-9",
+    "title": "Clover：候选缩至 13 格",
+    "explanation": "A 的 2 个候选共同排除同行同列冲突格，E 从 3 格缩到 2 格；E 的 2 个候选共同排除同行同列冲突格，C 从 14 格缩到 13 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "C",
+      "A",
+      "B",
+      "D"
+    ],
+    "candidateCharacters": [
+      "C",
+      "A",
+      "B"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R1C2",
+      "R1C5",
+      "R1C6",
+      "R2C2",
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R3C1",
+      "R3C2",
+      "R3C3",
+      "R3C4",
+      "R3C5",
+      "R3C6",
+      "R4C1",
+      "R4C2",
+      "R5C2",
+      "R5C4",
+      "R6C2",
+      "R6C3",
+      "R6C4",
+      "R6C5",
+      "R6C6"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R4C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R4C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R4C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R5C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R4C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R4C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R4C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R4C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R4C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R5C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R5C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R5C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R5C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R4C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R3C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-8"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "C：每行、每列最多一人。候选从 18 格减至 15 格；剩余 15 格，分布在 R2–R6 / C1–C6（点人物查看候选）。",
+      "C：每行、每列最多一人。候选从 15 格减至 14 格；剩余 14 格，分布在 R2–R6 / C1–C6（点人物查看候选）。",
+      "D：每行、每列最多一人。候选从 29 格减至 24 格；剩余 24 格，分布在 R1–R6 / C1–C6（点人物查看候选）。",
+      "D：每行、每列最多一人。候选从 24 格减至 20 格；剩余 20 格，分布在 R1–R6 / C1–C6（点人物查看候选）。",
+      "E：每行、每列最多一人。候选从 3 格减至 2 格；剩余 R1C1；R3C5。",
+      "C：每行、每列最多一人。候选从 14 格减至 13 格；剩余 13 格，分布在 R2–R6 / C2–C6（点人物查看候选）。",
+      "例如 C 在 R3C1，会与 E 的全部剩余位置同行或同列，无法配对。E 现有候选：R1C1；R3C5。"
+    ]
+  },
+  {
+    "id": "piano-lesson-lesson-10",
+    "title": "Daryl：候选缩至 3 格",
+    "explanation": "D 南边恰一行处有人在钢琴旁，C 从 13 格缩到 8 格；D 南边恰一行处有人在钢琴旁，D 从 18 格缩到 3 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "D",
+      "E",
+      "V",
+      "A"
+    ],
+    "candidateCharacters": [
+      "D",
+      "E",
+      "V"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R1C2",
+      "R1C6",
+      "R2C2",
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R3C2",
+      "R3C3",
+      "R3C4",
+      "R3C5",
+      "R3C6",
+      "R4C1",
+      "R4C2",
+      "R6C2",
+      "R6C3",
+      "R6C4",
+      "R6C5",
+      "R6C6"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R1C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R3C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R2C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R2C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R2C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R3C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R6C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R2C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R2C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R2C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R2C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R2C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R3C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R3C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R3C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R3C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R3C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R6C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R6C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R6C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R6C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R6C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-9"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "D：每行、每列最多一人。候选从 20 格减至 18 格；剩余 18 格，分布在 R1–R6 / C1–C6（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 29 格减至 24 格；剩余 24 格，分布在 R1–R6 / C1–C6（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 24 格减至 20 格；剩余 20 格，分布在 R1–R6 / C1–C6（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 20 格减至 18 格；剩余 18 格，分布在 R1–R6 / C1–C6（点人物查看候选）。",
+      "C：D 南边恰一行处有人在钢琴旁。候选从 13 格减至 8 格；剩余 R2C3；R3C2、4–5；R6C2、4–6。",
+      "D：D 南边恰一行处有人在钢琴旁。候选从 18 格减至 3 格；剩余 R1C1–2、6。",
+      "例如假设 D 在 R2C2，同步排除其他人的行列及关系冲突后，“D 南边恰一行处有人在钢琴旁”已没有足够的人数或合适同伴，所以这格不成立。其余被删候选按相同条件逐一核验。"
+    ]
+  },
+  {
+    "id": "piano-lesson-lesson-11",
+    "title": "确定 Eve",
+    "explanation": "E 只剩 R3C5。D 的 3 个候选共同排除同行同列冲突格，E 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "E",
+      "D"
+    ],
+    "candidateCharacters": [
+      "D"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R1C2",
+      "R1C6",
+      "R3C5"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R1C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "E",
+        "cell": "R3C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-10"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "E：每行、每列最多一人。候选从 2 格减至 1 格；剩余 R3C5。",
+      "例如 E 在 R1C1，会与 D 的全部剩余位置同行或同列，无法配对。D 现有候选：R1C1–2、6。"
+    ]
+  },
+  {
+    "id": "piano-lesson-lesson-12",
+    "title": "Clover：候选缩至 3 格",
+    "explanation": "D 南边恰一行处有人在钢琴旁，V 从 7 格缩到 4 格；恰好一人在地毯上，C 从 4 格缩到 3 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "C",
+      "E",
+      "V",
+      "D"
+    ],
+    "candidateCharacters": [
+      "C",
+      "V",
+      "D"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R1C2",
+      "R1C6",
+      "R2C3",
+      "R3C5",
+      "R6C2",
+      "R6C4",
+      "R6C6"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R3C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R3C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R3C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R6C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R6C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-11"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "C：每行、每列最多一人。候选从 8 格减至 4 格；剩余 R2C3；R6C2、4、6。",
+      "V：每行、每列最多一人。候选从 18 格减至 17 格；剩余 17 格，分布在 R1–R6 / C1–C6（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 17 格减至 14 格；剩余 14 格，分布在 R2–R6 / C2–C6（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 14 格减至 7 格；剩余 R2C2–4、6；R6C2、4、6。",
+      "V：D 南边恰一行处有人在钢琴旁。候选从 7 格减至 4 格；剩余 R2C3；R6C2、4、6。",
+      "C：恰好一人在地毯上。候选从 4 格减至 3 格；剩余 R2C3；R6C4、6。",
+      "例如假设 C 在 R6C2，同步排除其他人的行列及关系冲突后，“恰好一人在地毯上”已没有足够的人数或合适同伴，所以这格不成立。其余被删候选按相同条件逐一核验。"
+    ]
+  },
+  {
+    "id": "piano-lesson-lesson-13",
+    "title": "确定 Boris",
+    "explanation": "B 只剩 R5C2。恰好一人在地毯上，B 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "B",
+      "V",
+      "C"
+    ],
+    "candidateCharacters": [
+      "V",
+      "C"
+    ],
+    "highlightCells": [
+      "R2C3",
+      "R5C2",
+      "R6C4",
+      "R6C6"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R6C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R5C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "B",
+        "cell": "R5C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-12"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "V：恰好一人在地毯上。候选从 4 格减至 3 格；剩余 R2C3；R6C4、6。",
+      "C：死者与凶手独处，所在区域恰好两人。候选从 3 格减至 2 格；剩余 R2C3；R6C4。",
+      "B：恰好一人在地毯上。候选从 2 格减至 1 格；剩余 R5C2。",
+      "例如假设 B 在 R5C4，同步排除其他人的行列及关系冲突后，“恰好一人在地毯上”已没有足够的人数或合适同伴，所以这格不成立。其余被删候选按相同条件逐一核验。"
+    ]
+  },
+  {
+    "id": "piano-lesson-lesson-14",
+    "title": "确定 Annie",
+    "explanation": "A 只剩 R4C1。B 已锁定 R5C2，A 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "A",
+      "B"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R4C1",
+      "R5C2"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R4C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "A",
+        "cell": "R4C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-13"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "A：每行、每列最多一人。候选从 2 格减至 1 格；剩余 R4C1。",
+      "例如 A 在 R4C2，会与 B 的全部剩余位置同行或同列，无法配对。B 现有候选：R5C2。"
+    ]
+  },
+  {
+    "id": "piano-lesson-lesson-15",
+    "title": "确定 Daryl",
+    "explanation": "D 只剩 R1C6。B 已锁定 R5C2，D 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "D",
+      "A",
+      "B"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R1C6",
+      "R4C1",
+      "R5C2"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R1C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R1C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "D",
+        "cell": "R1C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-14"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "D：每行、每列最多一人。候选从 3 格减至 2 格；剩余 R1C2、6。",
+      "D：每行、每列最多一人。候选从 2 格减至 1 格；剩余 R1C6。",
+      "例如 D 在 R1C2，会与 B 的全部剩余位置同行或同列，无法配对。B 现有候选：R5C2。"
+    ]
+  },
+  {
+    "id": "piano-lesson-lesson-16",
+    "title": "确定 Clover",
+    "explanation": "C 只剩 R6C4。C 的同区有人在她北方，C 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "C",
+      "V",
+      "D"
+    ],
+    "candidateCharacters": [
+      "V"
+    ],
+    "highlightCells": [
+      "R1C6",
+      "R2C3",
+      "R6C4"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R2C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "C",
+        "cell": "R6C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-15"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "V：每行、每列最多一人。候选从 3 格减至 2 格；剩余 R2C3；R6C4。",
+      "C：C 的同区有人在她北方。候选从 2 格减至 1 格；剩余 R6C4。",
+      "例如假设 C 在 R2C3，同步排除其他人的行列及关系冲突后，“C 的同区有人在她北方”已没有足够的人数或合适同伴，所以这格不成立。其余被删候选按相同条件逐一核验。"
+    ]
+  },
+  {
+    "id": "piano-lesson-lesson-17",
+    "title": "确定 Vada",
+    "explanation": "V 只剩 R2C3。C 已锁定 R6C4，V 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "V",
+      "C"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R2C3",
+      "R6C4"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-16"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "V",
+        "cell": "R2C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "piano-lesson-lesson-16"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "V：每行、每列最多一人。候选从 2 格减至 1 格；剩余 R2C3。",
+      "例如 V 在 R6C4，会与 C 的全部剩余位置同行或同列，无法配对。C 现有候选：R6C4。"
+    ]
+  },
+  {
+    "id": "piano-lesson-lesson-18",
+    "title": "Eve 是凶手",
+    "explanation": "死者 V 位于书房的 R2C3；同区唯一另一人是 Eve（E），位置为 R3C5。",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "E",
+      "V"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R2C3",
+      "R3C5"
+    ],
+    "actions": [],
+    "rule": "死者与凶手独处",
+    "details": [
+      "死者线索要求与凶手独处，必须以最终逻辑区域的同区人数判定。",
+      "书房实际人物：E 在 R3C5、V 在 R2C3；其余所有人都在其他区域。",
+      "6 人全部有位置，且每行、每列均无冲突。",
+      "最终位置由初始候选与记录中的约束排除得到；原始答案只由求解脚本在结束时作一致性核对。"
+    ]
+  }
+]

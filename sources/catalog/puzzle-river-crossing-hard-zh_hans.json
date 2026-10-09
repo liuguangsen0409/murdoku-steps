@@ -1,0 +1,46 @@
+{
+  "PROPERTIES": {
+    "puzzle_version": "2",
+    "clue_custom_text1": "嫌疑人当中正好藏着一名歹徒。歹徒可能是凶手，也可能不是。",
+    "clue_custom_text2": "歹徒是独自一人。",
+    "clue_custom_text3": "最上面一行或最下面一行是空的。"
+  },
+  "GRID": {
+    "title_zh_hans_": "渡河",
+    "title_en_": "River Crossing",
+    "room_name_0": "树林",
+    "room_name_1": "河流",
+    "room_name_2": "悬崖",
+    "room_name_3": "堡垒",
+    "room_name_4": "狩猎小屋"
+  },
+  "CHARACTERS": {
+    "char_name_0": "Alvin",
+    "char_quote_zh_hans_0": "他在一个箱子旁边。",
+    "char_subquote_zh_hans_0": "",
+    "char_name_1": "Basil",
+    "char_quote_zh_hans_1": "他坐在一把椅子上。",
+    "char_subquote_zh_hans_1": "",
+    "char_name_2": "Clarence",
+    "char_quote_zh_hans_2": "他在一棵树旁边。",
+    "char_subquote_zh_hans_2": "",
+    "char_name_3": "Delphine",
+    "char_quote_zh_hans_3": "她在一辆马车里。",
+    "char_subquote_zh_hans_3": "",
+    "char_name_4": "Estelle",
+    "char_quote_zh_hans_4": "她正好在歹徒南边六行。",
+    "char_subquote_zh_hans_4": "",
+    "char_name_5": "Flora",
+    "char_quote_zh_hans_5": "她在一匹马上。",
+    "char_subquote_zh_hans_5": "",
+    "char_name_6": "Gilbert",
+    "char_quote_zh_hans_6": "他在一块巨石旁边。",
+    "char_subquote_zh_hans_6": "",
+    "char_name_7": "Horatio",
+    "char_quote_zh_hans_7": "不是歹徒。\n他独自一人。",
+    "char_subquote_zh_hans_7": "",
+    "char_name_8": "Valeria",
+    "char_quote_zh_hans_8": "被害者。不是歹徒。和凶手单独在一起。",
+    "char_subquote_zh_hans_8": ""
+  }
+}

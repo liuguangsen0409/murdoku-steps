@@ -1,0 +1,314 @@
+[
+  {
+    "key": "./objects/obj_chair.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "./objects/obj_chair_02.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "./objects/obj_table.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "./objects/obj_table_02.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "./objects/obj_tree.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "./objects/obj_tree_02.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "./objects/obj_palmtree.svg",
+    "source": "https://murdoku.com/play/assets/obj_palmtree-DrP-_3J7.svg"
+  },
+  {
+    "key": "./objects/obj_palmtree_02.svg",
+    "source": "https://murdoku.com/play/assets/obj_palmtree_02-C0jmsuJX.svg"
+  },
+  {
+    "key": "./objects/obj_shark.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "./objects/obj_shark_02.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "./objects/obj_shrub.svg",
+    "source": "https://murdoku.com/play/assets/obj_shrub-DZfZCPwd.svg"
+  },
+  {
+    "key": "./objects/obj_shrub_02.svg",
+    "source": "https://murdoku.com/play/assets/obj_shrub_02-DmhRFGzb.svg"
+  },
+  {
+    "key": "./objects/obj_boulder.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "./objects/obj_boulder_02.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "./objects/obj_lion.svg",
+    "source": "https://murdoku.com/play/assets/obj_lion-Bq_TmEPN.svg"
+  },
+  {
+    "key": "./objects/obj_lion_02.svg",
+    "source": "https://murdoku.com/play/assets/obj_lion-Bq_TmEPN.svg"
+  },
+  {
+    "key": "./objects/obj_crocodile.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "./objects/obj_crocodile_02.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "./objects/obj_bear.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "./objects/obj_bear_02.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "./objects/obj_elephant.svg",
+    "source": "https://murdoku.com/play/assets/obj_elephant-DFmKgtSe.svg"
+  },
+  {
+    "key": "./objects/obj_elephant_02.svg",
+    "source": "https://murdoku.com/play/assets/obj_elephant-DFmKgtSe.svg"
+  },
+  {
+    "key": "./objects/obj_penguin.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "./objects/obj_penguin_02.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/body/man_body_001.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20xmlns='http://www.w3.org/2000/svg'%2"
+  },
+  {
+    "key": "../../portraits/theme-0/man/clothes/man_clothes_001.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/hair/man_hair_065.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/facial/man_facial_012.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/body/man_body_000.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/clothes/man_clothes_001.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/hair/man_hair_026.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/facial/man_facial_002.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/woman/body/woman_body_000.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/woman/clothes/woman_clothes_012.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/woman/hair/woman_hair_049.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/woman/body/woman_body_000.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/woman/clothes/woman_clothes_022.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/woman/hair/woman_hair_056.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/woman/body/woman_body_000.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/woman/clothes/woman_clothes_019.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/woman/hair/woman_hair_006.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/woman/body/woman_body_000.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/woman/clothes/woman_clothes_000.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/woman/hair/woman_hair_022.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/woman/accessory/woman_accessory_001.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20xmlns='http://www.w3.org/2000/svg'%2"
+  },
+  {
+    "key": "../../portraits/theme-0/man/body/man_body_001.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20xmlns='http://www.w3.org/2000/svg'%2"
+  },
+  {
+    "key": "../../portraits/theme-0/man/clothes/man_clothes_001.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/hair/man_hair_027.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/body/man_body_001.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20xmlns='http://www.w3.org/2000/svg'%2"
+  },
+  {
+    "key": "../../portraits/theme-0/man/clothes/man_clothes_018.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/hair/man_hair_043.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/facial/man_facial_003.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/body/man_body_000.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/clothes/man_clothes_019.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/hair/man_hair_001.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/body/man_body_000.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/clothes/man_clothes_018.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/hair/man_hair_021.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/woman/body/woman_body_000.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/woman/clothes/woman_clothes_026.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/woman/hair/woman_hair_003.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/man/body/man_body_000.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/clothes/man_clothes_018.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/hair/man_hair_063.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/woman/body/woman_body_000.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/woman/clothes/woman_clothes_026.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/woman/hair/woman_hair_000.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/woman/body/woman_body_000.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/woman/clothes/woman_clothes_026.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/woman/hair/woman_hair_000.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/man/body/man_body_001.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20xmlns='http://www.w3.org/2000/svg'%2"
+  },
+  {
+    "key": "../../portraits/theme-0/man/clothes/man_clothes_018.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/hair/man_hair_000.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20xmlns='http://www.w3.org/2000/svg'%2"
+  },
+  {
+    "key": "../../portraits/theme-0/man/facial/man_facial_005.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/body/man_body_002.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20xmlns='http://www.w3.org/2000/svg'%2"
+  },
+  {
+    "key": "../../portraits/theme-0/man/clothes/man_clothes_018.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/hair/man_hair_000.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20xmlns='http://www.w3.org/2000/svg'%2"
+  },
+  {
+    "key": "../../portraits/theme-0/man/facial/man_facial_026.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  }
+]

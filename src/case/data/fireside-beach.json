@@ -1,0 +1,732 @@
+{
+  "id": "fireside-beach",
+  "width": 5,
+  "height": 5,
+  "cells": [
+    {
+      "id": "R1C1",
+      "row": 1,
+      "col": 1,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#5b7e80",
+      "texture": "grass",
+      "floorType": 10,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_grass.svg"
+    },
+    {
+      "id": "R1C2",
+      "row": 1,
+      "col": 2,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#5b7e80",
+      "texture": "grass",
+      "floorType": 10,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_grass.svg"
+    },
+    {
+      "id": "R1C3",
+      "row": 1,
+      "col": 3,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        37
+      ],
+      "fill": "#5b7e80",
+      "texture": "grass",
+      "floorType": 10,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_grass.svg"
+    },
+    {
+      "id": "R1C4",
+      "row": 1,
+      "col": 4,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#5b7e80",
+      "texture": "grass",
+      "floorType": 10,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_grass.svg"
+    },
+    {
+      "id": "R1C5",
+      "row": 1,
+      "col": 5,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#5b7e80",
+      "texture": "grass",
+      "floorType": 10,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_grass.svg"
+    },
+    {
+      "id": "R2C1",
+      "row": 2,
+      "col": 1,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#5b7e80",
+      "texture": "grass",
+      "floorType": 10,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_grass.svg"
+    },
+    {
+      "id": "R2C2",
+      "row": 2,
+      "col": 2,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        11
+      ],
+      "fill": "#5b7e80",
+      "texture": "grass",
+      "floorType": 10,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_grass.svg"
+    },
+    {
+      "id": "R2C3",
+      "row": 2,
+      "col": 3,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#5b7e80",
+      "texture": "grass",
+      "floorType": 10,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_grass.svg"
+    },
+    {
+      "id": "R2C4",
+      "row": 2,
+      "col": 4,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#5b7e80",
+      "texture": "grass",
+      "floorType": 10,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_grass.svg"
+    },
+    {
+      "id": "R2C5",
+      "row": 2,
+      "col": 5,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        11
+      ],
+      "fill": "#5b7e80",
+      "texture": "grass",
+      "floorType": 10,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_grass.svg"
+    },
+    {
+      "id": "R3C1",
+      "row": 3,
+      "col": 1,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#5b7e80",
+      "texture": "grass",
+      "floorType": 10,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_grass.svg"
+    },
+    {
+      "id": "R3C2",
+      "row": 3,
+      "col": 2,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#5b7e80",
+      "texture": "grass",
+      "floorType": 10,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_grass.svg"
+    },
+    {
+      "id": "R3C3",
+      "row": 3,
+      "col": 3,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#cbae72",
+      "texture": "sand",
+      "floorType": 11,
+      "puddle": false,
+      "path": false,
+      "sand": true,
+      "textureAsset": "/assets/catalog/textures/texture_floor_sand.svg"
+    },
+    {
+      "id": "R3C4",
+      "row": 3,
+      "col": 4,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#5b7e80",
+      "texture": "grass",
+      "floorType": 10,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_grass.svg"
+    },
+    {
+      "id": "R3C5",
+      "row": 3,
+      "col": 5,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#757f99",
+      "texture": "plain",
+      "floorType": 6,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R4C1",
+      "row": 4,
+      "col": 1,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        11
+      ],
+      "fill": "#5b7e80",
+      "texture": "grass",
+      "floorType": 10,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_grass.svg"
+    },
+    {
+      "id": "R4C2",
+      "row": 4,
+      "col": 2,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#cbae72",
+      "texture": "sand",
+      "floorType": 11,
+      "puddle": false,
+      "path": false,
+      "sand": true,
+      "textureAsset": "/assets/catalog/textures/texture_floor_sand.svg"
+    },
+    {
+      "id": "R4C3",
+      "row": 4,
+      "col": 3,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        12
+      ],
+      "fill": "#cbae72",
+      "texture": "sand",
+      "floorType": 11,
+      "puddle": false,
+      "path": false,
+      "sand": true,
+      "textureAsset": "/assets/catalog/textures/texture_floor_sand.svg"
+    },
+    {
+      "id": "R4C4",
+      "row": 4,
+      "col": 4,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#cbae72",
+      "texture": "sand",
+      "floorType": 11,
+      "puddle": false,
+      "path": false,
+      "sand": true,
+      "textureAsset": "/assets/catalog/textures/texture_floor_sand.svg"
+    },
+    {
+      "id": "R4C5",
+      "row": 4,
+      "col": 5,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        60
+      ],
+      "fill": "#757f99",
+      "texture": "plain",
+      "floorType": 6,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R5C1",
+      "row": 5,
+      "col": 1,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#cbae72",
+      "texture": "sand",
+      "floorType": 11,
+      "puddle": false,
+      "path": false,
+      "sand": true,
+      "textureAsset": "/assets/catalog/textures/texture_floor_sand.svg"
+    },
+    {
+      "id": "R5C2",
+      "row": 5,
+      "col": 2,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#cbae72",
+      "texture": "sand",
+      "floorType": 11,
+      "puddle": false,
+      "path": false,
+      "sand": true,
+      "textureAsset": "/assets/catalog/textures/texture_floor_sand.svg"
+    },
+    {
+      "id": "R5C3",
+      "row": 5,
+      "col": 3,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#cbae72",
+      "texture": "sand",
+      "floorType": 11,
+      "puddle": false,
+      "path": false,
+      "sand": true,
+      "textureAsset": "/assets/catalog/textures/texture_floor_sand.svg"
+    },
+    {
+      "id": "R5C4",
+      "row": 5,
+      "col": 4,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#cbae72",
+      "texture": "sand",
+      "floorType": 11,
+      "puddle": false,
+      "path": false,
+      "sand": true,
+      "textureAsset": "/assets/catalog/textures/texture_floor_sand.svg"
+    },
+    {
+      "id": "R5C5",
+      "row": 5,
+      "col": 5,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        43
+      ],
+      "fill": "#cbae72",
+      "texture": "sand",
+      "floorType": 11,
+      "puddle": false,
+      "path": false,
+      "sand": true,
+      "textureAsset": "/assets/catalog/textures/texture_floor_sand.svg"
+    }
+  ],
+  "objects": [
+    {
+      "id": "object-1-3",
+      "kind": "shrub",
+      "cells": [
+        "R1C3"
+      ],
+      "asset": "/assets/catalog/fireside-beach/objects/shrub.svg",
+      "x": 2,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "objectId": 37
+    },
+    {
+      "id": "object-2-2",
+      "kind": "palmtree",
+      "cells": [
+        "R2C2"
+      ],
+      "asset": "/assets/catalog/fireside-beach/objects/palmtree.svg",
+      "x": 1,
+      "y": 1,
+      "width": 1,
+      "height": 1,
+      "objectId": 11
+    },
+    {
+      "id": "object-2-5",
+      "kind": "palmtree",
+      "cells": [
+        "R2C5"
+      ],
+      "asset": "/assets/catalog/fireside-beach/objects/palmtree.svg",
+      "x": 4,
+      "y": 1,
+      "width": 1,
+      "height": 1,
+      "objectId": 11
+    },
+    {
+      "id": "object-4-1",
+      "kind": "palmtree",
+      "cells": [
+        "R4C1"
+      ],
+      "asset": "/assets/catalog/fireside-beach/objects/palmtree.svg",
+      "x": 0,
+      "y": 3,
+      "width": 1,
+      "height": 1,
+      "objectId": 11
+    },
+    {
+      "id": "object-4-3",
+      "kind": "fire",
+      "cells": [
+        "R4C3"
+      ],
+      "asset": "/assets/catalog/fireside-beach/objects/fire.svg",
+      "x": 2,
+      "y": 3,
+      "width": 1,
+      "height": 1,
+      "objectId": 12
+    },
+    {
+      "id": "object-4-5",
+      "kind": "basket",
+      "cells": [
+        "R4C5"
+      ],
+      "asset": "/assets/catalog/fireside-beach/objects/basket.svg",
+      "x": 4,
+      "y": 3,
+      "width": 1,
+      "height": 1,
+      "objectId": 60
+    },
+    {
+      "id": "object-5-5",
+      "kind": "boulder",
+      "cells": [
+        "R5C5"
+      ],
+      "asset": "/assets/catalog/fireside-beach/objects/boulder.svg",
+      "x": 4,
+      "y": 4,
+      "width": 1,
+      "height": 1,
+      "objectId": 43
+    }
+  ],
+  "rooms": [
+    {
+      "id": 0,
+      "label": "海滩",
+      "labelEn": "Beach",
+      "cells": [
+        "R3C3",
+        "R4C2",
+        "R4C3",
+        "R4C4",
+        "R5C1",
+        "R5C2",
+        "R5C3",
+        "R5C4",
+        "R5C5"
+      ],
+      "fill": "#cbae72"
+    },
+    {
+      "id": 1,
+      "label": "树林",
+      "labelEn": "Woods",
+      "cells": [
+        "R1C1",
+        "R1C2",
+        "R1C3",
+        "R1C4",
+        "R1C5",
+        "R2C1",
+        "R2C2",
+        "R2C3",
+        "R2C4",
+        "R2C5",
+        "R3C1",
+        "R3C2",
+        "R3C4",
+        "R4C1"
+      ],
+      "fill": "#5b7e80"
+    },
+    {
+      "id": 2,
+      "label": "帐篷",
+      "labelEn": "Tent",
+      "cells": [
+        "R3C5",
+        "R4C5"
+      ],
+      "fill": "#757f99"
+    }
+  ],
+  "roomLabels": [
+    {
+      "id": 0,
+      "label": "海滩",
+      "x": 250.0,
+      "y": 485.33333333333337,
+      "mainRoomId": 0,
+      "isSubarea": false
+    },
+    {
+      "id": 1,
+      "label": "树林",
+      "x": 50.0,
+      "y": 385.33333333333337,
+      "mainRoomId": 1,
+      "isSubarea": false
+    },
+    {
+      "id": 2,
+      "label": "帐篷",
+      "x": 450.0,
+      "y": 385.33333333333337,
+      "mainRoomId": 2,
+      "isSubarea": false
+    }
+  ],
+  "objectNames": {
+    "11": "Tree",
+    "12": "Fire",
+    "37": "Shrub",
+    "43": "Boulder",
+    "60": "Basket"
+  },
+  "characters": [
+    {
+      "id": "A",
+      "name": "Angelo",
+      "portrait": "/assets/catalog/fireside-beach/portraits/A.svg",
+      "clueId": "A-clue",
+      "clueEn": "He was south of Corinne.",
+      "clueZh": "他在 Corinne 的南边。",
+      "sex": 0
+    },
+    {
+      "id": "B",
+      "name": "Basil",
+      "portrait": "/assets/catalog/fireside-beach/portraits/B.svg",
+      "clueId": "B-clue",
+      "clueEn": "He was in the Woods. He was not beside a tree.",
+      "clueZh": "他在树林里。他不在树旁边。",
+      "sex": 0
+    },
+    {
+      "id": "C",
+      "name": "Corinne",
+      "portrait": "/assets/catalog/fireside-beach/portraits/C.svg",
+      "clueId": "C-clue",
+      "clueEn": "She was in the last column.",
+      "clueZh": "她在最后一列。",
+      "sex": 1
+    },
+    {
+      "id": "D",
+      "name": "Daryl",
+      "portrait": "/assets/catalog/fireside-beach/portraits/D.svg",
+      "clueId": "D-clue",
+      "clueEn": "She was beside the boulder.",
+      "clueZh": "她在巨石旁边。",
+      "sex": 1
+    },
+    {
+      "id": "V",
+      "name": "Van",
+      "portrait": "/assets/catalog/fireside-beach/portraits/V.svg",
+      "clueId": "V-clue",
+      "clueEn": "The Victim. He was alone with the murderer.",
+      "clueZh": "受害者。他和凶手单独在一起。",
+      "sex": 0
+    }
+  ],
+  "generalClues": [],
+  "metadata": {
+    "sourceId": "puzzle-fireside-beach-very-easy",
+    "sourceFile": "puzzle-fireside-beach-very-easy.json",
+    "version": 2,
+    "coordinateOrder": "row_col",
+    "roomLabels": [
+      {
+        "id": 0,
+        "label": "Beach",
+        "x": 250.0,
+        "y": 485.33333333333337,
+        "mainRoomId": 0,
+        "isSubarea": false
+      },
+      {
+        "id": 1,
+        "label": "Woods",
+        "x": 50.0,
+        "y": 385.33333333333337,
+        "mainRoomId": 1,
+        "isSubarea": false
+      },
+      {
+        "id": 2,
+        "label": "Tent",
+        "x": 450.0,
+        "y": 385.33333333333337,
+        "mainRoomId": 2,
+        "isSubarea": false
+      }
+    ],
+    "edges": [],
+    "unsupportedObjectIds": [],
+    "titleEn": "Fireside Beach",
+    "titleZh": "海滩篝火"
+  }
+}

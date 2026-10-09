@@ -1,0 +1,43 @@
+{
+  "PROPERTIES": {
+    "puzzle_version": "2",
+    "clue_custom_text1": "",
+    "clue_custom_text2": "",
+    "player_hint_1_zh_hans": "树旁边只有一个格子可以放 (F)，这将 (F) 锁定在 R7 C6。",
+    "player_hint_2_zh_hans": "这样 (A) 就在 R5 的架子鼓旁边，排除 R5 的其余格子。(B) 不可能在汽车里，这将 (B) 锁定在最后一个床格子 R1 C5。",
+    "player_hint_3_zh_hans": "这将 (A) 锁定在 R5 C5，然后 (C) 锁定在架子旁边的最后一个格子 R2 C3。",
+    "player_hint_4_zh_hans": "这将 (E) 锁定在 R4 C1 的最后一把椅子上，然后 (D) 锁定在最后一个不在箱子旁边的格子 R3 C2。",
+    "player_hint_5_zh_hans": "这将 (V) 锁定在最后剩下的格子。(V) 在车库里与 (A) 单独在一起，Axel 就是凶手！"
+  },
+  "CHARACTERS": {
+    "room_name_0": "客厅",
+    "room_name_1": "车库",
+    "room_name_2": "库房",
+    "room_name_3": "卧室",
+    "room_name_4": "车道",
+    "room_name_5": "前院",
+    "room_name_6": "入口",
+    "title_zh_hans_": "车库乐队",
+    "char_name_0": "Axel",
+    "char_quote_zh_hans_0": "他在架子鼓旁边。",
+    "char_subquote_zh_hans_0": "",
+    "char_name_1": "Briar",
+    "char_quote_zh_hans_1": "她在汽车里或床上。",
+    "char_subquote_zh_hans_1": "",
+    "char_name_2": "Carla",
+    "char_quote_zh_hans_2": "她在架子旁边。",
+    "char_subquote_zh_hans_2": "",
+    "char_name_3": "Dallas",
+    "char_quote_zh_hans_3": "他不在箱子旁边。",
+    "char_subquote_zh_hans_3": "",
+    "char_name_4": "Ernesto",
+    "char_quote_zh_hans_4": "他坐在椅子上。",
+    "char_subquote_zh_hans_4": "",
+    "char_name_5": "Fawn",
+    "char_quote_zh_hans_5": "她在树旁边。",
+    "char_subquote_zh_hans_5": "",
+    "char_name_6": "Viper",
+    "char_quote_zh_hans_6": "受害者。他与凶手单独在一起。",
+    "char_subquote_zh_hans_6": ""
+  }
+}

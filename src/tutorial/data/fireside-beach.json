@@ -1,0 +1,1196 @@
+[
+  {
+    "id": "fireside-beach-lesson-1",
+    "title": "先读地图与全局规则",
+    "explanation": "5 人共用 5 行、5 列；先从地形、家具与明确区域建立候选。",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [],
+    "candidateCharacters": [],
+    "highlightCells": [],
+    "actions": [
+      {
+        "type": "setCandidates",
+        "character": "A",
+        "cells": [
+          "R1C1",
+          "R1C2",
+          "R1C4",
+          "R1C5",
+          "R2C1",
+          "R2C3",
+          "R2C4",
+          "R3C1",
+          "R3C2",
+          "R3C3",
+          "R3C4",
+          "R3C5",
+          "R4C2",
+          "R4C4",
+          "R5C1",
+          "R5C2",
+          "R5C3",
+          "R5C4"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "B",
+        "cells": [
+          "R1C1",
+          "R1C4",
+          "R3C4"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "C",
+        "cells": [
+          "R1C5",
+          "R3C5"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "D",
+        "cells": [
+          "R5C4"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "V",
+        "cells": [
+          "R1C1",
+          "R1C2",
+          "R1C4",
+          "R1C5",
+          "R2C1",
+          "R2C3",
+          "R2C4",
+          "R3C1",
+          "R3C2",
+          "R3C3",
+          "R3C4",
+          "R3C5",
+          "R4C2",
+          "R4C4",
+          "R5C1",
+          "R5C2",
+          "R5C3",
+          "R5C4"
+        ]
+      }
+    ],
+    "rule": "地图与初始单人条件",
+    "details": [
+      "每行、每列最多一人；死者 V 也参与行列限制。",
+      "旁边按同一逻辑区域内的上下左右判断；家具是否可站立，以地图格子的属性为准。",
+      "本页逐步保存候选排除。只有某人的候选恰好剩一格时，才执行落位。"
+    ]
+  },
+  {
+    "id": "fireside-beach-lesson-2",
+    "title": "先看 Angelo 的候选",
+    "explanation": "A：他在 Corinne 的南边。（18 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "A"
+    ],
+    "candidateCharacters": [
+      "A"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R1C2",
+      "R1C4",
+      "R1C5",
+      "R2C1",
+      "R2C3",
+      "R2C4",
+      "R3C1",
+      "R3C2",
+      "R3C3",
+      "R3C4",
+      "R3C5",
+      "R4C2",
+      "R4C4",
+      "R5C1",
+      "R5C2",
+      "R5C3",
+      "R5C4"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Angelo（A） 的原始线索：他在 Corinne 的南边。",
+      "A 候选：18 格，分布在 R1–R5 / C1–C5（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "fireside-beach-lesson-3",
+    "title": "先看 Basil 的候选",
+    "explanation": "B：他在树林里。他不在树旁边。（3 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "B"
+    ],
+    "candidateCharacters": [
+      "B"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R1C4",
+      "R3C4"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Basil（B） 的原始线索：他在树林里。他不在树旁边。",
+      "B 候选：R1C1、4；R3C4。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "fireside-beach-lesson-4",
+    "title": "先看 Corinne 的候选",
+    "explanation": "C：她在最后一列。（2 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "C"
+    ],
+    "candidateCharacters": [
+      "C"
+    ],
+    "highlightCells": [
+      "R1C5",
+      "R3C5"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Corinne（C） 的原始线索：她在最后一列。",
+      "C 候选：R1C5；R3C5。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "fireside-beach-lesson-5",
+    "title": "先确定 Daryl：R5C4",
+    "explanation": "D：她在巨石旁边。（只剩 R5C4）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "D"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R5C4"
+    ],
+    "actions": [
+      {
+        "type": "placeCharacter",
+        "character": "D",
+        "cell": "R5C4",
+        "reason": {
+          "ruleId": "从原始线索建立候选",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-4"
+          ]
+        }
+      }
+    ],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Daryl（D） 的原始线索：她在巨石旁边。",
+      "D 候选：R5C4。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "fireside-beach-lesson-6",
+    "title": "先看 Van 的候选",
+    "explanation": "V：受害者。他和凶手单独在一起。（18 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "V"
+    ],
+    "candidateCharacters": [
+      "V"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R1C2",
+      "R1C4",
+      "R1C5",
+      "R2C1",
+      "R2C3",
+      "R2C4",
+      "R3C1",
+      "R3C2",
+      "R3C3",
+      "R3C4",
+      "R3C5",
+      "R4C2",
+      "R4C4",
+      "R5C1",
+      "R5C2",
+      "R5C3",
+      "R5C4"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Van（V） 的原始线索：受害者。他和凶手单独在一起。",
+      "V 候选：18 格，分布在 R1–R5 / C1–C5（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "fireside-beach-lesson-7",
+    "title": "确定 Basil",
+    "explanation": "B 只剩 R1C1。D 已锁定 R5C4，B 从 3 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "B",
+      "A",
+      "C",
+      "D"
+    ],
+    "candidateCharacters": [
+      "A",
+      "C"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R1C5",
+      "R2C1",
+      "R2C3",
+      "R3C1",
+      "R3C2",
+      "R3C3",
+      "R3C5",
+      "R4C2",
+      "R5C4"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R1C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R1C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R1C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R1C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R3C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R2C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R3C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R4C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R5C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R5C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R5C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R5C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R1C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R3C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "B",
+        "cell": "R1C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-6"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "A：每行、每列最多一人。候选从 18 格减至 17 格；剩余 17 格，分布在 R1–R5 / C1–C5（点人物查看候选）。",
+      "A：Corinne 与 Angelo 的关系线索。候选从 17 格减至 13 格；剩余 13 格，分布在 R2–R5 / C1–C4（点人物查看候选）。",
+      "A：每行、每列最多一人。候选从 13 格减至 6 格；剩余 R2C1、3；R3C1–3；R4C2。",
+      "B：每行、每列最多一人。候选从 3 格减至 1 格；剩余 R1C1。",
+      "例如 B 在 R1C4，会与 D 的全部剩余位置同行或同列，无法配对。D 现有候选：R5C4。"
+    ]
+  },
+  {
+    "id": "fireside-beach-lesson-8",
+    "title": "确定 Corinne",
+    "explanation": "C 只剩 R3C5。B 已锁定 R1C1，C 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "C",
+      "A",
+      "B"
+    ],
+    "candidateCharacters": [
+      "A"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R2C3",
+      "R3C2",
+      "R3C3",
+      "R3C5",
+      "R4C2"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R2C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R3C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R1C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "C",
+        "cell": "R3C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-7"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "A：每行、每列最多一人。候选从 6 格减至 4 格；剩余 R2C3；R3C2–3；R4C2。",
+      "C：每行、每列最多一人。候选从 2 格减至 1 格；剩余 R3C5。",
+      "例如 C 在 R1C5，会与 B 的全部剩余位置同行或同列，无法配对。B 现有候选：R1C1。"
+    ]
+  },
+  {
+    "id": "fireside-beach-lesson-9",
+    "title": "确定 Angelo",
+    "explanation": "A 只剩 R4C2。A：他在 Corinne 的南边。，A 从 4 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "A",
+      "C"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R3C5",
+      "R4C2"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R2C3",
+        "reason": {
+          "ruleId": "Corinne 与 Angelo 的关系线索",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R3C2",
+        "reason": {
+          "ruleId": "Corinne 与 Angelo 的关系线索",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R3C3",
+        "reason": {
+          "ruleId": "Corinne 与 Angelo 的关系线索",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "A",
+        "cell": "R4C2",
+        "reason": {
+          "ruleId": "Corinne 与 Angelo 的关系线索",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-8"
+          ]
+        }
+      }
+    ],
+    "rule": "Corinne 与 Angelo 的关系线索",
+    "details": [
+      "A：Corinne 与 Angelo 的关系线索。候选从 4 格减至 1 格；剩余 R4C2。",
+      "例如 A 在 R2C3，找不到既满足两人关系、又不同行同列的 C。C 现有候选：R3C5。"
+    ]
+  },
+  {
+    "id": "fireside-beach-lesson-10",
+    "title": "确定 Van",
+    "explanation": "V 只剩 R2C3。D 已锁定 R5C4，V 从 4 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "V",
+      "A",
+      "B",
+      "C"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R1C1",
+      "R2C3",
+      "R3C5",
+      "R4C2"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "V",
+        "cell": "R2C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "fireside-beach-lesson-9"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "V：每行、每列最多一人。候选从 18 格减至 13 格；剩余 13 格，分布在 R1–R5 / C1–C5（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 13 格减至 7 格；剩余 R2C3–4；R3C3–5；R5C3–4。",
+      "V：每行、每列最多一人。候选从 7 格减至 4 格；剩余 R2C3–4；R5C3–4。",
+      "V：每行、每列最多一人。候选从 4 格减至 1 格；剩余 R2C3。",
+      "例如 V 在 R2C4，会与 D 的全部剩余位置同行或同列，无法配对。D 现有候选：R5C4。"
+    ]
+  },
+  {
+    "id": "fireside-beach-lesson-11",
+    "title": "Basil 是凶手",
+    "explanation": "死者 V 位于树林的 R2C3；同区唯一另一人是 Basil（B），位置为 R1C1。",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "B",
+      "V"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R1C1",
+      "R2C3"
+    ],
+    "actions": [],
+    "rule": "死者与凶手独处",
+    "details": [
+      "死者线索要求与凶手独处，必须以最终逻辑区域的同区人数判定。",
+      "树林实际人物：B 在 R1C1、V 在 R2C3；其余所有人都在其他区域。",
+      "5 人全部有位置，且每行、每列均无冲突。",
+      "最终位置由初始候选与记录中的约束排除得到；原始答案只由求解脚本在结束时作一致性核对。"
+    ]
+  }
+]

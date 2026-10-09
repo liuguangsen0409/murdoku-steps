@@ -1,0 +1,160 @@
+{
+  "source": "https://murdoku.com/play_puzzles/en/puzzle-24h-delivery-easy.json",
+  "retrieved": "2026-10-07",
+  "sha256": "0fda0e48847ea8dd253a955dfb5c4f90ee67412a02ca49802bdf2960e3d6501e",
+  "assets": [
+    {
+      "key": "./objects/obj_bed.svg",
+      "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+    },
+    {
+      "key": "./objects/obj_bed_02.svg",
+      "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+    },
+    {
+      "key": "./objects/obj_chair.svg",
+      "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+    },
+    {
+      "key": "./objects/obj_chair_02.svg",
+      "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+    },
+    {
+      "key": "./objects/obj_table.svg",
+      "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+    },
+    {
+      "key": "./objects/obj_table_02.svg",
+      "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+    },
+    {
+      "key": "./objects/obj_carpet.svg",
+      "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+    },
+    {
+      "key": "./objects/obj_carpet_02.svg",
+      "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+    },
+    {
+      "key": "./objects/obj_box.svg",
+      "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+    },
+    {
+      "key": "./objects/obj_box_02.svg",
+      "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+    },
+    {
+      "key": "./objects/obj_plant.svg",
+      "source": "https://murdoku.com/play/assets/obj_plant-lqsU7Mb1.svg"
+    },
+    {
+      "key": "./objects/obj_plant_02.svg",
+      "source": "https://murdoku.com/play/assets/obj_plant_02-B8FocpTF.svg"
+    },
+    {
+      "key": "./objects/obj_shrub.svg",
+      "source": "https://murdoku.com/play/assets/obj_shrub-DZfZCPwd.svg"
+    },
+    {
+      "key": "./objects/obj_shrub_02.svg",
+      "source": "https://murdoku.com/play/assets/obj_shrub_02-DmhRFGzb.svg"
+    },
+    {
+      "key": "../../portraits/theme-0/man/body/man_body_002.svg",
+      "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20xmlns='http://www.w3.org/2000/svg'%2"
+    },
+    {
+      "key": "../../portraits/theme-0/man/clothes/man_clothes_020.svg",
+      "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+    },
+    {
+      "key": "../../portraits/theme-0/man/hair/man_hair_045.svg",
+      "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+    },
+    {
+      "key": "../../portraits/theme-0/woman/body/woman_body_000.svg",
+      "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+    },
+    {
+      "key": "../../portraits/theme-0/woman/clothes/woman_clothes_018.svg",
+      "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+    },
+    {
+      "key": "../../portraits/theme-0/woman/hair/woman_hair_044.svg",
+      "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+    },
+    {
+      "key": "../../portraits/theme-0/woman/body/woman_body_000.svg",
+      "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+    },
+    {
+      "key": "../../portraits/theme-0/woman/clothes/woman_clothes_000.svg",
+      "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+    },
+    {
+      "key": "../../portraits/theme-0/woman/hair/woman_hair_029.svg",
+      "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+    },
+    {
+      "key": "../../portraits/theme-0/woman/body/woman_body_000.svg",
+      "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+    },
+    {
+      "key": "../../portraits/theme-0/woman/clothes/woman_clothes_008.svg",
+      "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+    },
+    {
+      "key": "../../portraits/theme-0/woman/hair/woman_hair_017.svg",
+      "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+    },
+    {
+      "key": "../../portraits/theme-0/woman/body/woman_body_000.svg",
+      "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+    },
+    {
+      "key": "../../portraits/theme-0/woman/clothes/woman_clothes_022.svg",
+      "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+    },
+    {
+      "key": "../../portraits/theme-0/woman/hair/woman_hair_020.svg",
+      "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+    },
+    {
+      "key": "../../portraits/theme-0/man/body/man_body_000.svg",
+      "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+    },
+    {
+      "key": "../../portraits/theme-0/man/clothes/man_clothes_001.svg",
+      "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+    },
+    {
+      "key": "../../portraits/theme-0/man/hair/man_hair_007.svg",
+      "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+    },
+    {
+      "key": "../../portraits/theme-0/man/facial/man_facial_014.svg",
+      "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+    }
+  ],
+  "uiAssets": [
+    {
+      "source": "https://murdoku.com/play/puzzle-24h-delivery-easy",
+      "files": [
+        "logo.svg",
+        "textures/woodentile.svg",
+        "textures/squaretile.svg",
+        "textures/grass.svg",
+        "objects/x.svg"
+      ],
+      "note": "Logo and floor textures from the rendered original site and its public asset bundle."
+    },
+    {
+      "source": "https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Inter:wght@400;600;800&display=swap",
+      "files": [
+        "fonts/caveat.woff2",
+        "fonts/inter.woff2"
+      ],
+      "note": "Original site fonts, Latin subsets stored locally."
+    }
+  ]
+}

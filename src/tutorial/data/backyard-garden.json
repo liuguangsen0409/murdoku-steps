@@ -1,0 +1,4599 @@
+[
+  {
+    "id": "backyard-garden-lesson-1",
+    "title": "先读地图与全局规则",
+    "explanation": "9 人共用 9 行、9 列；先从地形、家具与明确区域建立候选。",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [],
+    "candidateCharacters": [],
+    "highlightCells": [],
+    "actions": [
+      {
+        "type": "setCandidates",
+        "character": "A",
+        "cells": [
+          "R8C5",
+          "R8C6",
+          "R9C4",
+          "R9C5",
+          "R9C6"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "B",
+        "cells": [
+          "R5C2",
+          "R5C3",
+          "R6C1"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "C",
+        "cells": [
+          "R1C1",
+          "R1C3",
+          "R2C2",
+          "R3C5",
+          "R3C7",
+          "R4C6"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "D",
+        "cells": [
+          "R5C5",
+          "R5C6",
+          "R5C7",
+          "R5C9",
+          "R6C5",
+          "R6C6",
+          "R6C7",
+          "R6C8",
+          "R6C9",
+          "R7C3",
+          "R8C1",
+          "R8C3",
+          "R9C1",
+          "R9C2",
+          "R9C3"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "E",
+        "cells": [
+          "R5C7",
+          "R5C9",
+          "R6C5",
+          "R9C5"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "F",
+        "cells": [
+          "R6C6",
+          "R6C7",
+          "R8C3",
+          "R8C7",
+          "R8C8",
+          "R9C3",
+          "R9C7"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "G",
+        "cells": [
+          "R1C8",
+          "R2C8",
+          "R2C9",
+          "R3C9"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "H",
+        "cells": [
+          "R1C1",
+          "R1C3",
+          "R1C4",
+          "R1C6",
+          "R1C7",
+          "R1C8",
+          "R2C1",
+          "R2C2",
+          "R2C4",
+          "R2C5",
+          "R2C6",
+          "R2C7",
+          "R2C8",
+          "R2C9",
+          "R3C1",
+          "R3C2",
+          "R3C3",
+          "R3C4",
+          "R3C5",
+          "R3C7",
+          "R3C9",
+          "R4C2",
+          "R4C3",
+          "R4C4",
+          "R4C5",
+          "R4C6",
+          "R4C8",
+          "R5C2",
+          "R5C3",
+          "R5C4",
+          "R5C5",
+          "R5C6",
+          "R5C7",
+          "R5C9",
+          "R6C1",
+          "R6C2",
+          "R6C3",
+          "R6C4",
+          "R6C5",
+          "R6C6",
+          "R6C7",
+          "R6C8",
+          "R6C9",
+          "R7C1",
+          "R7C3",
+          "R7C7",
+          "R7C8",
+          "R7C9",
+          "R8C1",
+          "R8C3",
+          "R8C5",
+          "R8C6",
+          "R8C7",
+          "R8C8",
+          "R9C1",
+          "R9C2",
+          "R9C3",
+          "R9C4",
+          "R9C5",
+          "R9C6",
+          "R9C7"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "V",
+        "cells": [
+          "R1C1",
+          "R1C3",
+          "R1C4",
+          "R1C6",
+          "R1C7",
+          "R1C8",
+          "R2C1",
+          "R2C2",
+          "R2C4",
+          "R2C5",
+          "R2C6",
+          "R2C7",
+          "R2C8",
+          "R2C9",
+          "R3C1",
+          "R3C2",
+          "R3C3",
+          "R3C4",
+          "R3C5",
+          "R3C7",
+          "R3C9",
+          "R4C2",
+          "R4C3",
+          "R4C4",
+          "R4C5",
+          "R4C6",
+          "R4C8",
+          "R5C2",
+          "R5C3",
+          "R5C4",
+          "R5C5",
+          "R5C6",
+          "R5C7",
+          "R5C9",
+          "R6C1",
+          "R6C2",
+          "R6C3",
+          "R6C4",
+          "R6C5",
+          "R6C6",
+          "R6C7",
+          "R6C8",
+          "R6C9",
+          "R7C1",
+          "R7C3",
+          "R7C7",
+          "R7C8",
+          "R7C9",
+          "R8C1",
+          "R8C3",
+          "R8C5",
+          "R8C6",
+          "R8C7",
+          "R8C8",
+          "R9C1",
+          "R9C2",
+          "R9C3",
+          "R9C4",
+          "R9C5",
+          "R9C6",
+          "R9C7"
+        ]
+      }
+    ],
+    "rule": "地图与初始单人条件",
+    "details": [
+      "每行、每列最多一人；死者 V 也参与行列限制。",
+      "旁边按同一逻辑区域内的上下左右判断；家具是否可站立，以地图格子的属性为准。",
+      "本页逐步保存候选排除。只有某人的候选恰好剩一格时，才执行落位。"
+    ]
+  },
+  {
+    "id": "backyard-garden-lesson-2",
+    "title": "先看 Aaron、Bruce、Carissa 的候选",
+    "explanation": "A：和 Elyse 一起在 客厅里。（5 个候选）；B：在棚屋里。（3 个候选）；C：在一棵树旁边。（6 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "A",
+      "B",
+      "C"
+    ],
+    "candidateCharacters": [
+      "A",
+      "B",
+      "C"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R1C3",
+      "R2C2",
+      "R3C5",
+      "R3C7",
+      "R4C6",
+      "R5C2",
+      "R5C3",
+      "R6C1",
+      "R8C5",
+      "R8C6",
+      "R9C4",
+      "R9C5",
+      "R9C6"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Aaron（A） 的原始线索：和 Elyse 一起在 客厅里。",
+      "A 候选：R8C5–6；R9C4–6。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Bruce（B） 的原始线索：在棚屋里。",
+      "B 候选：R5C2–3；R6C1。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Carissa（C） 的原始线索：在一棵树旁边。",
+      "C 候选：R1C1、3；R2C2；R3C5、7；R4C6。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "backyard-garden-lesson-3",
+    "title": "先看 Denise、Elyse、Franklin 的候选",
+    "explanation": "D：在卧室 或阳光房里。（15 个候选）；E：坐在一把椅子上。（4 个候选）；F：在一块地毯上。（7 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "D",
+      "E",
+      "F"
+    ],
+    "candidateCharacters": [
+      "D",
+      "E",
+      "F"
+    ],
+    "highlightCells": [
+      "R5C5",
+      "R5C6",
+      "R5C7",
+      "R5C9",
+      "R6C5",
+      "R6C6",
+      "R6C7",
+      "R6C8",
+      "R6C9",
+      "R7C3",
+      "R8C1",
+      "R8C3",
+      "R8C7",
+      "R8C8",
+      "R9C1",
+      "R9C2",
+      "R9C3",
+      "R9C5",
+      "R9C7"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Denise（D） 的原始线索：在卧室 或阳光房里。",
+      "D 候选：15 格，分布在 R5–R9 / C1–C9（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Elyse（E） 的原始线索：坐在一把椅子上。",
+      "E 候选：R5C7、9；R6C5；R9C5。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Franklin（F） 的原始线索：在一块地毯上。",
+      "F 候选：R6C6–7；R8C3、7–8；R9C3、7。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "backyard-garden-lesson-4",
+    "title": "先看 Gilbert、Holden、Violet 的候选",
+    "explanation": "G：在花园里。（4 个候选）；H：独自一人。（61 个候选）；V：被害者。和凶手单独在一起。（61 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "G",
+      "H",
+      "V"
+    ],
+    "candidateCharacters": [
+      "G",
+      "H",
+      "V"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R1C3",
+      "R1C4",
+      "R1C6",
+      "R1C7",
+      "R1C8",
+      "R2C1",
+      "R2C2",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R2C7",
+      "R2C8",
+      "R2C9",
+      "R3C1",
+      "R3C2",
+      "R3C3",
+      "R3C4",
+      "R3C5",
+      "R3C7",
+      "R3C9",
+      "R4C2",
+      "R4C3",
+      "R4C4",
+      "R4C5",
+      "R4C6",
+      "R4C8",
+      "R5C2",
+      "R5C3",
+      "R5C4",
+      "R5C5",
+      "R5C6",
+      "R5C7",
+      "R5C9",
+      "R6C1",
+      "R6C2",
+      "R6C3",
+      "R6C4",
+      "R6C5",
+      "R6C6",
+      "R6C7",
+      "R6C8",
+      "R6C9",
+      "R7C1",
+      "R7C3",
+      "R7C7",
+      "R7C8",
+      "R7C9",
+      "R8C1",
+      "R8C3",
+      "R8C5",
+      "R8C6",
+      "R8C7",
+      "R8C8",
+      "R9C1",
+      "R9C2",
+      "R9C3",
+      "R9C4",
+      "R9C5",
+      "R9C6",
+      "R9C7"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Gilbert（G） 的原始线索：在花园里。",
+      "G 候选：R1C8；R2C8–9；R3C9。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Holden（H） 的原始线索：独自一人。",
+      "H 候选：61 格，分布在 R1–R9 / C1–C9（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Violet（V） 的原始线索：被害者。和凶手单独在一起。",
+      "V 候选：61 格，分布在 R1–R9 / C1–C9（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "backyard-garden-lesson-5",
+    "title": "确定 Aaron",
+    "explanation": "A 只剩 R8C6。Aaron 与 Elyse 在同一区域，A 从 5 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "A",
+      "E"
+    ],
+    "candidateCharacters": [
+      "E"
+    ],
+    "highlightCells": [
+      "R5C7",
+      "R5C9",
+      "R6C5",
+      "R8C6",
+      "R9C5"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R8C5",
+        "reason": {
+          "ruleId": "Aaron 与 Elyse 在同一区域",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R9C4",
+        "reason": {
+          "ruleId": "Aaron 与 Elyse 在同一区域",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R9C5",
+        "reason": {
+          "ruleId": "Aaron 与 Elyse 在同一区域",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R9C6",
+        "reason": {
+          "ruleId": "Aaron 与 Elyse 在同一区域",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "A",
+        "cell": "R8C6",
+        "reason": {
+          "ruleId": "Aaron 与 Elyse 在同一区域",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-4"
+          ]
+        }
+      }
+    ],
+    "rule": "Aaron 与 Elyse 在同一区域",
+    "details": [
+      "A：Aaron 与 Elyse 在同一区域。候选从 5 格减至 1 格；剩余 R8C6。",
+      "例如 A 在 R8C5，找不到既满足两人关系、又不同行同列的 E。E 现有候选：R5C7、9；R6C5；R9C5。"
+    ]
+  },
+  {
+    "id": "backyard-garden-lesson-6",
+    "title": "确定 Elyse",
+    "explanation": "E 只剩 R9C5。Aaron 与 Elyse 在同一区域，E 从 4 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "E",
+      "C",
+      "A",
+      "D"
+    ],
+    "candidateCharacters": [
+      "C",
+      "D"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R1C3",
+      "R2C2",
+      "R3C5",
+      "R3C7",
+      "R5C7",
+      "R5C9",
+      "R6C5",
+      "R6C7",
+      "R6C8",
+      "R6C9",
+      "R7C3",
+      "R8C6",
+      "R9C1",
+      "R9C2",
+      "R9C3",
+      "R9C5"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R4C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R5C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R6C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R8C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R8C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R5C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R5C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R5C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R6C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "E",
+        "cell": "R9C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-5"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "C：每行、每列最多一人。候选从 6 格减至 5 格；剩余 R1C1、3；R2C2；R3C5、7。",
+      "D：每行、每列最多一人。候选从 15 格减至 11 格；剩余 11 格，分布在 R5–R9 / C1–C9（点人物查看候选）。",
+      "D：每行、每列最多一人。候选从 11 格减至 10 格；剩余 10 格，分布在 R5–R9 / C1–C9（点人物查看候选）。",
+      "E：Aaron 与 Elyse 在同一区域。候选从 4 格减至 1 格；剩余 R9C5。",
+      "例如 E 在 R5C7，找不到既满足两人关系、又不同行同列的 A。A 现有候选：R8C6。"
+    ]
+  },
+  {
+    "id": "backyard-garden-lesson-7",
+    "title": "确定 Franklin",
+    "explanation": "F 只剩 R6C7。E 已锁定 R9C5，F 从 3 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "F",
+      "C",
+      "E",
+      "D"
+    ],
+    "candidateCharacters": [
+      "C",
+      "D"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R1C3",
+      "R2C2",
+      "R3C7",
+      "R5C7",
+      "R5C9",
+      "R6C7",
+      "R6C8",
+      "R6C9",
+      "R7C3",
+      "R9C5"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R3C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R6C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R9C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R9C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R9C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R6C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R8C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R8C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R8C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R9C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R9C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "F",
+        "cell": "R6C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-6"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "C：每行、每列最多一人。候选从 5 格减至 4 格；剩余 R1C1、3；R2C2；R3C7。",
+      "D：每行、每列最多一人。候选从 10 格减至 6 格；剩余 R5C7、9；R6C7–9；R7C3。",
+      "F：每行、每列最多一人。候选从 7 格减至 3 格；剩余 R6C7；R9C3、7。",
+      "F：每行、每列最多一人。候选从 3 格减至 1 格；剩余 R6C7。",
+      "例如 F 在 R9C3，会与 E 的全部剩余位置同行或同列，无法配对。E 现有候选：R9C5。"
+    ]
+  },
+  {
+    "id": "backyard-garden-lesson-8",
+    "title": "确定 Denise",
+    "explanation": "D 只剩 R7C3。F 已锁定 R6C7，D 从 4 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "D",
+      "B",
+      "F",
+      "C"
+    ],
+    "candidateCharacters": [
+      "B",
+      "C"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R1C3",
+      "R2C2",
+      "R5C2",
+      "R5C3",
+      "R6C7",
+      "R7C3"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R6C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R3C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R5C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R5C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R6C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R6C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R6C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "D",
+        "cell": "R7C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-7"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "B：每行、每列最多一人。候选从 3 格减至 2 格；剩余 R5C2–3。",
+      "C：每行、每列最多一人。候选从 4 格减至 3 格；剩余 R1C1、3；R2C2。",
+      "D：每行、每列最多一人。候选从 6 格减至 4 格；剩余 R6C7–9；R7C3。",
+      "D：每行、每列最多一人。候选从 4 格减至 1 格；剩余 R7C3。",
+      "例如 D 在 R6C7，会与 F 的全部剩余位置同行或同列，无法配对。F 现有候选：R6C7。"
+    ]
+  },
+  {
+    "id": "backyard-garden-lesson-9",
+    "title": "确定 Bruce",
+    "explanation": "B 只剩 R5C2。D 已锁定 R7C3，B 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "B",
+      "D"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R5C2",
+      "R7C3"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R5C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "B",
+        "cell": "R5C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-8"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "B：每行、每列最多一人。候选从 2 格减至 1 格；剩余 R5C2。",
+      "例如 B 在 R5C3，会与 D 的全部剩余位置同行或同列，无法配对。D 现有候选：R7C3。"
+    ]
+  },
+  {
+    "id": "backyard-garden-lesson-10",
+    "title": "确定 Carissa",
+    "explanation": "C 只剩 R1C1。D 已锁定 R7C3，C 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "C",
+      "B",
+      "D"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R1C1",
+      "R5C2",
+      "R7C3"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R2C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R1C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "C",
+        "cell": "R1C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-9"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "C：每行、每列最多一人。候选从 3 格减至 2 格；剩余 R1C1、3。",
+      "C：每行、每列最多一人。候选从 2 格减至 1 格；剩余 R1C1。",
+      "例如 C 在 R1C3，会与 D 的全部剩余位置同行或同列，无法配对。D 现有候选：R7C3。"
+    ]
+  },
+  {
+    "id": "backyard-garden-lesson-11",
+    "title": "Holden：候选缩至 7 格",
+    "explanation": "Holden 独处，其他人必须在不同区域，H 从 16 格缩到 10 格；Holden 独处，其他人必须在不同区域，H 从 10 格缩到 7 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "H",
+      "G",
+      "C",
+      "A"
+    ],
+    "candidateCharacters": [
+      "H",
+      "G"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R2C4",
+      "R2C8",
+      "R2C9",
+      "R3C9",
+      "R6C7",
+      "R6C8",
+      "R6C9",
+      "R8C6"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "G",
+        "cell": "R1C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R1C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R2C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R4C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R5C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R6C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R8C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R8C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R8C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R8C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R8C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R8C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R9C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R9C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R9C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R2C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R3C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R4C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R5C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R5C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R5C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R5C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R5C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R5C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R6C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R6C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R9C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R1C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R1C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R1C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R1C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R1C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R2C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R2C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R3C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R3C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R3C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R3C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R4C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R4C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R4C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R4C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R6C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R6C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R7C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R9C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R3C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R7C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R7C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R7C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R7C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R9C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R2C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R6C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R9C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-10"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "G：每行、每列最多一人。候选从 4 格减至 3 格；剩余 R2C8–9；R3C9。",
+      "H：Holden 独处，其他人必须在不同区域。候选从 61 格减至 47 格；剩余 47 格，分布在 R1–R9 / C1–C9（点人物查看候选）。",
+      "H：Holden 独处，其他人必须在不同区域。候选从 47 格减至 35 格；剩余 35 格，分布在 R1–R9 / C1–C9（点人物查看候选）。",
+      "H：Holden 独处，其他人必须在不同区域。候选从 35 格减至 16 格；剩余 16 格，分布在 R2–R9 / C3–C9（点人物查看候选）。",
+      "H：Holden 独处，其他人必须在不同区域。候选从 16 格减至 10 格；剩余 10 格，分布在 R2–R9 / C4–C9（点人物查看候选）。",
+      "H：Holden 独处，其他人必须在不同区域。候选从 10 格减至 7 格；剩余 R2C4、8–9；R3C9；R6C7–9。",
+      "例如 H 在 R2C5，找不到既满足两人关系、又不同行同列的 E。E 现有候选：R9C5。"
+    ]
+  },
+  {
+    "id": "backyard-garden-lesson-12",
+    "title": "确定 Gilbert",
+    "explanation": "G 只剩 R3C9。Holden 独处，其他人必须在不同区域，G 从 3 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "G",
+      "H",
+      "F"
+    ],
+    "candidateCharacters": [
+      "H"
+    ],
+    "highlightCells": [
+      "R2C4",
+      "R2C8",
+      "R2C9",
+      "R3C9",
+      "R6C7"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R6C7",
+        "reason": {
+          "ruleId": "Holden 独处，其他人必须在不同区域",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R6C8",
+        "reason": {
+          "ruleId": "Holden 独处，其他人必须在不同区域",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R6C9",
+        "reason": {
+          "ruleId": "Holden 独处，其他人必须在不同区域",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "G",
+        "cell": "R2C8",
+        "reason": {
+          "ruleId": "Holden 独处，其他人必须在不同区域",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "G",
+        "cell": "R2C9",
+        "reason": {
+          "ruleId": "Holden 独处，其他人必须在不同区域",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "G",
+        "cell": "R3C9",
+        "reason": {
+          "ruleId": "Holden 独处，其他人必须在不同区域",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-11"
+          ]
+        }
+      }
+    ],
+    "rule": "Holden 独处，其他人必须在不同区域",
+    "details": [
+      "H：Holden 独处，其他人必须在不同区域。候选从 7 格减至 4 格；剩余 R2C4、8–9；R3C9。",
+      "G：Holden 独处，其他人必须在不同区域。候选从 3 格减至 1 格；剩余 R3C9。",
+      "例如 G 在 R2C8，找不到既满足两人关系、又不同行同列的 H。H 现有候选：R2C4、8–9；R3C9。"
+    ]
+  },
+  {
+    "id": "backyard-garden-lesson-13",
+    "title": "确定 Holden",
+    "explanation": "H 只剩 R2C4。Holden 独处，其他人必须在不同区域，H 从 4 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "H",
+      "G"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R2C4",
+      "R3C9"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R2C8",
+        "reason": {
+          "ruleId": "Holden 独处，其他人必须在不同区域",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R2C9",
+        "reason": {
+          "ruleId": "Holden 独处，其他人必须在不同区域",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R3C9",
+        "reason": {
+          "ruleId": "Holden 独处，其他人必须在不同区域",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "H",
+        "cell": "R2C4",
+        "reason": {
+          "ruleId": "Holden 独处，其他人必须在不同区域",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-12"
+          ]
+        }
+      }
+    ],
+    "rule": "Holden 独处，其他人必须在不同区域",
+    "details": [
+      "H：Holden 独处，其他人必须在不同区域。候选从 4 格减至 1 格；剩余 R2C4。",
+      "例如 H 在 R2C8，找不到既满足两人关系、又不同行同列的 G。G 现有候选：R3C9。"
+    ]
+  },
+  {
+    "id": "backyard-garden-lesson-14",
+    "title": "Violet：候选缩至 7 格",
+    "explanation": "E 已锁定 R9C5，V 从 20 格缩到 13 格；F 已锁定 R6C7，V 从 13 格缩到 7 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "V",
+      "A",
+      "B",
+      "C"
+    ],
+    "candidateCharacters": [
+      "V"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R2C4",
+      "R2C8",
+      "R2C9",
+      "R3C4",
+      "R3C9",
+      "R4C4",
+      "R4C8",
+      "R5C2",
+      "R8C6"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R8C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R8C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R8C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R8C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R8C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R8C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R9C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R9C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R9C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R9C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R9C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R9C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R9C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-13"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "V：每行、每列最多一人。候选从 61 格减至 49 格；剩余 49 格，分布在 R1–R9 / C1–C9（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 49 格减至 38 格；剩余 38 格，分布在 R1–R9 / C1–C9（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 38 格减至 28 格；剩余 28 格，分布在 R2–R9 / C3–C9（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 28 格减至 20 格；剩余 20 格，分布在 R2–R9 / C4–C9（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 20 格减至 13 格；剩余 13 格，分布在 R2–R6 / C4–C9（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 13 格减至 7 格；剩余 R2C4、8–9；R3C4、9；R4C4、8。",
+      "例如 V 在 R2C7，会与 F 的全部剩余位置同行或同列，无法配对。F 现有候选：R6C7。"
+    ]
+  },
+  {
+    "id": "backyard-garden-lesson-15",
+    "title": "确定 Violet",
+    "explanation": "V 只剩 R4C8。Holden 独处，其他人必须在不同区域，V 从 4 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "V",
+      "G",
+      "H"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R2C4",
+      "R3C9",
+      "R4C8"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "V",
+        "cell": "R4C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "backyard-garden-lesson-14"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "V：每行、每列最多一人。候选从 7 格减至 4 格；剩余 R2C4、8；R4C4、8。",
+      "V：Holden 独处，其他人必须在不同区域。候选从 4 格减至 1 格；剩余 R4C8。",
+      "例如 V 在 R2C4，找不到既满足两人关系、又不同行同列的 H。H 现有候选：R2C4。"
+    ]
+  },
+  {
+    "id": "backyard-garden-lesson-16",
+    "title": "Carissa 是凶手",
+    "explanation": "死者 V 位于后院的 R4C8；同区唯一另一人是 Carissa（C），位置为 R1C1。",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "C",
+      "V"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R1C1",
+      "R4C8"
+    ],
+    "actions": [],
+    "rule": "死者与凶手独处",
+    "details": [
+      "死者线索要求与凶手独处，必须以最终逻辑区域的同区人数判定。",
+      "后院实际人物：C 在 R1C1、V 在 R4C8；其余所有人都在其他区域。",
+      "9 人全部有位置，且每行、每列均无冲突。",
+      "最终位置由初始候选与记录中的约束排除得到；原始答案只由求解脚本在结束时作一致性核对。"
+    ]
+  }
+]

@@ -1,0 +1,7344 @@
+[
+  {
+    "id": "the-retirement-community-lesson-1",
+    "title": "先读地图与全局规则",
+    "explanation": "10 人共用 10 行、10 列；先从地形、家具与明确区域建立候选。",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "I-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [],
+    "candidateCharacters": [],
+    "highlightCells": [],
+    "actions": [
+      {
+        "type": "setCandidates",
+        "character": "A",
+        "cells": [
+          "R2C1",
+          "R2C2",
+          "R3C1",
+          "R6C8",
+          "R7C3",
+          "R7C4",
+          "R7C8",
+          "R7C9",
+          "R8C3",
+          "R9C3"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "B",
+        "cells": [
+          "R1C2",
+          "R1C3",
+          "R1C4",
+          "R1C6",
+          "R2C1",
+          "R2C2",
+          "R2C3",
+          "R2C4",
+          "R2C5",
+          "R3C1",
+          "R3C2",
+          "R3C3",
+          "R3C4",
+          "R3C5",
+          "R4C7",
+          "R4C10",
+          "R5C7",
+          "R5C8",
+          "R5C9",
+          "R5C10",
+          "R6C8",
+          "R6C9",
+          "R6C10",
+          "R7C8",
+          "R7C9",
+          "R7C10"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "C",
+        "cells": [
+          "R4C1",
+          "R5C2",
+          "R5C5",
+          "R6C6",
+          "R7C5",
+          "R9C6",
+          "R10C7"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "D",
+        "cells": [
+          "R3C2",
+          "R4C7",
+          "R6C4",
+          "R7C2",
+          "R8C4",
+          "R9C1",
+          "R10C4"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "E",
+        "cells": [
+          "R1C4",
+          "R2C4",
+          "R6C10",
+          "R7C10"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "F",
+        "cells": [
+          "R5C2",
+          "R8C7"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "G",
+        "cells": [
+          "R1C2",
+          "R1C3",
+          "R1C4",
+          "R1C6",
+          "R1C7",
+          "R1C8",
+          "R1C9",
+          "R1C10"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "H",
+        "cells": [
+          "R1C2",
+          "R1C3",
+          "R1C4",
+          "R1C6",
+          "R1C7",
+          "R1C8",
+          "R1C9",
+          "R1C10",
+          "R2C1",
+          "R2C2",
+          "R2C3",
+          "R2C4",
+          "R2C5",
+          "R2C6",
+          "R2C7",
+          "R2C8",
+          "R2C9",
+          "R2C10",
+          "R3C1",
+          "R3C2",
+          "R3C3",
+          "R3C4",
+          "R3C5",
+          "R3C6",
+          "R3C7",
+          "R3C8",
+          "R3C9",
+          "R3C10",
+          "R4C1",
+          "R4C2",
+          "R4C3",
+          "R4C4",
+          "R4C5",
+          "R4C6",
+          "R4C7",
+          "R4C10",
+          "R5C2",
+          "R5C3",
+          "R5C4",
+          "R5C5",
+          "R5C6",
+          "R5C7",
+          "R5C8",
+          "R5C9",
+          "R5C10",
+          "R6C1",
+          "R6C2",
+          "R6C3",
+          "R6C4",
+          "R6C6",
+          "R6C7",
+          "R6C8",
+          "R6C9",
+          "R6C10",
+          "R7C1",
+          "R7C2",
+          "R7C3",
+          "R7C4",
+          "R7C5",
+          "R7C6",
+          "R7C7",
+          "R7C8",
+          "R7C9",
+          "R7C10",
+          "R8C3",
+          "R8C4",
+          "R8C5",
+          "R8C6",
+          "R8C7",
+          "R8C8",
+          "R8C9",
+          "R8C10",
+          "R9C1",
+          "R9C2",
+          "R9C3",
+          "R9C6",
+          "R9C7",
+          "R9C8",
+          "R9C9",
+          "R9C10",
+          "R10C2",
+          "R10C3",
+          "R10C4",
+          "R10C7",
+          "R10C8",
+          "R10C9",
+          "R10C10"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "I",
+        "cells": [
+          "R8C8",
+          "R8C10",
+          "R10C8",
+          "R10C10"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "V",
+        "cells": [
+          "R1C2",
+          "R1C3",
+          "R1C4",
+          "R1C6",
+          "R1C7",
+          "R1C8",
+          "R1C9",
+          "R1C10",
+          "R2C1",
+          "R2C2",
+          "R2C3",
+          "R2C4",
+          "R2C5",
+          "R2C6",
+          "R2C7",
+          "R2C8",
+          "R2C9",
+          "R2C10",
+          "R3C1",
+          "R3C2",
+          "R3C3",
+          "R3C4",
+          "R3C5",
+          "R3C6",
+          "R3C7",
+          "R3C8",
+          "R3C9",
+          "R3C10",
+          "R4C1",
+          "R4C2",
+          "R4C3",
+          "R4C4",
+          "R4C5",
+          "R4C6",
+          "R4C7",
+          "R4C10",
+          "R5C2",
+          "R5C3",
+          "R5C4",
+          "R5C5",
+          "R5C6",
+          "R5C7",
+          "R5C8",
+          "R5C9",
+          "R5C10",
+          "R6C1",
+          "R6C2",
+          "R6C3",
+          "R6C4",
+          "R6C6",
+          "R6C7",
+          "R6C8",
+          "R6C9",
+          "R6C10",
+          "R7C1",
+          "R7C2",
+          "R7C3",
+          "R7C4",
+          "R7C5",
+          "R7C6",
+          "R7C7",
+          "R7C8",
+          "R7C9",
+          "R7C10",
+          "R8C3",
+          "R8C4",
+          "R8C5",
+          "R8C6",
+          "R8C7",
+          "R8C8",
+          "R8C9",
+          "R8C10",
+          "R9C1",
+          "R9C2",
+          "R9C3",
+          "R9C6",
+          "R9C7",
+          "R9C8",
+          "R9C9",
+          "R9C10",
+          "R10C2",
+          "R10C3",
+          "R10C4",
+          "R10C7",
+          "R10C8",
+          "R10C9",
+          "R10C10"
+        ]
+      }
+    ],
+    "rule": "地图与初始单人条件",
+    "details": [
+      "每行、每列最多一人；死者 V 也参与行列限制。",
+      "旁边按同一逻辑区域内的上下左右判断；家具是否可站立，以地图格子的属性为准。",
+      "本页逐步保存候选排除。只有某人的候选恰好剩一格时，才执行落位。"
+    ]
+  },
+  {
+    "id": "the-retirement-community-lesson-2",
+    "title": "先看 August、Barnaby、Clarence 的候选",
+    "explanation": "A：他在地毯上。（10 个候选）；B：他独自一人在公寓A或公寓B里。（26 个候选）；C：他在树旁边。（7 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "I-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "A",
+      "B",
+      "C"
+    ],
+    "candidateCharacters": [
+      "A",
+      "B",
+      "C"
+    ],
+    "highlightCells": [
+      "R1C2",
+      "R1C3",
+      "R1C4",
+      "R1C6",
+      "R2C1",
+      "R2C2",
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R3C1",
+      "R3C2",
+      "R3C3",
+      "R3C4",
+      "R3C5",
+      "R4C1",
+      "R4C7",
+      "R4C10",
+      "R5C2",
+      "R5C5",
+      "R5C7",
+      "R5C8",
+      "R5C9",
+      "R5C10",
+      "R6C6",
+      "R6C8",
+      "R6C9",
+      "R6C10",
+      "R7C3",
+      "R7C4",
+      "R7C5",
+      "R7C8",
+      "R7C9",
+      "R7C10",
+      "R8C3",
+      "R9C3",
+      "R9C6",
+      "R10C7"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "August（A） 的原始线索：他在地毯上。",
+      "A 候选：10 格，分布在 R2–R9 / C1–C9（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Barnaby（B） 的原始线索：他独自一人在公寓A或公寓B里。",
+      "B 候选：26 格，分布在 R1–R7 / C1–C10（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Clarence（C） 的原始线索：他在树旁边。",
+      "C 候选：R4C1；R5C2、5；R6C6；R7C5；R9C6；R10C7。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "the-retirement-community-lesson-3",
+    "title": "先看 Donna、Eirlys、Florence 的候选",
+    "explanation": "D：她坐在椅子上。（7 个候选）；E：她在床上。（4 个候选）；F：她在高尔夫球车里。（2 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "I-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "D",
+      "E",
+      "F"
+    ],
+    "candidateCharacters": [
+      "D",
+      "E",
+      "F"
+    ],
+    "highlightCells": [
+      "R1C4",
+      "R2C4",
+      "R3C2",
+      "R4C7",
+      "R5C2",
+      "R6C4",
+      "R6C10",
+      "R7C2",
+      "R7C10",
+      "R8C4",
+      "R8C7",
+      "R9C1",
+      "R10C4"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Donna（D） 的原始线索：她坐在椅子上。",
+      "D 候选：R3C2；R4C7；R6C4；R7C2；R8C4；R9C1；R10C4。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Eirlys（E） 的原始线索：她在床上。",
+      "E 候选：R1C4；R2C4；R6C10；R7C10。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Florence（F） 的原始线索：她在高尔夫球车里。",
+      "F 候选：R5C2；R8C7。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "the-retirement-community-lesson-4",
+    "title": "先看 Gus、Horatio、Ira 的候选",
+    "explanation": "G：他在最上面一行。（8 个候选）；H：在他正北恰好一行的位置，有一个男人在高尔夫球车里。（87 个候选）；I：他在匹克球场的一个角落。（4 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "I-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "G",
+      "H",
+      "I"
+    ],
+    "candidateCharacters": [
+      "G",
+      "H",
+      "I"
+    ],
+    "highlightCells": [
+      "R1C2",
+      "R1C3",
+      "R1C4",
+      "R1C6",
+      "R1C7",
+      "R1C8",
+      "R1C9",
+      "R1C10",
+      "R2C1",
+      "R2C2",
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R2C7",
+      "R2C8",
+      "R2C9",
+      "R2C10",
+      "R3C1",
+      "R3C2",
+      "R3C3",
+      "R3C4",
+      "R3C5",
+      "R3C6",
+      "R3C7",
+      "R3C8",
+      "R3C9",
+      "R3C10",
+      "R4C1",
+      "R4C2",
+      "R4C3",
+      "R4C4",
+      "R4C5",
+      "R4C6",
+      "R4C7",
+      "R4C10",
+      "R5C2",
+      "R5C3",
+      "R5C4",
+      "R5C5",
+      "R5C6",
+      "R5C7",
+      "R5C8",
+      "R5C9",
+      "R5C10",
+      "R6C1",
+      "R6C2",
+      "R6C3",
+      "R6C4",
+      "R6C6",
+      "R6C7",
+      "R6C8",
+      "R6C9",
+      "R6C10",
+      "R7C1",
+      "R7C2",
+      "R7C3",
+      "R7C4",
+      "R7C5",
+      "R7C6",
+      "R7C7",
+      "R7C8",
+      "R7C9",
+      "R7C10",
+      "R8C3",
+      "R8C4",
+      "R8C5",
+      "R8C6",
+      "R8C7",
+      "R8C8",
+      "R8C9",
+      "R8C10",
+      "R9C1",
+      "R9C2",
+      "R9C3",
+      "R9C6",
+      "R9C7",
+      "R9C8",
+      "R9C9",
+      "R9C10",
+      "R10C2",
+      "R10C3",
+      "R10C4",
+      "R10C7",
+      "R10C8",
+      "R10C9",
+      "R10C10"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Gus（G） 的原始线索：他在最上面一行。",
+      "G 候选：R1C2–4、6–10。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Horatio（H） 的原始线索：在他正北恰好一行的位置，有一个男人在高尔夫球车里。",
+      "H 候选：87 格，分布在 R1–R10 / C1–C10（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Ira（I） 的原始线索：他在匹克球场的一个角落。",
+      "I 候选：R8C8、10；R10C8、10。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "the-retirement-community-lesson-5",
+    "title": "先看 Violet 的候选",
+    "explanation": "V：受害者。她和凶手单独在一起。（87 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "I-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "V"
+    ],
+    "candidateCharacters": [
+      "V"
+    ],
+    "highlightCells": [
+      "R1C2",
+      "R1C3",
+      "R1C4",
+      "R1C6",
+      "R1C7",
+      "R1C8",
+      "R1C9",
+      "R1C10",
+      "R2C1",
+      "R2C2",
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R2C7",
+      "R2C8",
+      "R2C9",
+      "R2C10",
+      "R3C1",
+      "R3C2",
+      "R3C3",
+      "R3C4",
+      "R3C5",
+      "R3C6",
+      "R3C7",
+      "R3C8",
+      "R3C9",
+      "R3C10",
+      "R4C1",
+      "R4C2",
+      "R4C3",
+      "R4C4",
+      "R4C5",
+      "R4C6",
+      "R4C7",
+      "R4C10",
+      "R5C2",
+      "R5C3",
+      "R5C4",
+      "R5C5",
+      "R5C6",
+      "R5C7",
+      "R5C8",
+      "R5C9",
+      "R5C10",
+      "R6C1",
+      "R6C2",
+      "R6C3",
+      "R6C4",
+      "R6C6",
+      "R6C7",
+      "R6C8",
+      "R6C9",
+      "R6C10",
+      "R7C1",
+      "R7C2",
+      "R7C3",
+      "R7C4",
+      "R7C5",
+      "R7C6",
+      "R7C7",
+      "R7C8",
+      "R7C9",
+      "R7C10",
+      "R8C3",
+      "R8C4",
+      "R8C5",
+      "R8C6",
+      "R8C7",
+      "R8C8",
+      "R8C9",
+      "R8C10",
+      "R9C1",
+      "R9C2",
+      "R9C3",
+      "R9C6",
+      "R9C7",
+      "R9C8",
+      "R9C9",
+      "R9C10",
+      "R10C2",
+      "R10C3",
+      "R10C4",
+      "R10C7",
+      "R10C8",
+      "R10C9",
+      "R10C10"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Violet（V） 的原始线索：受害者。她和凶手单独在一起。",
+      "V 候选：87 格，分布在 R1–R10 / C1–C10（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "the-retirement-community-lesson-6",
+    "title": "Horatio：候选缩至 77 格",
+    "explanation": "F 的 2 个候选共同排除同行同列冲突格，H 从 86 格缩到 85 格；G 的 8 个候选共同排除同行同列冲突格，H 从 85 格缩到 77 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "I-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "H",
+      "B",
+      "F",
+      "G"
+    ],
+    "candidateCharacters": [
+      "H",
+      "B",
+      "F"
+    ],
+    "highlightCells": [
+      "R1C2",
+      "R1C3",
+      "R1C4",
+      "R1C6",
+      "R1C7",
+      "R1C8",
+      "R1C9",
+      "R1C10",
+      "R2C1",
+      "R2C2",
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R2C7",
+      "R2C8",
+      "R2C9",
+      "R3C1",
+      "R3C2",
+      "R3C3",
+      "R3C4",
+      "R3C5",
+      "R3C6",
+      "R3C7",
+      "R3C8",
+      "R3C9",
+      "R3C10",
+      "R4C1",
+      "R4C2",
+      "R4C3",
+      "R4C4",
+      "R4C5",
+      "R4C6",
+      "R4C7",
+      "R4C10",
+      "R5C2",
+      "R5C3",
+      "R5C4",
+      "R5C5",
+      "R5C6",
+      "R5C8",
+      "R5C9",
+      "R5C10",
+      "R6C1",
+      "R6C2",
+      "R6C3",
+      "R6C4",
+      "R6C6",
+      "R6C7",
+      "R6C8",
+      "R6C9",
+      "R6C10",
+      "R7C1",
+      "R7C2",
+      "R7C3",
+      "R7C4",
+      "R7C5",
+      "R7C6",
+      "R7C7",
+      "R7C8",
+      "R7C9",
+      "R7C10",
+      "R8C3",
+      "R8C4",
+      "R8C5",
+      "R8C6",
+      "R8C7",
+      "R8C8",
+      "R8C9",
+      "R8C10",
+      "R9C1",
+      "R9C2",
+      "R9C3",
+      "R9C6",
+      "R9C7",
+      "R9C8",
+      "R9C9",
+      "R9C10",
+      "R10C2",
+      "R10C3",
+      "R10C4",
+      "R10C7",
+      "R10C8",
+      "R10C9",
+      "R10C10"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R5C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R1C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R1C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R1C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R1C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R1C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R2C10",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R5C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R1C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R1C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R1C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R1C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R1C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R1C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R1C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R1C10",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-5"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "B：Barnaby 独处，其他人必须在不同区域。候选从 26 格减至 25 格；剩余 25 格，分布在 R1–R7 / C1–C10（点人物查看候选）。",
+      "B：Barnaby 独处，其他人必须在不同区域。候选从 25 格减至 21 格；剩余 21 格，分布在 R2–R7 / C1–C10（点人物查看候选）。",
+      "E：每行、每列最多一人。候选从 4 格减至 3 格；剩余 R2C4；R6C10；R7C10。",
+      "H：每行、每列最多一人。候选从 87 格减至 86 格；剩余 86 格，分布在 R1–R10 / C1–C10（点人物查看候选）。",
+      "H：每行、每列最多一人。候选从 86 格减至 85 格；剩余 85 格，分布在 R1–R10 / C1–C10（点人物查看候选）。",
+      "H：每行、每列最多一人。候选从 85 格减至 77 格；剩余 77 格，分布在 R2–R10 / C1–C10（点人物查看候选）。",
+      "例如 H 在 R1C2，会与 G 的全部剩余位置同行或同列，无法配对。G 现有候选：R1C2–4、6–10。"
+    ]
+  },
+  {
+    "id": "the-retirement-community-lesson-7",
+    "title": "确定 Clarence",
+    "explanation": "C 只剩 R5C2。H 北边恰好一行处有一名男性坐在球车里，C 从 7 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "I-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "C",
+      "V",
+      "E",
+      "F"
+    ],
+    "candidateCharacters": [
+      "V",
+      "E",
+      "F"
+    ],
+    "highlightCells": [
+      "R2C1",
+      "R2C2",
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R2C7",
+      "R2C8",
+      "R2C9",
+      "R3C1",
+      "R3C2",
+      "R3C3",
+      "R3C4",
+      "R3C5",
+      "R3C6",
+      "R3C7",
+      "R3C8",
+      "R3C9",
+      "R3C10",
+      "R4C1",
+      "R4C2",
+      "R4C3",
+      "R4C4",
+      "R4C5",
+      "R4C6",
+      "R4C7",
+      "R4C10",
+      "R5C2",
+      "R5C3",
+      "R5C4",
+      "R5C5",
+      "R5C6",
+      "R5C8",
+      "R5C9",
+      "R5C10",
+      "R6C1",
+      "R6C2",
+      "R6C3",
+      "R6C4",
+      "R6C6",
+      "R6C7",
+      "R6C8",
+      "R6C9",
+      "R6C10",
+      "R7C1",
+      "R7C2",
+      "R7C3",
+      "R7C4",
+      "R7C5",
+      "R7C6",
+      "R7C7",
+      "R7C8",
+      "R7C9",
+      "R7C10",
+      "R8C3",
+      "R8C4",
+      "R8C5",
+      "R8C6",
+      "R8C7",
+      "R8C8",
+      "R8C9",
+      "R8C10",
+      "R9C1",
+      "R9C2",
+      "R9C3",
+      "R9C6",
+      "R9C7",
+      "R9C8",
+      "R9C9",
+      "R9C10",
+      "R10C2",
+      "R10C3",
+      "R10C4",
+      "R10C7",
+      "R10C8",
+      "R10C9",
+      "R10C10"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C10",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C10",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R2C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R6C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R2C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R3C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R5C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R5C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R5C10",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R6C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R6C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R6C10",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R4C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R5C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R6C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R7C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R9C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R10C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "C",
+        "cell": "R5C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-6"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "V：每行、每列最多一人。候选从 87 格减至 86 格；剩余 86 格，分布在 R1–R10 / C1–C10（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 86 格减至 85 格；剩余 85 格，分布在 R1–R10 / C1–C10（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 85 格减至 77 格；剩余 77 格，分布在 R2–R10 / C1–C10（点人物查看候选）。",
+      "A：H 北边恰好一行处有一名男性坐在球车里。候选从 10 格减至 8 格；剩余 R2C1；R3C1；R7C3–4、8–9；R8C3；R9C3。",
+      "B：H 北边恰好一行处有一名男性坐在球车里。候选从 21 格减至 13 格；剩余 13 格，分布在 R2–R7 / C1–C10（点人物查看候选）。",
+      "C：H 北边恰好一行处有一名男性坐在球车里。候选从 7 格减至 1 格；剩余 R5C2。",
+      "例如假设 C 在 R4C1，同步排除其他人的行列及关系冲突后，“H 北边恰好一行处有一名男性坐在球车里”已没有足够的人数或合适同伴，所以这格不成立。其余被删候选按相同条件逐一核验。"
+    ]
+  },
+  {
+    "id": "the-retirement-community-lesson-8",
+    "title": "确定 Florence",
+    "explanation": "F 只剩 R8C7。C 已锁定 R5C2，F 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "I-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "F",
+      "D",
+      "C"
+    ],
+    "candidateCharacters": [
+      "D"
+    ],
+    "highlightCells": [
+      "R4C7",
+      "R5C2",
+      "R6C4",
+      "R8C4",
+      "R8C7",
+      "R9C1",
+      "R10C4"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R3C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R7C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R5C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "F",
+        "cell": "R8C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-7"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "D：每行、每列最多一人。候选从 7 格减至 5 格；剩余 R4C7；R6C4；R8C4；R9C1；R10C4。",
+      "F：每行、每列最多一人。候选从 2 格减至 1 格；剩余 R8C7。",
+      "例如 F 在 R5C2，会与 C 的全部剩余位置同行或同列，无法配对。C 现有候选：R5C2。"
+    ]
+  },
+  {
+    "id": "the-retirement-community-lesson-9",
+    "title": "Horatio：候选缩至 62 格",
+    "explanation": "F 已锁定 R8C7，G 从 7 格缩到 6 格；C 已锁定 R5C2，H 从 77 格缩到 62 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "I-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "H",
+      "A",
+      "F",
+      "B"
+    ],
+    "candidateCharacters": [
+      "H",
+      "A",
+      "B"
+    ],
+    "highlightCells": [
+      "R2C1",
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R2C7",
+      "R2C8",
+      "R2C9",
+      "R3C1",
+      "R3C3",
+      "R3C4",
+      "R3C5",
+      "R3C6",
+      "R3C7",
+      "R3C8",
+      "R3C9",
+      "R3C10",
+      "R4C1",
+      "R4C3",
+      "R4C4",
+      "R4C5",
+      "R4C6",
+      "R4C7",
+      "R4C10",
+      "R6C1",
+      "R6C3",
+      "R6C4",
+      "R6C6",
+      "R6C7",
+      "R6C8",
+      "R6C9",
+      "R6C10",
+      "R7C1",
+      "R7C3",
+      "R7C4",
+      "R7C5",
+      "R7C6",
+      "R7C7",
+      "R7C8",
+      "R7C9",
+      "R7C10",
+      "R8C3",
+      "R8C4",
+      "R8C5",
+      "R8C6",
+      "R8C7",
+      "R8C8",
+      "R8C9",
+      "R8C10",
+      "R9C1",
+      "R9C3",
+      "R9C6",
+      "R9C7",
+      "R9C8",
+      "R9C9",
+      "R9C10",
+      "R10C3",
+      "R10C4",
+      "R10C7",
+      "R10C8",
+      "R10C9",
+      "R10C10"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R8C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R4C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R4C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R8C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "G",
+        "cell": "R1C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "G",
+        "cell": "R1C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R2C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R3C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R4C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R5C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R5C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R5C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R5C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R5C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R5C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R5C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R5C10",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R6C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R7C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R9C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R10C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-8"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "A：每行、每列最多一人。候选从 8 格减至 7 格；剩余 R2C1；R3C1；R7C3–4、8–9；R9C3。",
+      "B：Barnaby 独处，其他人必须在不同区域。候选从 13 格减至 12 格；剩余 12 格，分布在 R2–R7 / C1–C10（点人物查看候选）。",
+      "D：每行、每列最多一人。候选从 5 格减至 3 格；剩余 R6C4；R9C1；R10C4。",
+      "G：每行、每列最多一人。候选从 8 格减至 7 格；剩余 R1C3–4、6–10。",
+      "G：每行、每列最多一人。候选从 7 格减至 6 格；剩余 R1C3–4、6、8–10。",
+      "H：每行、每列最多一人。候选从 77 格减至 62 格；剩余 62 格，分布在 R2–R10 / C1–C10（点人物查看候选）。",
+      "例如 H 在 R2C2，会与 C 的全部剩余位置同行或同列，无法配对。C 现有候选：R5C2。"
+    ]
+  },
+  {
+    "id": "the-retirement-community-lesson-10",
+    "title": "Violet：候选缩至 62 格",
+    "explanation": "I 的 2 个候选共同排除同行同列冲突格，H 从 46 格缩到 41 格；C 已锁定 R5C2，V 从 77 格缩到 62 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "I-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "V",
+      "H",
+      "F",
+      "I"
+    ],
+    "candidateCharacters": [
+      "V",
+      "H",
+      "I"
+    ],
+    "highlightCells": [
+      "R2C1",
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R2C7",
+      "R2C8",
+      "R2C9",
+      "R3C1",
+      "R3C3",
+      "R3C4",
+      "R3C5",
+      "R3C6",
+      "R3C7",
+      "R3C8",
+      "R3C9",
+      "R3C10",
+      "R4C1",
+      "R4C3",
+      "R4C4",
+      "R4C5",
+      "R4C6",
+      "R4C7",
+      "R4C10",
+      "R6C1",
+      "R6C3",
+      "R6C4",
+      "R6C6",
+      "R6C7",
+      "R6C8",
+      "R6C9",
+      "R6C10",
+      "R7C1",
+      "R7C3",
+      "R7C4",
+      "R7C5",
+      "R7C6",
+      "R7C7",
+      "R7C8",
+      "R7C9",
+      "R7C10",
+      "R8C3",
+      "R8C4",
+      "R8C5",
+      "R8C6",
+      "R8C7",
+      "R8C8",
+      "R8C9",
+      "R8C10",
+      "R9C1",
+      "R9C3",
+      "R9C6",
+      "R9C7",
+      "R9C8",
+      "R9C9",
+      "R9C10",
+      "R10C3",
+      "R10C4",
+      "R10C7",
+      "R10C8",
+      "R10C9",
+      "R10C10"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R2C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R3C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R4C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R6C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R7C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R8C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R8C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R8C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R8C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R8C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R8C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R8C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R8C10",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R9C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R10C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "I",
+        "cell": "R8C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "I",
+        "cell": "R8C10",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R10C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R6C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R10C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R10C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R10C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R10C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R10C10",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C10",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R9C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R10C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-9"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "H：每行、每列最多一人。候选从 62 格减至 47 格；剩余 47 格，分布在 R2–R10 / C1–C10（点人物查看候选）。",
+      "I：每行、每列最多一人。候选从 4 格减至 2 格；剩余 R10C8、10。",
+      "D：每行、每列最多一人。候选从 3 格减至 2 格；剩余 R6C4；R9C1。",
+      "H：每行、每列最多一人。候选从 47 格减至 46 格；剩余 46 格，分布在 R2–R10 / C1–C10（点人物查看候选）。",
+      "H：每行、每列最多一人。候选从 46 格减至 41 格；剩余 41 格，分布在 R2–R9 / C1–C10（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 77 格减至 62 格；剩余 62 格，分布在 R2–R10 / C1–C10（点人物查看候选）。",
+      "例如 V 在 R2C2，会与 C 的全部剩余位置同行或同列，无法配对。C 现有候选：R5C2。"
+    ]
+  },
+  {
+    "id": "the-retirement-community-lesson-11",
+    "title": "确定 Donna",
+    "explanation": "D 只剩 R9C1。H 北边恰好一行处有一名男性坐在球车里，D 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "I-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "D",
+      "V",
+      "F",
+      "I"
+    ],
+    "candidateCharacters": [
+      "V",
+      "I"
+    ],
+    "highlightCells": [
+      "R2C1",
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R2C8",
+      "R2C9",
+      "R3C1",
+      "R3C3",
+      "R3C4",
+      "R3C5",
+      "R3C6",
+      "R3C8",
+      "R3C9",
+      "R3C10",
+      "R4C1",
+      "R4C3",
+      "R4C4",
+      "R4C5",
+      "R4C6",
+      "R4C10",
+      "R6C3",
+      "R6C4",
+      "R6C6",
+      "R6C8",
+      "R6C9",
+      "R6C10",
+      "R7C1",
+      "R7C3",
+      "R7C4",
+      "R7C5",
+      "R7C6",
+      "R7C8",
+      "R7C9",
+      "R7C10",
+      "R8C7",
+      "R9C1",
+      "R9C3",
+      "R9C6",
+      "R9C8",
+      "R9C9",
+      "R9C10",
+      "R10C8",
+      "R10C10"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R8C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R8C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R8C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R8C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R8C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R8C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R8C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R8C10",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R9C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R10C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R10C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R10C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R10C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R10C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R10C10",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R6C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "D",
+        "cell": "R9C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-10"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "V：每行、每列最多一人。候选从 62 格减至 61 格；剩余 61 格，分布在 R2–R10 / C1–C10（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 61 格减至 46 格；剩余 46 格，分布在 R2–R10 / C1–C10（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 46 格减至 41 格；剩余 41 格，分布在 R2–R9 / C1–C10（点人物查看候选）。",
+      "D：H 北边恰好一行处有一名男性坐在球车里。候选从 2 格减至 1 格；剩余 R9C1。",
+      "例如假设 D 在 R6C4，同步排除其他人的行列及关系冲突后，“H 北边恰好一行处有一名男性坐在球车里”已没有足够的人数或合适同伴，所以这格不成立。其余被删候选按相同条件逐一核验。"
+    ]
+  },
+  {
+    "id": "the-retirement-community-lesson-12",
+    "title": "Horatio：候选缩至 24 格",
+    "explanation": "A 的 4 个候选共同排除同行同列冲突格，H 从 41 格缩到 33 格；D 已锁定 R9C1，H 从 33 格缩到 24 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "I-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "H",
+      "A",
+      "D",
+      "B"
+    ],
+    "candidateCharacters": [
+      "H",
+      "A",
+      "B"
+    ],
+    "highlightCells": [
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R2C8",
+      "R2C9",
+      "R3C3",
+      "R3C4",
+      "R3C5",
+      "R3C6",
+      "R3C8",
+      "R3C9",
+      "R3C10",
+      "R4C3",
+      "R4C4",
+      "R4C5",
+      "R4C6",
+      "R4C10",
+      "R6C3",
+      "R6C4",
+      "R6C6",
+      "R6C8",
+      "R6C9",
+      "R6C10",
+      "R7C3",
+      "R7C4",
+      "R7C8",
+      "R7C9",
+      "R9C1"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R2C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R3C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R9C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R7C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R7C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R7C10",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R2C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R3C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R7C10",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R7C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R7C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R7C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R7C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R7C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R7C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R7C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R7C10",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R2C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R3C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R4C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R9C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R9C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R9C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R9C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R9C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R9C10",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-11"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "A：每行、每列最多一人。候选从 7 格减至 4 格；剩余 R7C3–4、8–9。",
+      "B：Barnaby 独处，其他人必须在不同区域。候选从 12 格减至 9 格；剩余 9 格，分布在 R2–R4 / C1–C10（点人物查看候选）。",
+      "B：Barnaby 独处，其他人必须在不同区域。候选从 9 格减至 7 格；剩余 R2C3–5；R3C3–5；R4C10。",
+      "E：每行、每列最多一人。候选从 3 格减至 2 格；剩余 R2C4；R6C10。",
+      "H：每行、每列最多一人。候选从 41 格减至 33 格；剩余 33 格，分布在 R2–R9 / C1–C10（点人物查看候选）。",
+      "H：每行、每列最多一人。候选从 33 格减至 24 格；剩余 24 格，分布在 R2–R6 / C3–C10（点人物查看候选）。",
+      "例如 H 在 R2C1，会与 D 的全部剩余位置同行或同列，无法配对。D 现有候选：R9C1。"
+    ]
+  },
+  {
+    "id": "the-retirement-community-lesson-13",
+    "title": "确定 Eirlys",
+    "explanation": "E 只剩 R2C4。H 北边恰好一行处有一名男性坐在球车里，E 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "I-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "E",
+      "H",
+      "V",
+      "A"
+    ],
+    "candidateCharacters": [
+      "H",
+      "V",
+      "A"
+    ],
+    "highlightCells": [
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R2C8",
+      "R2C9",
+      "R3C3",
+      "R3C4",
+      "R3C5",
+      "R3C6",
+      "R3C8",
+      "R3C9",
+      "R3C10",
+      "R4C3",
+      "R4C4",
+      "R4C5",
+      "R4C6",
+      "R4C10",
+      "R6C3",
+      "R6C6",
+      "R6C8",
+      "R6C9",
+      "R6C10",
+      "R7C3",
+      "R7C4",
+      "R7C8",
+      "R7C9"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R6C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C10",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R9C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R9C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R9C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R9C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R9C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R9C10",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R6C10",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "E",
+        "cell": "R2C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-12"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "H：每行、每列最多一人。候选从 24 格减至 23 格；剩余 23 格，分布在 R2–R6 / C3–C10（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 41 格减至 33 格；剩余 33 格，分布在 R2–R9 / C1–C10（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 33 格减至 24 格；剩余 24 格，分布在 R2–R6 / C3–C10（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 24 格减至 23 格；剩余 23 格，分布在 R2–R6 / C3–C10（点人物查看候选）。",
+      "E：H 北边恰好一行处有一名男性坐在球车里。候选从 2 格减至 1 格；剩余 R2C4。",
+      "例如假设 E 在 R6C10，同步排除其他人的行列及关系冲突后，“H 北边恰好一行处有一名男性坐在球车里”已没有足够的人数或合适同伴，所以这格不成立。其余被删候选按相同条件逐一核验。"
+    ]
+  },
+  {
+    "id": "the-retirement-community-lesson-14",
+    "title": "确定 Barnaby",
+    "explanation": "B 只剩 R4C10。Barnaby 独处，其他人必须在不同区域，B 从 7 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "I-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "B",
+      "A",
+      "E"
+    ],
+    "candidateCharacters": [
+      "A"
+    ],
+    "highlightCells": [
+      "R2C4",
+      "R4C10",
+      "R7C3",
+      "R7C8",
+      "R7C9"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R7C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R2C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R2C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R2C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R3C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R3C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R3C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "B",
+        "cell": "R4C10",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-13"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "A：每行、每列最多一人。候选从 4 格减至 3 格；剩余 R7C3、8–9。",
+      "B：Barnaby 独处，其他人必须在不同区域。候选从 7 格减至 1 格；剩余 R4C10。",
+      "例如 B 在 R2C3，找不到既满足两人关系、又不同行同列的 E。E 现有候选：R2C4。"
+    ]
+  },
+  {
+    "id": "the-retirement-community-lesson-15",
+    "title": "确定 August",
+    "explanation": "A 只剩 R7C3。Barnaby 独处，其他人必须在不同区域，A 从 3 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "I-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "A",
+      "B"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R4C10",
+      "R7C3"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R7C8",
+        "reason": {
+          "ruleId": "Barnaby 独处，其他人必须在不同区域",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R7C9",
+        "reason": {
+          "ruleId": "Barnaby 独处，其他人必须在不同区域",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "A",
+        "cell": "R7C3",
+        "reason": {
+          "ruleId": "Barnaby 独处，其他人必须在不同区域",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-14"
+          ]
+        }
+      }
+    ],
+    "rule": "Barnaby 独处，其他人必须在不同区域",
+    "details": [
+      "A：Barnaby 独处，其他人必须在不同区域。候选从 3 格减至 1 格；剩余 R7C3。",
+      "例如 A 在 R7C8，找不到既满足两人关系、又不同行同列的 B。B 现有候选：R4C10。"
+    ]
+  },
+  {
+    "id": "the-retirement-community-lesson-16",
+    "title": "Horatio：候选缩至 5 格",
+    "explanation": "Barnaby 独处，其他人必须在不同区域，H 从 19 格缩到 11 格；E 已锁定 R2C4，H 从 11 格缩到 5 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "I-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "H",
+      "G",
+      "A",
+      "B"
+    ],
+    "candidateCharacters": [
+      "H",
+      "G"
+    ],
+    "highlightCells": [
+      "R1C6",
+      "R1C8",
+      "R1C9",
+      "R3C5",
+      "R3C6",
+      "R3C8",
+      "R3C9",
+      "R4C10",
+      "R6C6",
+      "R7C3"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "G",
+        "cell": "R1C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "G",
+        "cell": "R1C10",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "G",
+        "cell": "R1C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R2C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R3C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R4C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R6C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R3C10",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R4C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R4C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R4C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R4C10",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R6C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R6C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R6C10",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R2C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R2C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R2C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R2C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R2C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R3C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-15"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "G：每行、每列最多一人。候选从 6 格减至 5 格；剩余 R1C4、6、8–10。",
+      "G：Barnaby 独处，其他人必须在不同区域。候选从 5 格减至 4 格；剩余 R1C4、6、8–9。",
+      "G：每行、每列最多一人。候选从 4 格减至 3 格；剩余 R1C6、8–9。",
+      "H：每行、每列最多一人。候选从 23 格减至 19 格；剩余 19 格，分布在 R2–R6 / C4–C10（点人物查看候选）。",
+      "H：Barnaby 独处，其他人必须在不同区域。候选从 19 格减至 11 格；剩余 11 格，分布在 R2–R6 / C4–C9（点人物查看候选）。",
+      "H：每行、每列最多一人。候选从 11 格减至 5 格；剩余 R3C5–6、8–9；R6C6。",
+      "例如 H 在 R2C4，会与 E 的全部剩余位置同行或同列，无法配对。E 现有候选：R2C4。"
+    ]
+  },
+  {
+    "id": "the-retirement-community-lesson-17",
+    "title": "确定 Ira",
+    "explanation": "I 只剩 R10C8。Barnaby 独处，其他人必须在不同区域，I 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "I-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "I",
+      "B"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R4C10",
+      "R10C8"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "I",
+        "cell": "R10C10",
+        "reason": {
+          "ruleId": "Barnaby 独处，其他人必须在不同区域",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-16"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "I",
+        "cell": "R10C8",
+        "reason": {
+          "ruleId": "Barnaby 独处，其他人必须在不同区域",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-16"
+          ]
+        }
+      }
+    ],
+    "rule": "Barnaby 独处，其他人必须在不同区域",
+    "details": [
+      "I：Barnaby 独处，其他人必须在不同区域。候选从 2 格减至 1 格；剩余 R10C8。",
+      "例如 I 在 R10C10，找不到既满足两人关系、又不同行同列的 B。B 现有候选：R4C10。"
+    ]
+  },
+  {
+    "id": "the-retirement-community-lesson-18",
+    "title": "Horatio：候选缩至 3 格",
+    "explanation": "E 已锁定 R2C4，V 从 11 格缩到 5 格；V 的 5 个候选共同排除同行同列冲突格，H 从 4 格缩到 3 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "I-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "H",
+      "G",
+      "I",
+      "V"
+    ],
+    "candidateCharacters": [
+      "H",
+      "G",
+      "V"
+    ],
+    "highlightCells": [
+      "R1C6",
+      "R1C9",
+      "R3C5",
+      "R3C6",
+      "R3C8",
+      "R3C9",
+      "R6C6",
+      "R10C8"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "G",
+        "cell": "R1C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-17"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R3C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-17"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-17"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-17"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-17"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-17"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C10",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-17"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-17"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-17"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-17"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C10",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-17"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-17"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-17"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C10",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-17"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-17"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-17"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-17"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-17"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-17"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-17"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R3C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-17"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "G：每行、每列最多一人。候选从 3 格减至 2 格；剩余 R1C6、9。",
+      "H：每行、每列最多一人。候选从 5 格减至 4 格；剩余 R3C5–6、9；R6C6。",
+      "V：每行、每列最多一人。候选从 23 格减至 19 格；剩余 19 格，分布在 R2–R6 / C4–C10（点人物查看候选）。",
+      "V：Barnaby 独处，其他人必须在不同区域。候选从 19 格减至 11 格；剩余 11 格，分布在 R2–R6 / C4–C9（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 11 格减至 5 格；剩余 R3C5–6、8–9；R6C6。",
+      "H：每行、每列最多一人。候选从 4 格减至 3 格；剩余 R3C5、9；R6C6。",
+      "例如 H 在 R3C6，会与 V 的全部剩余位置同行或同列，无法配对。V 现有候选：R3C5–6、8–9；R6C6。"
+    ]
+  },
+  {
+    "id": "the-retirement-community-lesson-19",
+    "title": "确定 Gus",
+    "explanation": "G 只剩 R1C9。H 北边恰好一行处有一名男性坐在球车里，G 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "I-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "G",
+      "V",
+      "H",
+      "I"
+    ],
+    "candidateCharacters": [
+      "V",
+      "H"
+    ],
+    "highlightCells": [
+      "R1C9",
+      "R3C5",
+      "R3C9",
+      "R6C6",
+      "R10C8"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-18"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-18"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "G",
+        "cell": "R1C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-18"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "G",
+        "cell": "R1C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-18"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "V：每行、每列最多一人。候选从 5 格减至 4 格；剩余 R3C5、8–9；R6C6。",
+      "V：每行、每列最多一人。候选从 4 格减至 3 格；剩余 R3C5、9；R6C6。",
+      "G：H 北边恰好一行处有一名男性坐在球车里。候选从 2 格减至 1 格；剩余 R1C9。",
+      "例如假设 G 在 R1C6，同步排除其他人的行列及关系冲突后，“H 北边恰好一行处有一名男性坐在球车里”已没有足够的人数或合适同伴，所以这格不成立。其余被删候选按相同条件逐一核验。"
+    ]
+  },
+  {
+    "id": "the-retirement-community-lesson-20",
+    "title": "确定 Horatio",
+    "explanation": "H 只剩 R6C6。H 北边恰好一行处有一名男性坐在球车里，H 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "I-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "H",
+      "G",
+      "V"
+    ],
+    "candidateCharacters": [
+      "V"
+    ],
+    "highlightCells": [
+      "R1C9",
+      "R3C5",
+      "R6C6"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R3C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-19"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-19"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R3C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-19"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "H",
+        "cell": "R6C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-19"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "H：每行、每列最多一人。候选从 3 格减至 2 格；剩余 R3C5；R6C6。",
+      "V：每行、每列最多一人。候选从 3 格减至 2 格；剩余 R3C5；R6C6。",
+      "H：H 北边恰好一行处有一名男性坐在球车里。候选从 2 格减至 1 格；剩余 R6C6。",
+      "例如假设 H 在 R3C5，同步排除其他人的行列及关系冲突后，“H 北边恰好一行处有一名男性坐在球车里”已没有足够的人数或合适同伴，所以这格不成立。其余被删候选按相同条件逐一核验。"
+    ]
+  },
+  {
+    "id": "the-retirement-community-lesson-21",
+    "title": "确定 Violet",
+    "explanation": "V 只剩 R3C5。H 已锁定 R6C6，V 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "I-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "V",
+      "H"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R3C5",
+      "R6C6"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-20"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "V",
+        "cell": "R3C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "I-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-retirement-community-lesson-20"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "V：每行、每列最多一人。候选从 2 格减至 1 格；剩余 R3C5。",
+      "例如 V 在 R6C6，会与 H 的全部剩余位置同行或同列，无法配对。H 现有候选：R6C6。"
+    ]
+  },
+  {
+    "id": "the-retirement-community-lesson-22",
+    "title": "Eirlys 是凶手",
+    "explanation": "死者 V 位于公寓A的 R3C5；同区唯一另一人是 Eirlys（E），位置为 R2C4。",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "I-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "E",
+      "V"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R2C4",
+      "R3C5"
+    ],
+    "actions": [],
+    "rule": "死者与凶手独处",
+    "details": [
+      "死者线索要求与凶手独处，必须以最终逻辑区域的同区人数判定。",
+      "公寓A实际人物：E 在 R2C4、V 在 R3C5；其余所有人都在其他区域。",
+      "10 人全部有位置，且每行、每列均无冲突。",
+      "最终位置由初始候选与记录中的约束排除得到；原始答案只由求解脚本在结束时作一致性核对。"
+    ]
+  }
+]

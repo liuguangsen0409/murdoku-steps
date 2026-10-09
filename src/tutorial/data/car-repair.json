@@ -1,0 +1,1426 @@
+[
+  {
+    "id": "car-repair-lesson-1",
+    "title": "先读地图与全局规则",
+    "explanation": "6 人共用 6 行、6 列；先从地形、家具与明确区域建立候选。",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [],
+    "candidateCharacters": [],
+    "highlightCells": [],
+    "actions": [
+      {
+        "type": "setCandidates",
+        "character": "A",
+        "cells": [
+          "R5C2",
+          "R5C3",
+          "R6C4",
+          "R6C5"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "B",
+        "cells": [
+          "R5C4",
+          "R6C2"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "C",
+        "cells": [
+          "R1C2",
+          "R3C4",
+          "R3C5"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "D",
+        "cells": [
+          "R2C4",
+          "R3C4",
+          "R3C5",
+          "R3C6"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "E",
+        "cells": [
+          "R1C5",
+          "R2C6",
+          "R3C2",
+          "R4C3",
+          "R4C6",
+          "R5C4",
+          "R5C5"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "V",
+        "cells": [
+          "R1C2",
+          "R1C5",
+          "R2C1",
+          "R2C4",
+          "R2C6",
+          "R3C1",
+          "R3C2",
+          "R3C4",
+          "R3C5",
+          "R3C6",
+          "R4C1",
+          "R4C2",
+          "R4C3",
+          "R4C6",
+          "R5C1",
+          "R5C2",
+          "R5C3",
+          "R5C4",
+          "R5C5",
+          "R5C6",
+          "R6C1",
+          "R6C2",
+          "R6C3",
+          "R6C4",
+          "R6C5",
+          "R6C6"
+        ]
+      }
+    ],
+    "rule": "地图与初始单人条件",
+    "details": [
+      "每行、每列最多一人；死者 V 也参与行列限制。",
+      "旁边按同一逻辑区域内的上下左右判断；家具是否可站立，以地图格子的属性为准。",
+      "本页逐步保存候选排除。只有某人的候选恰好剩一格时，才执行落位。"
+    ]
+  },
+  {
+    "id": "car-repair-lesson-2",
+    "title": "先看 Anthony 的候选",
+    "explanation": "A：在一辆车里。（4 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "A"
+    ],
+    "candidateCharacters": [
+      "A"
+    ],
+    "highlightCells": [
+      "R5C2",
+      "R5C3",
+      "R6C4",
+      "R6C5"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Anthony（A） 的原始线索：在一辆车里。",
+      "A 候选：R5C2–3；R6C4–5。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "car-repair-lesson-3",
+    "title": "先看 Brock 的候选",
+    "explanation": "B：在一摊油渍上。（2 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "B"
+    ],
+    "candidateCharacters": [
+      "B"
+    ],
+    "highlightCells": [
+      "R5C4",
+      "R6C2"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Brock（B） 的原始线索：在一摊油渍上。",
+      "B 候选：R5C4；R6C2。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "car-repair-lesson-4",
+    "title": "先看 Crystal 的候选",
+    "explanation": "C：坐在一把椅子上。（3 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "C"
+    ],
+    "candidateCharacters": [
+      "C"
+    ],
+    "highlightCells": [
+      "R1C2",
+      "R3C4",
+      "R3C5"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Crystal（C） 的原始线索：坐在一把椅子上。",
+      "C 候选：R1C2；R3C4–5。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "car-repair-lesson-5",
+    "title": "先看 Diane 的候选",
+    "explanation": "D：独自在\n等候区。（4 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "D"
+    ],
+    "candidateCharacters": [
+      "D"
+    ],
+    "highlightCells": [
+      "R2C4",
+      "R3C4",
+      "R3C5",
+      "R3C6"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Diane（D） 的原始线索：独自在\n等候区。",
+      "D 候选：R2C4；R3C4–6。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "car-repair-lesson-6",
+    "title": "先看 Emilio 的候选",
+    "explanation": "E：在一个架子旁边。（7 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "E"
+    ],
+    "candidateCharacters": [
+      "E"
+    ],
+    "highlightCells": [
+      "R1C5",
+      "R2C6",
+      "R3C2",
+      "R4C3",
+      "R4C6",
+      "R5C4",
+      "R5C5"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Emilio（E） 的原始线索：在一个架子旁边。",
+      "E 候选：R1C5；R2C6；R3C2；R4C3、6；R5C4–5。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "car-repair-lesson-7",
+    "title": "先看 Vaughn 的候选",
+    "explanation": "V：被害者。和凶手单独在一起。（26 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "V"
+    ],
+    "candidateCharacters": [
+      "V"
+    ],
+    "highlightCells": [
+      "R1C2",
+      "R1C5",
+      "R2C1",
+      "R2C4",
+      "R2C6",
+      "R3C1",
+      "R3C2",
+      "R3C4",
+      "R3C5",
+      "R3C6",
+      "R4C1",
+      "R4C2",
+      "R4C3",
+      "R4C6",
+      "R5C1",
+      "R5C2",
+      "R5C3",
+      "R5C4",
+      "R5C5",
+      "R5C6",
+      "R6C1",
+      "R6C2",
+      "R6C3",
+      "R6C4",
+      "R6C5",
+      "R6C6"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Vaughn（V） 的原始线索：被害者。和凶手单独在一起。",
+      "V 候选：26 格，分布在 R1–R6 / C1–C6（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "car-repair-lesson-8",
+    "title": "确定 Crystal",
+    "explanation": "C 只剩 R1C2。Diane 独处，其他人必须在不同区域，C 从 3 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "C",
+      "A",
+      "B",
+      "D"
+    ],
+    "candidateCharacters": [
+      "A",
+      "B",
+      "D"
+    ],
+    "highlightCells": [
+      "R1C2",
+      "R2C4",
+      "R3C4",
+      "R3C5",
+      "R3C6",
+      "R5C3",
+      "R5C4",
+      "R6C2",
+      "R6C5"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R5C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R6C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R3C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R3C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "C",
+        "cell": "R1C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-7"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "A：每行、每列最多一人。候选从 4 格减至 2 格；剩余 R5C3；R6C5。",
+      "C：Diane 独处，其他人必须在不同区域。候选从 3 格减至 1 格；剩余 R1C2。",
+      "例如 C 在 R3C4，找不到既满足两人关系、又不同行同列的 D。D 现有候选：R2C4；R3C4–6。"
+    ]
+  },
+  {
+    "id": "car-repair-lesson-9",
+    "title": "确定 Brock",
+    "explanation": "B 只剩 R5C4。C 已锁定 R1C2，B 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "B",
+      "C"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R1C2",
+      "R5C4"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R6C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "B",
+        "cell": "R5C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-8"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "B：每行、每列最多一人。候选从 2 格减至 1 格；剩余 R5C4。",
+      "例如 B 在 R6C2，会与 C 的全部剩余位置同行或同列，无法配对。C 现有候选：R1C2。"
+    ]
+  },
+  {
+    "id": "car-repair-lesson-10",
+    "title": "确定 Anthony",
+    "explanation": "A 只剩 R6C5。B 已锁定 R5C4，A 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "A",
+      "B"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R5C4",
+      "R6C5"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R5C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "A",
+        "cell": "R6C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-9"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "A：每行、每列最多一人。候选从 2 格减至 1 格；剩余 R6C5。",
+      "例如 A 在 R5C3，会与 B 的全部剩余位置同行或同列，无法配对。B 现有候选：R5C4。"
+    ]
+  },
+  {
+    "id": "car-repair-lesson-11",
+    "title": "确定 Diane",
+    "explanation": "D 只剩 R3C6。Diane 独处，其他人必须在不同区域，D 从 3 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "D",
+      "A",
+      "B"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R3C6",
+      "R5C4",
+      "R6C5"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R3C5",
+        "reason": {
+          "ruleId": "Diane 独处，其他人必须在不同区域",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R2C4",
+        "reason": {
+          "ruleId": "Diane 独处，其他人必须在不同区域",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R3C4",
+        "reason": {
+          "ruleId": "Diane 独处，其他人必须在不同区域",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "D",
+        "cell": "R3C6",
+        "reason": {
+          "ruleId": "Diane 独处，其他人必须在不同区域",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-10"
+          ]
+        }
+      }
+    ],
+    "rule": "Diane 独处，其他人必须在不同区域",
+    "details": [
+      "D：Diane 独处，其他人必须在不同区域。候选从 4 格减至 3 格；剩余 R2C4；R3C4、6。",
+      "D：Diane 独处，其他人必须在不同区域。候选从 3 格减至 1 格；剩余 R3C6。",
+      "例如 D 在 R2C4，找不到既满足两人关系、又不同行同列的 B。B 现有候选：R5C4。"
+    ]
+  },
+  {
+    "id": "car-repair-lesson-12",
+    "title": "确定 Emilio",
+    "explanation": "E 只剩 R4C3。Diane 独处，其他人必须在不同区域，E 从 3 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "E",
+      "A",
+      "B",
+      "C"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R1C2",
+      "R4C3",
+      "R5C4",
+      "R6C5"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R1C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R5C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R5C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R3C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R2C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R4C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "E",
+        "cell": "R4C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-11"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "E：每行、每列最多一人。候选从 7 格减至 5 格；剩余 R2C6；R3C2；R4C3、6；R5C4。",
+      "E：每行、每列最多一人。候选从 5 格减至 4 格；剩余 R2C6；R3C2；R4C3、6。",
+      "E：每行、每列最多一人。候选从 4 格减至 3 格；剩余 R2C6；R4C3、6。",
+      "E：Diane 独处，其他人必须在不同区域。候选从 3 格减至 1 格；剩余 R4C3。",
+      "例如 E 在 R2C6，找不到既满足两人关系、又不同行同列的 D。D 现有候选：R3C6。"
+    ]
+  },
+  {
+    "id": "car-repair-lesson-13",
+    "title": "确定 Vaughn",
+    "explanation": "V 只剩 R2C1。E 已锁定 R4C3，V 从 3 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "V",
+      "A",
+      "B",
+      "C"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R1C2",
+      "R2C1",
+      "R5C4",
+      "R6C5"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "V",
+        "cell": "R2C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "car-repair-lesson-12"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "V：每行、每列最多一人。候选从 26 格减至 17 格；剩余 17 格，分布在 R1–R5 / C1–C6（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 17 格减至 10 格；剩余 10 格，分布在 R1–R4 / C1–C6（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 10 格减至 7 格；剩余 R2C1、6；R3C1、6；R4C1、3、6。",
+      "V：Diane 独处，其他人必须在不同区域。候选从 7 格减至 3 格；剩余 R2C1；R4C1、3。",
+      "V：每行、每列最多一人。候选从 3 格减至 1 格；剩余 R2C1。",
+      "例如 V 在 R4C1，会与 E 的全部剩余位置同行或同列，无法配对。E 现有候选：R4C3。"
+    ]
+  },
+  {
+    "id": "car-repair-lesson-14",
+    "title": "Crystal 是凶手",
+    "explanation": "死者 V 位于接待处的 R2C1；同区唯一另一人是 Crystal（C），位置为 R1C2。",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "C",
+      "V"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R1C2",
+      "R2C1"
+    ],
+    "actions": [],
+    "rule": "死者与凶手独处",
+    "details": [
+      "死者线索要求与凶手独处，必须以最终逻辑区域的同区人数判定。",
+      "接待处实际人物：C 在 R1C2、V 在 R2C1；其余所有人都在其他区域。",
+      "6 人全部有位置，且每行、每列均无冲突。",
+      "最终位置由初始候选与记录中的约束排除得到；原始答案只由求解脚本在结束时作一致性核对。"
+    ]
+  }
+]

@@ -1,0 +1,694 @@
+[
+  {
+    "id": "easy-1",
+    "title": "先圈出 Alexander 的两个候选",
+    "explanation": "箱子在门廊的 R6C2。符合“同一区域、上下左右相邻”的位置只有 R5C2 和 R6C1，先保留两个候选。",
+    "rule": "先找候选，不急着落位",
+    "clueRefs": [
+      "A-clue"
+    ],
+    "focusCharacters": [
+      "A"
+    ],
+    "highlightCells": [
+      "R5C2",
+      "R6C1"
+    ],
+    "details": [
+      "从 Alexander 的线索开始：他在箱子旁边。地图上的箱子位于 R6C2，在左下角的门廊里。先找物体，再判断它周围哪些格子符合条件。",
+      "箱子上方 R5C2 和左边 R6C1 都在门廊内。右边 R6C3 已经是前院，下方则越出地图，因此不符合「旁边」的定义。先给这两格记上小写候选 A。"
+    ],
+    "actions": [
+      {
+        "type": "setCandidates",
+        "character": "A",
+        "cells": [
+          "R5C2",
+          "R6C1"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "easy-2",
+    "title": "用地毯线索，确定 Alexander",
+    "explanation": "Carol 是唯一能站在地毯上的人，因此 Alexander 不能在 R5C2。他只能在 R6C1，同时占据第 6 行和第 1 列。",
+    "rule": "一条人物线索，也会约束其他人",
+    "clueRefs": [
+      "C-clue",
+      "A-clue"
+    ],
+    "focusCharacters": [
+      "A"
+    ],
+    "highlightCells": [
+      "R6C1"
+    ],
+    "details": [
+      "Carol 是唯一站在地毯上的人。它同时告诉我们：Carol 在地毯上，而且其他所有人都不能站在地毯上。回头观察 Alexander 的两个候选。",
+      "R5C2 有地毯，而 Alexander 不是 Carol。所以这格不能属于 Alexander。这里只划掉 A，并不表示这个格子永远不能站人。",
+      "两个候选排除一个，剩下的 R6C1 就是 Alexander 唯一的位置。将候选 A 换成确定的人物标记。",
+      "每行、每列最多一人。Alexander 在 R6C1，因此其他人都不能再占用第 6 行或第 1 列。黑色叉号记录这项公共限制。"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R5C2",
+        "reason": {
+          "ruleId": "地毯独占",
+          "clueRefs": [
+            "C-clue"
+          ],
+          "dependsOn": []
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "A",
+        "cell": "R6C1",
+        "reason": {
+          "ruleId": "唯一位置",
+          "clueRefs": [
+            "A-clue"
+          ],
+          "dependsOn": [
+            "easy-1"
+          ]
+        }
+      },
+      {
+        "type": "applyRowColumnConstraint",
+        "character": "A",
+        "reason": {
+          "ruleId": "行列占用",
+          "clueRefs": [],
+          "dependsOn": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "easy-3",
+    "title": "确定 Bella：R1C2",
+    "explanation": "三把椅子中，R2C1 和 R3C1 都与 Alexander 同列。Bella 只剩 R1C2，第 1 行和第 2 列也随之被占据。",
+    "rule": "家具条件与行列限制同时满足",
+    "clueRefs": [
+      "B-clue",
+      "A-clue"
+    ],
+    "focusCharacters": [
+      "B"
+    ],
+    "highlightCells": [
+      "R1C2"
+    ],
+    "details": [
+      "Bella 的线索说她坐在椅子上。地图有三把椅子：R1C2、R2C1、R3C1。这里先列出线索给出的原始候选，下一步用已知行列限制筛选。",
+      "R2C1 和 R3C1 都位于第 1 列，与 Alexander 冲突。即使它们是椅子，Bella 也不能坐在那里。只剩 R1C2。",
+      "把 Bella 放到 R1C2。第 1 行和第 2 列也被占用了，这会帮助我们处理卧室里的 Dalia。"
+    ],
+    "actions": [
+      {
+        "type": "setCandidates",
+        "character": "B",
+        "cells": [
+          "R1C2",
+          "R2C1",
+          "R3C1"
+        ]
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R2C1",
+        "reason": {
+          "ruleId": "行列占用",
+          "clueRefs": [],
+          "dependsOn": [
+            "easy-2"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R3C1",
+        "reason": {
+          "ruleId": "行列占用",
+          "clueRefs": [],
+          "dependsOn": [
+            "easy-2"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "B",
+        "cell": "R1C2",
+        "reason": {
+          "ruleId": "唯一位置",
+          "clueRefs": [
+            "B-clue"
+          ],
+          "dependsOn": []
+        }
+      },
+      {
+        "type": "applyRowColumnConstraint",
+        "character": "B",
+        "reason": {
+          "ruleId": "每行每列一人",
+          "clueRefs": [
+            "B-clue"
+          ],
+          "dependsOn": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "easy-4",
+    "title": "确定 Dalia：R2C4",
+    "explanation": "卧室第一行被 Bella 排除；第二行的盆栽不能站人，地毯只属于 Carol。Dalia 因此只能在 R2C4。",
+    "rule": "分别检查区域、物体和其他线索",
+    "clueRefs": [
+      "D-clue",
+      "B-clue",
+      "C-clue"
+    ],
+    "focusCharacters": [
+      "D"
+    ],
+    "highlightCells": [
+      "R2C4"
+    ],
+    "details": [
+      "Dalia 在卧室里，即右上角两行、三列组成的区域。先圈出这六格。这里的植物不能站人，而床可以；我们会逐项筛选。",
+      "Bella 已经占据第 1 行，因此卧室的 R1C4、R1C5、R1C6 都被排除。注意：床可以站人，排除床上位置的理由是同行冲突。",
+      "R2C5 是盆栽，不允许站人；R2C6 是地毯，而只有 Carol 可以站在地毯上。卧室第二行只剩下 R2C4。",
+      "Dalia 只能在 R2C4。放好她后，第 2 行和第 4 列也不能再放其他人。现在回到 Carol 的地毯线索。"
+    ],
+    "actions": [
+      {
+        "type": "setCandidates",
+        "character": "D",
+        "cells": [
+          "R1C4",
+          "R1C5",
+          "R1C6",
+          "R2C4",
+          "R2C5",
+          "R2C6"
+        ]
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R1C4",
+        "reason": {
+          "ruleId": "行列占用",
+          "clueRefs": [],
+          "dependsOn": [
+            "easy-3"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R1C5",
+        "reason": {
+          "ruleId": "行列占用",
+          "clueRefs": [],
+          "dependsOn": [
+            "easy-3"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R1C6",
+        "reason": {
+          "ruleId": "行列占用",
+          "clueRefs": [],
+          "dependsOn": [
+            "easy-3"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R2C5",
+        "reason": {
+          "ruleId": "物体占用",
+          "clueRefs": [
+            "D-clue"
+          ],
+          "dependsOn": []
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R2C6",
+        "reason": {
+          "ruleId": "地毯独占",
+          "clueRefs": [
+            "C-clue"
+          ],
+          "dependsOn": [
+            "easy-2"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "D",
+        "cell": "R2C4",
+        "reason": {
+          "ruleId": "唯一位置",
+          "clueRefs": [
+            "D-clue"
+          ],
+          "dependsOn": []
+        }
+      },
+      {
+        "type": "applyRowColumnConstraint",
+        "character": "D",
+        "reason": {
+          "ruleId": "每行每列一人",
+          "clueRefs": [
+            "D-clue"
+          ],
+          "dependsOn": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "easy-5",
+    "title": "确定 Carol：R3C5",
+    "explanation": "三张地毯共覆盖六格。其中五格与已确定的人物同行或同列，只有厨房的 R3C5 留给 Carol。",
+    "rule": "用已知位置筛选全部候选",
+    "clueRefs": [
+      "C-clue"
+    ],
+    "focusCharacters": [
+      "C"
+    ],
+    "highlightCells": [
+      "R3C5"
+    ],
+    "details": [
+      "Carol 必须在地毯上。三张地毯一共覆盖六格：卧室 R1C6、R2C6，厨房 R3C4、R3C5，门廊 R5C1、R5C2。先展示这些原始候选。",
+      "R1C6 与 Bella 同行；R2C6 与 Dalia 同行；R3C4 与 Dalia 同列；R5C1 与 Alexander 同列；R5C2 与 Bella 同列。于是只剩厨房的 R3C5。",
+      "Carol 在 R3C5。她所在的第 3 行和第 5 列也被占用。现在只剩 Evangeline 与死者 Viraj 尚未落位。"
+    ],
+    "actions": [
+      {
+        "type": "setCandidates",
+        "character": "C",
+        "cells": [
+          "R1C6",
+          "R2C6",
+          "R3C4",
+          "R3C5",
+          "R5C1",
+          "R5C2"
+        ]
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R1C6",
+        "reason": {
+          "ruleId": "行列占用",
+          "clueRefs": [],
+          "dependsOn": [
+            "easy-2",
+            "easy-3",
+            "easy-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R2C6",
+        "reason": {
+          "ruleId": "行列占用",
+          "clueRefs": [],
+          "dependsOn": [
+            "easy-2",
+            "easy-3",
+            "easy-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R3C4",
+        "reason": {
+          "ruleId": "行列占用",
+          "clueRefs": [],
+          "dependsOn": [
+            "easy-2",
+            "easy-3",
+            "easy-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R5C1",
+        "reason": {
+          "ruleId": "行列占用",
+          "clueRefs": [],
+          "dependsOn": [
+            "easy-2",
+            "easy-3",
+            "easy-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R5C2",
+        "reason": {
+          "ruleId": "行列占用",
+          "clueRefs": [],
+          "dependsOn": [
+            "easy-2",
+            "easy-3",
+            "easy-4"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "C",
+        "cell": "R3C5",
+        "reason": {
+          "ruleId": "唯一位置",
+          "clueRefs": [
+            "C-clue"
+          ],
+          "dependsOn": []
+        }
+      },
+      {
+        "type": "applyRowColumnConstraint",
+        "character": "C",
+        "reason": {
+          "ruleId": "每行每列一人",
+          "clueRefs": [
+            "C-clue"
+          ],
+          "dependsOn": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "easy-6",
+    "title": "Evangeline 的两类候选都要检查",
+    "explanation": "Evangeline 在盆栽或灌木旁边。先圈出室内盆栽和前院灌木周围的候选；“或”表示两类位置都要考虑。",
+    "rule": "分支都要检查，不能只选一种可能",
+    "clueRefs": [
+      "E-clue"
+    ],
+    "focusCharacters": [
+      "E"
+    ],
+    "highlightCells": [
+      "R4C1",
+      "R2C5",
+      "R5C4",
+      "R6C5"
+    ],
+    "details": [
+      "Evangeline 在灌木或盆栽旁边。先找餐厅、卧室里的盆栽，再看前院的两丛灌木。斜角相邻和跨房间相邻都不算。"
+    ],
+    "actions": [
+      {
+        "type": "setCandidates",
+        "character": "E",
+        "cells": [
+          "R3C1",
+          "R4C2",
+          "R1C5",
+          "R2C4",
+          "R2C6",
+          "R5C3",
+          "R5C5",
+          "R6C4",
+          "R6C6"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "easy-7",
+    "title": "确定 Evangeline：R5C3",
+    "explanation": "室内候选全部与已知位置冲突；前院的四个候选也排除了三个。Evangeline 只剩 R5C3。",
+    "rule": "先分区域，再逐项排除",
+    "clueRefs": [
+      "E-clue"
+    ],
+    "focusCharacters": [
+      "E"
+    ],
+    "highlightCells": [
+      "R5C3"
+    ],
+    "details": [
+      "餐厅的 R3C1 与 A 同列，R4C2 与 B 同列。卧室的 R1C5 与 B 同行，R2C4 已被 D 占据；R2C6 既与 D 同行，又是仅 C 可站的地毯。室内没有位置留给 E。",
+      "前院灌木旁的原始候选是 R5C3、R5C5、R6C4、R6C6。R5C5 与 Carol 同列；R6C4 和 R6C6 与 Alexander 同行。只有 R5C3 不冲突。",
+      "将 Evangeline 放在前院的 R5C3。五位人物的位置已经确定，最后一位是死者 Viraj。"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R3C1",
+        "reason": {
+          "ruleId": "行列占用",
+          "clueRefs": [],
+          "dependsOn": [
+            "easy-2",
+            "easy-3",
+            "easy-4",
+            "easy-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R4C2",
+        "reason": {
+          "ruleId": "行列占用",
+          "clueRefs": [],
+          "dependsOn": [
+            "easy-2",
+            "easy-3",
+            "easy-4",
+            "easy-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R1C5",
+        "reason": {
+          "ruleId": "行列占用",
+          "clueRefs": [],
+          "dependsOn": [
+            "easy-2",
+            "easy-3",
+            "easy-4",
+            "easy-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R2C4",
+        "reason": {
+          "ruleId": "行列占用",
+          "clueRefs": [],
+          "dependsOn": [
+            "easy-2",
+            "easy-3",
+            "easy-4",
+            "easy-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R2C6",
+        "reason": {
+          "ruleId": "行列占用",
+          "clueRefs": [],
+          "dependsOn": [
+            "easy-2",
+            "easy-3",
+            "easy-4",
+            "easy-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R5C5",
+        "reason": {
+          "ruleId": "行列占用",
+          "clueRefs": [],
+          "dependsOn": [
+            "easy-2",
+            "easy-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R6C4",
+        "reason": {
+          "ruleId": "行列占用",
+          "clueRefs": [],
+          "dependsOn": [
+            "easy-2",
+            "easy-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R6C6",
+        "reason": {
+          "ruleId": "行列占用",
+          "clueRefs": [],
+          "dependsOn": [
+            "easy-2",
+            "easy-5"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "E",
+        "cell": "R5C3",
+        "reason": {
+          "ruleId": "唯一位置",
+          "clueRefs": [
+            "E-clue"
+          ],
+          "dependsOn": []
+        }
+      },
+      {
+        "type": "applyRowColumnConstraint",
+        "character": "E",
+        "reason": {
+          "ruleId": "每行每列一人",
+          "clueRefs": [
+            "E-clue"
+          ],
+          "dependsOn": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "easy-8",
+    "title": "确定死者 Viraj：R4C6",
+    "explanation": "五人落位后，只剩第 4 行和第 6 列没有人。死者位于交点 R4C6，在厨房里。",
+    "rule": "死者也计入每行、每列的人数",
+    "clueRefs": [
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "V"
+    ],
+    "highlightCells": [
+      "R4C6"
+    ],
+    "details": [
+      "六个人要放入六行、六列，而且不能同行或同列。现在只有第 4 行和第 6 列还没有人，它们的交点 R4C6 必须留给最后一人。",
+      "Viraj 在 R4C6，位于厨房。死者与其他人物遵守相同的行列规则。人物位置已经完整，但还需要用他的线索判断凶手。"
+    ],
+    "actions": [
+      {
+        "type": "setCandidates",
+        "character": "V",
+        "cells": [
+          "R4C6"
+        ]
+      },
+      {
+        "type": "placeCharacter",
+        "character": "V",
+        "cell": "R4C6",
+        "reason": {
+          "ruleId": "唯一位置",
+          "clueRefs": [
+            "V-clue"
+          ],
+          "dependsOn": [
+            "easy-7"
+          ]
+        }
+      },
+      {
+        "type": "applyRowColumnConstraint",
+        "character": "V",
+        "reason": {
+          "ruleId": "每行每列一人",
+          "clueRefs": [
+            "V-clue"
+          ],
+          "dependsOn": [
+            "easy-7"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "easy-9",
+    "title": "谁与死者独处？",
+    "explanation": "厨房里只有 Carol 和死者 Viraj，没有第三人。因此 Carol 就是凶手；“独处”看的是同一区域，不要求两人相邻。",
+    "rule": "用区域人数验证最终结论",
+    "clueRefs": [
+      "C-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "C",
+      "V"
+    ],
+    "highlightCells": [
+      "R3C5",
+      "R4C6"
+    ],
+    "details": [
+      "死者的线索要求他和凶手处在同一区域，而且没有第三人。厨房里恰好只有 R3C5 和 R4C6 的两个人。这里判断的是整个房间，不要求相邻。",
+      "Carol 就是凶手。她与死者 Viraj 在厨房独处，且六个人的位置同时满足全部线索。你已经用到了：候选枚举、独占线索、行列排除、唯一位置，以及房间人数核对。"
+    ],
+    "actions": []
+  }
+]

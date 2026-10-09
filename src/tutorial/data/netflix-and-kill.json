@@ -1,0 +1,1207 @@
+[
+  {
+    "id": "netflix-and-kill-lesson-1",
+    "title": "先读地图与全局规则",
+    "explanation": "6 人共用 6 行、6 列；先从地形、家具与明确区域建立候选。",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [],
+    "candidateCharacters": [],
+    "highlightCells": [],
+    "actions": [
+      {
+        "type": "setCandidates",
+        "character": "A",
+        "cells": [
+          "R2C1",
+          "R4C1",
+          "R5C2",
+          "R6C4"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "B",
+        "cells": [
+          "R1C1",
+          "R1C2"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "C",
+        "cells": [
+          "R1C6",
+          "R2C4",
+          "R3C4",
+          "R3C5",
+          "R5C3",
+          "R5C5"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "D",
+        "cells": [
+          "R4C1",
+          "R4C2",
+          "R5C2"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "E",
+        "cells": [
+          "R4C6"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "V",
+        "cells": [
+          "R1C1",
+          "R1C2",
+          "R1C3",
+          "R1C4",
+          "R2C1",
+          "R2C2",
+          "R2C3",
+          "R2C5",
+          "R2C6",
+          "R3C3",
+          "R3C6",
+          "R4C1",
+          "R4C2",
+          "R4C3",
+          "R4C4",
+          "R4C5",
+          "R4C6",
+          "R5C2",
+          "R5C4",
+          "R6C4",
+          "R6C5"
+        ]
+      }
+    ],
+    "rule": "地图与初始单人条件",
+    "details": [
+      "每行、每列最多一人；死者 V 也参与行列限制。",
+      "旁边按同一逻辑区域内的上下左右判断；家具是否可站立，以地图格子的属性为准。",
+      "本页逐步保存候选排除。只有某人的候选恰好剩一格时，才执行落位。",
+      "全员都要应用 Charlotte（C） 的排他线索：是唯一 坐在椅子上的人。。因此其他人的初始候选也可能受这条线索影响。"
+    ]
+  },
+  {
+    "id": "netflix-and-kill-lesson-2",
+    "title": "先看 Austin 的候选",
+    "explanation": "A：在一个架子旁边。（4 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "A"
+    ],
+    "candidateCharacters": [
+      "A"
+    ],
+    "highlightCells": [
+      "R2C1",
+      "R4C1",
+      "R5C2",
+      "R6C4"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Austin（A） 的原始线索：在一个架子旁边。",
+      "A 候选：R2C1；R4C1；R5C2；R6C4。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "netflix-and-kill-lesson-3",
+    "title": "先看 Barbara 的候选",
+    "explanation": "B：躺在床上。（2 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "B"
+    ],
+    "candidateCharacters": [
+      "B"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R1C2"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Barbara（B） 的原始线索：躺在床上。",
+      "B 候选：R1C1–2。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "netflix-and-kill-lesson-4",
+    "title": "先看 Charlotte 的候选",
+    "explanation": "C：是唯一 坐在椅子上的人。（6 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "C"
+    ],
+    "candidateCharacters": [
+      "C"
+    ],
+    "highlightCells": [
+      "R1C6",
+      "R2C4",
+      "R3C4",
+      "R3C5",
+      "R5C3",
+      "R5C5"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Charlotte（C） 的原始线索：是唯一 坐在椅子上的人。",
+      "C 候选：R1C6；R2C4；R3C4–5；R5C3、5。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "netflix-and-kill-lesson-5",
+    "title": "先看 Dean 的候选",
+    "explanation": "D：在厨房里。（3 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "D"
+    ],
+    "candidateCharacters": [
+      "D"
+    ],
+    "highlightCells": [
+      "R4C1",
+      "R4C2",
+      "R5C2"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Dean（D） 的原始线索：在厨房里。",
+      "D 候选：R4C1–2；R5C2。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "netflix-and-kill-lesson-6",
+    "title": "先确定 Enid：R4C6",
+    "explanation": "E：在电视旁边。（只剩 R4C6）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "E"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R4C6"
+    ],
+    "actions": [
+      {
+        "type": "placeCharacter",
+        "character": "E",
+        "cell": "R4C6",
+        "reason": {
+          "ruleId": "从原始线索建立候选",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "netflix-and-kill-lesson-5"
+          ]
+        }
+      }
+    ],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Enid（E） 的原始线索：在电视旁边。",
+      "E 候选：R4C6。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "netflix-and-kill-lesson-7",
+    "title": "先看 Vaughn 的候选",
+    "explanation": "V：被害者。和凶手单独在一起。（21 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "V"
+    ],
+    "candidateCharacters": [
+      "V"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R1C2",
+      "R1C3",
+      "R1C4",
+      "R2C1",
+      "R2C2",
+      "R2C3",
+      "R2C5",
+      "R2C6",
+      "R3C3",
+      "R3C6",
+      "R4C1",
+      "R4C2",
+      "R4C3",
+      "R4C4",
+      "R4C5",
+      "R4C6",
+      "R5C2",
+      "R5C4",
+      "R6C4",
+      "R6C5"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Vaughn（V） 的原始线索：被害者。和凶手单独在一起。",
+      "V 候选：21 格，分布在 R1–R6 / C1–C6（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "netflix-and-kill-lesson-8",
+    "title": "确定 Dean",
+    "explanation": "D 只剩 R5C2。E 已锁定 R4C6，D 从 3 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "D",
+      "A",
+      "E",
+      "C"
+    ],
+    "candidateCharacters": [
+      "A",
+      "C"
+    ],
+    "highlightCells": [
+      "R2C1",
+      "R2C4",
+      "R3C4",
+      "R3C5",
+      "R4C6",
+      "R5C2",
+      "R5C3",
+      "R5C5",
+      "R6C4"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R4C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "netflix-and-kill-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R1C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "netflix-and-kill-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R4C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "netflix-and-kill-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R4C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "netflix-and-kill-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "D",
+        "cell": "R5C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "netflix-and-kill-lesson-7"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "A：每行、每列最多一人。候选从 4 格减至 3 格；剩余 R2C1；R5C2；R6C4。",
+      "C：每行、每列最多一人。候选从 6 格减至 5 格；剩余 R2C4；R3C4–5；R5C3、5。",
+      "D：每行、每列最多一人。候选从 3 格减至 1 格；剩余 R5C2。",
+      "例如 D 在 R4C1，会与 E 的全部剩余位置同行或同列，无法配对。E 现有候选：R4C6。"
+    ]
+  },
+  {
+    "id": "netflix-and-kill-lesson-9",
+    "title": "确定 Barbara",
+    "explanation": "B 只剩 R1C1。D 已锁定 R5C2，B 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "B",
+      "A",
+      "D"
+    ],
+    "candidateCharacters": [
+      "A"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R2C1",
+      "R5C2",
+      "R6C4"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R5C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "netflix-and-kill-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R1C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "netflix-and-kill-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "B",
+        "cell": "R1C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "netflix-and-kill-lesson-8"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "A：每行、每列最多一人。候选从 3 格减至 2 格；剩余 R2C1；R6C4。",
+      "B：每行、每列最多一人。候选从 2 格减至 1 格；剩余 R1C1。",
+      "例如 B 在 R1C2，会与 D 的全部剩余位置同行或同列，无法配对。D 现有候选：R5C2。"
+    ]
+  },
+  {
+    "id": "netflix-and-kill-lesson-10",
+    "title": "确定 Austin",
+    "explanation": "A 只剩 R6C4。B 已锁定 R1C1，A 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "A",
+      "B"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R1C1",
+      "R6C4"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R2C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "netflix-and-kill-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "A",
+        "cell": "R6C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "netflix-and-kill-lesson-9"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "A：每行、每列最多一人。候选从 2 格减至 1 格；剩余 R6C4。",
+      "例如 A 在 R2C1，会与 B 的全部剩余位置同行或同列，无法配对。B 现有候选：R1C1。"
+    ]
+  },
+  {
+    "id": "netflix-and-kill-lesson-11",
+    "title": "确定 Charlotte",
+    "explanation": "C 只剩 R3C5。D 已锁定 R5C2，C 从 3 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "C",
+      "A",
+      "D"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R3C5",
+      "R5C2",
+      "R6C4"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R2C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "netflix-and-kill-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R3C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "netflix-and-kill-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R5C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "netflix-and-kill-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R5C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "netflix-and-kill-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "C",
+        "cell": "R3C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "netflix-and-kill-lesson-10"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "C：每行、每列最多一人。候选从 5 格减至 3 格；剩余 R3C5；R5C3、5。",
+      "C：每行、每列最多一人。候选从 3 格减至 1 格；剩余 R3C5。",
+      "例如 C 在 R5C3，会与 D 的全部剩余位置同行或同列，无法配对。D 现有候选：R5C2。"
+    ]
+  },
+  {
+    "id": "netflix-and-kill-lesson-12",
+    "title": "确定 Vaughn",
+    "explanation": "V 只剩 R2C3。E 已锁定 R4C6，V 从 4 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "V",
+      "A",
+      "B",
+      "C"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R1C1",
+      "R2C3",
+      "R3C5",
+      "R6C4"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "netflix-and-kill-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "netflix-and-kill-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "netflix-and-kill-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "netflix-and-kill-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "netflix-and-kill-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "netflix-and-kill-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "netflix-and-kill-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "netflix-and-kill-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "netflix-and-kill-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "netflix-and-kill-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "netflix-and-kill-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "netflix-and-kill-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "netflix-and-kill-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "netflix-and-kill-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "netflix-and-kill-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "netflix-and-kill-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "netflix-and-kill-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "netflix-and-kill-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "netflix-and-kill-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "netflix-and-kill-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "V",
+        "cell": "R2C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "netflix-and-kill-lesson-11"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "V：每行、每列最多一人。候选从 21 格减至 16 格；剩余 16 格，分布在 R1–R5 / C1–C6（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 16 格减至 11 格；剩余 11 格，分布在 R2–R5 / C2–C6（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 11 格减至 7 格；剩余 R2C2–3、6；R4C2–3、6；R5C2。",
+      "V：每行、每列最多一人。候选从 7 格减至 4 格；剩余 R2C3、6；R4C3、6。",
+      "V：每行、每列最多一人。候选从 4 格减至 1 格；剩余 R2C3。",
+      "例如 V 在 R2C6，会与 E 的全部剩余位置同行或同列，无法配对。E 现有候选：R4C6。"
+    ]
+  },
+  {
+    "id": "netflix-and-kill-lesson-13",
+    "title": "Barbara 是凶手",
+    "explanation": "死者 V 位于卧室的 R2C3；同区唯一另一人是 Barbara（B），位置为 R1C1。",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "B",
+      "V"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R1C1",
+      "R2C3"
+    ],
+    "actions": [],
+    "rule": "死者与凶手独处",
+    "details": [
+      "死者线索要求与凶手独处，必须以最终逻辑区域的同区人数判定。",
+      "卧室实际人物：B 在 R1C1、V 在 R2C3；其余所有人都在其他区域。",
+      "6 人全部有位置，且每行、每列均无冲突。",
+      "最终位置由初始候选与记录中的约束排除得到；原始答案只由求解脚本在结束时作一致性核对。"
+    ]
+  }
+]

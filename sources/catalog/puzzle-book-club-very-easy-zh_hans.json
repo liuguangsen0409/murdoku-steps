@@ -1,0 +1,36 @@
+{
+  "PROPERTIES": {
+    "player_hint_1_zh_hans": "首先：(E)在图书馆，而图书馆里只有一个不挨着架子的格子。这样(E)就锁定了。",
+    "player_hint_2_zh_hans": "现在你会发现只剩两个地毯格，都在R5。这意味着(C)在R5，封锁R5的其余部分。",
+    "player_hint_3_zh_hans": "(B)在(C)的南边。因此(B)必须在R6，在整行最后可用的格子上：R6 C2。这样(C)就锁定在最后一个地毯格。",
+    "player_hint_4_zh_hans": "(A)能挨着植物的格子只剩一个，这样(A)就锁定了。",
+    "player_hint_5_zh_hans": "这样(D)就锁定在最后一把椅子上。最后一格留给(V)。",
+    "puzzle_version": "2"
+  },
+  "GRID": {
+    "room_name_0": "讨论圈",
+    "room_name_1": "图书馆",
+    "room_name_2": "茶点区",
+    "room_name_3": "4 号房间"
+  },
+  "CHARACTERS": {
+    "char_name_0": "Ada",
+    "char_quote_zh_hans_0": "在一株植物旁边。",
+    "char_subquote_zh_hans_0": "",
+    "char_name_1": "Brigitte",
+    "char_quote_zh_hans_1": "在 Cameron 南边。",
+    "char_subquote_zh_hans_1": "",
+    "char_name_2": "Cameron",
+    "char_quote_zh_hans_2": "在一块地毯上。",
+    "char_subquote_zh_hans_2": "",
+    "char_name_3": "Darlene",
+    "char_quote_zh_hans_3": "是唯一坐在椅子上的人。",
+    "char_subquote_zh_hans_3": "",
+    "char_name_4": "Edison",
+    "char_quote_zh_hans_4": "在图书馆里。不在架子旁边。",
+    "char_subquote_zh_hans_4": "",
+    "char_name_5": "Vinita",
+    "char_quote_zh_hans_5": "被害者。和凶手单独在一起。",
+    "char_subquote_zh_hans_5": ""
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "cases": 36,
+  "steps": 645,
+  "totalDetails": 2710,
+  "maxDetailsPerStep": 7,
+  "maxDetailLength": 124,
+  "longestCase": "the-ceos-office",
+  "actionsIdentical": true,
+  "stepCountsIdentical": true
+}

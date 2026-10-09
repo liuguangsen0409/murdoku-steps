@@ -1,0 +1,109 @@
+{
+  "0": {
+    "name": "texture_floor_woodentile.svg",
+    "asset": "/assets/catalog/textures/texture_floor_woodentile.svg",
+    "status": "available"
+  },
+  "1": {
+    "name": "texture_floor_squaretile.svg",
+    "asset": "/assets/catalog/textures/texture_floor_squaretile.svg",
+    "status": "available"
+  },
+  "2": {
+    "name": "texture_floor_rocks.svg",
+    "asset": "/assets/catalog/textures/texture_floor_rocks.svg",
+    "status": "available"
+  },
+  "3": {
+    "name": "texture_floor_woodentile_scrap.svg",
+    "asset": "/assets/catalog/textures/texture_floor_woodentile_scrap.svg",
+    "status": "available"
+  },
+  "4": {
+    "name": "texture_floor_diamond.svg",
+    "asset": "/assets/catalog/textures/texture_floor_diamond.svg",
+    "status": "available"
+  },
+  "5": {
+    "name": "texture_floor_bigdiamond.svg",
+    "asset": "/assets/catalog/textures/texture_floor_bigdiamond.svg",
+    "status": "available"
+  },
+  "6": {
+    "name": "texture_floor_plain.svg",
+    "asset": null,
+    "status": "missing-asset"
+  },
+  "7": {
+    "name": "texture_floor_losanges.svg",
+    "asset": null,
+    "status": "missing-asset"
+  },
+  "8": {
+    "name": "texture_floor_minitiles.svg",
+    "asset": "/assets/catalog/textures/texture_floor_minitiles.svg",
+    "status": "available"
+  },
+  "9": {
+    "asset": null,
+    "status": "untextured"
+  },
+  "10": {
+    "name": "texture_floor_grass.svg",
+    "asset": "/assets/catalog/textures/texture_floor_grass.svg",
+    "status": "available"
+  },
+  "11": {
+    "name": "texture_floor_sand.svg",
+    "asset": "/assets/catalog/textures/texture_floor_sand.svg",
+    "status": "available"
+  },
+  "12": {
+    "name": "texture_floor_water.svg",
+    "asset": "/assets/catalog/textures/texture_floor_water.svg",
+    "status": "available"
+  },
+  "15": {
+    "name": "texture_floor_rich.svg",
+    "asset": "/assets/catalog/textures/texture_floor_rich.svg",
+    "status": "available"
+  },
+  "16": {
+    "name": "texture_floor_smalltiles.svg",
+    "asset": "/assets/catalog/textures/texture_floor_smalltiles.svg",
+    "status": "available"
+  },
+  "17": {
+    "name": "texture_floor_brick.svg",
+    "asset": null,
+    "status": "missing-asset"
+  },
+  "18": {
+    "name": "texture_floor_bigwood.svg",
+    "asset": "/assets/catalog/textures/texture_floor_bigwood.svg",
+    "status": "available"
+  },
+  "19": {
+    "name": "texture_floor_grass_tall.svg",
+    "asset": "/assets/catalog/textures/texture_floor_grass_tall.svg",
+    "status": "available"
+  },
+  "21": {
+    "name": "texture_floor_brick_large.svg",
+    "asset": "/assets/catalog/textures/texture_floor_brick_large.svg",
+    "status": "available"
+  },
+  "22": {
+    "name": "texture_floor_limestone.svg",
+    "asset": "/assets/catalog/textures/texture_floor_limestone.svg",
+    "status": "available"
+  },
+  "28": {
+    "asset": null,
+    "status": "not-defined-in-official-registry"
+  },
+  "29": {
+    "asset": null,
+    "status": "not-defined-in-official-registry"
+  }
+}

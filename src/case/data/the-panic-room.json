@@ -1,0 +1,2998 @@
+{
+  "id": "the-panic-room",
+  "width": 10,
+  "height": 10,
+  "cells": [
+    {
+      "id": "R1C1",
+      "row": 1,
+      "col": 1,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#e8ebed",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R1C2",
+      "row": 1,
+      "col": 2,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        2
+      ],
+      "fill": "#e8ebed",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R1C3",
+      "row": 1,
+      "col": 3,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#e8ebed",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R1C4",
+      "row": 1,
+      "col": 4,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#e8ebed",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R1C5",
+      "row": 1,
+      "col": 5,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#e8ebed",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R1C6",
+      "row": 1,
+      "col": 6,
+      "roomId": 5,
+      "regionId": 5,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        4
+      ],
+      "fill": "#d8d0d3",
+      "texture": "plain",
+      "floorType": 29,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R1C7",
+      "row": 1,
+      "col": 7,
+      "roomId": 5,
+      "regionId": 5,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        4
+      ],
+      "fill": "#d8d0d3",
+      "texture": "plain",
+      "floorType": 29,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R1C8",
+      "row": 1,
+      "col": 8,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#60616c",
+      "texture": "plain",
+      "floorType": 28,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R1C9",
+      "row": 1,
+      "col": 9,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        3
+      ],
+      "fill": "#60616c",
+      "texture": "plain",
+      "floorType": 28,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R1C10",
+      "row": 1,
+      "col": 10,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#60616c",
+      "texture": "plain",
+      "floorType": 28,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R2C1",
+      "row": 2,
+      "col": 1,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        2
+      ],
+      "fill": "#e8ebed",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R2C2",
+      "row": 2,
+      "col": 2,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        4
+      ],
+      "fill": "#e8ebed",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R2C3",
+      "row": 2,
+      "col": 3,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        4
+      ],
+      "fill": "#e8ebed",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R2C4",
+      "row": 2,
+      "col": 4,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        4
+      ],
+      "fill": "#e8ebed",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R2C5",
+      "row": 2,
+      "col": 5,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        2
+      ],
+      "fill": "#e8ebed",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R2C6",
+      "row": 2,
+      "col": 6,
+      "roomId": 5,
+      "regionId": 5,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#d8d0d3",
+      "texture": "plain",
+      "floorType": 29,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R2C7",
+      "row": 2,
+      "col": 7,
+      "roomId": 5,
+      "regionId": 5,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#d8d0d3",
+      "texture": "plain",
+      "floorType": 29,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R2C8",
+      "row": 2,
+      "col": 8,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#60616c",
+      "texture": "plain",
+      "floorType": 28,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R2C9",
+      "row": 2,
+      "col": 9,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#60616c",
+      "texture": "plain",
+      "floorType": 28,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R2C10",
+      "row": 2,
+      "col": 10,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#60616c",
+      "texture": "plain",
+      "floorType": 28,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R3C1",
+      "row": 3,
+      "col": 1,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#e8ebed",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R3C2",
+      "row": 3,
+      "col": 2,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        2
+      ],
+      "fill": "#e8ebed",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R3C3",
+      "row": 3,
+      "col": 3,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        2
+      ],
+      "fill": "#e8ebed",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R3C4",
+      "row": 3,
+      "col": 4,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#e8ebed",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R3C5",
+      "row": 3,
+      "col": 5,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        1
+      ],
+      "fill": "#e8ebed",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R3C6",
+      "row": 3,
+      "col": 6,
+      "roomId": 5,
+      "regionId": 5,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        13
+      ],
+      "fill": "#d8d0d3",
+      "texture": "plain",
+      "floorType": 29,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R3C7",
+      "row": 3,
+      "col": 7,
+      "roomId": 5,
+      "regionId": 5,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#d8d0d3",
+      "texture": "plain",
+      "floorType": 29,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R3C8",
+      "row": 3,
+      "col": 8,
+      "roomId": 5,
+      "regionId": 5,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#d8d0d3",
+      "texture": "plain",
+      "floorType": 29,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R3C9",
+      "row": 3,
+      "col": 9,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#60616c",
+      "texture": "plain",
+      "floorType": 28,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R3C10",
+      "row": 3,
+      "col": 10,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#60616c",
+      "texture": "plain",
+      "floorType": 28,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R4C1",
+      "row": 4,
+      "col": 1,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#e8ebed",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R4C2",
+      "row": 4,
+      "col": 2,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        4
+      ],
+      "fill": "#e8ebed",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R4C3",
+      "row": 4,
+      "col": 3,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#d6c7cc",
+      "texture": "squaretile",
+      "floorType": 1,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_squaretile.svg"
+    },
+    {
+      "id": "R4C4",
+      "row": 4,
+      "col": 4,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        2
+      ],
+      "fill": "#d6c7cc",
+      "texture": "squaretile",
+      "floorType": 1,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_squaretile.svg"
+    },
+    {
+      "id": "R4C5",
+      "row": 4,
+      "col": 5,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#d6c7cc",
+      "texture": "squaretile",
+      "floorType": 1,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_squaretile.svg"
+    },
+    {
+      "id": "R4C6",
+      "row": 4,
+      "col": 6,
+      "roomId": 7,
+      "regionId": 7,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#f1f5f9",
+      "texture": "plain",
+      "floorType": 6,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R4C7",
+      "row": 4,
+      "col": 7,
+      "roomId": 7,
+      "regionId": 7,
+      "occupiable": true,
+      "carpet": true,
+      "water": false,
+      "objectIds": [
+        5
+      ],
+      "fill": "#f1f5f9",
+      "texture": "plain",
+      "floorType": 6,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R4C8",
+      "row": 4,
+      "col": 8,
+      "roomId": 7,
+      "regionId": 7,
+      "occupiable": true,
+      "carpet": true,
+      "water": false,
+      "objectIds": [
+        5
+      ],
+      "fill": "#f1f5f9",
+      "texture": "plain",
+      "floorType": 6,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R4C9",
+      "row": 4,
+      "col": 9,
+      "roomId": 7,
+      "regionId": 7,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#f1f5f9",
+      "texture": "plain",
+      "floorType": 6,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R4C10",
+      "row": 4,
+      "col": 10,
+      "roomId": 7,
+      "regionId": 7,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        20
+      ],
+      "fill": "#f1f5f9",
+      "texture": "plain",
+      "floorType": 6,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R5C1",
+      "row": 5,
+      "col": 1,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#54696d",
+      "texture": "grass",
+      "floorType": 10,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_grass.svg"
+    },
+    {
+      "id": "R5C2",
+      "row": 5,
+      "col": 2,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        10
+      ],
+      "fill": "#54696d",
+      "texture": "grass",
+      "floorType": 10,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_grass.svg"
+    },
+    {
+      "id": "R5C3",
+      "row": 5,
+      "col": 3,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#d6c7cc",
+      "texture": "squaretile",
+      "floorType": 1,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_squaretile.svg"
+    },
+    {
+      "id": "R5C4",
+      "row": 5,
+      "col": 4,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#d6c7cc",
+      "texture": "squaretile",
+      "floorType": 1,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_squaretile.svg"
+    },
+    {
+      "id": "R5C5",
+      "row": 5,
+      "col": 5,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        20
+      ],
+      "fill": "#d6c7cc",
+      "texture": "squaretile",
+      "floorType": 1,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_squaretile.svg"
+    },
+    {
+      "id": "R5C6",
+      "row": 5,
+      "col": 6,
+      "roomId": 7,
+      "regionId": 7,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#f1f5f9",
+      "texture": "plain",
+      "floorType": 6,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R5C7",
+      "row": 5,
+      "col": 7,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#cdcae2",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R5C8",
+      "row": 5,
+      "col": 8,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        2
+      ],
+      "fill": "#cdcae2",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R5C9",
+      "row": 5,
+      "col": 9,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#cdcae2",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R5C10",
+      "row": 5,
+      "col": 10,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#cdcae2",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R6C1",
+      "row": 6,
+      "col": 1,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#54696d",
+      "texture": "grass",
+      "floorType": 10,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_grass.svg"
+    },
+    {
+      "id": "R6C2",
+      "row": 6,
+      "col": 2,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        20
+      ],
+      "fill": "#54696d",
+      "texture": "grass",
+      "floorType": 10,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_grass.svg"
+    },
+    {
+      "id": "R6C3",
+      "row": 6,
+      "col": 3,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": true,
+      "carpet": true,
+      "water": false,
+      "objectIds": [
+        5
+      ],
+      "fill": "#d6c7cc",
+      "texture": "squaretile",
+      "floorType": 1,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_squaretile.svg"
+    },
+    {
+      "id": "R6C4",
+      "row": 6,
+      "col": 4,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": true,
+      "carpet": true,
+      "water": false,
+      "objectIds": [
+        5
+      ],
+      "fill": "#d6c7cc",
+      "texture": "squaretile",
+      "floorType": 1,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_squaretile.svg"
+    },
+    {
+      "id": "R6C5",
+      "row": 6,
+      "col": 5,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#d6c7cc",
+      "texture": "squaretile",
+      "floorType": 1,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_squaretile.svg"
+    },
+    {
+      "id": "R6C6",
+      "row": 6,
+      "col": 6,
+      "roomId": 7,
+      "regionId": 7,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#f1f5f9",
+      "texture": "plain",
+      "floorType": 6,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R6C7",
+      "row": 6,
+      "col": 7,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        2
+      ],
+      "fill": "#cdcae2",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R6C8",
+      "row": 6,
+      "col": 8,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": true,
+      "carpet": true,
+      "water": false,
+      "objectIds": [
+        5
+      ],
+      "fill": "#cdcae2",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R6C9",
+      "row": 6,
+      "col": 9,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": true,
+      "carpet": true,
+      "water": false,
+      "objectIds": [
+        5
+      ],
+      "fill": "#cdcae2",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R6C10",
+      "row": 6,
+      "col": 10,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        3
+      ],
+      "fill": "#cdcae2",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R7C1",
+      "row": 7,
+      "col": 1,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        10
+      ],
+      "fill": "#54696d",
+      "texture": "grass",
+      "floorType": 10,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_grass.svg"
+    },
+    {
+      "id": "R7C2",
+      "row": 7,
+      "col": 2,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#54696d",
+      "texture": "grass",
+      "floorType": 10,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_grass.svg"
+    },
+    {
+      "id": "R7C3",
+      "row": 7,
+      "col": 3,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        1
+      ],
+      "fill": "#d6c7cc",
+      "texture": "squaretile",
+      "floorType": 1,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_squaretile.svg"
+    },
+    {
+      "id": "R7C4",
+      "row": 7,
+      "col": 4,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": true,
+      "carpet": true,
+      "water": false,
+      "objectIds": [
+        5
+      ],
+      "fill": "#d6c7cc",
+      "texture": "squaretile",
+      "floorType": 1,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_squaretile.svg"
+    },
+    {
+      "id": "R7C5",
+      "row": 7,
+      "col": 5,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#d6c7cc",
+      "texture": "squaretile",
+      "floorType": 1,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_squaretile.svg"
+    },
+    {
+      "id": "R7C6",
+      "row": 7,
+      "col": 6,
+      "roomId": 7,
+      "regionId": 7,
+      "occupiable": true,
+      "carpet": true,
+      "water": false,
+      "objectIds": [
+        5
+      ],
+      "fill": "#f1f5f9",
+      "texture": "plain",
+      "floorType": 6,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R7C7",
+      "row": 7,
+      "col": 7,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#cdcae2",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R7C8",
+      "row": 7,
+      "col": 8,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        2
+      ],
+      "fill": "#cdcae2",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R7C9",
+      "row": 7,
+      "col": 9,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        2
+      ],
+      "fill": "#cdcae2",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R7C10",
+      "row": 7,
+      "col": 10,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        4
+      ],
+      "fill": "#cdcae2",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R8C1",
+      "row": 8,
+      "col": 1,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#54696d",
+      "texture": "grass",
+      "floorType": 10,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_grass.svg"
+    },
+    {
+      "id": "R8C2",
+      "row": 8,
+      "col": 2,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#54696d",
+      "texture": "grass",
+      "floorType": 10,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_grass.svg"
+    },
+    {
+      "id": "R8C3",
+      "row": 8,
+      "col": 3,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#54696d",
+      "texture": "grass",
+      "floorType": 10,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_grass.svg"
+    },
+    {
+      "id": "R8C4",
+      "row": 8,
+      "col": 4,
+      "roomId": 6,
+      "regionId": 6,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        4
+      ],
+      "fill": "#d1dae6",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R8C5",
+      "row": 8,
+      "col": 5,
+      "roomId": 6,
+      "regionId": 6,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        7
+      ],
+      "fill": "#d1dae6",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R8C6",
+      "row": 8,
+      "col": 6,
+      "roomId": 7,
+      "regionId": 7,
+      "occupiable": true,
+      "carpet": true,
+      "water": false,
+      "objectIds": [
+        5
+      ],
+      "fill": "#f1f5f9",
+      "texture": "plain",
+      "floorType": 6,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R8C7",
+      "row": 8,
+      "col": 7,
+      "roomId": 7,
+      "regionId": 7,
+      "occupiable": true,
+      "carpet": true,
+      "water": false,
+      "objectIds": [
+        5
+      ],
+      "fill": "#f1f5f9",
+      "texture": "plain",
+      "floorType": 6,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R8C8",
+      "row": 8,
+      "col": 8,
+      "roomId": 8,
+      "regionId": 8,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        13
+      ],
+      "fill": "#e3d3dd",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R8C9",
+      "row": 8,
+      "col": 9,
+      "roomId": 8,
+      "regionId": 8,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        7
+      ],
+      "fill": "#e3d3dd",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R8C10",
+      "row": 8,
+      "col": 10,
+      "roomId": 8,
+      "regionId": 8,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        2
+      ],
+      "fill": "#e3d3dd",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R9C1",
+      "row": 9,
+      "col": 1,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#54696d",
+      "texture": "grass",
+      "floorType": 10,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_grass.svg"
+    },
+    {
+      "id": "R9C2",
+      "row": 9,
+      "col": 2,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#54696d",
+      "texture": "grass",
+      "floorType": 10,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_grass.svg"
+    },
+    {
+      "id": "R9C3",
+      "row": 9,
+      "col": 3,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#54696d",
+      "texture": "grass",
+      "floorType": 10,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_grass.svg"
+    },
+    {
+      "id": "R9C4",
+      "row": 9,
+      "col": 4,
+      "roomId": 6,
+      "regionId": 6,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#d1dae6",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R9C5",
+      "row": 9,
+      "col": 5,
+      "roomId": 6,
+      "regionId": 6,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        7
+      ],
+      "fill": "#d1dae6",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R9C6",
+      "row": 9,
+      "col": 6,
+      "roomId": 6,
+      "regionId": 6,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#d1dae6",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R9C7",
+      "row": 9,
+      "col": 7,
+      "roomId": 7,
+      "regionId": 7,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#f1f5f9",
+      "texture": "plain",
+      "floorType": 6,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R9C8",
+      "row": 9,
+      "col": 8,
+      "roomId": 8,
+      "regionId": 8,
+      "occupiable": true,
+      "carpet": true,
+      "water": false,
+      "objectIds": [
+        5
+      ],
+      "fill": "#e3d3dd",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R9C9",
+      "row": 9,
+      "col": 9,
+      "roomId": 8,
+      "regionId": 8,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        7
+      ],
+      "fill": "#e3d3dd",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R9C10",
+      "row": 9,
+      "col": 10,
+      "roomId": 8,
+      "regionId": 8,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#e3d3dd",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R10C1",
+      "row": 10,
+      "col": 1,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        10
+      ],
+      "fill": "#54696d",
+      "texture": "grass",
+      "floorType": 10,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_grass.svg"
+    },
+    {
+      "id": "R10C2",
+      "row": 10,
+      "col": 2,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#54696d",
+      "texture": "grass",
+      "floorType": 10,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_grass.svg"
+    },
+    {
+      "id": "R10C3",
+      "row": 10,
+      "col": 3,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        10
+      ],
+      "fill": "#54696d",
+      "texture": "grass",
+      "floorType": 10,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_grass.svg"
+    },
+    {
+      "id": "R10C4",
+      "row": 10,
+      "col": 4,
+      "roomId": 6,
+      "regionId": 6,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        1
+      ],
+      "fill": "#d1dae6",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R10C5",
+      "row": 10,
+      "col": 5,
+      "roomId": 6,
+      "regionId": 6,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#d1dae6",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R10C6",
+      "row": 10,
+      "col": 6,
+      "roomId": 6,
+      "regionId": 6,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#d1dae6",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R10C7",
+      "row": 10,
+      "col": 7,
+      "roomId": 7,
+      "regionId": 7,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#f1f5f9",
+      "texture": "plain",
+      "floorType": 6,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R10C8",
+      "row": 10,
+      "col": 8,
+      "roomId": 8,
+      "regionId": 8,
+      "occupiable": true,
+      "carpet": true,
+      "water": false,
+      "objectIds": [
+        5
+      ],
+      "fill": "#e3d3dd",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R10C9",
+      "row": 10,
+      "col": 9,
+      "roomId": 8,
+      "regionId": 8,
+      "occupiable": true,
+      "carpet": true,
+      "water": false,
+      "objectIds": [
+        5
+      ],
+      "fill": "#e3d3dd",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R10C10",
+      "row": 10,
+      "col": 10,
+      "roomId": 8,
+      "regionId": 8,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        3
+      ],
+      "fill": "#e3d3dd",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    }
+  ],
+  "objects": [
+    {
+      "id": "object-1-2",
+      "kind": "chair",
+      "cells": [
+        "R1C2"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/chair.svg",
+      "x": 1,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "objectId": 2
+    },
+    {
+      "id": "object-1-6",
+      "kind": "table",
+      "cells": [
+        "R1C6"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/table.svg",
+      "x": 5,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "objectId": 4
+    },
+    {
+      "id": "object-1-7",
+      "kind": "table",
+      "cells": [
+        "R1C7"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/table.svg",
+      "x": 6,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "objectId": 4
+    },
+    {
+      "id": "object-1-9",
+      "kind": "tv",
+      "cells": [
+        "R1C9"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/tv.svg",
+      "x": 8,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "objectId": 3
+    },
+    {
+      "id": "object-2-1",
+      "kind": "chair",
+      "cells": [
+        "R2C1"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/chair.svg",
+      "x": 0,
+      "y": 1,
+      "width": 1,
+      "height": 1,
+      "objectId": 2
+    },
+    {
+      "id": "object-2-2",
+      "kind": "table",
+      "cells": [
+        "R2C2"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/table.svg",
+      "x": 1,
+      "y": 1,
+      "width": 1,
+      "height": 1,
+      "objectId": 4
+    },
+    {
+      "id": "object-2-3",
+      "kind": "table",
+      "cells": [
+        "R2C3"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/table.svg",
+      "x": 2,
+      "y": 1,
+      "width": 1,
+      "height": 1,
+      "objectId": 4
+    },
+    {
+      "id": "object-2-4",
+      "kind": "table",
+      "cells": [
+        "R2C4"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/table.svg",
+      "x": 3,
+      "y": 1,
+      "width": 1,
+      "height": 1,
+      "objectId": 4
+    },
+    {
+      "id": "object-2-5",
+      "kind": "chair",
+      "cells": [
+        "R2C5"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/chair.svg",
+      "x": 4,
+      "y": 1,
+      "width": 1,
+      "height": 1,
+      "objectId": 2
+    },
+    {
+      "id": "object-3-2",
+      "kind": "chair",
+      "cells": [
+        "R3C2"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/chair.svg",
+      "x": 1,
+      "y": 2,
+      "width": 1,
+      "height": 1,
+      "objectId": 2
+    },
+    {
+      "id": "object-3-3",
+      "kind": "chair",
+      "cells": [
+        "R3C3"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/chair.svg",
+      "x": 2,
+      "y": 2,
+      "width": 1,
+      "height": 1,
+      "objectId": 2
+    },
+    {
+      "id": "object-3-5",
+      "kind": "plant",
+      "cells": [
+        "R3C5"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/plant.svg",
+      "x": 4,
+      "y": 2,
+      "width": 1,
+      "height": 1,
+      "objectId": 1
+    },
+    {
+      "id": "object-3-6",
+      "kind": "shelf",
+      "cells": [
+        "R3C6"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/shelf.svg",
+      "x": 5,
+      "y": 2,
+      "width": 1,
+      "height": 1,
+      "objectId": 13
+    },
+    {
+      "id": "object-4-2",
+      "kind": "table",
+      "cells": [
+        "R4C2"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/table.svg",
+      "x": 1,
+      "y": 3,
+      "width": 1,
+      "height": 1,
+      "objectId": 4
+    },
+    {
+      "id": "object-4-4",
+      "kind": "chair",
+      "cells": [
+        "R4C4"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/chair.svg",
+      "x": 3,
+      "y": 3,
+      "width": 1,
+      "height": 1,
+      "objectId": 2
+    },
+    {
+      "id": "object-4-10",
+      "kind": "statue",
+      "cells": [
+        "R4C10"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/statue.svg",
+      "x": 9,
+      "y": 3,
+      "width": 1,
+      "height": 1,
+      "objectId": 20
+    },
+    {
+      "id": "object-5-2",
+      "kind": "tree",
+      "cells": [
+        "R5C2"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/tree.svg",
+      "x": 1,
+      "y": 4,
+      "width": 1,
+      "height": 1,
+      "objectId": 10
+    },
+    {
+      "id": "object-5-5",
+      "kind": "statue",
+      "cells": [
+        "R5C5"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/statue.svg",
+      "x": 4,
+      "y": 4,
+      "width": 1,
+      "height": 1,
+      "objectId": 20
+    },
+    {
+      "id": "object-5-8",
+      "kind": "chair",
+      "cells": [
+        "R5C8"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/chair.svg",
+      "x": 7,
+      "y": 4,
+      "width": 1,
+      "height": 1,
+      "objectId": 2
+    },
+    {
+      "id": "object-6-2",
+      "kind": "statue",
+      "cells": [
+        "R6C2"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/statue.svg",
+      "x": 1,
+      "y": 5,
+      "width": 1,
+      "height": 1,
+      "objectId": 20
+    },
+    {
+      "id": "object-6-7",
+      "kind": "chair",
+      "cells": [
+        "R6C7"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/chair.svg",
+      "x": 6,
+      "y": 5,
+      "width": 1,
+      "height": 1,
+      "objectId": 2
+    },
+    {
+      "id": "object-6-10",
+      "kind": "tv",
+      "cells": [
+        "R6C10"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/tv.svg",
+      "x": 9,
+      "y": 5,
+      "width": 1,
+      "height": 1,
+      "objectId": 3
+    },
+    {
+      "id": "object-7-1",
+      "kind": "tree",
+      "cells": [
+        "R7C1"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/tree.svg",
+      "x": 0,
+      "y": 6,
+      "width": 1,
+      "height": 1,
+      "objectId": 10
+    },
+    {
+      "id": "object-7-3",
+      "kind": "plant",
+      "cells": [
+        "R7C3"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/plant.svg",
+      "x": 2,
+      "y": 6,
+      "width": 1,
+      "height": 1,
+      "objectId": 1
+    },
+    {
+      "id": "object-7-8",
+      "kind": "chair",
+      "cells": [
+        "R7C8"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/chair.svg",
+      "x": 7,
+      "y": 6,
+      "width": 1,
+      "height": 1,
+      "objectId": 2
+    },
+    {
+      "id": "object-7-9",
+      "kind": "chair",
+      "cells": [
+        "R7C9"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/chair.svg",
+      "x": 8,
+      "y": 6,
+      "width": 1,
+      "height": 1,
+      "objectId": 2
+    },
+    {
+      "id": "object-7-10",
+      "kind": "table",
+      "cells": [
+        "R7C10"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/table.svg",
+      "x": 9,
+      "y": 6,
+      "width": 1,
+      "height": 1,
+      "objectId": 4
+    },
+    {
+      "id": "object-8-4",
+      "kind": "table",
+      "cells": [
+        "R8C4"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/table.svg",
+      "x": 3,
+      "y": 7,
+      "width": 1,
+      "height": 1,
+      "objectId": 4
+    },
+    {
+      "id": "object-8-5",
+      "kind": "bed_top",
+      "cells": [
+        "R8C5",
+        "R9C5"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/bed_top.svg",
+      "x": 4,
+      "y": 7,
+      "width": 1,
+      "height": 2,
+      "objectId": 7
+    },
+    {
+      "id": "object-8-8",
+      "kind": "shelf",
+      "cells": [
+        "R8C8"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/shelf.svg",
+      "x": 7,
+      "y": 7,
+      "width": 1,
+      "height": 1,
+      "objectId": 13
+    },
+    {
+      "id": "object-8-9",
+      "kind": "bed_top",
+      "cells": [
+        "R8C9",
+        "R9C9"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/bed_top.svg",
+      "x": 8,
+      "y": 7,
+      "width": 1,
+      "height": 2,
+      "objectId": 7
+    },
+    {
+      "id": "object-8-10",
+      "kind": "chair",
+      "cells": [
+        "R8C10"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/chair.svg",
+      "x": 9,
+      "y": 7,
+      "width": 1,
+      "height": 1,
+      "objectId": 2
+    },
+    {
+      "id": "object-10-1",
+      "kind": "tree",
+      "cells": [
+        "R10C1"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/tree.svg",
+      "x": 0,
+      "y": 9,
+      "width": 1,
+      "height": 1,
+      "objectId": 10
+    },
+    {
+      "id": "object-10-3",
+      "kind": "tree",
+      "cells": [
+        "R10C3"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/tree.svg",
+      "x": 2,
+      "y": 9,
+      "width": 1,
+      "height": 1,
+      "objectId": 10
+    },
+    {
+      "id": "object-10-4",
+      "kind": "plant",
+      "cells": [
+        "R10C4"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/plant.svg",
+      "x": 3,
+      "y": 9,
+      "width": 1,
+      "height": 1,
+      "objectId": 1
+    },
+    {
+      "id": "object-10-10",
+      "kind": "tv",
+      "cells": [
+        "R10C10"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/tv.svg",
+      "x": 9,
+      "y": 9,
+      "width": 1,
+      "height": 1,
+      "objectId": 3
+    },
+    {
+      "id": "carpet-R10C9",
+      "kind": "carpet",
+      "cells": [
+        "R10C9"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/carpet.svg",
+      "x": 8,
+      "y": 9,
+      "width": 1,
+      "height": 1,
+      "objectId": 5,
+      "carpet": true
+    },
+    {
+      "id": "carpet-R10C8",
+      "kind": "carpet",
+      "cells": [
+        "R10C8"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/carpet.svg",
+      "x": 7,
+      "y": 9,
+      "width": 1,
+      "height": 1,
+      "objectId": 5,
+      "carpet": true
+    },
+    {
+      "id": "carpet-R9C8",
+      "kind": "carpet",
+      "cells": [
+        "R9C8"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/carpet.svg",
+      "x": 7,
+      "y": 8,
+      "width": 1,
+      "height": 1,
+      "objectId": 5,
+      "carpet": true
+    },
+    {
+      "id": "carpet-R8C7",
+      "kind": "carpet",
+      "cells": [
+        "R8C7"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/carpet.svg",
+      "x": 6,
+      "y": 7,
+      "width": 1,
+      "height": 1,
+      "objectId": 5,
+      "carpet": true
+    },
+    {
+      "id": "carpet-R8C6",
+      "kind": "carpet",
+      "cells": [
+        "R8C6"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/carpet.svg",
+      "x": 5,
+      "y": 7,
+      "width": 1,
+      "height": 1,
+      "objectId": 5,
+      "carpet": true
+    },
+    {
+      "id": "carpet-R7C6",
+      "kind": "carpet",
+      "cells": [
+        "R7C6"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/carpet.svg",
+      "x": 5,
+      "y": 6,
+      "width": 1,
+      "height": 1,
+      "objectId": 5,
+      "carpet": true
+    },
+    {
+      "id": "carpet-R7C4",
+      "kind": "carpet",
+      "cells": [
+        "R7C4"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/carpet.svg",
+      "x": 3,
+      "y": 6,
+      "width": 1,
+      "height": 1,
+      "objectId": 5,
+      "carpet": true
+    },
+    {
+      "id": "carpet-R6C9",
+      "kind": "carpet",
+      "cells": [
+        "R6C9"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/carpet.svg",
+      "x": 8,
+      "y": 5,
+      "width": 1,
+      "height": 1,
+      "objectId": 5,
+      "carpet": true
+    },
+    {
+      "id": "carpet-R6C8",
+      "kind": "carpet",
+      "cells": [
+        "R6C8"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/carpet.svg",
+      "x": 7,
+      "y": 5,
+      "width": 1,
+      "height": 1,
+      "objectId": 5,
+      "carpet": true
+    },
+    {
+      "id": "carpet-R6C4",
+      "kind": "carpet",
+      "cells": [
+        "R6C4"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/carpet.svg",
+      "x": 3,
+      "y": 5,
+      "width": 1,
+      "height": 1,
+      "objectId": 5,
+      "carpet": true
+    },
+    {
+      "id": "carpet-R6C3",
+      "kind": "carpet",
+      "cells": [
+        "R6C3"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/carpet.svg",
+      "x": 2,
+      "y": 5,
+      "width": 1,
+      "height": 1,
+      "objectId": 5,
+      "carpet": true
+    },
+    {
+      "id": "carpet-R4C8",
+      "kind": "carpet",
+      "cells": [
+        "R4C8"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/carpet.svg",
+      "x": 7,
+      "y": 3,
+      "width": 1,
+      "height": 1,
+      "objectId": 5,
+      "carpet": true
+    },
+    {
+      "id": "carpet-R4C7",
+      "kind": "carpet",
+      "cells": [
+        "R4C7"
+      ],
+      "asset": "/assets/catalog/the-panic-room/objects/carpet.svg",
+      "x": 6,
+      "y": 3,
+      "width": 1,
+      "height": 1,
+      "objectId": 5,
+      "carpet": true
+    }
+  ],
+  "rooms": [
+    {
+      "id": 0,
+      "label": "恐慌房间",
+      "labelEn": "Panic Room",
+      "cells": [
+        "R1C8",
+        "R1C9",
+        "R1C10",
+        "R2C8",
+        "R2C9",
+        "R2C10",
+        "R3C9",
+        "R3C10"
+      ],
+      "fill": "#60616c"
+    },
+    {
+      "id": 1,
+      "label": "院子",
+      "labelEn": "Yard",
+      "cells": [
+        "R5C1",
+        "R5C2",
+        "R6C1",
+        "R6C2",
+        "R7C1",
+        "R7C2",
+        "R8C1",
+        "R8C2",
+        "R8C3",
+        "R9C1",
+        "R9C2",
+        "R9C3",
+        "R10C1",
+        "R10C2",
+        "R10C3"
+      ],
+      "fill": "#54696d"
+    },
+    {
+      "id": 2,
+      "label": "餐厅",
+      "labelEn": "Dining Room",
+      "cells": [
+        "R1C1",
+        "R1C2",
+        "R1C3",
+        "R1C4",
+        "R1C5",
+        "R2C1",
+        "R2C2",
+        "R2C3",
+        "R2C4",
+        "R2C5",
+        "R3C1",
+        "R3C2",
+        "R3C3",
+        "R3C4",
+        "R3C5",
+        "R4C1",
+        "R4C2"
+      ],
+      "fill": "#e8ebed"
+    },
+    {
+      "id": 3,
+      "label": "客厅",
+      "labelEn": "Living Room",
+      "cells": [
+        "R5C7",
+        "R5C8",
+        "R5C9",
+        "R5C10",
+        "R6C7",
+        "R6C8",
+        "R6C9",
+        "R6C10",
+        "R7C7",
+        "R7C8",
+        "R7C9",
+        "R7C10"
+      ],
+      "fill": "#cdcae2"
+    },
+    {
+      "id": 4,
+      "label": "门厅",
+      "labelEn": "Foyer",
+      "cells": [
+        "R4C3",
+        "R4C4",
+        "R4C5",
+        "R5C3",
+        "R5C4",
+        "R5C5",
+        "R6C3",
+        "R6C4",
+        "R6C5",
+        "R7C3",
+        "R7C4",
+        "R7C5"
+      ],
+      "fill": "#d6c7cc"
+    },
+    {
+      "id": 5,
+      "label": "厨房",
+      "labelEn": "Kitchen",
+      "cells": [
+        "R1C6",
+        "R1C7",
+        "R2C6",
+        "R2C7",
+        "R3C6",
+        "R3C7",
+        "R3C8"
+      ],
+      "fill": "#d8d0d3"
+    },
+    {
+      "id": 6,
+      "label": "主卧室",
+      "labelEn": "Main Bedroom",
+      "cells": [
+        "R8C4",
+        "R8C5",
+        "R9C4",
+        "R9C5",
+        "R9C6",
+        "R10C4",
+        "R10C5",
+        "R10C6"
+      ],
+      "fill": "#d1dae6"
+    },
+    {
+      "id": 7,
+      "label": "走廊",
+      "labelEn": "Hallway",
+      "cells": [
+        "R4C6",
+        "R4C7",
+        "R4C8",
+        "R4C9",
+        "R4C10",
+        "R5C6",
+        "R6C6",
+        "R7C6",
+        "R8C6",
+        "R8C7",
+        "R9C7",
+        "R10C7"
+      ],
+      "fill": "#f1f5f9"
+    },
+    {
+      "id": 8,
+      "label": "客房",
+      "labelEn": "Guest Bedroom",
+      "cells": [
+        "R8C8",
+        "R8C9",
+        "R8C10",
+        "R9C8",
+        "R9C9",
+        "R9C10",
+        "R10C8",
+        "R10C9",
+        "R10C10"
+      ],
+      "fill": "#e3d3dd"
+    }
+  ],
+  "roomLabels": [
+    {
+      "id": 0,
+      "label": "恐慌房间",
+      "x": 900.0,
+      "y": 285.33333333333337,
+      "mainRoomId": 0,
+      "isSubarea": false
+    },
+    {
+      "id": 1,
+      "label": "院子",
+      "x": 150.0,
+      "y": 985.3333333333334,
+      "mainRoomId": 1,
+      "isSubarea": false
+    },
+    {
+      "id": 2,
+      "label": "餐厅",
+      "x": 100.0,
+      "y": 385.33333333333337,
+      "mainRoomId": 2,
+      "isSubarea": false
+    },
+    {
+      "id": 3,
+      "label": "客厅",
+      "x": 800.0,
+      "y": 685.3333333333334,
+      "mainRoomId": 3,
+      "isSubarea": false
+    },
+    {
+      "id": 4,
+      "label": "门厅",
+      "x": 350.0,
+      "y": 685.3333333333334,
+      "mainRoomId": 4,
+      "isSubarea": false
+    },
+    {
+      "id": 5,
+      "label": "厨房",
+      "x": 650.0,
+      "y": 285.33333333333337,
+      "mainRoomId": 5,
+      "isSubarea": false
+    },
+    {
+      "id": 6,
+      "label": "主卧室",
+      "x": 450.0,
+      "y": 985.3333333333334,
+      "mainRoomId": 6,
+      "isSubarea": false
+    },
+    {
+      "id": 7,
+      "label": "走廊",
+      "x": 650.0,
+      "y": 985.3333333333334,
+      "mainRoomId": 7,
+      "isSubarea": false
+    },
+    {
+      "id": 8,
+      "label": "客房",
+      "x": 850.0,
+      "y": 985.3333333333334,
+      "mainRoomId": 8,
+      "isSubarea": false
+    }
+  ],
+  "objectNames": {
+    "1": "Plant",
+    "2": "Chair",
+    "3": "TV",
+    "4": "Table",
+    "7": "Bed",
+    "10": "Tree",
+    "13": "Shelf",
+    "20": "Statue"
+  },
+  "characters": [
+    {
+      "id": "A",
+      "name": "Alvin",
+      "portrait": "/assets/catalog/the-panic-room/portraits/A.svg",
+      "clueId": "A-clue",
+      "clueEn": "He was beside a statue.",
+      "clueZh": "他在雕像旁边。",
+      "sex": 0
+    },
+    {
+      "id": "B",
+      "name": "Bobby",
+      "portrait": "/assets/catalog/the-panic-room/portraits/B.svg",
+      "clueId": "B-clue",
+      "clueEn": "He was sitting in a chair.",
+      "clueZh": "他坐在椅子上。",
+      "sex": 0
+    },
+    {
+      "id": "C",
+      "name": "Charlie",
+      "portrait": "/assets/catalog/the-panic-room/portraits/C.svg",
+      "clueId": "C-clue",
+      "clueEn": "He was in the Guest Bedroom.",
+      "clueZh": "他在客房里。",
+      "sex": 0
+    },
+    {
+      "id": "D",
+      "name": "Dina",
+      "portrait": "/assets/catalog/the-panic-room/portraits/D.svg",
+      "clueId": "D-clue",
+      "clueEn": "She was beside a shelf.",
+      "clueZh": "她在架子旁边。",
+      "sex": 1
+    },
+    {
+      "id": "E",
+      "name": "Evan",
+      "portrait": "/assets/catalog/the-panic-room/portraits/E.svg",
+      "clueId": "E-clue",
+      "clueEn": "He was in the Panic Room.",
+      "clueZh": "他在恐慌房间里。",
+      "sex": 0
+    },
+    {
+      "id": "F",
+      "name": "Fawn",
+      "portrait": "/assets/catalog/the-panic-room/portraits/F.svg",
+      "clueId": "F-clue",
+      "clueEn": "She was beside a TV.",
+      "clueZh": "她在电视旁边。",
+      "sex": 1
+    },
+    {
+      "id": "G",
+      "name": "Graham",
+      "portrait": "/assets/catalog/the-panic-room/portraits/G.svg",
+      "clueId": "G-clue",
+      "clueEn": "He was exactly one row south of someone on a carpet.",
+      "clueZh": "他正好在地毯上某人的南边一行。",
+      "sex": 0
+    },
+    {
+      "id": "H",
+      "name": "Harold",
+      "portrait": "/assets/catalog/the-panic-room/portraits/H.svg",
+      "clueId": "H-clue",
+      "clueEn": "He was with a woman in the Dining Room.",
+      "clueZh": "他和一个女人在餐厅里。",
+      "sex": 0
+    },
+    {
+      "id": "I",
+      "name": "Iona",
+      "portrait": "/assets/catalog/the-panic-room/portraits/I.svg",
+      "clueId": "I-clue",
+      "clueEn": "She was exactly two columns east of a woman.",
+      "clueZh": "她正好在一个女人的东边两列。",
+      "sex": 1
+    },
+    {
+      "id": "V",
+      "name": "Violet",
+      "portrait": "/assets/catalog/the-panic-room/portraits/V.svg",
+      "clueId": "V-clue",
+      "clueEn": "The Victim. She was alone with the murderer.",
+      "clueZh": "受害者。她和凶手单独在一起。",
+      "sex": 1
+    }
+  ],
+  "generalClues": [],
+  "metadata": {
+    "sourceId": "puzzle-the-panic-room-hard",
+    "sourceFile": "puzzle_the-panic-room-hard.json",
+    "version": 2,
+    "coordinateOrder": "row_col",
+    "roomLabels": [
+      {
+        "id": 0,
+        "label": "Panic Room",
+        "x": 900.0,
+        "y": 285.33333333333337,
+        "mainRoomId": 0,
+        "isSubarea": false
+      },
+      {
+        "id": 1,
+        "label": "Yard",
+        "x": 150.0,
+        "y": 985.3333333333334,
+        "mainRoomId": 1,
+        "isSubarea": false
+      },
+      {
+        "id": 2,
+        "label": "Dining Room",
+        "x": 100.0,
+        "y": 385.33333333333337,
+        "mainRoomId": 2,
+        "isSubarea": false
+      },
+      {
+        "id": 3,
+        "label": "Living Room",
+        "x": 800.0,
+        "y": 685.3333333333334,
+        "mainRoomId": 3,
+        "isSubarea": false
+      },
+      {
+        "id": 4,
+        "label": "Foyer",
+        "x": 350.0,
+        "y": 685.3333333333334,
+        "mainRoomId": 4,
+        "isSubarea": false
+      },
+      {
+        "id": 5,
+        "label": "Kitchen",
+        "x": 650.0,
+        "y": 285.33333333333337,
+        "mainRoomId": 5,
+        "isSubarea": false
+      },
+      {
+        "id": 6,
+        "label": "Main Bedroom",
+        "x": 450.0,
+        "y": 985.3333333333334,
+        "mainRoomId": 6,
+        "isSubarea": false
+      },
+      {
+        "id": 7,
+        "label": "Hallway",
+        "x": 650.0,
+        "y": 985.3333333333334,
+        "mainRoomId": 7,
+        "isSubarea": false
+      },
+      {
+        "id": 8,
+        "label": "Guest Bedroom",
+        "x": 850.0,
+        "y": 985.3333333333334,
+        "mainRoomId": 8,
+        "isSubarea": false
+      }
+    ],
+    "edges": [],
+    "unsupportedObjectIds": [],
+    "titleEn": "The Panic Room",
+    "titleZh": "恐慌房间"
+  }
+}

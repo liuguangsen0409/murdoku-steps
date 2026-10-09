@@ -1,0 +1,2313 @@
+[
+  {
+    "id": "horse-with-no-name-lesson-1",
+    "title": "先读地图与全局规则",
+    "explanation": "6 人共用 6 行、6 列；先从地形、家具与明确区域建立候选。",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue",
+      "general-1",
+      "general-2"
+    ],
+    "focusCharacters": [],
+    "candidateCharacters": [],
+    "highlightCells": [],
+    "actions": [
+      {
+        "type": "setCandidates",
+        "character": "A",
+        "cells": [
+          "R2C1",
+          "R3C2",
+          "R3C6",
+          "R4C5",
+          "R5C6"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "B",
+        "cells": [
+          "R1C2",
+          "R1C3",
+          "R1C4",
+          "R2C3",
+          "R2C4",
+          "R2C5",
+          "R4C1",
+          "R4C2",
+          "R5C1",
+          "R5C2",
+          "R6C2"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "C",
+        "cells": [
+          "R1C2",
+          "R1C3",
+          "R1C4",
+          "R2C1",
+          "R2C3",
+          "R2C4",
+          "R2C5",
+          "R3C1",
+          "R3C2",
+          "R3C3",
+          "R3C4",
+          "R3C5",
+          "R3C6",
+          "R4C1",
+          "R4C2",
+          "R4C3",
+          "R4C4",
+          "R4C5",
+          "R5C1",
+          "R5C2",
+          "R5C4",
+          "R5C5",
+          "R5C6",
+          "R6C2",
+          "R6C3",
+          "R6C4",
+          "R6C5"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "D",
+        "cells": [
+          "R5C1",
+          "R6C2"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "E",
+        "cells": [
+          "R1C4",
+          "R2C5",
+          "R4C3",
+          "R5C4",
+          "R6C3"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "V",
+        "cells": [
+          "R1C2",
+          "R1C3",
+          "R1C4",
+          "R2C1",
+          "R2C3",
+          "R2C4",
+          "R2C5",
+          "R3C1",
+          "R3C2",
+          "R3C3",
+          "R3C4",
+          "R3C5",
+          "R3C6",
+          "R4C1",
+          "R4C2",
+          "R4C3",
+          "R4C4",
+          "R4C5",
+          "R5C1",
+          "R5C2",
+          "R5C4",
+          "R5C5",
+          "R5C6",
+          "R6C2",
+          "R6C3",
+          "R6C4",
+          "R6C5"
+        ]
+      }
+    ],
+    "rule": "地图与初始单人条件",
+    "details": [
+      "每行、每列最多一人；死者 V 也参与行列限制。",
+      "旁边按同一逻辑区域内的上下左右判断；家具是否可站立，以地图格子的属性为准。",
+      "本页逐步保存候选排除。只有某人的候选恰好剩一格时，才执行落位。",
+      "全局条件：嫌疑人当中正好藏着一名歹徒。歹徒可能是凶手，也可能不是。",
+      "全局条件：歹徒在马上。"
+    ]
+  },
+  {
+    "id": "horse-with-no-name-lesson-2",
+    "title": "先看 Aldous 的候选",
+    "explanation": "A：他在一棵仙人掌旁边。（5 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue",
+      "general-1",
+      "general-2"
+    ],
+    "focusCharacters": [
+      "A"
+    ],
+    "candidateCharacters": [
+      "A"
+    ],
+    "highlightCells": [
+      "R2C1",
+      "R3C2",
+      "R3C6",
+      "R4C5",
+      "R5C6"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Aldous（A） 的原始线索：他在一棵仙人掌旁边。",
+      "A 候选：R2C1；R3C2、6；R4C5；R5C6。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "horse-with-no-name-lesson-3",
+    "title": "先看 Blanche 的候选",
+    "explanation": "B：她不在沙漠里。她和Aldous在同一条对角线上。（11 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue",
+      "general-1",
+      "general-2"
+    ],
+    "focusCharacters": [
+      "B"
+    ],
+    "candidateCharacters": [
+      "B"
+    ],
+    "highlightCells": [
+      "R1C2",
+      "R1C3",
+      "R1C4",
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R4C1",
+      "R4C2",
+      "R5C1",
+      "R5C2",
+      "R6C2"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Blanche（B） 的原始线索：她不在沙漠里。她和Aldous在同一条对角线上。",
+      "B 候选：11 格，分布在 R1–R6 / C1–C5（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "horse-with-no-name-lesson-4",
+    "title": "先看 Cornelius 的候选",
+    "explanation": "C：他在Aldous的北边。（27 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue",
+      "general-1",
+      "general-2"
+    ],
+    "focusCharacters": [
+      "C"
+    ],
+    "candidateCharacters": [
+      "C"
+    ],
+    "highlightCells": [
+      "R1C2",
+      "R1C3",
+      "R1C4",
+      "R2C1",
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R3C1",
+      "R3C2",
+      "R3C3",
+      "R3C4",
+      "R3C5",
+      "R3C6",
+      "R4C1",
+      "R4C2",
+      "R4C3",
+      "R4C4",
+      "R4C5",
+      "R5C1",
+      "R5C2",
+      "R5C4",
+      "R5C5",
+      "R5C6",
+      "R6C2",
+      "R6C3",
+      "R6C4",
+      "R6C5"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Cornelius（C） 的原始线索：他在Aldous的北边。",
+      "C 候选：27 格，分布在 R1–R6 / C1–C6（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "horse-with-no-name-lesson-5",
+    "title": "先看 Dahlia 的候选",
+    "explanation": "D：她在桌子旁边。（2 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue",
+      "general-1",
+      "general-2"
+    ],
+    "focusCharacters": [
+      "D"
+    ],
+    "candidateCharacters": [
+      "D"
+    ],
+    "highlightCells": [
+      "R5C1",
+      "R6C2"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Dahlia（D） 的原始线索：她在桌子旁边。",
+      "D 候选：R5C1；R6C2。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "horse-with-no-name-lesson-6",
+    "title": "先看 Emeric 的候选",
+    "explanation": "E：他在一块巨石旁边。（5 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue",
+      "general-1",
+      "general-2"
+    ],
+    "focusCharacters": [
+      "E"
+    ],
+    "candidateCharacters": [
+      "E"
+    ],
+    "highlightCells": [
+      "R1C4",
+      "R2C5",
+      "R4C3",
+      "R5C4",
+      "R6C3"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Emeric（E） 的原始线索：他在一块巨石旁边。",
+      "E 候选：R1C4；R2C5；R4C3；R5C4；R6C3。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "horse-with-no-name-lesson-7",
+    "title": "先看 Vin 的候选",
+    "explanation": "V：被害者。不是歹徒。和凶手单独在一起。（27 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue",
+      "general-1",
+      "general-2"
+    ],
+    "focusCharacters": [
+      "V"
+    ],
+    "candidateCharacters": [
+      "V"
+    ],
+    "highlightCells": [
+      "R1C2",
+      "R1C3",
+      "R1C4",
+      "R2C1",
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R3C1",
+      "R3C2",
+      "R3C3",
+      "R3C4",
+      "R3C5",
+      "R3C6",
+      "R4C1",
+      "R4C2",
+      "R4C3",
+      "R4C4",
+      "R4C5",
+      "R5C1",
+      "R5C2",
+      "R5C4",
+      "R5C5",
+      "R5C6",
+      "R6C2",
+      "R6C3",
+      "R6C4",
+      "R6C5"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Vin（V） 的原始线索：被害者。不是歹徒。和凶手单独在一起。",
+      "V 候选：27 格，分布在 R1–R6 / C1–C6（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "horse-with-no-name-lesson-8",
+    "title": "确定 Aldous",
+    "explanation": "A 只剩 R5C6。有一名非死者的亡命徒在马背上，A 从 5 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue",
+      "general-1",
+      "general-2"
+    ],
+    "focusCharacters": [
+      "A",
+      "B",
+      "C",
+      "V"
+    ],
+    "candidateCharacters": [
+      "B",
+      "C",
+      "V"
+    ],
+    "highlightCells": [
+      "R1C2",
+      "R1C3",
+      "R1C4",
+      "R2C1",
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R3C1",
+      "R3C2",
+      "R3C3",
+      "R3C4",
+      "R3C5",
+      "R3C6",
+      "R4C1",
+      "R4C2",
+      "R4C3",
+      "R4C4",
+      "R4C5",
+      "R5C1",
+      "R5C4",
+      "R5C5",
+      "R5C6",
+      "R6C2",
+      "R6C3",
+      "R6C4",
+      "R6C5"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R1C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R2C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R4C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R5C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R5C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R6C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R5C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R5C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R5C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R5C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R5C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R6C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R6C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R6C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R6C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R2C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R3C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R3C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R4C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "A",
+        "cell": "R5C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-7"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "B：Blanche 与 Aldous 的关系线索。候选从 11 格减至 5 格；剩余 R1C2、4；R2C3、5；R4C1。",
+      "C：Cornelius 与 Aldous 的关系线索。候选从 27 格减至 18 格；剩余 18 格，分布在 R1–R4 / C1–C6（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 27 格减至 26 格；剩余 26 格，分布在 R1–R6 / C1–C6（点人物查看候选）。",
+      "A：有一名非死者的亡命徒在马背上。候选从 5 格减至 1 格；剩余 R5C6。",
+      "例如假设 A 在 R2C1，同步排除其他人的行列及关系冲突后，“有一名非死者的亡命徒在马背上”已没有足够的人数或合适同伴，所以这格不成立。其余被删候选按相同条件逐一核验。"
+    ]
+  },
+  {
+    "id": "horse-with-no-name-lesson-9",
+    "title": "确定 Dahlia",
+    "explanation": "D 只剩 R6C2。A 已锁定 R5C6，D 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue",
+      "general-1",
+      "general-2"
+    ],
+    "focusCharacters": [
+      "D",
+      "B",
+      "A",
+      "C"
+    ],
+    "candidateCharacters": [
+      "B",
+      "C"
+    ],
+    "highlightCells": [
+      "R1C2",
+      "R1C4",
+      "R2C1",
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R3C1",
+      "R3C2",
+      "R3C3",
+      "R3C4",
+      "R3C5",
+      "R4C1",
+      "R4C2",
+      "R4C3",
+      "R4C4",
+      "R4C5",
+      "R5C6",
+      "R6C2"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R1C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R2C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R4C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R3C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R1C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R5C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "D",
+        "cell": "R6C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-8"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "B：Blanche 与 Aldous 的关系线索。候选从 5 格减至 2 格；剩余 R1C2；R2C3。",
+      "C：Cornelius 与 Aldous 的关系线索。候选从 18 格减至 17 格；剩余 17 格，分布在 R1–R4 / C1–C5（点人物查看候选）。",
+      "C：每行、每列最多一人。候选从 17 格减至 16 格；剩余 16 格，分布在 R1–R4 / C1–C5（点人物查看候选）。",
+      "D：每行、每列最多一人。候选从 2 格减至 1 格；剩余 R6C2。",
+      "例如 D 在 R5C1，会与 A 的全部剩余位置同行或同列，无法配对。A 现有候选：R5C6。"
+    ]
+  },
+  {
+    "id": "horse-with-no-name-lesson-10",
+    "title": "确定 Blanche",
+    "explanation": "B 只剩 R2C3。D 已锁定 R6C2，B 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue",
+      "general-1",
+      "general-2"
+    ],
+    "focusCharacters": [
+      "B",
+      "D"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R2C3",
+      "R6C2"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R1C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "B",
+        "cell": "R2C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-9"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "B：每行、每列最多一人。候选从 2 格减至 1 格；剩余 R2C3。",
+      "例如 B 在 R1C2，会与 D 的全部剩余位置同行或同列，无法配对。D 现有候选：R6C2。"
+    ]
+  },
+  {
+    "id": "horse-with-no-name-lesson-11",
+    "title": "确定 Emeric",
+    "explanation": "E 只剩 R1C4。B 已锁定 R2C3，E 从 4 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue",
+      "general-1",
+      "general-2"
+    ],
+    "focusCharacters": [
+      "E",
+      "C",
+      "B",
+      "D"
+    ],
+    "candidateCharacters": [
+      "C"
+    ],
+    "highlightCells": [
+      "R1C4",
+      "R2C3",
+      "R3C1",
+      "R3C4",
+      "R3C5",
+      "R4C1",
+      "R4C4",
+      "R4C5",
+      "R6C2"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R2C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R2C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R2C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R2C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R3C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R4C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R1C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R3C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R4C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R5C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R2C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R4C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R6C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "E",
+        "cell": "R1C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-10"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "C：每行、每列最多一人。候选从 16 格减至 10 格；剩余 10 格，分布在 R1–R4 / C1–C5（点人物查看候选）。",
+      "C：每行、每列最多一人。候选从 10 格减至 7 格；剩余 R1C4；R3C1、4–5；R4C1、4–5。",
+      "E：每行、每列最多一人。候选从 5 格减至 4 格；剩余 R1C4；R2C5；R4C3；R6C3。",
+      "E：每行、每列最多一人。候选从 4 格减至 1 格；剩余 R1C4。",
+      "例如 E 在 R2C5，会与 B 的全部剩余位置同行或同列，无法配对。B 现有候选：R2C3。"
+    ]
+  },
+  {
+    "id": "horse-with-no-name-lesson-12",
+    "title": "确定 Cornelius",
+    "explanation": "C 只剩 R3C5。有一名非死者的亡命徒在马背上，C 从 4 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue",
+      "general-1",
+      "general-2"
+    ],
+    "focusCharacters": [
+      "C",
+      "E",
+      "V",
+      "A"
+    ],
+    "candidateCharacters": [
+      "V"
+    ],
+    "highlightCells": [
+      "R1C4",
+      "R3C1",
+      "R3C5",
+      "R4C1",
+      "R4C5",
+      "R5C6"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R1C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R3C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R4C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R3C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R4C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R4C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "C",
+        "cell": "R3C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-11"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "C：每行、每列最多一人。候选从 7 格减至 4 格；剩余 R3C1、5；R4C1、5。",
+      "V：每行、每列最多一人。候选从 26 格减至 21 格；剩余 21 格，分布在 R1–R6 / C1–C5（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 21 格减至 13 格；剩余 13 格，分布在 R1–R6 / C1–C5（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 13 格减至 7 格；剩余 R1C4；R3C1、4–5；R4C1、4–5。",
+      "V：每行、每列最多一人。候选从 7 格减至 4 格；剩余 R3C1、5；R4C1、5。",
+      "C：有一名非死者的亡命徒在马背上。候选从 4 格减至 1 格；剩余 R3C5。",
+      "例如假设 C 在 R3C1，同步排除其他人的行列及关系冲突后，“有一名非死者的亡命徒在马背上”已没有足够的人数或合适同伴，所以这格不成立。其余被删候选按相同条件逐一核验。"
+    ]
+  },
+  {
+    "id": "horse-with-no-name-lesson-13",
+    "title": "确定 Vin",
+    "explanation": "V 只剩 R4C1。C 已锁定 R3C5，V 从 4 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue",
+      "general-1",
+      "general-2"
+    ],
+    "focusCharacters": [
+      "V",
+      "C"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R3C5",
+      "R4C1"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "V",
+        "cell": "R4C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "V-clue",
+            "general-1",
+            "general-2"
+          ],
+          "dependsOn": [
+            "horse-with-no-name-lesson-12"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "V：每行、每列最多一人。候选从 4 格减至 1 格；剩余 R4C1。",
+      "例如 V 在 R3C1，会与 C 的全部剩余位置同行或同列，无法配对。C 现有候选：R3C5。"
+    ]
+  },
+  {
+    "id": "horse-with-no-name-lesson-14",
+    "title": "Dahlia 是凶手",
+    "explanation": "死者 V 位于棚屋的 R4C1；同区唯一另一人是 Dahlia（D），位置为 R6C2。",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "V-clue",
+      "general-1",
+      "general-2"
+    ],
+    "focusCharacters": [
+      "D",
+      "V"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R4C1",
+      "R6C2"
+    ],
+    "actions": [],
+    "rule": "死者与凶手独处",
+    "details": [
+      "死者线索要求与凶手独处，必须以最终逻辑区域的同区人数判定。",
+      "棚屋实际人物：D 在 R6C2、V 在 R4C1；其余所有人都在其他区域。",
+      "6 人全部有位置，且每行、每列均无冲突。",
+      "最终位置由初始候选与记录中的约束排除得到；原始答案只由求解脚本在结束时作一致性核对。"
+    ]
+  }
+]

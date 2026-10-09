@@ -1,0 +1,240 @@
+[
+  {
+    "slug": "a-messy-situation",
+    "steps": 21,
+    "details": 101,
+    "sourceEvents": 59,
+    "killer": "G"
+  },
+  {
+    "slug": "backyard-garden",
+    "steps": 16,
+    "details": 69,
+    "sourceEvents": 33,
+    "killer": "C"
+  },
+  {
+    "slug": "book-club",
+    "steps": 14,
+    "details": 42,
+    "sourceEvents": 16,
+    "killer": "C"
+  },
+  {
+    "slug": "car-repair",
+    "steps": 14,
+    "details": 40,
+    "sourceEvents": 15,
+    "killer": "C"
+  },
+  {
+    "slug": "fireside-beach",
+    "steps": 11,
+    "details": 32,
+    "sourceEvents": 11,
+    "killer": "B"
+  },
+  {
+    "slug": "grizzly-night",
+    "steps": 17,
+    "details": 86,
+    "sourceEvents": 46,
+    "killer": "D"
+  },
+  {
+    "slug": "horse-with-no-name",
+    "steps": 14,
+    "details": 47,
+    "sourceEvents": 20,
+    "killer": "D"
+  },
+  {
+    "slug": "lake-fishing",
+    "steps": 19,
+    "details": 97,
+    "sourceEvents": 59,
+    "killer": "C"
+  },
+  {
+    "slug": "main-street",
+    "steps": 29,
+    "details": 157,
+    "sourceEvents": 103,
+    "killer": "F"
+  },
+  {
+    "slug": "midnight-rain",
+    "steps": 17,
+    "details": 59,
+    "sourceEvents": 29,
+    "killer": "A"
+  },
+  {
+    "slug": "minigolf",
+    "steps": 23,
+    "details": 125,
+    "sourceEvents": 78,
+    "killer": "E"
+  },
+  {
+    "slug": "neighbour-dispute",
+    "steps": 18,
+    "details": 85,
+    "sourceEvents": 48,
+    "killer": "G"
+  },
+  {
+    "slug": "netflix-and-kill",
+    "steps": 13,
+    "details": 38,
+    "sourceEvents": 13,
+    "killer": "B"
+  },
+  {
+    "slug": "outdoor-painting",
+    "steps": 14,
+    "details": 41,
+    "sourceEvents": 16,
+    "killer": "D"
+  },
+  {
+    "slug": "piano-lesson",
+    "steps": 18,
+    "details": 64,
+    "sourceEvents": 34,
+    "killer": "E"
+  },
+  {
+    "slug": "preppers",
+    "steps": 19,
+    "details": 96,
+    "sourceEvents": 57,
+    "killer": "A"
+  },
+  {
+    "slug": "remote-village",
+    "steps": 22,
+    "details": 112,
+    "sourceEvents": 69,
+    "killer": "G"
+  },
+  {
+    "slug": "river-crossing",
+    "steps": 19,
+    "details": 100,
+    "sourceEvents": 58,
+    "killer": "A"
+  },
+  {
+    "slug": "surprise-visitors",
+    "steps": 18,
+    "details": 83,
+    "sourceEvents": 43,
+    "killer": "E"
+  },
+  {
+    "slug": "the-abandoned-museum",
+    "steps": 20,
+    "details": 97,
+    "sourceEvents": 57,
+    "killer": "H"
+  },
+  {
+    "slug": "the-beach",
+    "steps": 16,
+    "details": 48,
+    "sourceEvents": 20,
+    "killer": "A"
+  },
+  {
+    "slug": "the-bus-stop",
+    "steps": 16,
+    "details": 55,
+    "sourceEvents": 27,
+    "killer": "A"
+  },
+  {
+    "slug": "the-donut-house",
+    "steps": 18,
+    "details": 91,
+    "sourceEvents": 52,
+    "killer": "B"
+  },
+  {
+    "slug": "the-flower-store",
+    "steps": 16,
+    "details": 51,
+    "sourceEvents": 23,
+    "killer": "A"
+  },
+  {
+    "slug": "the-french-restaurant",
+    "steps": 16,
+    "details": 77,
+    "sourceEvents": 39,
+    "killer": "D"
+  },
+  {
+    "slug": "the-garage-band",
+    "steps": 16,
+    "details": 49,
+    "sourceEvents": 21,
+    "killer": "A"
+  },
+  {
+    "slug": "the-panic-room",
+    "steps": 24,
+    "details": 112,
+    "sourceEvents": 67,
+    "killer": "H"
+  },
+  {
+    "slug": "the-picnic",
+    "steps": 16,
+    "details": 50,
+    "sourceEvents": 22,
+    "killer": "B"
+  },
+  {
+    "slug": "the-pigsty",
+    "steps": 11,
+    "details": 31,
+    "sourceEvents": 10,
+    "killer": "B"
+  },
+  {
+    "slug": "the-retirement-community",
+    "steps": 22,
+    "details": 107,
+    "sourceEvents": 64,
+    "killer": "E"
+  },
+  {
+    "slug": "the-riding-lesson",
+    "steps": 17,
+    "details": 79,
+    "sourceEvents": 42,
+    "killer": "A"
+  },
+  {
+    "slug": "the-terracotta-courtyard",
+    "steps": 17,
+    "details": 78,
+    "sourceEvents": 41,
+    "killer": "H"
+  },
+  {
+    "slug": "the-wine-cellar",
+    "steps": 21,
+    "details": 111,
+    "sourceEvents": 67,
+    "killer": "E"
+  },
+  {
+    "slug": "white-wedding",
+    "steps": 19,
+    "details": 95,
+    "sourceEvents": 55,
+    "killer": "G"
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "PROPERTIES": {
+    "puzzle_version": "2",
+    "clue_custom_text1": "",
+    "clue_custom_text2": ""
+  },
+  "CHARACTERS": {
+    "room_name_0": "泥泞的院子",
+    "room_name_1": "牧场",
+    "room_name_2": "猪圈",
+    "title_zh_hans_": "",
+    "char_name_0": "Andy",
+    "char_quote_zh_hans_0": "他在猪圈里。",
+    "char_subquote_zh_hans_0": "",
+    "char_name_1": "Brent",
+    "char_quote_zh_hans_1": "他不在泥坑上。",
+    "char_subquote_zh_hans_1": "",
+    "char_name_2": "Carissa",
+    "char_quote_zh_hans_2": "她在桌子旁边。",
+    "char_subquote_zh_hans_2": "",
+    "char_name_3": "Dolores",
+    "char_quote_zh_hans_3": "她在牧场里。",
+    "char_subquote_zh_hans_3": "",
+    "char_name_4": "Valerio",
+    "char_quote_zh_hans_4": "被害者。和凶手单独在一起。",
+    "char_subquote_zh_hans_4": ""
+  }
+}

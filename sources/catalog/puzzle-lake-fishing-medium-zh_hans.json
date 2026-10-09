@@ -1,0 +1,47 @@
+{
+  "PROPERTIES": {
+    "clue_custom_text1": "没有任何区域恰好只有一个人。",
+    "clue_custom_text2": "",
+    "clue_custom_text3": "",
+    "player_hint_1_zh_hans": "根据总线索，B不能独自在码头上，B必须和另一个人一起在码头上。封锁R3和R4的其余部分。这样就把A限定在最后一艘船上。",
+    "player_hint_2_zh_hans": "这样B和另一个人就位于码头的C1和C2，封锁C1-C2的其余部分。现在D只能在R4 C1，B在R3 C2。",
+    "player_hint_3_zh_hans": "根据总线索，F不能独自在岩石岸，这样就把F限定在R1 C4的巨石旁边。R2 C8必须有人和他在一起。",
+    "player_hint_4_zh_hans": "这样就把C限定在灌木旁边的最后一格。R7 C5必须有人和她在一起。这样就把E限定在湖中不在树旁边的最后一格。",
+    "player_hint_5_zh_hans": "这样就把G限定在北岸，然后把V限定在南岸，与C单独在一起。凶手是Corina！"
+  },
+  "GRID": {
+    "room_name_0": "湖",
+    "room_name_1": "岩石岸",
+    "room_name_2": "南岸",
+    "room_name_3": "北岸",
+    "room_name_4": "码头",
+    "room_name_5": "6号房间",
+    "title_zh_hans_": "湖边垂钓"
+  },
+  "CHARACTERS": {
+    "char_name_0": "Alan",
+    "char_quote_zh_hans_0": "他在一艘船上。",
+    "char_subquote_zh_hans_0": "",
+    "char_name_1": "Blaine",
+    "char_quote_zh_hans_1": "他在码头上。",
+    "char_subquote_zh_hans_1": "",
+    "char_name_2": "Corina",
+    "char_quote_zh_hans_2": "她在一丛灌木旁边。",
+    "char_subquote_zh_hans_2": "",
+    "char_name_3": "Dawn",
+    "char_quote_zh_hans_3": "她在Blaine的西南方。",
+    "char_subquote_zh_hans_3": "",
+    "char_name_4": "Elias",
+    "char_quote_zh_hans_4": "他不在树旁边。",
+    "char_subquote_zh_hans_4": "",
+    "char_name_5": "Frederick",
+    "char_quote_zh_hans_5": "他在一块巨石旁边。",
+    "char_subquote_zh_hans_5": "",
+    "char_name_6": "Gerald",
+    "char_quote_zh_hans_6": "他和一个男人在一起。",
+    "char_subquote_zh_hans_6": "",
+    "char_name_7": "Vadim",
+    "char_quote_zh_hans_7": "被害者。和凶手单独在一起。",
+    "char_subquote_zh_hans_7": ""
+  }
+}

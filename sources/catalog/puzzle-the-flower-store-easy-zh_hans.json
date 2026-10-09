@@ -1,0 +1,42 @@
+{
+  "PROPERTIES": {
+    "player_hint_1_zh_hans": "(F)和一名男性在卖场。挨着盆景的(A)在收银台。(E)是唯一能和(F)在一起的男性，这样(E)就锁定在R5 C1。",
+    "player_hint_2_zh_hans": "这样(A)就锁定在挨着盆景的最后一格。",
+    "player_hint_3_zh_hans": "这样(D)就锁定在最后一把椅子上。",
+    "player_hint_4_zh_hans": "这样(C)就锁定在最后一个地毯格。",
+    "player_hint_5_zh_hans": "这样(B)就锁定在准备区的最后一格。",
+    "player_hint_6_zh_hans": "这样(F)就锁定在卖场的最后一格，随后(V)锁定在最后剩下的格子。",
+    "puzzle_version": "2"
+  },
+  "GRID": {
+    "title_zh_hans_": "花店",
+    "room_name_0": "卖场",
+    "room_name_1": "收银台",
+    "room_name_2": "办公室",
+    "room_name_3": "装卸区",
+    "room_name_4": "准备区"
+  },
+  "CHARACTERS": {
+    "char_name_0": "Amir",
+    "char_quote_zh_hans_0": "在一棵盆景旁边。",
+    "char_subquote_zh_hans_0": "",
+    "char_name_1": "Bianca",
+    "char_quote_zh_hans_1": "在准备区。",
+    "char_subquote_zh_hans_1": "",
+    "char_name_2": "Carly",
+    "char_quote_zh_hans_2": "在一块地毯上。",
+    "char_subquote_zh_hans_2": "",
+    "char_name_3": "Diane",
+    "char_quote_zh_hans_3": "坐在一把椅子上。",
+    "char_subquote_zh_hans_3": "",
+    "char_name_4": "Emmett",
+    "char_quote_zh_hans_4": "在第一列。",
+    "char_subquote_zh_hans_4": "",
+    "char_name_5": "Felicia",
+    "char_quote_zh_hans_5": "在卖场。所在区域里有一个男人。",
+    "char_subquote_zh_hans_5": "",
+    "char_name_6": "Vickie",
+    "char_quote_zh_hans_6": "被害者。和凶手单独在一起。",
+    "char_subquote_zh_hans_6": ""
+  }
+}

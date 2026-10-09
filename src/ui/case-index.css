@@ -1,0 +1,45 @@
+/* Every selector is scoped to the directory, leaving the teaching workspace intact. */
+.case-library{width:100%;max-width:none;margin:0;padding:45px clamp(20px,4vw,76px) 76px;background:#f0ebf8;min-height:calc(100vh - 122px);color:#29242d}
+.case-library .case-library-heading{text-align:center;margin:0 auto 29px}
+.case-library .case-library-eyebrow{font-size:10px;font-weight:800;letter-spacing:2.5px;color:#7a6e86;margin:0 0 13px}
+.case-library .case-library-heading h1{font-size:clamp(28px,3.4vw,43px);font-weight:800;letter-spacing:-1.2px;margin:0 0 12px}
+.case-library .case-library-heading>p:last-child{font-size:13px;color:#746a7c;margin:0 auto;max-width:620px;line-height:1.8}
+.case-library .case-library-toolbar{display:flex;align-items:center;justify-content:space-between;gap:20px;width:100%;max-width:1440px;margin:0 auto;padding:0 0 15px;border-bottom:1px solid #d6ccdf}
+.case-library .case-library-filters{display:flex;gap:7px;flex-wrap:wrap}
+.case-library .case-library-filters button{background:transparent;border:1.5px solid transparent;padding:8px 17px;min-height:38px;border-radius:6px;font-size:12px;font-weight:700;color:#716479;transition:background .15s,color .15s}
+.case-library .case-library-filters button:hover{background:#e1d6ec}
+.case-library .case-library-filters button[aria-pressed=true]{background:#3b3047;border-color:#3b3047;color:#fff9ee;box-shadow:2px 2px 0 #b7a7c4}
+.case-library .case-library-search{display:flex;align-items:center;gap:10px;font-size:11px;color:#786e80;white-space:nowrap}
+.case-library .case-library-search input{width:260px;max-width:100%;min-height:40px;font:inherit;font-size:13px;color:#3b3047;background:#f7f3fc;border:1.5px solid #c8bacf;border-radius:6px;padding:9px 12px;min-width:0}
+.case-library .case-library-search input::placeholder{color:#91859b}
+.case-library .case-library-count{max-width:1440px;margin:16px auto 20px;font-size:10px;letter-spacing:.5px;color:#887b93}
+.case-library .case-library-grid{width:100%;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:29px 25px;max-width:1440px;margin:0 auto}
+.case-library .case-library-card{min-width:0;display:flex;flex-direction:column;text-decoration:none;background:#fff7e3;border:2px solid #302b30;border-radius:7px;box-shadow:5px 6px 0 #302b30;overflow:hidden;transition:transform .16s,box-shadow .16s}
+.case-library a.case-library-card:hover{transform:translate(-2px,-3px);box-shadow:7px 9px 0 #302b30}
+.case-library a.case-library-card:active{transform:translate(3px,4px);box-shadow:2px 2px 0 #302b30}
+.case-library .case-library-preview{aspect-ratio:1.22;display:flex;align-items:center;justify-content:center;padding:19px 24px 10px;overflow:hidden;pointer-events:none;background:#f8efd9}
+.case-library .case-library-preview .crime-map{height:100%;width:100%;max-height:none;overflow:visible;pointer-events:none}
+.case-library .case-library-card-body{padding:14px 19px 16px;border-top:1px solid #e4d9c2;flex:1;display:flex;flex-direction:column}
+.case-library .case-library-card h2{font-family:Caveat,"Noteworthy",cursive;font-weight:700;font-size:clamp(24px,2.3vw,33px);line-height:1.15;letter-spacing:-.3px;margin:0;color:#28252a}
+.case-library .case-library-subtitle{font-size:11px;color:#958775;line-height:1.5;margin:5px 0 15px}
+.case-library .case-library-card-meta{display:flex;align-items:center;gap:10px;margin-top:auto;min-height:23px}
+.case-library .case-library-badge{display:inline-flex;align-items:center;font-size:10px;font-weight:700;border:1px solid #b5bd8b;background:#e5ebd1;color:#657443;border-radius:4px;line-height:1.5;padding:3px 9px}
+.case-library [data-difficulty="简单"] .case-library-badge{background:#ddebd2;color:#577343;border-color:#aabc92}
+.case-library [data-difficulty="中等"] .case-library-badge{background:#eee1bc;color:#8b7131;border-color:#d5bc7d}
+.case-library [data-difficulty="困难"] .case-library-badge{background:#efd4c6;color:#955f42;border-color:#d4a992}
+.case-library [data-difficulty="专家"] .case-library-badge{background:#e4d4e9;color:#825b8a;border-color:#baa0c3}
+.case-library .case-library-size{font-size:10px;color:#9b8e7c;letter-spacing:.5px}
+.case-library .case-library-arrow{font-size:20px;line-height:1;color:#736b5d;margin-left:auto}
+.case-library .case-library-locked{background:#ebe4d5;border-color:#817b78;box-shadow:5px 6px 0 #a69daa}
+.case-library .case-library-locked-preview{color:#aaa08d;background:repeating-linear-gradient(-35deg,#e9e1d2 0,#e9e1d2 1px,#eee7db 1px,#eee7db 12px)}
+.case-library .case-library-locked-preview svg{width:58px;height:70px}
+.case-library .case-library-locked h2{color:#938b80}
+.case-library .case-library-locked .case-library-badge{background:#e2dbce;color:#8f8677;border-color:#bbb1a1}
+.case-library .case-library-empty{text-align:center;padding:50px 10px;font-size:14px;color:#7d7087}
+.case-library [hidden]{display:none!important}
+.case-library a:focus-visible,.case-library button:focus-visible,.case-library input:focus-visible{outline:3px solid #8460b2;outline-offset:5px}
+@media(min-width:1700px){.case-library .case-library-grid{grid-template-columns:repeat(5,minmax(0,1fr));max-width:1700px}.case-library .case-library-toolbar,.case-library .case-library-count{max-width:1700px}}
+@media(max-width:1050px){.case-library .case-library-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:25px 22px}.case-library .case-library-card h2{font-size:28px}}
+@media(max-width:760px){.case-library{padding:30px 20px 55px}.case-library .case-library-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:23px 18px}.case-library .case-library-toolbar{gap:14px;align-items:flex-start;flex-direction:column}.case-library .case-library-filters{gap:3px}.case-library .case-library-filters button{padding:7px 13px}.case-library .case-library-preview{padding:13px 14px 8px}.case-library .case-library-card-body{padding:12px}.case-library .case-library-card h2{font-size:26px}.case-library .case-library-search{width:100%}.case-library .case-library-search input{flex:1;width:0}.case-library .case-library-heading{margin-bottom:22px}}
+@media(max-width:400px){.case-library{padding-right:15px;padding-left:15px}.case-library .case-library-grid{gap:20px 14px}.case-library .case-library-card h2{font-size:23px}.case-library .case-library-card-body{padding:10px}.case-library .case-library-preview{padding:9px}.case-library .case-library-badge{padding:2px 6px}.case-library .case-library-card-meta{gap:6px}.case-library .case-library-filters button{padding:7px 11px}}
+@media(prefers-reduced-motion:reduce){.case-library .case-library-card,.case-library .case-library-filters button{transition:none}}

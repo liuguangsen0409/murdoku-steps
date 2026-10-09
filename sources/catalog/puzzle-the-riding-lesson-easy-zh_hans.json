@@ -1,0 +1,49 @@
+{
+  "PROPERTIES": {
+    "player_hint_1_zh_hans": "根据(G)的线索，(B)在工具棚，这样(B)就锁定在该区域唯一挨着桌子的格子上。",
+    "player_hint_2_zh_hans": "工具棚里给(G)剩下一格，所以G在R4 C1。",
+    "player_hint_3_zh_hans": "由于(F)必须骑在训练场的马上，(F)必须在该区域的最后一匹马上，在R6 C6。接着(H)在R5 C3，最后一个泥坑。",
+    "player_hint_4_zh_hans": "根据C的线索，有一名女性骑在马上：我们可以推断这名女性必须占据R3 C9。划掉R3和C9的其他所有格子。（目前我们无法推断马上的女性是谁，因为E和V都可能占据这一格。）",
+    "player_hint_5_zh_hans": "我们可以推断(A)必须在R9 C4。(A)不能在R9 C8，因为(C)的线索说她必须在马上女性西边一列，所以(C)必须在C8。",
+    "player_hint_6_zh_hans": "这样(D)就锁定在C5最后可用的格子上。",
+    "player_hint_7_zh_hans": "由于(E)必须在马厩，她必须占据R3 C9的马格。这样(V)就锁定在最后剩下的格子。",
+    "puzzle_version": "2"
+  },
+  "GRID": {
+    "title_zh_hans_": "骑马课",
+    "room_name_0": "训练场",
+    "room_name_1": "马厩",
+    "room_name_2": "工具棚",
+    "room_name_3": "牧场",
+    "room_name_4": "工具棚"
+  },
+  "CHARACTERS": {
+    "char_name_0": "Ayla",
+    "char_quote_zh_hans_0": "在一丛灌木旁边。",
+    "char_subquote_zh_hans_0": "",
+    "char_name_1": "Brandon",
+    "char_quote_zh_hans_1": "在一张桌子旁边。",
+    "char_subquote_zh_hans_1": "",
+    "char_name_2": "Christa",
+    "char_quote_zh_hans_2": "在一个坐在马上的女人西边一列。",
+    "char_subquote_zh_hans_2": "",
+    "char_name_3": "Dolores",
+    "char_quote_zh_hans_3": "在第五列。",
+    "char_subquote_zh_hans_3": "",
+    "char_name_4": "Evangeline",
+    "char_quote_zh_hans_4": "在马厩里。",
+    "char_subquote_zh_hans_4": "",
+    "char_name_5": "Finn",
+    "char_quote_zh_hans_5": "在训练场坐在一匹马上。",
+    "char_subquote_zh_hans_5": "",
+    "char_name_6": "Gabby",
+    "char_quote_zh_hans_6": "和 Brandon 一起在工具棚里。",
+    "char_subquote_zh_hans_6": "",
+    "char_name_7": "Heidi",
+    "char_quote_zh_hans_7": "在一摊泥水上。",
+    "char_subquote_zh_hans_7": "",
+    "char_name_8": "Vanessa",
+    "char_quote_zh_hans_8": "被害者。和凶手单独在一起。",
+    "char_subquote_zh_hans_8": ""
+  }
+}

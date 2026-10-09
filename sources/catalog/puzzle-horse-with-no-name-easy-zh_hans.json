@@ -1,0 +1,39 @@
+{
+  "PROPERTIES": {
+    "puzzle_version": "2",
+    "clue_custom_text1": "嫌疑人当中正好藏着一名歹徒。歹徒可能是凶手，也可能不是。",
+    "clue_custom_text2": "歹徒在马上。",
+    "clue_custom_text3": "",
+    "player_hint_count": "5",
+    "player_hint_1_zh_hans": "歹徒一定在 R3 C5 的马上。封锁 R3 和 C5 的其余部分。",
+    "player_hint_2_zh_hans": "哪名嫌疑人可能是马上的歹徒？(A)、(B)、(D) 和 (E) 都放不进 R3 C5，所以 (C) 是唯一的可能。",
+    "player_hint_3_zh_hans": "这样就把 (A) 限定在 (C) 以南、仙人掌旁边唯一的格子，即 R5 C6。",
+    "player_hint_4_zh_hans": "这样就把 (D) 限定在桌子旁边的最后一个格子，然后把 (B) 限定在与 (A) 同一条对角线上的最后一个格子。",
+    "player_hint_5_zh_hans": "这样就把 (E) 限定在巨石旁边的最后一个格子。(V) 在最后剩下的格子里。",
+    "solution_video_url": "https://www.youtube.com/watch?v=r8WVGTVX_2s&cc_load_policy=1&cc_lang_pref=zh-Hans&hl=zh-Hans"
+  },
+  "CHARACTERS": {
+    "room_name_0": "沙漠",
+    "room_name_1": "棚屋",
+    "room_name_2": "峡谷",
+    "title_zh_hans_": "无名之马",
+    "char_name_0": "Aldous",
+    "char_quote_zh_hans_0": "他在一棵仙人掌旁边。",
+    "char_subquote_zh_hans_0": "",
+    "char_name_1": "Blanche",
+    "char_quote_zh_hans_1": "她不在沙漠里。她和Aldous在同一条对角线上。",
+    "char_subquote_zh_hans_1": "",
+    "char_name_2": "Cornelius",
+    "char_quote_zh_hans_2": "他在Aldous的北边。",
+    "char_subquote_zh_hans_2": "",
+    "char_name_3": "Dahlia",
+    "char_quote_zh_hans_3": "她在桌子旁边。",
+    "char_subquote_zh_hans_3": "",
+    "char_name_4": "Emeric",
+    "char_quote_zh_hans_4": "他在一块巨石旁边。",
+    "char_subquote_zh_hans_4": "",
+    "char_name_5": "Vin",
+    "char_quote_zh_hans_5": "被害者。不是歹徒。和凶手单独在一起。",
+    "char_subquote_zh_hans_5": ""
+  }
+}

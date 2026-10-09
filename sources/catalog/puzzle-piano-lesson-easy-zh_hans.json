@@ -1,0 +1,39 @@
+{
+  "PROPERTIES": {
+    "puzzle_version": "2",
+    "clue_custom_text1": "地毯上恰好只有一个人。",
+    "clue_custom_text2": "",
+    "clue_custom_text3": "",
+    "player_hint_1_zh_hans": "(D) 必须恰好位于钢琴旁边某人的北边一行，这就把 (D) 定在 R1，并把一个身份不明的人定在 R2 C3 的钢琴旁边。封锁 R2 和 C3 的其余格子。",
+    "player_hint_2_zh_hans": "钢琴旁边这个身份不明的人在地毯上，而根据总体线索，这是地毯上唯一的人。封锁其他所有地毯格子。这样 (B) 就被锁定在雕像旁边的最后一个格子。",
+    "player_hint_3_zh_hans": "这样 (A) 就被锁定在储藏室的最后一个格子，从而 (E) 被锁定在有椅子的最后一个格子。",
+    "player_hint_4_zh_hans": "这样 (D) 就被锁定在 R1 的最后一个格子。(C) 所在的同一区域里必须有人在她的北边，所以她不可能在钢琴旁边，因为书房里没有人会在她的北边。这样 (C) 就被锁定在最后一个 R6 格子，(V) 则是钢琴旁边的人。"
+  },
+  "GRID": {
+    "room_name_0": "走廊",
+    "room_name_1": "书房",
+    "room_name_2": "门厅",
+    "room_name_3": "储藏室",
+    "title_zh_hans_": ""
+  },
+  "CHARACTERS": {
+    "char_name_0": "Annie",
+    "char_quote_zh_hans_0": "她在储藏室里。",
+    "char_subquote_zh_hans_0": "",
+    "char_name_1": "Boris",
+    "char_quote_zh_hans_1": "他在雕像旁边。",
+    "char_subquote_zh_hans_1": "",
+    "char_name_2": "Clover",
+    "char_quote_zh_hans_2": "同一区域里有人在她的北边。",
+    "char_subquote_zh_hans_2": "",
+    "char_name_3": "Daryl",
+    "char_quote_zh_hans_3": "她恰好在钢琴旁边某人的北边一行。",
+    "char_subquote_zh_hans_3": "",
+    "char_name_4": "Eve",
+    "char_quote_zh_hans_4": "她坐在椅子上。",
+    "char_subquote_zh_hans_4": "",
+    "char_name_5": "Vada",
+    "char_quote_zh_hans_5": "被害者。和凶手单独在一起。",
+    "char_subquote_zh_hans_5": ""
+  }
+}

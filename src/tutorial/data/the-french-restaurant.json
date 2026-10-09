@@ -1,0 +1,3187 @@
+[
+  {
+    "id": "the-french-restaurant-lesson-1",
+    "title": "先读地图与全局规则",
+    "explanation": "9 人共用 9 行、9 列；先从地形、家具与明确区域建立候选。",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [],
+    "candidateCharacters": [],
+    "highlightCells": [],
+    "actions": [
+      {
+        "type": "setCandidates",
+        "character": "A",
+        "cells": [
+          "R4C4",
+          "R4C5",
+          "R4C7",
+          "R5C3",
+          "R6C2",
+          "R6C3",
+          "R6C5",
+          "R6C7",
+          "R7C3",
+          "R8C3",
+          "R8C5",
+          "R9C1",
+          "R9C3",
+          "R9C4",
+          "R9C5",
+          "R9C6",
+          "R9C7"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "B",
+        "cells": [
+          "R1C7",
+          "R1C8",
+          "R5C8",
+          "R6C8",
+          "R7C3",
+          "R8C3",
+          "R9C3",
+          "R9C4",
+          "R9C5",
+          "R9C6",
+          "R9C7",
+          "R9C8",
+          "R9C9"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "C",
+        "cells": [
+          "R1C2",
+          "R1C3",
+          "R2C1",
+          "R2C4",
+          "R2C5",
+          "R3C2",
+          "R3C3",
+          "R4C4",
+          "R5C3",
+          "R7C3",
+          "R8C3",
+          "R8C5",
+          "R8C8",
+          "R9C1",
+          "R9C4",
+          "R9C9"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "D",
+        "cells": [
+          "R1C8",
+          "R2C8",
+          "R3C7",
+          "R3C9",
+          "R4C8"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "E",
+        "cells": [
+          "R7C8",
+          "R8C8",
+          "R9C8",
+          "R9C9"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "F",
+        "cells": [
+          "R1C2",
+          "R1C3",
+          "R2C1",
+          "R2C4",
+          "R2C5",
+          "R3C2",
+          "R3C3"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "G",
+        "cells": [
+          "R7C8"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "H",
+        "cells": [
+          "R4C6",
+          "R5C5",
+          "R5C7",
+          "R5C9",
+          "R6C4",
+          "R6C6",
+          "R6C9",
+          "R7C2",
+          "R7C5",
+          "R7C7",
+          "R8C6",
+          "R9C2"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "V",
+        "cells": [
+          "R1C2",
+          "R1C3",
+          "R1C6",
+          "R1C7",
+          "R1C8",
+          "R2C1",
+          "R2C4",
+          "R2C5",
+          "R2C6",
+          "R2C7",
+          "R2C8",
+          "R3C1",
+          "R3C2",
+          "R3C3",
+          "R3C4",
+          "R3C5",
+          "R3C6",
+          "R3C7",
+          "R3C9",
+          "R4C1",
+          "R4C2",
+          "R4C8",
+          "R5C8",
+          "R6C8",
+          "R7C8",
+          "R8C8",
+          "R9C8",
+          "R9C9"
+        ]
+      }
+    ],
+    "rule": "地图与初始单人条件",
+    "details": [
+      "每行、每列最多一人；死者 V 也参与行列限制。",
+      "旁边按同一逻辑区域内的上下左右判断；家具是否可站立，以地图格子的属性为准。",
+      "本页逐步保存候选排除。只有某人的候选恰好剩一格时，才执行落位。",
+      "全员都要应用 Antoine（A） 的排他线索：他是餐厅里\n唯一的男人。。因此其他人的初始候选也可能受这条线索影响。",
+      "全员都要应用 Henriette（H） 的排他线索：她是唯一一个\n坐在椅子上的人。。因此其他人的初始候选也可能受这条线索影响。"
+    ]
+  },
+  {
+    "id": "the-french-restaurant-lesson-2",
+    "title": "先看 Antoine、Béatrice、Charlotte 的候选",
+    "explanation": "A：他是餐厅里\n唯一的男人。（17 个候选）；B：她在地毯上。（13 个候选）；C：她在桌子旁边。（16 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "A",
+      "B",
+      "C"
+    ],
+    "candidateCharacters": [
+      "A",
+      "B",
+      "C"
+    ],
+    "highlightCells": [
+      "R1C2",
+      "R1C3",
+      "R1C7",
+      "R1C8",
+      "R2C1",
+      "R2C4",
+      "R2C5",
+      "R3C2",
+      "R3C3",
+      "R4C4",
+      "R4C5",
+      "R4C7",
+      "R5C3",
+      "R5C8",
+      "R6C2",
+      "R6C3",
+      "R6C5",
+      "R6C7",
+      "R6C8",
+      "R7C3",
+      "R8C3",
+      "R8C5",
+      "R8C8",
+      "R9C1",
+      "R9C3",
+      "R9C4",
+      "R9C5",
+      "R9C6",
+      "R9C7",
+      "R9C8",
+      "R9C9"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Antoine（A） 的原始线索：他是餐厅里\n唯一的男人。",
+      "A 候选：17 格，分布在 R4–R9 / C1–C7（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Béatrice（B） 的原始线索：她在地毯上。",
+      "B 候选：13 格，分布在 R1–R9 / C3–C9（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Charlotte（C） 的原始线索：她在桌子旁边。",
+      "C 候选：16 格，分布在 R1–R9 / C1–C9（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "the-french-restaurant-lesson-3",
+    "title": "先看 Denis、Etienne、Fabrice 的候选",
+    "explanation": "D：他在架子旁边。\n他不在厨房。（5 个候选）；E：他在入口。（4 个候选）；F：他在厨房，\n在桌子旁边。（7 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "D",
+      "E",
+      "F"
+    ],
+    "candidateCharacters": [
+      "D",
+      "E",
+      "F"
+    ],
+    "highlightCells": [
+      "R1C2",
+      "R1C3",
+      "R1C8",
+      "R2C1",
+      "R2C4",
+      "R2C5",
+      "R2C8",
+      "R3C2",
+      "R3C3",
+      "R3C7",
+      "R3C9",
+      "R4C8",
+      "R7C8",
+      "R8C8",
+      "R9C8",
+      "R9C9"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Denis（D） 的原始线索：他在架子旁边。\n他不在厨房。",
+      "D 候选：R1C8；R2C8；R3C7、9；R4C8。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Etienne（E） 的原始线索：他在入口。",
+      "E 候选：R7C8；R8C8；R9C8–9。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Fabrice（F） 的原始线索：他在厨房，\n在桌子旁边。",
+      "F 候选：R1C2–3；R2C1、4–5；R3C2–3。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "the-french-restaurant-lesson-4",
+    "title": "先确定 Gilbert：R7C8",
+    "explanation": "G：他在植物旁边。（只剩 R7C8）；H：她是唯一一个\n坐在椅子上的人。（12 个候选）；V：受害者。他和凶手\n单独在一起。（28 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "G",
+      "H",
+      "V"
+    ],
+    "candidateCharacters": [
+      "H",
+      "V"
+    ],
+    "highlightCells": [
+      "R1C2",
+      "R1C3",
+      "R1C6",
+      "R1C7",
+      "R1C8",
+      "R2C1",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R2C7",
+      "R2C8",
+      "R3C1",
+      "R3C2",
+      "R3C3",
+      "R3C4",
+      "R3C5",
+      "R3C6",
+      "R3C7",
+      "R3C9",
+      "R4C1",
+      "R4C2",
+      "R4C6",
+      "R4C8",
+      "R5C5",
+      "R5C7",
+      "R5C8",
+      "R5C9",
+      "R6C4",
+      "R6C6",
+      "R6C8",
+      "R6C9",
+      "R7C2",
+      "R7C5",
+      "R7C7",
+      "R7C8",
+      "R8C6",
+      "R8C8",
+      "R9C2",
+      "R9C8",
+      "R9C9"
+    ],
+    "actions": [
+      {
+        "type": "placeCharacter",
+        "character": "G",
+        "cell": "R7C8",
+        "reason": {
+          "ruleId": "从原始线索建立候选",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-3"
+          ]
+        }
+      }
+    ],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Gilbert（G） 的原始线索：他在植物旁边。",
+      "G 候选：R7C8。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Henriette（H） 的原始线索：她是唯一一个\n坐在椅子上的人。",
+      "H 候选：12 格，分布在 R4–R9 / C2–C9（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Vincent（V） 的原始线索：受害者。他和凶手\n单独在一起。",
+      "V 候选：28 格，分布在 R1–R9 / C1–C9（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "the-french-restaurant-lesson-5",
+    "title": "Charlotte：候选缩至 12 格",
+    "explanation": "G 已锁定 R7C8，D 从 5 格缩到 2 格；D 的 2 个候选共同排除同行同列冲突格，C 从 14 格缩到 12 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "C",
+      "A",
+      "G",
+      "B"
+    ],
+    "candidateCharacters": [
+      "C",
+      "A",
+      "B"
+    ],
+    "highlightCells": [
+      "R1C2",
+      "R1C3",
+      "R1C7",
+      "R2C1",
+      "R2C4",
+      "R2C5",
+      "R4C4",
+      "R4C5",
+      "R4C7",
+      "R5C3",
+      "R6C2",
+      "R6C3",
+      "R6C5",
+      "R6C7",
+      "R7C8",
+      "R8C3",
+      "R8C5",
+      "R9C1",
+      "R9C3",
+      "R9C4",
+      "R9C5",
+      "R9C6",
+      "R9C7",
+      "R9C9"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R7C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R9C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R1C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R5C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R6C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R7C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R7C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R8C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R1C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R2C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R4C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R3C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R3C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-4"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "A：每行、每列最多一人。候选从 17 格减至 16 格；剩余 16 格，分布在 R4–R9 / C1–C7（点人物查看候选）。",
+      "B：每行、每列最多一人。候选从 13 格减至 12 格；剩余 12 格，分布在 R1–R9 / C3–C9（点人物查看候选）。",
+      "B：每行、每列最多一人。候选从 12 格减至 8 格；剩余 R1C7；R8C3；R9C3–7、9。",
+      "C：每行、每列最多一人。候选从 16 格减至 14 格；剩余 14 格，分布在 R1–R9 / C1–C9（点人物查看候选）。",
+      "D：每行、每列最多一人。候选从 5 格减至 2 格；剩余 R3C7、9。",
+      "C：每行、每列最多一人。候选从 14 格减至 12 格；剩余 12 格，分布在 R1–R9 / C1–C9（点人物查看候选）。",
+      "例如 C 在 R3C2，会与 D 的全部剩余位置同行或同列，无法配对。D 现有候选：R3C7、9。"
+    ]
+  },
+  {
+    "id": "the-french-restaurant-lesson-6",
+    "title": "确定 Etienne",
+    "explanation": "E 只剩 R9C9。G 已锁定 R7C8，E 从 4 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "E",
+      "G"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R7C8",
+      "R9C9"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R7C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R8C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R9C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "E",
+        "cell": "R9C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-5"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "E：每行、每列最多一人。候选从 4 格减至 1 格；剩余 R9C9。",
+      "例如 E 在 R7C8，会与 G 的全部剩余位置同行或同列，无法配对。G 现有候选：R7C8。"
+    ]
+  },
+  {
+    "id": "the-french-restaurant-lesson-7",
+    "title": "确定 Denis",
+    "explanation": "D 只剩 R3C7。E 已锁定 R9C9，D 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "D",
+      "A",
+      "E",
+      "B"
+    ],
+    "candidateCharacters": [
+      "A",
+      "B"
+    ],
+    "highlightCells": [
+      "R1C7",
+      "R3C7",
+      "R4C4",
+      "R4C5",
+      "R4C7",
+      "R5C3",
+      "R6C2",
+      "R6C3",
+      "R6C5",
+      "R6C7",
+      "R8C3",
+      "R8C5",
+      "R9C9"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R9C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R9C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R9C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R9C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R9C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R9C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R9C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R9C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R9C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R9C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R9C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R9C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R1C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R9C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R9C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R9C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R3C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "D",
+        "cell": "R3C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-6"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "A：每行、每列最多一人。候选从 16 格减至 10 格；剩余 10 格，分布在 R4–R8 / C2–C7（点人物查看候选）。",
+      "B：每行、每列最多一人。候选从 8 格减至 2 格；剩余 R1C7；R8C3。",
+      "C：每行、每列最多一人。候选从 12 格减至 11 格；剩余 11 格，分布在 R1–R9 / C1–C9（点人物查看候选）。",
+      "C：每行、每列最多一人。候选从 11 格减至 8 格；剩余 R1C2；R2C1、4–5；R4C4；R5C3；R8C3、5。",
+      "D：每行、每列最多一人。候选从 2 格减至 1 格；剩余 R3C7。",
+      "例如 D 在 R3C9，会与 E 的全部剩余位置同行或同列，无法配对。E 现有候选：R9C9。"
+    ]
+  },
+  {
+    "id": "the-french-restaurant-lesson-8",
+    "title": "确定 Béatrice",
+    "explanation": "B 只剩 R8C3。D 已锁定 R3C7，B 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "B",
+      "A",
+      "D"
+    ],
+    "candidateCharacters": [
+      "A"
+    ],
+    "highlightCells": [
+      "R3C7",
+      "R4C4",
+      "R4C5",
+      "R5C3",
+      "R6C2",
+      "R6C3",
+      "R6C5",
+      "R8C3",
+      "R8C5"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R4C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R6C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R1C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "B",
+        "cell": "R8C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-7"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "A：每行、每列最多一人。候选从 10 格减至 8 格；剩余 R4C4–5；R5C3；R6C2–3、5；R8C3、5。",
+      "B：每行、每列最多一人。候选从 2 格减至 1 格；剩余 R8C3。",
+      "例如 B 在 R1C7，会与 D 的全部剩余位置同行或同列，无法配对。D 现有候选：R3C7。"
+    ]
+  },
+  {
+    "id": "the-french-restaurant-lesson-9",
+    "title": "Henriette：候选缩至 9 格",
+    "explanation": "B 已锁定 R8C3，H 从 12 格缩到 11 格；D 已锁定 R3C7，H 从 11 格缩到 9 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "H",
+      "A",
+      "B",
+      "C"
+    ],
+    "candidateCharacters": [
+      "H",
+      "A",
+      "C"
+    ],
+    "highlightCells": [
+      "R1C2",
+      "R2C1",
+      "R2C4",
+      "R2C5",
+      "R4C4",
+      "R4C5",
+      "R4C6",
+      "R5C5",
+      "R5C9",
+      "R6C2",
+      "R6C4",
+      "R6C5",
+      "R6C6",
+      "R6C9",
+      "R7C2",
+      "R7C5",
+      "R8C3",
+      "R9C2"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R5C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R6C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R8C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R8C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R5C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R8C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R8C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R1C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R3C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R3C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R8C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R5C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R7C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-8"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "A：每行、每列最多一人。候选从 8 格减至 4 格；剩余 R4C4–5；R6C2、5。",
+      "C：每行、每列最多一人。候选从 8 格减至 5 格；剩余 R1C2；R2C1、4–5；R4C4。",
+      "F：每行、每列最多一人。候选从 7 格减至 5 格；剩余 R1C2；R2C1、4–5；R3C2。",
+      "F：每行、每列最多一人。候选从 5 格减至 4 格；剩余 R1C2；R2C1、4–5。",
+      "H：每行、每列最多一人。候选从 12 格减至 11 格；剩余 11 格，分布在 R4–R9 / C2–C9（点人物查看候选）。",
+      "H：每行、每列最多一人。候选从 11 格减至 9 格；剩余 9 格，分布在 R4–R9 / C2–C9（点人物查看候选）。",
+      "例如 H 在 R5C7，会与 D 的全部剩余位置同行或同列，无法配对。D 现有候选：R3C7。"
+    ]
+  },
+  {
+    "id": "the-french-restaurant-lesson-10",
+    "title": "Vincent：候选缩至 8 格",
+    "explanation": "E 已锁定 R9C9，V 从 16 格缩到 14 格；G 已锁定 R7C8，V 从 14 格缩到 8 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "V",
+      "H",
+      "E",
+      "G"
+    ],
+    "candidateCharacters": [
+      "V",
+      "H"
+    ],
+    "highlightCells": [
+      "R1C2",
+      "R1C6",
+      "R2C1",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R4C1",
+      "R4C2",
+      "R4C6",
+      "R5C5",
+      "R6C4",
+      "R6C6",
+      "R7C8",
+      "R9C9"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R5C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R6C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R9C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R7C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R7C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R8C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R9C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R9C9",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C8",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-9"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "H：每行、每列最多一人。候选从 9 格减至 6 格；剩余 R4C6；R5C5；R6C4、6；R7C2、5。",
+      "H：每行、每列最多一人。候选从 6 格减至 4 格；剩余 R4C6；R5C5；R6C4、6。",
+      "V：每行、每列最多一人。候选从 28 格减至 25 格；剩余 25 格，分布在 R1–R9 / C1–C9（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 25 格减至 16 格；剩余 16 格，分布在 R1–R9 / C1–C9（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 16 格减至 14 格；剩余 14 格，分布在 R1–R7 / C1–C8（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 14 格减至 8 格；剩余 R1C2、6；R2C1、4–6；R4C1–2。",
+      "例如 V 在 R1C8，会与 G 的全部剩余位置同行或同列，无法配对。G 现有候选：R7C8。"
+    ]
+  },
+  {
+    "id": "the-french-restaurant-lesson-11",
+    "title": "确定 Henriette",
+    "explanation": "H 只剩 R5C5。C、F、V 共 3 人锁定第 1、2、4 行，H 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "H",
+      "A",
+      "C",
+      "F"
+    ],
+    "candidateCharacters": [
+      "A",
+      "C",
+      "F"
+    ],
+    "highlightCells": [
+      "R1C2",
+      "R2C1",
+      "R2C4",
+      "R2C5",
+      "R4C4",
+      "R5C5",
+      "R6C2",
+      "R6C5"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R4C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R4C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R6C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R6C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R4C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "H",
+        "cell": "R5C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-10"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "A：C、F、V 共 3 人锁定第 1、2、4 行。候选从 4 格减至 2 格；剩余 R6C2、5。",
+      "H：每行、每列最多一人。候选从 4 格减至 2 格；剩余 R4C6；R5C5。",
+      "H：C、F、V 共 3 人锁定第 1、2、4 行。候选从 2 格减至 1 格；剩余 R5C5。",
+      "C、F、V 共 3 人，只能用第 1–2、4 行，必须恰好占满；H 因此不能用这些行。各人范围：C 在第 1–2、4 行；F 在第 1–2 行；V 在第 1–2、4 行。"
+    ]
+  },
+  {
+    "id": "the-french-restaurant-lesson-12",
+    "title": "确定 Antoine",
+    "explanation": "A 只剩 R6C2。H 已锁定 R5C5，A 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "A",
+      "H"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R5C5",
+      "R6C2"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R6C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "A",
+        "cell": "R6C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-11"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "A：每行、每列最多一人。候选从 2 格减至 1 格；剩余 R6C2。",
+      "例如 A 在 R6C5，会与 H 的全部剩余位置同行或同列，无法配对。H 现有候选：R5C5。"
+    ]
+  },
+  {
+    "id": "the-french-restaurant-lesson-13",
+    "title": "确定 Charlotte",
+    "explanation": "C 只剩 R4C4。F 的 3 个候选共同排除同行同列冲突格，C 从 3 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "C",
+      "A",
+      "H",
+      "F"
+    ],
+    "candidateCharacters": [
+      "F"
+    ],
+    "highlightCells": [
+      "R2C1",
+      "R2C4",
+      "R2C5",
+      "R4C4",
+      "R5C5",
+      "R6C2"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R1C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R2C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R1C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R2C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R2C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "C",
+        "cell": "R4C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-12"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "C：每行、每列最多一人。候选从 5 格减至 4 格；剩余 R2C1、4–5；R4C4。",
+      "C：每行、每列最多一人。候选从 4 格减至 3 格；剩余 R2C1、4；R4C4。",
+      "F：每行、每列最多一人。候选从 4 格减至 3 格；剩余 R2C1、4–5。",
+      "C：每行、每列最多一人。候选从 3 格减至 1 格；剩余 R4C4。",
+      "例如 C 在 R2C1，会与 F 的全部剩余位置同行或同列，无法配对。F 现有候选：R2C1、4–5。"
+    ]
+  },
+  {
+    "id": "the-french-restaurant-lesson-14",
+    "title": "确定 Fabrice",
+    "explanation": "F 只剩 R2C1。H 已锁定 R5C5，F 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "F",
+      "C",
+      "H"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R2C1",
+      "R4C4",
+      "R5C5"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R2C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R2C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "F",
+        "cell": "R2C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-13"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "F：每行、每列最多一人。候选从 3 格减至 2 格；剩余 R2C1、5。",
+      "F：每行、每列最多一人。候选从 2 格减至 1 格；剩余 R2C1。",
+      "例如 F 在 R2C5，会与 H 的全部剩余位置同行或同列，无法配对。H 现有候选：R5C5。"
+    ]
+  },
+  {
+    "id": "the-french-restaurant-lesson-15",
+    "title": "确定 Vincent",
+    "explanation": "V 只剩 R1C6。F 已锁定 R2C1，V 从 4 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "V",
+      "A",
+      "C",
+      "F"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R1C6",
+      "R2C1",
+      "R4C4",
+      "R6C2"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "V",
+        "cell": "R1C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-french-restaurant-lesson-14"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "V：每行、每列最多一人。候选从 8 格减至 6 格；剩余 R1C6；R2C1、4–6；R4C1。",
+      "V：每行、每列最多一人。候选从 6 格减至 4 格；剩余 R1C6；R2C1、5–6。",
+      "V：每行、每列最多一人。候选从 4 格减至 1 格；剩余 R1C6。",
+      "例如 V 在 R2C1，会与 F 的全部剩余位置同行或同列，无法配对。F 现有候选：R2C1。"
+    ]
+  },
+  {
+    "id": "the-french-restaurant-lesson-16",
+    "title": "Denis 是凶手",
+    "explanation": "死者 V 位于储藏室的 R1C6；同区唯一另一人是 Denis（D），位置为 R3C7。",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "D",
+      "V"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R1C6",
+      "R3C7"
+    ],
+    "actions": [],
+    "rule": "死者与凶手独处",
+    "details": [
+      "死者线索要求与凶手独处，必须以最终逻辑区域的同区人数判定。",
+      "储藏室实际人物：D 在 R3C7、V 在 R1C6；其余所有人都在其他区域。",
+      "9 人全部有位置，且每行、每列均无冲突。",
+      "最终位置由初始候选与记录中的约束排除得到；原始答案只由求解脚本在结束时作一致性核对。"
+    ]
+  }
+]

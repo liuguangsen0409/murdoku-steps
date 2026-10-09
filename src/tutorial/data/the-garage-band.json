@@ -1,0 +1,2301 @@
+[
+  {
+    "id": "the-garage-band-lesson-1",
+    "title": "先读地图与全局规则",
+    "explanation": "7 人共用 7 行、7 列；先从地形、家具与明确区域建立候选。",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [],
+    "candidateCharacters": [],
+    "highlightCells": [],
+    "actions": [
+      {
+        "type": "setCandidates",
+        "character": "A",
+        "cells": [
+          "R4C6",
+          "R5C5",
+          "R5C7",
+          "R6C6"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "B",
+        "cells": [
+          "R1C5",
+          "R1C6",
+          "R5C1",
+          "R5C2"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "C",
+        "cells": [
+          "R1C6",
+          "R2C3",
+          "R2C6",
+          "R3C7"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "D",
+        "cells": [
+          "R1C1",
+          "R1C4",
+          "R1C5",
+          "R1C6",
+          "R2C1",
+          "R2C2",
+          "R2C3",
+          "R2C4",
+          "R2C6",
+          "R3C1",
+          "R3C2",
+          "R3C3",
+          "R3C7",
+          "R4C1",
+          "R4C2",
+          "R4C3",
+          "R4C5",
+          "R5C1",
+          "R5C2",
+          "R5C4",
+          "R5C5",
+          "R6C1",
+          "R6C6",
+          "R6C7",
+          "R7C3",
+          "R7C6",
+          "R7C7"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "E",
+        "cells": [
+          "R3C3",
+          "R3C6",
+          "R4C1",
+          "R4C3"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "F",
+        "cells": [
+          "R7C6"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "V",
+        "cells": [
+          "R1C1",
+          "R1C4",
+          "R1C5",
+          "R1C6",
+          "R2C1",
+          "R2C2",
+          "R2C3",
+          "R2C4",
+          "R2C5",
+          "R2C6",
+          "R3C1",
+          "R3C2",
+          "R3C3",
+          "R3C4",
+          "R3C6",
+          "R3C7",
+          "R4C1",
+          "R4C2",
+          "R4C3",
+          "R4C5",
+          "R4C6",
+          "R5C1",
+          "R5C2",
+          "R5C3",
+          "R5C4",
+          "R5C5",
+          "R5C7",
+          "R6C1",
+          "R6C2",
+          "R6C4",
+          "R6C6",
+          "R6C7",
+          "R7C1",
+          "R7C3",
+          "R7C6",
+          "R7C7"
+        ]
+      }
+    ],
+    "rule": "地图与初始单人条件",
+    "details": [
+      "每行、每列最多一人；死者 V 也参与行列限制。",
+      "旁边按同一逻辑区域内的上下左右判断；家具是否可站立，以地图格子的属性为准。",
+      "本页逐步保存候选排除。只有某人的候选恰好剩一格时，才执行落位。"
+    ]
+  },
+  {
+    "id": "the-garage-band-lesson-2",
+    "title": "先看 Axel 的候选",
+    "explanation": "A：他在架子鼓旁边。（4 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "A"
+    ],
+    "candidateCharacters": [
+      "A"
+    ],
+    "highlightCells": [
+      "R4C6",
+      "R5C5",
+      "R5C7",
+      "R6C6"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Axel（A） 的原始线索：他在架子鼓旁边。",
+      "A 候选：R4C6；R5C5、7；R6C6。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "the-garage-band-lesson-3",
+    "title": "先看 Briar 的候选",
+    "explanation": "B：她在汽车里或床上。（4 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "B"
+    ],
+    "candidateCharacters": [
+      "B"
+    ],
+    "highlightCells": [
+      "R1C5",
+      "R1C6",
+      "R5C1",
+      "R5C2"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Briar（B） 的原始线索：她在汽车里或床上。",
+      "B 候选：R1C5–6；R5C1–2。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "the-garage-band-lesson-4",
+    "title": "先看 Carla 的候选",
+    "explanation": "C：她在架子旁边。（4 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "C"
+    ],
+    "candidateCharacters": [
+      "C"
+    ],
+    "highlightCells": [
+      "R1C6",
+      "R2C3",
+      "R2C6",
+      "R3C7"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Carla（C） 的原始线索：她在架子旁边。",
+      "C 候选：R1C6；R2C3、6；R3C7。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "the-garage-band-lesson-5",
+    "title": "先看 Dallas 的候选",
+    "explanation": "D：他不在箱子旁边。（27 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "D"
+    ],
+    "candidateCharacters": [
+      "D"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R1C4",
+      "R1C5",
+      "R1C6",
+      "R2C1",
+      "R2C2",
+      "R2C3",
+      "R2C4",
+      "R2C6",
+      "R3C1",
+      "R3C2",
+      "R3C3",
+      "R3C7",
+      "R4C1",
+      "R4C2",
+      "R4C3",
+      "R4C5",
+      "R5C1",
+      "R5C2",
+      "R5C4",
+      "R5C5",
+      "R6C1",
+      "R6C6",
+      "R6C7",
+      "R7C3",
+      "R7C6",
+      "R7C7"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Dallas（D） 的原始线索：他不在箱子旁边。",
+      "D 候选：27 格，分布在 R1–R7 / C1–C7（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "the-garage-band-lesson-6",
+    "title": "先看 Ernesto 的候选",
+    "explanation": "E：他坐在椅子上。（4 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "E"
+    ],
+    "candidateCharacters": [
+      "E"
+    ],
+    "highlightCells": [
+      "R3C3",
+      "R3C6",
+      "R4C1",
+      "R4C3"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Ernesto（E） 的原始线索：他坐在椅子上。",
+      "E 候选：R3C3、6；R4C1、3。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "the-garage-band-lesson-7",
+    "title": "先确定 Fawn：R7C6",
+    "explanation": "F：她在树旁边。（只剩 R7C6）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "F"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R7C6"
+    ],
+    "actions": [
+      {
+        "type": "placeCharacter",
+        "character": "F",
+        "cell": "R7C6",
+        "reason": {
+          "ruleId": "从原始线索建立候选",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-6"
+          ]
+        }
+      }
+    ],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Fawn（F） 的原始线索：她在树旁边。",
+      "F 候选：R7C6。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "the-garage-band-lesson-8",
+    "title": "先看 Viper 的候选",
+    "explanation": "V：受害者。他与凶手单独在一起。（36 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "V"
+    ],
+    "candidateCharacters": [
+      "V"
+    ],
+    "highlightCells": [
+      "R1C1",
+      "R1C4",
+      "R1C5",
+      "R1C6",
+      "R2C1",
+      "R2C2",
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R3C1",
+      "R3C2",
+      "R3C3",
+      "R3C4",
+      "R3C6",
+      "R3C7",
+      "R4C1",
+      "R4C2",
+      "R4C3",
+      "R4C5",
+      "R4C6",
+      "R5C1",
+      "R5C2",
+      "R5C3",
+      "R5C4",
+      "R5C5",
+      "R5C7",
+      "R6C1",
+      "R6C2",
+      "R6C4",
+      "R6C6",
+      "R6C7",
+      "R7C1",
+      "R7C3",
+      "R7C6",
+      "R7C7"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Viper（V） 的原始线索：受害者。他与凶手单独在一起。",
+      "V 候选：36 格，分布在 R1–R7 / C1–C7（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "the-garage-band-lesson-9",
+    "title": "确定 Briar",
+    "explanation": "B 只剩 R1C5。F 已锁定 R7C6，B 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "B",
+      "A",
+      "F"
+    ],
+    "candidateCharacters": [
+      "A"
+    ],
+    "highlightCells": [
+      "R1C5",
+      "R5C5",
+      "R5C7",
+      "R7C6"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R4C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R6C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R5C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R5C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R1C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "B",
+        "cell": "R1C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-8"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "A：每行、每列最多一人。候选从 4 格减至 2 格；剩余 R5C5、7。",
+      "B：每行、每列最多一人。候选从 4 格减至 2 格；剩余 R1C5–6。",
+      "B：每行、每列最多一人。候选从 2 格减至 1 格；剩余 R1C5。",
+      "例如 B 在 R1C6，会与 F 的全部剩余位置同行或同列，无法配对。F 现有候选：R7C6。"
+    ]
+  },
+  {
+    "id": "the-garage-band-lesson-10",
+    "title": "确定 Axel",
+    "explanation": "A 只剩 R5C7。B 已锁定 R1C5，A 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "A",
+      "B"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R1C5",
+      "R5C7"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R5C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "A",
+        "cell": "R5C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-9"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "A：每行、每列最多一人。候选从 2 格减至 1 格；剩余 R5C7。",
+      "例如 A 在 R5C5，会与 B 的全部剩余位置同行或同列，无法配对。B 现有候选：R1C5。"
+    ]
+  },
+  {
+    "id": "the-garage-band-lesson-11",
+    "title": "确定 Carla",
+    "explanation": "C 只剩 R2C3。F 已锁定 R7C6，C 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "C",
+      "A",
+      "B",
+      "F"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R1C5",
+      "R2C3",
+      "R5C7",
+      "R7C6"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R3C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R1C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R2C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "C",
+        "cell": "R2C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-10"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "C：每行、每列最多一人。候选从 4 格减至 3 格；剩余 R1C6；R2C3、6。",
+      "C：每行、每列最多一人。候选从 3 格减至 2 格；剩余 R2C3、6。",
+      "C：每行、每列最多一人。候选从 2 格减至 1 格；剩余 R2C3。",
+      "例如 C 在 R2C6，会与 F 的全部剩余位置同行或同列，无法配对。F 现有候选：R7C6。"
+    ]
+  },
+  {
+    "id": "the-garage-band-lesson-12",
+    "title": "Dallas：候选缩至 4 格",
+    "explanation": "C 已锁定 R2C3，E 从 4 格缩到 2 格；E 的 2 个候选共同排除同行同列冲突格，D 从 5 格缩到 4 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "D",
+      "A",
+      "B",
+      "C"
+    ],
+    "candidateCharacters": [
+      "D"
+    ],
+    "highlightCells": [
+      "R1C5",
+      "R2C3",
+      "R3C2",
+      "R4C1",
+      "R4C2",
+      "R5C7",
+      "R6C1"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R3C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R5C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R5C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R5C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R5C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R6C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R7C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R1C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R1C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R1C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R1C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R4C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R2C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R2C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R2C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R2C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R2C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R3C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R4C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R7C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R6C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R7C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R3C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R4C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R3C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-11"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "D：每行、每列最多一人。候选从 27 格减至 20 格；剩余 20 格，分布在 R1–R7 / C1–C6（点人物查看候选）。",
+      "D：每行、每列最多一人。候选从 20 格减至 15 格；剩余 15 格，分布在 R2–R7 / C1–C6（点人物查看候选）。",
+      "D：每行、每列最多一人。候选从 15 格减至 7 格；剩余 R3C1–2；R4C1–2；R6C1、6；R7C6。",
+      "D：每行、每列最多一人。候选从 7 格减至 5 格；剩余 R3C1–2；R4C1–2；R6C1。",
+      "E：每行、每列最多一人。候选从 4 格减至 2 格；剩余 R3C6；R4C1。",
+      "D：每行、每列最多一人。候选从 5 格减至 4 格；剩余 R3C2；R4C1–2；R6C1。",
+      "例如 D 在 R3C1，会与 E 的全部剩余位置同行或同列，无法配对。E 现有候选：R3C6；R4C1。"
+    ]
+  },
+  {
+    "id": "the-garage-band-lesson-13",
+    "title": "确定 Ernesto",
+    "explanation": "E 只剩 R4C1。F 已锁定 R7C6，E 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "E",
+      "F"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R4C1",
+      "R7C6"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R3C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "E",
+        "cell": "R4C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-12"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "E：每行、每列最多一人。候选从 2 格减至 1 格；剩余 R4C1。",
+      "例如 E 在 R3C6，会与 F 的全部剩余位置同行或同列，无法配对。F 现有候选：R7C6。"
+    ]
+  },
+  {
+    "id": "the-garage-band-lesson-14",
+    "title": "确定 Dallas",
+    "explanation": "D 只剩 R3C2。E 已锁定 R4C1，D 从 4 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "D",
+      "E"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R3C2",
+      "R4C1"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R4C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R4C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R6C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "D",
+        "cell": "R3C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-13"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "D：每行、每列最多一人。候选从 4 格减至 1 格；剩余 R3C2。",
+      "例如 D 在 R4C1，会与 E 的全部剩余位置同行或同列，无法配对。E 现有候选：R4C1。"
+    ]
+  },
+  {
+    "id": "the-garage-band-lesson-15",
+    "title": "确定 Viper",
+    "explanation": "V 只剩 R6C4。F 已锁定 R7C6，V 从 3 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "V",
+      "A",
+      "B",
+      "C"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R1C5",
+      "R2C3",
+      "R5C7",
+      "R6C4"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C7",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C3",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C2",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C1",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C6",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "V",
+        "cell": "R6C4",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "V-clue"
+          ],
+          "dependsOn": [
+            "the-garage-band-lesson-14"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "V：每行、每列最多一人。候选从 36 格减至 27 格；剩余 27 格，分布在 R1–R7 / C1–C6（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 27 格减至 21 格；剩余 21 格，分布在 R2–R7 / C1–C6（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 21 格减至 13 格；剩余 13 格，分布在 R3–R7 / C1–C6（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 13 格减至 7 格；剩余 R4C1、6；R6C1、4、6；R7C1、6。",
+      "V：每行、每列最多一人。候选从 7 格减至 3 格；剩余 R6C4、6；R7C6。",
+      "V：每行、每列最多一人。候选从 3 格减至 1 格；剩余 R6C4。",
+      "例如 V 在 R6C6，会与 F 的全部剩余位置同行或同列，无法配对。F 现有候选：R7C6。"
+    ]
+  },
+  {
+    "id": "the-garage-band-lesson-16",
+    "title": "Axel 是凶手",
+    "explanation": "死者 V 位于车库的 R6C4；同区唯一另一人是 Axel（A），位置为 R5C7。",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "V-clue"
+    ],
+    "focusCharacters": [
+      "A",
+      "V"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R5C7",
+      "R6C4"
+    ],
+    "actions": [],
+    "rule": "死者与凶手独处",
+    "details": [
+      "死者线索要求与凶手独处，必须以最终逻辑区域的同区人数判定。",
+      "车库实际人物：A 在 R5C7、V 在 R6C4；其余所有人都在其他区域。",
+      "7 人全部有位置，且每行、每列均无冲突。",
+      "最终位置由初始候选与记录中的约束排除得到；原始答案只由求解脚本在结束时作一致性核对。"
+    ]
+  }
+]

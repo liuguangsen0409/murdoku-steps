@@ -1,0 +1,1090 @@
+{
+  "id": "piano-lesson",
+  "width": 6,
+  "height": 6,
+  "cells": [
+    {
+      "id": "R1C1",
+      "row": 1,
+      "col": 1,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        2
+      ],
+      "fill": "#f1ede5",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R1C2",
+      "row": 1,
+      "col": 2,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#f1ede5",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R1C3",
+      "row": 1,
+      "col": 3,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        86
+      ],
+      "fill": "#f1ede5",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R1C4",
+      "row": 1,
+      "col": 4,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        4
+      ],
+      "fill": "#f1ede5",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R1C5",
+      "row": 1,
+      "col": 5,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#f1ede5",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R1C6",
+      "row": 1,
+      "col": 6,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#e7e0d0",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R2C1",
+      "row": 2,
+      "col": 1,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        13
+      ],
+      "fill": "#f1ede5",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R2C2",
+      "row": 2,
+      "col": 2,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": true,
+      "water": false,
+      "objectIds": [
+        5
+      ],
+      "fill": "#f1ede5",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R2C3",
+      "row": 2,
+      "col": 3,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": true,
+      "water": false,
+      "objectIds": [
+        5
+      ],
+      "fill": "#f1ede5",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R2C4",
+      "row": 2,
+      "col": 4,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": true,
+      "water": false,
+      "objectIds": [
+        5
+      ],
+      "fill": "#f1ede5",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R2C5",
+      "row": 2,
+      "col": 5,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#f1ede5",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R2C6",
+      "row": 2,
+      "col": 6,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#e7e0d0",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R3C1",
+      "row": 3,
+      "col": 1,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#f1ede5",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R3C2",
+      "row": 3,
+      "col": 2,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#f1ede5",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R3C3",
+      "row": 3,
+      "col": 3,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#f1ede5",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R3C4",
+      "row": 3,
+      "col": 4,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#f1ede5",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R3C5",
+      "row": 3,
+      "col": 5,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        2
+      ],
+      "fill": "#f1ede5",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R3C6",
+      "row": 3,
+      "col": 6,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#e7e0d0",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R4C1",
+      "row": 4,
+      "col": 1,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#f1ede5",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R4C2",
+      "row": 4,
+      "col": 2,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#f1ede5",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R4C3",
+      "row": 4,
+      "col": 3,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        2
+      ],
+      "fill": "#e7e0d0",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R4C4",
+      "row": 4,
+      "col": 4,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#e7e0d0",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R4C5",
+      "row": 4,
+      "col": 5,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#e7e0d0",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R4C6",
+      "row": 4,
+      "col": 6,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#e7e0d0",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R5C1",
+      "row": 5,
+      "col": 1,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#f1ede5",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R5C2",
+      "row": 5,
+      "col": 2,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#d4d4ce",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R5C3",
+      "row": 5,
+      "col": 3,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        20
+      ],
+      "fill": "#d4d4ce",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R5C4",
+      "row": 5,
+      "col": 4,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": true,
+      "carpet": true,
+      "water": false,
+      "objectIds": [
+        5
+      ],
+      "fill": "#d4d4ce",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R5C5",
+      "row": 5,
+      "col": 5,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": true,
+      "carpet": true,
+      "water": false,
+      "objectIds": [
+        5
+      ],
+      "fill": "#d4d4ce",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R5C6",
+      "row": 5,
+      "col": 6,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        4
+      ],
+      "fill": "#d4d4ce",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R6C1",
+      "row": 6,
+      "col": 1,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        13
+      ],
+      "fill": "#f1ede5",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R6C2",
+      "row": 6,
+      "col": 2,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#d4d4ce",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R6C3",
+      "row": 6,
+      "col": 3,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#d4d4ce",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R6C4",
+      "row": 6,
+      "col": 4,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#d4d4ce",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R6C5",
+      "row": 6,
+      "col": 5,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#d4d4ce",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R6C6",
+      "row": 6,
+      "col": 6,
+      "roomId": 2,
+      "regionId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#d4d4ce",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    }
+  ],
+  "objects": [
+    {
+      "id": "object-1-1",
+      "kind": "chair",
+      "cells": [
+        "R1C1"
+      ],
+      "asset": "/assets/catalog/piano-lesson/objects/chair.svg",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "objectId": 2
+    },
+    {
+      "id": "object-1-3",
+      "kind": "piano",
+      "cells": [
+        "R1C3"
+      ],
+      "asset": "/assets/catalog/piano-lesson/objects/piano.svg",
+      "x": 2,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "objectId": 86
+    },
+    {
+      "id": "object-1-4",
+      "kind": "table",
+      "cells": [
+        "R1C4"
+      ],
+      "asset": "/assets/catalog/piano-lesson/objects/table.svg",
+      "x": 3,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "objectId": 4
+    },
+    {
+      "id": "object-2-1",
+      "kind": "shelf",
+      "cells": [
+        "R2C1"
+      ],
+      "asset": "/assets/catalog/piano-lesson/objects/shelf.svg",
+      "x": 0,
+      "y": 1,
+      "width": 1,
+      "height": 1,
+      "objectId": 13
+    },
+    {
+      "id": "object-3-5",
+      "kind": "chair",
+      "cells": [
+        "R3C5"
+      ],
+      "asset": "/assets/catalog/piano-lesson/objects/chair.svg",
+      "x": 4,
+      "y": 2,
+      "width": 1,
+      "height": 1,
+      "objectId": 2
+    },
+    {
+      "id": "object-4-3",
+      "kind": "chair",
+      "cells": [
+        "R4C3"
+      ],
+      "asset": "/assets/catalog/piano-lesson/objects/chair.svg",
+      "x": 2,
+      "y": 3,
+      "width": 1,
+      "height": 1,
+      "objectId": 2
+    },
+    {
+      "id": "object-5-3",
+      "kind": "statue",
+      "cells": [
+        "R5C3"
+      ],
+      "asset": "/assets/catalog/piano-lesson/objects/statue.svg",
+      "x": 2,
+      "y": 4,
+      "width": 1,
+      "height": 1,
+      "objectId": 20
+    },
+    {
+      "id": "object-5-6",
+      "kind": "table",
+      "cells": [
+        "R5C6"
+      ],
+      "asset": "/assets/catalog/piano-lesson/objects/table.svg",
+      "x": 5,
+      "y": 4,
+      "width": 1,
+      "height": 1,
+      "objectId": 4
+    },
+    {
+      "id": "object-6-1",
+      "kind": "shelf",
+      "cells": [
+        "R6C1"
+      ],
+      "asset": "/assets/catalog/piano-lesson/objects/shelf.svg",
+      "x": 0,
+      "y": 5,
+      "width": 1,
+      "height": 1,
+      "objectId": 13
+    },
+    {
+      "id": "carpet-R5C5",
+      "kind": "carpet",
+      "cells": [
+        "R5C5"
+      ],
+      "asset": "/assets/catalog/piano-lesson/objects/carpet.svg",
+      "x": 4,
+      "y": 4,
+      "width": 1,
+      "height": 1,
+      "objectId": 5,
+      "carpet": true
+    },
+    {
+      "id": "carpet-R5C4",
+      "kind": "carpet",
+      "cells": [
+        "R5C4"
+      ],
+      "asset": "/assets/catalog/piano-lesson/objects/carpet.svg",
+      "x": 3,
+      "y": 4,
+      "width": 1,
+      "height": 1,
+      "objectId": 5,
+      "carpet": true
+    },
+    {
+      "id": "carpet-R2C4",
+      "kind": "carpet",
+      "cells": [
+        "R2C4"
+      ],
+      "asset": "/assets/catalog/piano-lesson/objects/carpet.svg",
+      "x": 3,
+      "y": 1,
+      "width": 1,
+      "height": 1,
+      "objectId": 5,
+      "carpet": true
+    },
+    {
+      "id": "carpet-R2C3",
+      "kind": "carpet",
+      "cells": [
+        "R2C3"
+      ],
+      "asset": "/assets/catalog/piano-lesson/objects/carpet.svg",
+      "x": 2,
+      "y": 1,
+      "width": 1,
+      "height": 1,
+      "objectId": 5,
+      "carpet": true
+    },
+    {
+      "id": "carpet-R2C2",
+      "kind": "carpet",
+      "cells": [
+        "R2C2"
+      ],
+      "asset": "/assets/catalog/piano-lesson/objects/carpet.svg",
+      "x": 1,
+      "y": 1,
+      "width": 1,
+      "height": 1,
+      "objectId": 5,
+      "carpet": true
+    }
+  ],
+  "rooms": [
+    {
+      "id": 0,
+      "label": "走廊",
+      "labelEn": "Hallway",
+      "cells": [
+        "R1C6",
+        "R2C6",
+        "R3C6",
+        "R4C3",
+        "R4C4",
+        "R4C5",
+        "R4C6"
+      ],
+      "fill": "#e7e0d0"
+    },
+    {
+      "id": 1,
+      "label": "书房",
+      "labelEn": "Study",
+      "cells": [
+        "R1C1",
+        "R1C2",
+        "R1C3",
+        "R1C4",
+        "R1C5",
+        "R2C1",
+        "R2C2",
+        "R2C3",
+        "R2C4",
+        "R2C5",
+        "R3C1",
+        "R3C2",
+        "R3C3",
+        "R3C4",
+        "R3C5"
+      ],
+      "fill": "#f1ede5"
+    },
+    {
+      "id": 2,
+      "label": "门厅",
+      "labelEn": "Foyer",
+      "cells": [
+        "R5C2",
+        "R5C3",
+        "R5C4",
+        "R5C5",
+        "R5C6",
+        "R6C2",
+        "R6C3",
+        "R6C4",
+        "R6C5",
+        "R6C6"
+      ],
+      "fill": "#d4d4ce"
+    },
+    {
+      "id": 3,
+      "label": "储藏室",
+      "labelEn": "Closet",
+      "cells": [
+        "R4C1",
+        "R4C2",
+        "R5C1",
+        "R6C1"
+      ],
+      "fill": "#f1ede5"
+    }
+  ],
+  "roomLabels": [
+    {
+      "id": 0,
+      "label": "走廊",
+      "x": 400.0,
+      "y": 385.33333333333337,
+      "mainRoomId": 0,
+      "isSubarea": false
+    },
+    {
+      "id": 1,
+      "label": "书房",
+      "x": 250.0,
+      "y": 285.33333333333337,
+      "mainRoomId": 1,
+      "isSubarea": false
+    },
+    {
+      "id": 2,
+      "label": "门厅",
+      "x": 350.0,
+      "y": 585.3333333333334,
+      "mainRoomId": 2,
+      "isSubarea": false
+    },
+    {
+      "id": 3,
+      "label": "储藏室",
+      "x": 50.0,
+      "y": 585.3333333333334,
+      "mainRoomId": 3,
+      "isSubarea": false
+    }
+  ],
+  "objectNames": {
+    "2": "Chair",
+    "4": "Table",
+    "13": "Shelf",
+    "20": "Statue",
+    "86": "Piano"
+  },
+  "characters": [
+    {
+      "id": "A",
+      "name": "Annie",
+      "portrait": "/assets/catalog/piano-lesson/portraits/A.svg",
+      "clueId": "A-clue",
+      "clueEn": "She was in the Closet.",
+      "clueZh": "她在储藏室里。",
+      "sex": 1
+    },
+    {
+      "id": "B",
+      "name": "Boris",
+      "portrait": "/assets/catalog/piano-lesson/portraits/B.svg",
+      "clueId": "B-clue",
+      "clueEn": "He was beside the statue.",
+      "clueZh": "他在雕像旁边。",
+      "sex": 0
+    },
+    {
+      "id": "C",
+      "name": "Clover",
+      "portrait": "/assets/catalog/piano-lesson/portraits/C.svg",
+      "clueId": "C-clue",
+      "clueEn": "There was someone north of her in the same area.",
+      "clueZh": "同一区域里有人在她的北边。",
+      "sex": 1
+    },
+    {
+      "id": "D",
+      "name": "Daryl",
+      "portrait": "/assets/catalog/piano-lesson/portraits/D.svg",
+      "clueId": "D-clue",
+      "clueEn": "She was exactly one row north of someone beside the piano.",
+      "clueZh": "她恰好在钢琴旁边某人的北边一行。",
+      "sex": 1
+    },
+    {
+      "id": "E",
+      "name": "Eve",
+      "portrait": "/assets/catalog/piano-lesson/portraits/E.svg",
+      "clueId": "E-clue",
+      "clueEn": "She was sitting in a chair.",
+      "clueZh": "她坐在椅子上。",
+      "sex": 1
+    },
+    {
+      "id": "V",
+      "name": "Vada",
+      "portrait": "/assets/catalog/piano-lesson/portraits/V.svg",
+      "clueId": "V-clue",
+      "clueEn": "The Victim. She was alone with the murderer.",
+      "clueZh": "被害者。和凶手单独在一起。",
+      "sex": 1
+    }
+  ],
+  "generalClues": [
+    {
+      "id": "general-1",
+      "text": "地毯上恰好只有一个人。",
+      "textEn": "There was exactly one person on a carpet."
+    }
+  ],
+  "metadata": {
+    "sourceId": "puzzle-piano-lesson-easy",
+    "sourceFile": "puzzle-piano-lesson-easy.json",
+    "version": 2,
+    "coordinateOrder": "row_col",
+    "roomLabels": [
+      {
+        "id": 0,
+        "label": "Hallway",
+        "x": 400.0,
+        "y": 385.33333333333337,
+        "mainRoomId": 0,
+        "isSubarea": false
+      },
+      {
+        "id": 1,
+        "label": "Study",
+        "x": 250.0,
+        "y": 285.33333333333337,
+        "mainRoomId": 1,
+        "isSubarea": false
+      },
+      {
+        "id": 2,
+        "label": "Foyer",
+        "x": 350.0,
+        "y": 585.3333333333334,
+        "mainRoomId": 2,
+        "isSubarea": false
+      },
+      {
+        "id": 3,
+        "label": "Closet",
+        "x": 50.0,
+        "y": 585.3333333333334,
+        "mainRoomId": 3,
+        "isSubarea": false
+      }
+    ],
+    "edges": [],
+    "unsupportedObjectIds": [],
+    "titleEn": "The Piano Lesson",
+    "titleZh": "钢琴课"
+  }
+}

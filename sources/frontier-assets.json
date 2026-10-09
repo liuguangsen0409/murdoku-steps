@@ -1,0 +1,238 @@
+[
+  {
+    "key": "./objects/obj_chair.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "./objects/obj_chair_02.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "./objects/obj_table.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "./objects/obj_table_02.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "./objects/obj_bed.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "./objects/obj_bed_02.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "./objects/obj_shelf.svg",
+    "source": "https://murdoku.com/play/assets/obj_shelf-DW4s9BDU.svg"
+  },
+  {
+    "key": "./objects/obj_shelf_02.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "./objects/obj_horse.svg",
+    "source": "https://murdoku.com/play/assets/obj_horse-fbayuQse.svg"
+  },
+  {
+    "key": "./objects/obj_horse_02.svg",
+    "source": "https://murdoku.com/play/assets/obj_horse-fbayuQse.svg"
+  },
+  {
+    "key": "./objects/obj_cactus.svg",
+    "source": "https://murdoku.com/play/assets/obj_cactus-_wOuvqFt.svg"
+  },
+  {
+    "key": "./objects/obj_cactus_02.svg",
+    "source": "https://murdoku.com/play/assets/obj_cactus-_wOuvqFt.svg"
+  },
+  {
+    "key": "./objects/obj_safe.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "./objects/obj_safe_02.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "./objects/obj_sack.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "./objects/obj_sack_02.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "./objects/obj_register.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "./objects/obj_register_02.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/woman/hair/woman_hair_wildwest_back_003.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/woman/body/woman_body_000.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/woman/clothes/woman_clothes_wildwest_003.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/woman/hair/woman_hair_wildwest_003.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/woman/body/woman_body_000.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/woman/clothes/woman_clothes_wildwest_005.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/woman/hair/woman_hair_003.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/man/body/man_body_000.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/clothes/man_clothes_wildwest_001.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/hair/man_hair_052.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/facial/man_facial_027.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/hat/man_hat_wildwest_003.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/body/man_body_000.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/clothes/man_clothes_wildwest_006.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/hair/man_hair_000.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20xmlns='http://www.w3.org/2000/svg'%2"
+  },
+  {
+    "key": "../../portraits/theme-0/man/facial/man_facial_026.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/hat/man_hat_wildwest_004.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20xmlns='http://www.w3.org/2000/svg'%2"
+  },
+  {
+    "key": "../../portraits/theme-0/woman/hair/woman_hair_wildwest_back_005.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/woman/body/woman_body_000.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/woman/clothes/woman_clothes_wildwest_001.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/woman/hair/woman_hair_wildwest_005.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/man/body/man_body_000.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/clothes/man_clothes_wildwest_002.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/hair/man_hair_046.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/facial/man_facial_020.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/body/man_body_000.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/clothes/man_clothes_wildwest_005.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/hair/man_hair_003.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/facial/man_facial_021.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/woman/hair/woman_hair_wildwest_back_003.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/woman/body/woman_body_000.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/woman/clothes/woman_clothes_wildwest_004.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/woman/hair/woman_hair_wildwest_003.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/woman/hair/woman_hair_wildwest_back_002.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/woman/body/woman_body_000.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/woman/clothes/woman_clothes_wildwest_004.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/woman/hair/woman_hair_wildwest_002.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='a'%20xmlns='http://www.w3.org/20"
+  },
+  {
+    "key": "../../portraits/theme-0/man/body/man_body_000.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/clothes/man_clothes_wildwest_008.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/hair/man_hair_050.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  },
+  {
+    "key": "../../portraits/theme-0/man/facial/man_facial_019.svg",
+    "source": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20xmlns='http://www.w3."
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "PROPERTIES": {
+    "puzzle_version": "2",
+    "clue_custom_text1": "",
+    "clue_custom_text2": ""
+  },
+  "CHARACTERS": {
+    "room_name_0": "街道",
+    "room_name_1": "便利店",
+    "room_name_2": "院子",
+    "room_name_3": "公交车站",
+    "room_name_4": "人行道",
+    "title_zh_hans_": "",
+    "char_name_0": "Adonis",
+    "char_quote_zh_hans_0": "他正好在汽车里的某人东边一列。",
+    "char_subquote_zh_hans_0": "",
+    "char_name_1": "Briar",
+    "char_quote_zh_hans_1": "她在公交车上。",
+    "char_subquote_zh_hans_1": "",
+    "char_name_2": "Colby",
+    "char_quote_zh_hans_2": "他在院子里。他不在树旁边。",
+    "char_subquote_zh_hans_2": "",
+    "char_name_3": "Don",
+    "char_quote_zh_hans_3": "他和Colby在一起。",
+    "char_subquote_zh_hans_3": "",
+    "char_name_4": "Elliot",
+    "char_quote_zh_hans_4": "他坐在椅子上。",
+    "char_subquote_zh_hans_4": "",
+    "char_name_5": "Giovanna",
+    "char_quote_zh_hans_5": "她没有和Adonis在一起。",
+    "char_subquote_zh_hans_5": "",
+    "char_name_6": "Vala",
+    "char_quote_zh_hans_6": "被害者。和凶手单独在一起。",
+    "char_subquote_zh_hans_6": ""
+  }
+}

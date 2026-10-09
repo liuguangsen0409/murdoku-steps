@@ -1,0 +1,8296 @@
+[
+  {
+    "id": "remote-village-lesson-1",
+    "title": "先读地图与全局规则",
+    "explanation": "9 人共用 9 行、9 列；先从地形、家具与明确区域建立候选。",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [],
+    "candidateCharacters": [],
+    "highlightCells": [],
+    "actions": [
+      {
+        "type": "setCandidates",
+        "character": "A",
+        "cells": [
+          "R1C3",
+          "R1C6",
+          "R1C7",
+          "R1C9",
+          "R2C2",
+          "R2C3",
+          "R2C4",
+          "R2C5",
+          "R2C6",
+          "R2C7",
+          "R2C9",
+          "R3C2",
+          "R3C4",
+          "R3C5",
+          "R3C6",
+          "R3C7",
+          "R4C2",
+          "R4C3",
+          "R4C5",
+          "R4C6",
+          "R4C7",
+          "R4C8",
+          "R4C9",
+          "R5C3",
+          "R5C4",
+          "R5C5",
+          "R5C6",
+          "R5C7",
+          "R5C8",
+          "R5C9",
+          "R6C1",
+          "R6C2",
+          "R6C3",
+          "R6C4",
+          "R6C6",
+          "R6C7",
+          "R6C8",
+          "R7C3",
+          "R7C4",
+          "R7C5",
+          "R7C6",
+          "R7C7",
+          "R7C8",
+          "R8C1",
+          "R8C3",
+          "R8C4",
+          "R8C5",
+          "R8C6",
+          "R8C8",
+          "R9C3",
+          "R9C5",
+          "R9C6",
+          "R9C8"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "B",
+        "cells": [
+          "R2C5",
+          "R7C7",
+          "R8C6",
+          "R8C8"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "C",
+        "cells": [
+          "R1C3",
+          "R1C6",
+          "R1C7",
+          "R1C9",
+          "R2C2",
+          "R2C3",
+          "R2C4",
+          "R2C5",
+          "R2C6",
+          "R2C7",
+          "R2C9",
+          "R3C2",
+          "R3C4",
+          "R3C5",
+          "R3C6",
+          "R3C7",
+          "R4C2",
+          "R4C3",
+          "R4C5",
+          "R4C6",
+          "R4C7",
+          "R4C8",
+          "R4C9",
+          "R5C3",
+          "R5C4",
+          "R5C5",
+          "R5C6",
+          "R5C7",
+          "R5C8",
+          "R5C9",
+          "R6C1",
+          "R6C2",
+          "R6C3",
+          "R6C4",
+          "R6C6",
+          "R6C7",
+          "R6C8",
+          "R7C3",
+          "R7C4",
+          "R7C5",
+          "R7C6",
+          "R7C7",
+          "R7C8",
+          "R8C1",
+          "R8C3",
+          "R8C4",
+          "R8C5",
+          "R8C6",
+          "R8C8",
+          "R9C3",
+          "R9C5",
+          "R9C6",
+          "R9C8"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "D",
+        "cells": [
+          "R1C3",
+          "R1C6",
+          "R1C7",
+          "R1C9",
+          "R2C2",
+          "R2C3",
+          "R2C4",
+          "R2C5",
+          "R2C6",
+          "R2C7",
+          "R2C9",
+          "R3C2",
+          "R3C4",
+          "R3C5",
+          "R3C6",
+          "R3C7",
+          "R4C2",
+          "R4C3",
+          "R4C5",
+          "R4C6",
+          "R4C7",
+          "R4C8",
+          "R4C9",
+          "R5C3",
+          "R5C4",
+          "R5C5",
+          "R5C6",
+          "R5C7",
+          "R5C8",
+          "R5C9",
+          "R6C1",
+          "R6C2",
+          "R6C3",
+          "R6C4",
+          "R6C6",
+          "R6C7",
+          "R6C8",
+          "R7C3",
+          "R7C4",
+          "R7C5",
+          "R7C6",
+          "R7C7",
+          "R7C8",
+          "R8C1",
+          "R8C3",
+          "R8C4",
+          "R8C5",
+          "R8C6",
+          "R8C8",
+          "R9C3",
+          "R9C5",
+          "R9C6",
+          "R9C8"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "E",
+        "cells": [
+          "R1C3",
+          "R1C6",
+          "R1C7",
+          "R1C9",
+          "R2C2",
+          "R2C3",
+          "R2C4",
+          "R2C5",
+          "R2C6",
+          "R2C7",
+          "R2C9",
+          "R3C2",
+          "R3C4",
+          "R3C5",
+          "R3C6",
+          "R3C7",
+          "R4C2",
+          "R4C3",
+          "R4C5",
+          "R4C6",
+          "R4C7",
+          "R4C8",
+          "R4C9",
+          "R5C3",
+          "R5C4",
+          "R5C5",
+          "R5C6",
+          "R5C7",
+          "R5C8",
+          "R5C9",
+          "R6C1",
+          "R6C2",
+          "R6C3",
+          "R6C4",
+          "R6C6",
+          "R6C7",
+          "R6C8",
+          "R7C3",
+          "R7C4",
+          "R7C5",
+          "R7C6",
+          "R7C7",
+          "R7C8",
+          "R8C1",
+          "R8C3",
+          "R8C4",
+          "R8C5",
+          "R8C6",
+          "R8C8",
+          "R9C3",
+          "R9C5",
+          "R9C6",
+          "R9C8"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "F",
+        "cells": [
+          "R4C7",
+          "R4C8",
+          "R5C3",
+          "R6C3",
+          "R7C3",
+          "R8C3",
+          "R8C4"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "G",
+        "cells": [
+          "R2C5",
+          "R3C5",
+          "R4C5",
+          "R5C5",
+          "R7C5",
+          "R8C5",
+          "R9C5"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "H",
+        "cells": [
+          "R1C3",
+          "R2C4",
+          "R5C5",
+          "R6C4",
+          "R6C6",
+          "R7C5"
+        ]
+      },
+      {
+        "type": "setCandidates",
+        "character": "V",
+        "cells": [
+          "R1C3",
+          "R1C6",
+          "R1C7",
+          "R1C9",
+          "R2C2",
+          "R2C3",
+          "R2C4",
+          "R2C5",
+          "R2C6",
+          "R2C7",
+          "R2C9",
+          "R3C2",
+          "R3C4",
+          "R3C5",
+          "R3C6",
+          "R3C7",
+          "R4C2",
+          "R4C3",
+          "R4C5",
+          "R4C6",
+          "R4C7",
+          "R4C8",
+          "R4C9",
+          "R5C3",
+          "R5C4",
+          "R5C5",
+          "R5C6",
+          "R5C7",
+          "R5C8",
+          "R5C9",
+          "R6C1",
+          "R6C2",
+          "R6C3",
+          "R6C4",
+          "R6C6",
+          "R6C7",
+          "R6C8",
+          "R7C3",
+          "R7C4",
+          "R7C5",
+          "R7C6",
+          "R7C7",
+          "R7C8",
+          "R8C1",
+          "R8C3",
+          "R8C4",
+          "R8C5",
+          "R8C6",
+          "R8C8",
+          "R9C3",
+          "R9C5",
+          "R9C6",
+          "R9C8"
+        ]
+      }
+    ],
+    "rule": "地图与初始单人条件",
+    "details": [
+      "每行、每列最多一人；死者 V 也参与行列限制。",
+      "旁边按同一逻辑区域内的上下左右判断；家具是否可站立，以地图格子的属性为准。",
+      "本页逐步保存候选排除。只有某人的候选恰好剩一格时，才执行落位。",
+      "全局条件：正好有一个人坐在椅子上。"
+    ]
+  },
+  {
+    "id": "remote-village-lesson-2",
+    "title": "先看 Arnold、Bruce、Connor 的候选",
+    "explanation": "A：正好南边一行有一个女人在一辆车里。（53 个候选）；B：在一棵树旁边。（4 个候选）；C：在 Ethan 北边。（53 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "A",
+      "B",
+      "C"
+    ],
+    "candidateCharacters": [
+      "A",
+      "B",
+      "C"
+    ],
+    "highlightCells": [
+      "R1C3",
+      "R1C6",
+      "R1C7",
+      "R1C9",
+      "R2C2",
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R2C7",
+      "R2C9",
+      "R3C2",
+      "R3C4",
+      "R3C5",
+      "R3C6",
+      "R3C7",
+      "R4C2",
+      "R4C3",
+      "R4C5",
+      "R4C6",
+      "R4C7",
+      "R4C8",
+      "R4C9",
+      "R5C3",
+      "R5C4",
+      "R5C5",
+      "R5C6",
+      "R5C7",
+      "R5C8",
+      "R5C9",
+      "R6C1",
+      "R6C2",
+      "R6C3",
+      "R6C4",
+      "R6C6",
+      "R6C7",
+      "R6C8",
+      "R7C3",
+      "R7C4",
+      "R7C5",
+      "R7C6",
+      "R7C7",
+      "R7C8",
+      "R8C1",
+      "R8C3",
+      "R8C4",
+      "R8C5",
+      "R8C6",
+      "R8C8",
+      "R9C3",
+      "R9C5",
+      "R9C6",
+      "R9C8"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Arnold（A） 的原始线索：正好南边一行有一个女人在一辆车里。",
+      "A 候选：53 格，分布在 R1–R9 / C1–C9（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Bruce（B） 的原始线索：在一棵树旁边。",
+      "B 候选：R2C5；R7C7；R8C6、8。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Connor（C） 的原始线索：在 Ethan 北边。",
+      "C 候选：53 格，分布在 R1–R9 / C1–C9（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "remote-village-lesson-3",
+    "title": "先看 Delilah、Ethan、Fern 的候选",
+    "explanation": "D：所在区域里没有男人。（53 个候选）；E：所在区域里至少有一个女人。（53 个候选）；F：在一块地毯上。（7 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "D",
+      "E",
+      "F"
+    ],
+    "candidateCharacters": [
+      "D",
+      "E",
+      "F"
+    ],
+    "highlightCells": [
+      "R1C3",
+      "R1C6",
+      "R1C7",
+      "R1C9",
+      "R2C2",
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R2C7",
+      "R2C9",
+      "R3C2",
+      "R3C4",
+      "R3C5",
+      "R3C6",
+      "R3C7",
+      "R4C2",
+      "R4C3",
+      "R4C5",
+      "R4C6",
+      "R4C7",
+      "R4C8",
+      "R4C9",
+      "R5C3",
+      "R5C4",
+      "R5C5",
+      "R5C6",
+      "R5C7",
+      "R5C8",
+      "R5C9",
+      "R6C1",
+      "R6C2",
+      "R6C3",
+      "R6C4",
+      "R6C6",
+      "R6C7",
+      "R6C8",
+      "R7C3",
+      "R7C4",
+      "R7C5",
+      "R7C6",
+      "R7C7",
+      "R7C8",
+      "R8C1",
+      "R8C3",
+      "R8C4",
+      "R8C5",
+      "R8C6",
+      "R8C8",
+      "R9C3",
+      "R9C5",
+      "R9C6",
+      "R9C8"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Delilah（D） 的原始线索：所在区域里没有男人。",
+      "D 候选：53 格，分布在 R1–R9 / C1–C9（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Ethan（E） 的原始线索：所在区域里至少有一个女人。",
+      "E 候选：53 格，分布在 R1–R9 / C1–C9（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Fern（F） 的原始线索：在一块地毯上。",
+      "F 候选：R4C7–8；R5C3；R6C3；R7C3；R8C3–4。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "remote-village-lesson-4",
+    "title": "先看 Graham、Hedda、Vaughn 的候选",
+    "explanation": "G：在第五列。（7 个候选）；H：在一丛灌木旁边。（6 个候选）；V：被害者。和凶手单独在一起。（53 个候选）",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "G",
+      "H",
+      "V"
+    ],
+    "candidateCharacters": [
+      "G",
+      "H",
+      "V"
+    ],
+    "highlightCells": [
+      "R1C3",
+      "R1C6",
+      "R1C7",
+      "R1C9",
+      "R2C2",
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R2C7",
+      "R2C9",
+      "R3C2",
+      "R3C4",
+      "R3C5",
+      "R3C6",
+      "R3C7",
+      "R4C2",
+      "R4C3",
+      "R4C5",
+      "R4C6",
+      "R4C7",
+      "R4C8",
+      "R4C9",
+      "R5C3",
+      "R5C4",
+      "R5C5",
+      "R5C6",
+      "R5C7",
+      "R5C8",
+      "R5C9",
+      "R6C1",
+      "R6C2",
+      "R6C3",
+      "R6C4",
+      "R6C6",
+      "R6C7",
+      "R6C8",
+      "R7C3",
+      "R7C4",
+      "R7C5",
+      "R7C6",
+      "R7C7",
+      "R7C8",
+      "R8C1",
+      "R8C3",
+      "R8C4",
+      "R8C5",
+      "R8C6",
+      "R8C8",
+      "R9C3",
+      "R9C5",
+      "R9C6",
+      "R9C8"
+    ],
+    "actions": [],
+    "rule": "从原始线索建立候选",
+    "details": [
+      "Graham（G） 的原始线索：在第五列。",
+      "G 候选：R2C5；R3C5；R4C5；R5C5；R7C5；R8C5；R9C5。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Hedda（H） 的原始线索：在一丛灌木旁边。",
+      "H 候选：R1C3；R2C4；R5C5；R6C4、6；R7C5。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。",
+      "Vaughn（V） 的原始线索：被害者。和凶手单独在一起。",
+      "V 候选：53 格，分布在 R1–R9 / C1–C9（点人物查看候选）。已应用地图和全局排他条件；涉及另一人的关系留待交叉验证。"
+    ]
+  },
+  {
+    "id": "remote-village-lesson-5",
+    "title": "Delilah：候选缩至 27 格",
+    "explanation": "D 的区域没有男性，D 从 53 格缩到 29 格；D 的区域没有男性，D 从 29 格缩到 27 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "D",
+      "A",
+      "G",
+      "B"
+    ],
+    "candidateCharacters": [
+      "D",
+      "A",
+      "G"
+    ],
+    "highlightCells": [
+      "R1C3",
+      "R1C6",
+      "R1C7",
+      "R1C9",
+      "R2C2",
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R2C7",
+      "R2C9",
+      "R3C2",
+      "R3C4",
+      "R3C5",
+      "R3C6",
+      "R3C7",
+      "R4C2",
+      "R4C3",
+      "R4C5",
+      "R4C6",
+      "R4C7",
+      "R4C8",
+      "R4C9",
+      "R5C3",
+      "R5C4",
+      "R5C5",
+      "R5C6",
+      "R5C7",
+      "R5C8",
+      "R5C9",
+      "R6C1",
+      "R6C2",
+      "R6C3",
+      "R6C4",
+      "R6C6",
+      "R6C7",
+      "R6C8",
+      "R7C3",
+      "R7C4",
+      "R7C5",
+      "R7C6",
+      "R7C7",
+      "R7C8",
+      "R8C1",
+      "R8C3",
+      "R8C4",
+      "R8C5",
+      "R8C6",
+      "R8C8",
+      "R9C3",
+      "R9C5",
+      "R9C6",
+      "R9C8"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R2C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R3C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R4C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R5C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R7C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R8C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R9C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R2C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R9C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R9C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R9C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R9C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R2C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R3C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R4C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R5C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R7C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R8C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R1C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R2C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R2C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R2C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R2C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R3C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R3C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R4C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R5C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R5C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R5C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R6C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R6C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R6C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R6C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R7C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R7C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R7C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R7C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R7C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R8C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R8C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R9C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R9C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R8C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R9C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-4"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "A：每行、每列最多一人。候选从 53 格减至 46 格；剩余 46 格，分布在 R1–R9 / C1–C9（点人物查看候选）。",
+      "B：每行、每列最多一人。候选从 4 格减至 3 格；剩余 R7C7；R8C6、8。",
+      "C：Connor 与 Ethan 的关系线索。候选从 53 格减至 49 格；剩余 49 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "C：每行、每列最多一人。候选从 49 格减至 43 格；剩余 43 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "D：D 的区域没有男性。候选从 53 格减至 29 格；剩余 29 格，分布在 R1–R9 / C1–C9（点人物查看候选）。",
+      "D：D 的区域没有男性。候选从 29 格减至 27 格；剩余 27 格，分布在 R1–R9 / C1–C9（点人物查看候选）。",
+      "例如 D 在 R8C5，找不到既满足两人关系、又不同行同列的 G。G 现有候选：R2C5；R3C5；R4C5；R5C5；R7C5；R8C5；R9C5。"
+    ]
+  },
+  {
+    "id": "remote-village-lesson-6",
+    "title": "Connor：候选缩至 37 格",
+    "explanation": "A 南边恰一行处有女性在车里，A 从 46 格缩到 5 格；A 的 5 个候选共同排除同行同列冲突格，C 从 43 格缩到 37 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "C",
+      "E",
+      "G",
+      "H"
+    ],
+    "candidateCharacters": [
+      "C",
+      "E",
+      "G"
+    ],
+    "highlightCells": [
+      "R1C3",
+      "R1C6",
+      "R1C7",
+      "R1C9",
+      "R2C2",
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R2C6",
+      "R2C7",
+      "R2C9",
+      "R3C2",
+      "R3C4",
+      "R3C5",
+      "R3C6",
+      "R3C7",
+      "R4C2",
+      "R4C3",
+      "R4C5",
+      "R4C6",
+      "R4C7",
+      "R4C8",
+      "R4C9",
+      "R5C3",
+      "R5C4",
+      "R5C5",
+      "R5C6",
+      "R5C7",
+      "R5C8",
+      "R5C9",
+      "R6C1",
+      "R6C2",
+      "R6C3",
+      "R6C4",
+      "R6C6",
+      "R6C7",
+      "R6C8",
+      "R7C3",
+      "R7C4",
+      "R7C5",
+      "R7C6",
+      "R7C7",
+      "R7C8",
+      "R8C1",
+      "R8C3",
+      "R8C4",
+      "R8C5",
+      "R8C6",
+      "R8C8",
+      "R9C3",
+      "R9C5",
+      "R9C6",
+      "R9C8"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R1C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R1C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R1C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R1C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R2C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R3C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R4C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R5C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R7C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R8C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R9C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R5C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R7C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R8C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R9C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R1C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R1C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R1C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R1C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R2C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R2C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R2C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R2C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R2C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R2C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R3C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R3C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R3C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R3C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R4C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R4C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R4C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R4C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R4C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R4C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R5C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R6C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R6C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R6C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R6C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R6C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R6C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R6C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R7C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R7C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R7C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R7C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R7C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R8C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R8C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R8C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R8C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R8C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R9C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R9C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R9C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R5C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R5C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R5C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R5C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R5C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R5C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-5"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "E：Connor 与 Ethan 的关系线索。候选从 53 格减至 49 格；剩余 49 格，分布在 R2–R9 / C1–C9（点人物查看候选）。",
+      "E：每行、每列最多一人。候选从 49 格减至 42 格；剩余 42 格，分布在 R2–R9 / C1–C9（点人物查看候选）。",
+      "H：每行、每列最多一人。候选从 6 格减至 4 格；剩余 R1C3；R2C4；R6C4、6。",
+      "V：每行、每列最多一人。候选从 53 格减至 46 格；剩余 46 格，分布在 R1–R9 / C1–C9（点人物查看候选）。",
+      "A：A 南边恰一行处有女性在车里。候选从 46 格减至 5 格；剩余 R5C3–4、7–9。",
+      "C：每行、每列最多一人。候选从 43 格减至 37 格；剩余 37 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "例如 C 在 R5C3，会与 A 的全部剩余位置同行或同列，无法配对。A 现有候选：R5C3–4、7–9。"
+    ]
+  },
+  {
+    "id": "remote-village-lesson-7",
+    "title": "Bruce：候选缩至 2 格",
+    "explanation": "A 的 5 个候选共同排除同行同列冲突格，V 从 46 格缩到 40 格；A 南边恰一行处有女性在车里，B 从 3 格缩到 2 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "B",
+      "D",
+      "A",
+      "E"
+    ],
+    "candidateCharacters": [
+      "B",
+      "D",
+      "A"
+    ],
+    "highlightCells": [
+      "R1C6",
+      "R1C7",
+      "R1C9",
+      "R2C2",
+      "R2C3",
+      "R2C4",
+      "R2C6",
+      "R2C7",
+      "R2C9",
+      "R3C2",
+      "R3C4",
+      "R3C6",
+      "R3C7",
+      "R4C2",
+      "R4C3",
+      "R4C6",
+      "R4C7",
+      "R4C8",
+      "R4C9",
+      "R5C3",
+      "R5C4",
+      "R5C7",
+      "R5C8",
+      "R5C9",
+      "R6C1",
+      "R6C2",
+      "R6C3",
+      "R6C4",
+      "R6C6",
+      "R6C7",
+      "R6C8",
+      "R7C3",
+      "R7C4",
+      "R7C6",
+      "R7C7",
+      "R7C8",
+      "R8C1",
+      "R8C3",
+      "R8C4",
+      "R8C6",
+      "R8C8",
+      "R9C3",
+      "R9C6",
+      "R9C8"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R5C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R5C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R5C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R5C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R5C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R5C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R5C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R5C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R5C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R5C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R5C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "G",
+        "cell": "R5C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R5C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-6"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R8C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-6"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "D：D 的区域没有男性。候选从 27 格减至 23 格；剩余 23 格，分布在 R1–R9 / C1–C9（点人物查看候选）。",
+      "E：每行、每列最多一人。候选从 42 格减至 36 格；剩余 36 格，分布在 R2–R9 / C1–C9（点人物查看候选）。",
+      "F：每行、每列最多一人。候选从 7 格减至 6 格；剩余 R4C7–8；R6C3；R7C3；R8C3–4。",
+      "G：每行、每列最多一人。候选从 7 格减至 6 格；剩余 R2C5；R3C5；R4C5；R7C5；R8C5；R9C5。",
+      "V：每行、每列最多一人。候选从 46 格减至 40 格；剩余 40 格，分布在 R1–R9 / C1–C9（点人物查看候选）。",
+      "B：A 南边恰一行处有女性在车里。候选从 3 格减至 2 格；剩余 R7C7；R8C8。",
+      "例如假设 B 在 R8C6，同步排除其他人的行列及关系冲突后，“A 南边恰一行处有女性在车里”已没有足够的人数或合适同伴，所以这格不成立。其余被删候选按相同条件逐一核验。"
+    ]
+  },
+  {
+    "id": "remote-village-lesson-8",
+    "title": "Ethan：候选缩至 22 格",
+    "explanation": "A 南边恰一行处有女性在车里，D 从 23 格缩到 16 格；A 南边恰一行处有女性在车里，E 从 35 格缩到 22 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "E",
+      "C",
+      "B",
+      "V"
+    ],
+    "candidateCharacters": [
+      "E",
+      "C",
+      "B"
+    ],
+    "highlightCells": [
+      "R1C3",
+      "R1C6",
+      "R1C7",
+      "R1C9",
+      "R2C2",
+      "R2C3",
+      "R2C4",
+      "R2C6",
+      "R2C7",
+      "R2C9",
+      "R3C2",
+      "R3C4",
+      "R3C6",
+      "R3C7",
+      "R4C2",
+      "R4C3",
+      "R4C6",
+      "R4C7",
+      "R4C8",
+      "R4C9",
+      "R6C1",
+      "R6C2",
+      "R6C3",
+      "R6C4",
+      "R6C6",
+      "R6C7",
+      "R6C8",
+      "R7C3",
+      "R7C4",
+      "R7C6",
+      "R7C7",
+      "R8C1",
+      "R8C3",
+      "R8C4",
+      "R8C6",
+      "R8C8",
+      "R9C3",
+      "R9C6",
+      "R9C8"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R7C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R7C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R1C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R2C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R3C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R4C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R6C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R6C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R6C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R6C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R6C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R6C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R6C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R7C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R8C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R1C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R2C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R3C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R4C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R6C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R6C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R6C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R2C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R3C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R4C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R6C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R6C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R6C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R6C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R6C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R6C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R6C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R7C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R8C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-7"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R9C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-7"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "C：每行、每列最多一人。候选从 37 格减至 36 格；剩余 36 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "E：每行、每列最多一人。候选从 36 格减至 35 格；剩余 35 格，分布在 R2–R9 / C1–C9（点人物查看候选）。",
+      "V：每行、每列最多一人。候选从 40 格减至 39 格；剩余 39 格，分布在 R1–R9 / C1–C9（点人物查看候选）。",
+      "C：A 南边恰一行处有女性在车里。候选从 36 格减至 23 格；剩余 23 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "D：A 南边恰一行处有女性在车里。候选从 23 格减至 16 格；剩余 16 格，分布在 R1–R9 / C1–C9（点人物查看候选）。",
+      "E：A 南边恰一行处有女性在车里。候选从 35 格减至 22 格；剩余 22 格，分布在 R2–R9 / C1–C9（点人物查看候选）。",
+      "例如假设 E 在 R2C6，同步排除其他人的行列及关系冲突后，“A 南边恰一行处有女性在车里”已没有足够的人数或合适同伴，所以这格不成立。其余被删候选按相同条件逐一核验。"
+    ]
+  },
+  {
+    "id": "remote-village-lesson-9",
+    "title": "确定 Hedda",
+    "explanation": "H 只剩 R6C6。A 南边恰一行处有女性在车里，H 从 4 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "H",
+      "F"
+    ],
+    "candidateCharacters": [
+      "F"
+    ],
+    "highlightCells": [
+      "R4C7",
+      "R4C8",
+      "R6C6",
+      "R7C3",
+      "R8C3",
+      "R8C4"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R6C3",
+        "reason": {
+          "ruleId": "A 南边恰一行处有女性在车里",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R1C3",
+        "reason": {
+          "ruleId": "A 南边恰一行处有女性在车里",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R2C4",
+        "reason": {
+          "ruleId": "A 南边恰一行处有女性在车里",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "H",
+        "cell": "R6C4",
+        "reason": {
+          "ruleId": "A 南边恰一行处有女性在车里",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-8"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "H",
+        "cell": "R6C6",
+        "reason": {
+          "ruleId": "A 南边恰一行处有女性在车里",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-8"
+          ]
+        }
+      }
+    ],
+    "rule": "A 南边恰一行处有女性在车里",
+    "details": [
+      "F：A 南边恰一行处有女性在车里。候选从 6 格减至 5 格；剩余 R4C7–8；R7C3；R8C3–4。",
+      "H：A 南边恰一行处有女性在车里。候选从 4 格减至 1 格；剩余 R6C6。",
+      "例如假设 H 在 R1C3，同步排除其他人的行列及关系冲突后，“A 南边恰一行处有女性在车里”已没有足够的人数或合适同伴，所以这格不成立。其余被删候选按相同条件逐一核验。"
+    ]
+  },
+  {
+    "id": "remote-village-lesson-10",
+    "title": "确定 Bruce",
+    "explanation": "B 只剩 R7C7。逐个假设并排除矛盾，B 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "B",
+      "V",
+      "H",
+      "C"
+    ],
+    "candidateCharacters": [
+      "V",
+      "C"
+    ],
+    "highlightCells": [
+      "R1C3",
+      "R1C7",
+      "R1C9",
+      "R2C2",
+      "R2C3",
+      "R2C4",
+      "R2C7",
+      "R2C9",
+      "R3C2",
+      "R3C4",
+      "R3C7",
+      "R4C2",
+      "R4C3",
+      "R4C7",
+      "R4C8",
+      "R4C9",
+      "R6C6",
+      "R7C3",
+      "R7C4",
+      "R7C7",
+      "R8C1",
+      "R8C3",
+      "R8C4",
+      "R9C3"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R6C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R8C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R9C6",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R8C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R3C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R4C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R4C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R4C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R4C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R4C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R8C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R8C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R9C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "B",
+        "cell": "R8C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-9"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "B",
+        "cell": "R7C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-9"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "V：每行、每列最多一人。候选从 39 格减至 25 格；剩余 25 格，分布在 R1–R9 / C1–C9（点人物查看候选）。",
+      "C：E 所在区域至少有一名女性。候选从 23 格减至 22 格；剩余 22 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "E：E 所在区域至少有一名女性。候选从 22 格减至 15 格；剩余 15 格，分布在 R2–R9 / C1–C9（点人物查看候选）。",
+      "V：死者与凶手独处，所在区域恰好两人。候选从 25 格减至 15 格；剩余 15 格，分布在 R1–R9 / C1–C9（点人物查看候选）。",
+      "B：逐个假设 2 个候选，排除 1 个无解分支，剩余 R7C7。这是约束传播与必要时的完整枚举，不是直接看出的唯一位置。",
+      "代表分支 B=R8C8：V 因“C、D、E、F 共 4 人锁定第 2、3、7、9 列”从 6 个候选变为 0 个。候选清空，假设矛盾。完整分支记录保存在证据文件。"
+    ]
+  },
+  {
+    "id": "remote-village-lesson-11",
+    "title": "Ethan：候选缩至 9 格",
+    "explanation": "B 已锁定 R7C7，F 从 5 格缩到 3 格；F 的 3 个候选共同排除同行同列冲突格，E 从 10 格缩到 9 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "E",
+      "A",
+      "B",
+      "C"
+    ],
+    "candidateCharacters": [
+      "E",
+      "A",
+      "C"
+    ],
+    "highlightCells": [
+      "R1C3",
+      "R1C9",
+      "R2C2",
+      "R2C3",
+      "R2C4",
+      "R2C9",
+      "R3C2",
+      "R3C4",
+      "R4C2",
+      "R4C3",
+      "R4C8",
+      "R4C9",
+      "R5C3",
+      "R5C4",
+      "R5C8",
+      "R5C9",
+      "R7C7",
+      "R8C1",
+      "R8C3",
+      "R8C4",
+      "R9C3",
+      "R9C8"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R5C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R1C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R2C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R3C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R4C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R7C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R7C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R7C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R1C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R2C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R3C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R4C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R7C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R2C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R3C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R7C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R7C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R7C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R4C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R7C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-10"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R8C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-10"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "A：每行、每列最多一人。候选从 5 格减至 4 格；剩余 R5C3–4、8–9。",
+      "C：每行、每列最多一人。候选从 22 格减至 15 格；剩余 15 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "D：D 的区域没有男性。候选从 16 格减至 11 格；剩余 11 格，分布在 R1–R9 / C1–C9（点人物查看候选）。",
+      "E：每行、每列最多一人。候选从 15 格减至 10 格；剩余 10 格，分布在 R2–R9 / C1–C9（点人物查看候选）。",
+      "F：每行、每列最多一人。候选从 5 格减至 3 格；剩余 R4C8；R8C3–4。",
+      "E：每行、每列最多一人。候选从 10 格减至 9 格；剩余 9 格，分布在 R2–R9 / C1–C9（点人物查看候选）。",
+      "例如 E 在 R8C8，会与 F 的全部剩余位置同行或同列，无法配对。F 现有候选：R4C8；R8C3–4。"
+    ]
+  },
+  {
+    "id": "remote-village-lesson-12",
+    "title": "确定 Fern",
+    "explanation": "F 只剩 R4C8。逐个假设并排除矛盾，F 从 3 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "F",
+      "G",
+      "B",
+      "V"
+    ],
+    "candidateCharacters": [
+      "G",
+      "V"
+    ],
+    "highlightCells": [
+      "R1C9",
+      "R2C5",
+      "R2C9",
+      "R3C2",
+      "R3C5",
+      "R4C3",
+      "R4C5",
+      "R4C8",
+      "R4C9",
+      "R7C7",
+      "R8C1",
+      "R8C3",
+      "R8C4",
+      "R8C5",
+      "R9C3",
+      "R9C5"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "G",
+        "cell": "R7C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C7",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R7C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R8C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R8C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R8C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "F",
+        "cell": "R8C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-11"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "F",
+        "cell": "R4C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-11"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "G：每行、每列最多一人。候选从 6 格减至 5 格；剩余 R2C5；R3C5；R4C5；R8C5；R9C5。",
+      "V：每行、每列最多一人。候选从 15 格减至 10 格；剩余 10 格，分布在 R1–R9 / C1–C9（点人物查看候选）。",
+      "E：E 所在区域至少有一名女性。候选从 9 格减至 7 格；剩余 R2C2–4、9；R3C4；R9C3、8。",
+      "F：逐个假设 3 个候选，排除 2 个无解分支，剩余 R4C8。这是约束传播与必要时的完整枚举，不是直接看出的唯一位置。",
+      "代表分支 F=R8C3：V 因“A、C、D、E 共 4 人锁定第 2、4、8、9 列”从 5 个候选变为 0 个。候选清空，假设矛盾。完整分支记录保存在证据文件。"
+    ]
+  },
+  {
+    "id": "remote-village-lesson-13",
+    "title": "Graham：候选缩至 4 格",
+    "explanation": "C：在 Ethan 北边。，C 从 11 格缩到 10 格；F 已锁定 R4C8，G 从 5 格缩到 4 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "G",
+      "A",
+      "F",
+      "C"
+    ],
+    "candidateCharacters": [
+      "G",
+      "A",
+      "C"
+    ],
+    "highlightCells": [
+      "R1C3",
+      "R1C9",
+      "R2C2",
+      "R2C3",
+      "R2C4",
+      "R2C5",
+      "R2C9",
+      "R3C2",
+      "R3C4",
+      "R3C5",
+      "R4C8",
+      "R5C3",
+      "R5C4",
+      "R5C9",
+      "R8C1",
+      "R8C4",
+      "R8C5",
+      "R9C5"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R5C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R4C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R4C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R4C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R4C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R4C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R4C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R4C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R4C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R9C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R8C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-12"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "G",
+        "cell": "R4C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-12"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "A：每行、每列最多一人。候选从 4 格减至 3 格；剩余 R5C3–4、9。",
+      "C：每行、每列最多一人。候选从 15 格减至 11 格；剩余 11 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "D：每行、每列最多一人。候选从 11 格减至 7 格；剩余 R1C9；R2C9；R3C2；R8C1、3–4；R9C3。",
+      "E：每行、每列最多一人。候选从 7 格减至 6 格；剩余 R2C2–4、9；R3C4；R9C3。",
+      "C：Connor 与 Ethan 的关系线索。候选从 11 格减至 10 格；剩余 10 格，分布在 R1–R8 / C1–C9（点人物查看候选）。",
+      "G：每行、每列最多一人。候选从 5 格减至 4 格；剩余 R2C5；R3C5；R8C5；R9C5。",
+      "例如 G 在 R4C5，会与 F 的全部剩余位置同行或同列，无法配对。F 现有候选：R4C8。"
+    ]
+  },
+  {
+    "id": "remote-village-lesson-14",
+    "title": "Vaughn：候选缩至 6 格",
+    "explanation": "死者与凶手独处，所在区域恰好两人，D 从 7 格缩到 6 格；死者与凶手独处，所在区域恰好两人，V 从 7 格缩到 6 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "V",
+      "F",
+      "C",
+      "E"
+    ],
+    "candidateCharacters": [
+      "V",
+      "C",
+      "E"
+    ],
+    "highlightCells": [
+      "R1C3",
+      "R1C9",
+      "R2C2",
+      "R2C3",
+      "R2C4",
+      "R2C9",
+      "R3C4",
+      "R4C8",
+      "R8C1",
+      "R8C3",
+      "R8C4",
+      "R9C3"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C8",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R4C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R8C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R8C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R9C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R2C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R3C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R3C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R8C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-13"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R3C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-13"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "V：每行、每列最多一人。候选从 10 格减至 7 格；剩余 R1C9；R2C9；R3C2；R8C1、3–4；R9C3。",
+      "C：E 所在区域至少有一名女性。候选从 10 格减至 8 格；剩余 R1C3、9；R2C2–4、9；R3C2、4。",
+      "E：E 所在区域至少有一名女性。候选从 6 格减至 5 格；剩余 R2C2–4、9；R3C4。",
+      "C：Connor 与 Ethan 的关系线索。候选从 8 格减至 5 格；剩余 R1C3、9；R2C2–3、9。",
+      "D：死者与凶手独处，所在区域恰好两人。候选从 7 格减至 6 格；剩余 R1C9；R2C9；R3C2；R8C1、3；R9C3。",
+      "V：死者与凶手独处，所在区域恰好两人。候选从 7 格减至 6 格；剩余 R1C9；R2C9；R8C1、3–4；R9C3。",
+      "例如假设 V 在 R3C2，同步排除其他人的行列及关系冲突后，“死者与凶手独处，所在区域恰好两人”已没有足够的人数或合适同伴，所以这格不成立。其余被删候选按相同条件逐一核验。"
+    ]
+  },
+  {
+    "id": "remote-village-lesson-15",
+    "title": "确定 Arnold",
+    "explanation": "A 只剩 R5C4。逐个假设并排除矛盾，A 从 3 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "A"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R5C4"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R5C3",
+        "reason": {
+          "ruleId": "逐个假设并排除矛盾",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "A",
+        "cell": "R5C9",
+        "reason": {
+          "ruleId": "逐个假设并排除矛盾",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-14"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "A",
+        "cell": "R5C4",
+        "reason": {
+          "ruleId": "逐个假设并排除矛盾",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-14"
+          ]
+        }
+      }
+    ],
+    "rule": "逐个假设并排除矛盾",
+    "details": [
+      "A：逐个假设 3 个候选，排除 2 个无解分支，剩余 R5C4。这是约束传播与必要时的完整枚举，不是直接看出的唯一位置。",
+      "代表分支 A=R5C3：D 因“D 的区域没有男性”从 1 个候选变为 0 个。候选清空，假设矛盾。完整分支记录保存在证据文件。"
+    ]
+  },
+  {
+    "id": "remote-village-lesson-16",
+    "title": "Vaughn：候选缩至 5 格",
+    "explanation": "E 的 3 个候选共同排除同行同列冲突格，G 从 4 格缩到 3 格；A 已锁定 R5C4，V 从 6 格缩到 5 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "V",
+      "E",
+      "A",
+      "C"
+    ],
+    "candidateCharacters": [
+      "V",
+      "E",
+      "C"
+    ],
+    "highlightCells": [
+      "R1C3",
+      "R1C9",
+      "R2C2",
+      "R2C3",
+      "R2C9",
+      "R5C4",
+      "R8C1",
+      "R8C3",
+      "R9C3"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R2C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R3C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R2C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R2C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R2C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R1C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R2C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "G",
+        "cell": "R2C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-15"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R8C4",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-15"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "E：每行、每列最多一人。候选从 5 格减至 3 格；剩余 R2C2–3、9。",
+      "C：Connor 与 Ethan 的关系线索。候选从 5 格减至 2 格；剩余 R1C3、9。",
+      "D：D 的区域没有男性。候选从 6 格减至 5 格；剩余 R2C9；R3C2；R8C1、3；R9C3。",
+      "D：D 的区域没有男性。候选从 5 格减至 4 格；剩余 R3C2；R8C1、3；R9C3。",
+      "G：每行、每列最多一人。候选从 4 格减至 3 格；剩余 R3C5；R8C5；R9C5。",
+      "V：每行、每列最多一人。候选从 6 格减至 5 格；剩余 R1C9；R2C9；R8C1、3；R9C3。",
+      "例如 V 在 R8C4，会与 A 的全部剩余位置同行或同列，无法配对。A 现有候选：R5C4。"
+    ]
+  },
+  {
+    "id": "remote-village-lesson-17",
+    "title": "确定 Delilah",
+    "explanation": "D 只剩 R3C2。D 的区域没有男性，D 从 4 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "D",
+      "V",
+      "C",
+      "E"
+    ],
+    "candidateCharacters": [
+      "V",
+      "C",
+      "E"
+    ],
+    "highlightCells": [
+      "R1C3",
+      "R1C9",
+      "R2C2",
+      "R2C3",
+      "R2C9",
+      "R3C2",
+      "R8C1",
+      "R8C3",
+      "R9C3"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R1C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-16"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R2C9",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-16"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R8C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-16"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R8C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-16"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "D",
+        "cell": "R9C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-16"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "D",
+        "cell": "R3C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-16"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "V：每行、每列最多一人。候选从 5 格减至 4 格；剩余 R2C9；R8C1、3；R9C3。",
+      "V：每行、每列最多一人。候选从 4 格减至 3 格；剩余 R8C1、3；R9C3。",
+      "D：D 的区域没有男性。候选从 4 格减至 1 格；剩余 R3C2。",
+      "例如 D 在 R8C1，找不到既满足两人关系、又不同行同列的 V。V 现有候选：R8C1、3；R9C3。"
+    ]
+  },
+  {
+    "id": "remote-village-lesson-18",
+    "title": "确定 Vaughn",
+    "explanation": "V 只剩 R8C1。C、E 共 2 人锁定第 3、9 列，V 从 3 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "V",
+      "E",
+      "D",
+      "G"
+    ],
+    "candidateCharacters": [
+      "E",
+      "G"
+    ],
+    "highlightCells": [
+      "R2C3",
+      "R2C9",
+      "R3C2",
+      "R8C1",
+      "R8C5",
+      "R9C5"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R2C2",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-17"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "G",
+        "cell": "R3C5",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-17"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R8C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-17"
+          ]
+        }
+      },
+      {
+        "type": "removeCandidate",
+        "character": "V",
+        "cell": "R9C3",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-17"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "V",
+        "cell": "R8C1",
+        "reason": {
+          "ruleId": "连续应用相关约束",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-17"
+          ]
+        }
+      }
+    ],
+    "rule": "连续应用相关约束",
+    "details": [
+      "E：D 的区域没有男性。候选从 3 格减至 2 格；剩余 R2C3、9。",
+      "G：D 的区域没有男性。候选从 3 格减至 2 格；剩余 R8C5；R9C5。",
+      "V：C、E 共 2 人锁定第 3、9 列。候选从 3 格减至 1 格；剩余 R8C1。",
+      "C、E 共 2 人，只能用第 3、9 列，必须恰好占满；V 因此不能用这些列。各人范围：C 在第 3、9 列；E 在第 3、9 列。"
+    ]
+  },
+  {
+    "id": "remote-village-lesson-19",
+    "title": "确定 Graham",
+    "explanation": "G 只剩 R9C5。V 已锁定 R8C1，G 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "G",
+      "V"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R8C1",
+      "R9C5"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "G",
+        "cell": "R8C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-18"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "G",
+        "cell": "R9C5",
+        "reason": {
+          "ruleId": "每行、每列最多一人",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-18"
+          ]
+        }
+      }
+    ],
+    "rule": "每行、每列最多一人",
+    "details": [
+      "G：每行、每列最多一人。候选从 2 格减至 1 格；剩余 R9C5。",
+      "例如 G 在 R8C5，会与 V 的全部剩余位置同行或同列，无法配对。V 现有候选：R8C1。"
+    ]
+  },
+  {
+    "id": "remote-village-lesson-20",
+    "title": "确定 Connor",
+    "explanation": "C 只剩 R1C3。恰好一人坐椅子，C 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "C"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R1C3"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "C",
+        "cell": "R1C9",
+        "reason": {
+          "ruleId": "恰好一人坐椅子",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-19"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "C",
+        "cell": "R1C3",
+        "reason": {
+          "ruleId": "恰好一人坐椅子",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-19"
+          ]
+        }
+      }
+    ],
+    "rule": "恰好一人坐椅子",
+    "details": [
+      "C：恰好一人坐椅子。候选从 2 格减至 1 格；剩余 R1C3。",
+      "例如假设 C 在 R1C9，同步排除其他人的行列及关系冲突后，“恰好一人坐椅子”已没有足够的人数或合适同伴，所以这格不成立。其余被删候选按相同条件逐一核验。"
+    ]
+  },
+  {
+    "id": "remote-village-lesson-21",
+    "title": "确定 Ethan",
+    "explanation": "E 只剩 R2C9。C：在 Ethan 北边。，E 从 2 格缩到 1 格",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "E",
+      "C"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R1C3",
+      "R2C9"
+    ],
+    "actions": [
+      {
+        "type": "removeCandidate",
+        "character": "E",
+        "cell": "R2C3",
+        "reason": {
+          "ruleId": "Connor 与 Ethan 的关系线索",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-20"
+          ]
+        }
+      },
+      {
+        "type": "placeCharacter",
+        "character": "E",
+        "cell": "R2C9",
+        "reason": {
+          "ruleId": "Connor 与 Ethan 的关系线索",
+          "clueRefs": [
+            "A-clue",
+            "B-clue",
+            "C-clue",
+            "D-clue",
+            "E-clue",
+            "F-clue",
+            "G-clue",
+            "H-clue",
+            "V-clue",
+            "general-1"
+          ],
+          "dependsOn": [
+            "remote-village-lesson-20"
+          ]
+        }
+      }
+    ],
+    "rule": "Connor 与 Ethan 的关系线索",
+    "details": [
+      "E：Connor 与 Ethan 的关系线索。候选从 2 格减至 1 格；剩余 R2C9。",
+      "例如 E 在 R2C3，找不到既满足两人关系、又不同行同列的 C。C 现有候选：R1C3。"
+    ]
+  },
+  {
+    "id": "remote-village-lesson-22",
+    "title": "Graham 是凶手",
+    "explanation": "死者 V 位于杂货店的 R8C1；同区唯一另一人是 Graham（G），位置为 R9C5。",
+    "clueRefs": [
+      "A-clue",
+      "B-clue",
+      "C-clue",
+      "D-clue",
+      "E-clue",
+      "F-clue",
+      "G-clue",
+      "H-clue",
+      "V-clue",
+      "general-1"
+    ],
+    "focusCharacters": [
+      "G",
+      "V"
+    ],
+    "candidateCharacters": [],
+    "highlightCells": [
+      "R8C1",
+      "R9C5"
+    ],
+    "actions": [],
+    "rule": "死者与凶手独处",
+    "details": [
+      "死者线索要求与凶手独处，必须以最终逻辑区域的同区人数判定。",
+      "杂货店实际人物：G 在 R9C5、V 在 R8C1；其余所有人都在其他区域。",
+      "9 人全部有位置，且每行、每列均无冲突。",
+      "最终位置由初始候选与记录中的约束排除得到；原始答案只由求解脚本在结束时作一致性核对。"
+    ]
+  }
+]

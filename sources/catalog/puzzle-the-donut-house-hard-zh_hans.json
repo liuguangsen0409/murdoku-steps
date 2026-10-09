@@ -1,0 +1,51 @@
+{
+  "GRID": {
+    "room_name_0": "客厅",
+    "room_name_1": "洗手间",
+    "room_name_2": "走廊",
+    "room_name_3": "主卧",
+    "room_name_4": "客卧",
+    "room_name_5": "厨房"
+  },
+  "CHARACTERS": {
+    "char_name_0": "Allison",
+    "char_quote_zh_hans_0": "她在床上。她独自一人。",
+    "char_subquote_zh_hans_0": "",
+    "char_name_1": "Bonnie",
+    "char_quote_zh_hans_1": "她在地毯上。",
+    "char_subquote_zh_hans_1": "",
+    "char_name_2": "Claudio",
+    "char_quote_zh_hans_2": "他在电视旁边。",
+    "char_subquote_zh_hans_2": "",
+    "char_name_3": "Duncan",
+    "char_quote_zh_hans_3": "他在厨房。",
+    "char_subquote_zh_hans_3": "",
+    "char_name_4": "Evan",
+    "char_quote_zh_hans_4": "他独自一人。",
+    "char_subquote_zh_hans_4": "",
+    "char_name_5": "Fabrice",
+    "char_quote_zh_hans_5": "他在植物旁边。",
+    "char_subquote_zh_hans_5": "",
+    "char_name_6": "Gracie",
+    "char_quote_zh_hans_6": "她在架子旁边。",
+    "char_subquote_zh_hans_6": "",
+    "char_name_7": "Hudson",
+    "char_quote_zh_hans_7": "在他正北方两行处，有一个男人坐在椅子上。",
+    "char_subquote_zh_hans_7": "",
+    "char_name_8": "Vallie",
+    "char_quote_zh_hans_8": "被害者。和凶手单独在一起。",
+    "char_subquote_zh_hans_8": ""
+  },
+  "PROPERTIES": {
+    "puzzle_version": "2",
+    "clue_custom_text1": "正好有一个区域是空的。",
+    "player_hint_1_zh_hans": "谁可能是坐在椅子上、位于 (H) 以北两行的那个男人？能够位于 (H) 以北两行的椅子只有客厅或客卧角落里的那些，这就排除了 (C)、(D) 和 (F)。因此 (E) 是唯一能够坐在 (H) 以北两行椅子上的男人。(E) 独自一人，要么在客厅，要么在客卧。",
+    "player_hint_2_zh_hans": "根据 (A) 自己的线索，她独自一人在客卧或主卧。(C) 在主卧或客厅，但既不与 (A) 在一起，也不与 (E) 在一起。换句话说，客厅、主卧和客卧必须分别由 (A)、(E)、(C) 占据，顺序不限。厨房由 (D) 占据，走廊由 (B) 占据，走廊是唯一有地毯的区域。这样一来，洗手间就成了唯一可能空着的区域，请封锁洗手间里的每一格。",
+    "player_hint_3_zh_hans": "R9 中正好只有一格可用。这是一个 9x9 的方格，正好有 9 个角色，因此每行正好有一个人，所以一定有人在 R9 C7。封锁 C7 的其余部分。",
+    "player_hint_4_zh_hans": "独自一人在卧室里的 (A) 现在必须在 R3 的床上。封锁 R3 的其余部分，并封锁客卧的其余部分。",
+    "player_hint_5_zh_hans": "这样就把某人锁定在 R1 的最后一格：R1 C2。封锁 C2 的其余部分。",
+    "player_hint_6_zh_hans": "这样就把 (E) 锁定在最后一把椅子上，封锁客厅的其余部分。由此确定 (H) 在他以南两行的 R8。",
+    "player_hint_7_zh_hans": "这样就把 (C) 锁定在电视旁边的最后一格，接着是 (A)，再接着是 (H)。这样还把 (B) 锁定在最后一格地毯上，把 (G) 锁定在架子旁边的最后一格。",
+    "player_hint_8_zh_hans": "这样就把 (D) 锁定在厨房的最后一格 R1 C2，把 (F) 锁定在植物旁边的最后一格 R9 C7。这样就把 (V) 锁定在最后一格 R7 C4，与 (B) 单独在一起。凶手是 Bonnie！"
+  }
+}

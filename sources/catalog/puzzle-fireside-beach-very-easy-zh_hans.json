@@ -1,0 +1,34 @@
+{
+  "PROPERTIES": {
+    "puzzle_version": "2",
+    "clue_custom_text1": "",
+    "clue_custom_text2": "",
+    "clue_custom_text3": "",
+    "player_hint_count": "4",
+    "player_hint_1_zh_hans": "巨石旁边只有一个格子可以放 (D)，这就把她锁定在 R5 C4。长按即可放置 (D)。",
+    "player_hint_2_zh_hans": "现在树林里不在树旁边的格子只剩一个可以放 (B)，就是 R1 C1。",
+    "player_hint_3_zh_hans": "这就把 (C) 锁定在 C5 中最后剩下的格子：R3 C5。",
+    "player_hint_4_zh_hans": "这就把 (A) 锁定在 (C) 以南最后的格子 R4 C2，然后 (V) 在最后一个格子 R2 C3。(V) 在树林里和 (B) 单独在一起，凶手就是 Basil！"
+  },
+  "CHARACTERS": {
+    "room_name_0": "海滩",
+    "room_name_1": "树林",
+    "room_name_2": "帐篷",
+    "title_zh_hans_": "海滩篝火",
+    "char_name_0": "Angelo",
+    "char_quote_zh_hans_0": "他在 Corinne 的南边。",
+    "char_subquote_zh_hans_0": "",
+    "char_name_1": "Basil",
+    "char_quote_zh_hans_1": "他在树林里。他不在树旁边。",
+    "char_subquote_zh_hans_1": "",
+    "char_name_2": "Corinne",
+    "char_quote_zh_hans_2": "她在最后一列。",
+    "char_subquote_zh_hans_2": "",
+    "char_name_3": "Daryl",
+    "char_quote_zh_hans_3": "她在巨石旁边。",
+    "char_subquote_zh_hans_3": "",
+    "char_name_4": "Van",
+    "char_quote_zh_hans_4": "受害者。他和凶手单独在一起。",
+    "char_subquote_zh_hans_4": ""
+  }
+}

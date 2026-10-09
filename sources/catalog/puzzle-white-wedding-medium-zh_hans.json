@@ -1,0 +1,51 @@
+{
+  "PROPERTIES": {
+    "player_hint_1_zh_hans": "由于总体线索说祭坛上有一男一女，我们可以推断他们必须占据R1和R2，因为祭坛只跨两行。划掉这两行的其他所有格子。",
+    "player_hint_2_zh_hans": "在所有女性中，只有(C)可能在祭坛。不可能是(B)，因为她必须挨着花。不可能是(D)，因为她在门廊。不可能是(G)，因为她必须在有树的区域。不可能是(H)，因为她坐在椅子上。这意味着祭坛上的女性是(C)，所以她在R2 C5。由于(E)在(C)的东北方，他必须在R1 C6。",
+    "player_hint_3_zh_hans": "这样(D)就被限定在R9 C4，门廊的最后一格。由于(F)必须在其所在区域的角落，他必须在R7 C7，唯一剩下的角落。",
+    "player_hint_4_zh_hans": "(H)会占据R5 C3的最后一把椅子。(A)会在R6 C9，因为那是他能挨着桌子的最后一格。",
+    "player_hint_5_zh_hans": "(B)能挨着花的最后一格是R8 C8。",
+    "player_hint_6_zh_hans": "由于(G)和一个曾挨着树的人在一起，那个人必须占据R3 C1。划掉所有与R3 C1交叉的格子。这意味着(G)必须在R4 C2。这样最后一格R3 C1留给(V)，所以凶手是(G)。",
+    "puzzle_version": "2",
+    "clue_custom_text1": "祭坛上有一个男人和一个女人。",
+    "general_clue_0": "祭坛上有一个男人和一个女人。"
+  },
+  "GRID": {
+    "title_zh_hans_": "白色婚礼",
+    "room_name_0": "小教堂",
+    "room_name_1": "西院",
+    "room_name_2": "洞穴",
+    "room_name_3": "门廊",
+    "room_name_4": "东院",
+    "room_name_5": "祭坛"
+  },
+  "CHARACTERS": {
+    "char_name_0": "Archer",
+    "char_quote_zh_hans_0": "在一张桌子旁边。",
+    "char_subquote_zh_hans_0": "",
+    "char_name_1": "Brooke",
+    "char_quote_zh_hans_1": "在花旁边。",
+    "char_subquote_zh_hans_1": "",
+    "char_name_2": "Crystal",
+    "char_quote_zh_hans_2": "在第五列。",
+    "char_subquote_zh_hans_2": "",
+    "char_name_3": "Daisy",
+    "char_quote_zh_hans_3": "在门廊。",
+    "char_subquote_zh_hans_3": "",
+    "char_name_4": "Ernie",
+    "char_quote_zh_hans_4": "在 Crystal 东北边。",
+    "char_subquote_zh_hans_4": "",
+    "char_name_5": "Finn",
+    "char_quote_zh_hans_5": "在自己区域的一个角落里。",
+    "char_subquote_zh_hans_5": "",
+    "char_name_6": "Giulia",
+    "char_quote_zh_hans_6": "和一个在树旁边的人在一起。",
+    "char_subquote_zh_hans_6": "",
+    "char_name_7": "Harper",
+    "char_quote_zh_hans_7": "坐在一把椅子上。",
+    "char_subquote_zh_hans_7": "",
+    "char_name_8": "Vikram",
+    "char_quote_zh_hans_8": "被害者。和凶手单独在一起。",
+    "char_subquote_zh_hans_8": ""
+  }
+}

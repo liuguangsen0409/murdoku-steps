@@ -1,0 +1,2378 @@
+{
+  "id": "the-terracotta-courtyard",
+  "width": 9,
+  "height": 9,
+  "cells": [
+    {
+      "id": "R1C1",
+      "row": 1,
+      "col": 1,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#f0adad",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R1C2",
+      "row": 1,
+      "col": 2,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#f0adad",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R1C3",
+      "row": 1,
+      "col": 3,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        2
+      ],
+      "fill": "#f0adad",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R1C4",
+      "row": 1,
+      "col": 4,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#f0adad",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R1C5",
+      "row": 1,
+      "col": 5,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#f0adad",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R1C6",
+      "row": 1,
+      "col": 6,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#d48673",
+      "texture": "rocks",
+      "floorType": 2,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_rocks.svg"
+    },
+    {
+      "id": "R1C7",
+      "row": 1,
+      "col": 7,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        4
+      ],
+      "fill": "#d48673",
+      "texture": "rocks",
+      "floorType": 2,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_rocks.svg"
+    },
+    {
+      "id": "R1C8",
+      "row": 1,
+      "col": 8,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        1
+      ],
+      "fill": "#d48673",
+      "texture": "rocks",
+      "floorType": 2,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_rocks.svg"
+    },
+    {
+      "id": "R1C9",
+      "row": 1,
+      "col": 9,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#d48673",
+      "texture": "rocks",
+      "floorType": 2,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_rocks.svg"
+    },
+    {
+      "id": "R2C1",
+      "row": 2,
+      "col": 1,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        2
+      ],
+      "fill": "#f0adad",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R2C2",
+      "row": 2,
+      "col": 2,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        4
+      ],
+      "fill": "#f0adad",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R2C3",
+      "row": 2,
+      "col": 3,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        4
+      ],
+      "fill": "#f0adad",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R2C4",
+      "row": 2,
+      "col": 4,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#f0adad",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R2C5",
+      "row": 2,
+      "col": 5,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#d48673",
+      "texture": "rocks",
+      "floorType": 2,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_rocks.svg"
+    },
+    {
+      "id": "R2C6",
+      "row": 2,
+      "col": 6,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#d48673",
+      "texture": "rocks",
+      "floorType": 2,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_rocks.svg"
+    },
+    {
+      "id": "R2C7",
+      "row": 2,
+      "col": 7,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": true,
+      "objectIds": [],
+      "fill": "#628ed5",
+      "texture": "water",
+      "floorType": 12,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_water.svg"
+    },
+    {
+      "id": "R2C8",
+      "row": 2,
+      "col": 8,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": true,
+      "objectIds": [],
+      "fill": "#628ed5",
+      "texture": "water",
+      "floorType": 12,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_water.svg"
+    },
+    {
+      "id": "R2C9",
+      "row": 2,
+      "col": 9,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        2
+      ],
+      "fill": "#d48673",
+      "texture": "rocks",
+      "floorType": 2,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_rocks.svg"
+    },
+    {
+      "id": "R3C1",
+      "row": 3,
+      "col": 1,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        13
+      ],
+      "fill": "#f0adad",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R3C2",
+      "row": 3,
+      "col": 2,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        2
+      ],
+      "fill": "#f0adad",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R3C3",
+      "row": 3,
+      "col": 3,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        2
+      ],
+      "fill": "#f0adad",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R3C4",
+      "row": 3,
+      "col": 4,
+      "roomId": 0,
+      "regionId": 0,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        1
+      ],
+      "fill": "#f0adad",
+      "texture": "smalltiles",
+      "floorType": 16,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_smalltiles.svg"
+    },
+    {
+      "id": "R3C5",
+      "row": 3,
+      "col": 5,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#d48673",
+      "texture": "rocks",
+      "floorType": 2,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_rocks.svg"
+    },
+    {
+      "id": "R3C6",
+      "row": 3,
+      "col": 6,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#d48673",
+      "texture": "rocks",
+      "floorType": 2,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_rocks.svg"
+    },
+    {
+      "id": "R3C7",
+      "row": 3,
+      "col": 7,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": true,
+      "objectIds": [],
+      "fill": "#628ed5",
+      "texture": "water",
+      "floorType": 12,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_water.svg"
+    },
+    {
+      "id": "R3C8",
+      "row": 3,
+      "col": 8,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": true,
+      "objectIds": [],
+      "fill": "#628ed5",
+      "texture": "water",
+      "floorType": 12,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_water.svg"
+    },
+    {
+      "id": "R3C9",
+      "row": 3,
+      "col": 9,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        2
+      ],
+      "fill": "#d48673",
+      "texture": "rocks",
+      "floorType": 2,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_rocks.svg"
+    },
+    {
+      "id": "R4C1",
+      "row": 4,
+      "col": 1,
+      "roomId": 6,
+      "regionId": 6,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        13
+      ],
+      "fill": "#a7a59a",
+      "texture": "plain",
+      "floorType": 28,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R4C2",
+      "row": 4,
+      "col": 2,
+      "roomId": 6,
+      "regionId": 6,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#a7a59a",
+      "texture": "plain",
+      "floorType": 28,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R4C3",
+      "row": 4,
+      "col": 3,
+      "roomId": 6,
+      "regionId": 6,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#a7a59a",
+      "texture": "plain",
+      "floorType": 28,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R4C4",
+      "row": 4,
+      "col": 4,
+      "roomId": 6,
+      "regionId": 6,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#a7a59a",
+      "texture": "plain",
+      "floorType": 28,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R4C5",
+      "row": 4,
+      "col": 5,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#d48673",
+      "texture": "rocks",
+      "floorType": 2,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_rocks.svg"
+    },
+    {
+      "id": "R4C6",
+      "row": 4,
+      "col": 6,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        2
+      ],
+      "fill": "#d48673",
+      "texture": "rocks",
+      "floorType": 2,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_rocks.svg"
+    },
+    {
+      "id": "R4C7",
+      "row": 4,
+      "col": 7,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": true,
+      "objectIds": [],
+      "fill": "#628ed5",
+      "texture": "water",
+      "floorType": 12,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_water.svg"
+    },
+    {
+      "id": "R4C8",
+      "row": 4,
+      "col": 8,
+      "roomId": 1,
+      "regionId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "water": true,
+      "objectIds": [],
+      "fill": "#628ed5",
+      "texture": "water",
+      "floorType": 12,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_water.svg"
+    },
+    {
+      "id": "R4C9",
+      "row": 4,
+      "col": 9,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": true,
+      "carpet": true,
+      "water": false,
+      "objectIds": [
+        5
+      ],
+      "fill": "#d48673",
+      "texture": "rocks",
+      "floorType": 2,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_rocks.svg"
+    },
+    {
+      "id": "R5C1",
+      "row": 5,
+      "col": 1,
+      "roomId": 6,
+      "regionId": 6,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        4
+      ],
+      "fill": "#a7a59a",
+      "texture": "plain",
+      "floorType": 28,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R5C2",
+      "row": 5,
+      "col": 2,
+      "roomId": 6,
+      "regionId": 6,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        4
+      ],
+      "fill": "#a7a59a",
+      "texture": "plain",
+      "floorType": 28,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R5C3",
+      "row": 5,
+      "col": 3,
+      "roomId": 6,
+      "regionId": 6,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#a7a59a",
+      "texture": "plain",
+      "floorType": 28,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R5C4",
+      "row": 5,
+      "col": 4,
+      "roomId": 5,
+      "regionId": 5,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#e4a595",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R5C5",
+      "row": 5,
+      "col": 5,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        1
+      ],
+      "fill": "#d48673",
+      "texture": "rocks",
+      "floorType": 2,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_rocks.svg"
+    },
+    {
+      "id": "R5C6",
+      "row": 5,
+      "col": 6,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#d48673",
+      "texture": "rocks",
+      "floorType": 2,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_rocks.svg"
+    },
+    {
+      "id": "R5C7",
+      "row": 5,
+      "col": 7,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": true,
+      "carpet": true,
+      "water": false,
+      "objectIds": [
+        5
+      ],
+      "fill": "#d48673",
+      "texture": "rocks",
+      "floorType": 2,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_rocks.svg"
+    },
+    {
+      "id": "R5C8",
+      "row": 5,
+      "col": 8,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": true,
+      "carpet": true,
+      "water": false,
+      "objectIds": [
+        5
+      ],
+      "fill": "#d48673",
+      "texture": "rocks",
+      "floorType": 2,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_rocks.svg"
+    },
+    {
+      "id": "R5C9",
+      "row": 5,
+      "col": 9,
+      "roomId": 3,
+      "regionId": 3,
+      "occupiable": true,
+      "carpet": true,
+      "water": false,
+      "objectIds": [
+        5
+      ],
+      "fill": "#d48673",
+      "texture": "rocks",
+      "floorType": 2,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_rocks.svg"
+    },
+    {
+      "id": "R6C1",
+      "row": 6,
+      "col": 1,
+      "roomId": 6,
+      "regionId": 6,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#a7a59a",
+      "texture": "plain",
+      "floorType": 28,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R6C2",
+      "row": 6,
+      "col": 2,
+      "roomId": 6,
+      "regionId": 6,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#a7a59a",
+      "texture": "plain",
+      "floorType": 28,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R6C3",
+      "row": 6,
+      "col": 3,
+      "roomId": 6,
+      "regionId": 6,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#a7a59a",
+      "texture": "plain",
+      "floorType": 28,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R6C4",
+      "row": 6,
+      "col": 4,
+      "roomId": 5,
+      "regionId": 5,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#e4a595",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R6C5",
+      "row": 6,
+      "col": 5,
+      "roomId": 5,
+      "regionId": 5,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        3
+      ],
+      "fill": "#e4a595",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R6C6",
+      "row": 6,
+      "col": 6,
+      "roomId": 5,
+      "regionId": 5,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#e4a595",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R6C7",
+      "row": 6,
+      "col": 7,
+      "roomId": 7,
+      "regionId": 7,
+      "occupiable": true,
+      "carpet": true,
+      "water": false,
+      "objectIds": [
+        5
+      ],
+      "fill": "#e9cc9b",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R6C8",
+      "row": 6,
+      "col": 8,
+      "roomId": 7,
+      "regionId": 7,
+      "occupiable": true,
+      "carpet": true,
+      "water": false,
+      "objectIds": [
+        5
+      ],
+      "fill": "#e9cc9b",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R6C9",
+      "row": 6,
+      "col": 9,
+      "roomId": 7,
+      "regionId": 7,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#e9cc9b",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R7C1",
+      "row": 7,
+      "col": 1,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#a38a80",
+      "texture": "plain",
+      "floorType": 6,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R7C2",
+      "row": 7,
+      "col": 2,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#a38a80",
+      "texture": "plain",
+      "floorType": 6,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R7C3",
+      "row": 7,
+      "col": 3,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#a38a80",
+      "texture": "plain",
+      "floorType": 6,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R7C4",
+      "row": 7,
+      "col": 4,
+      "roomId": 5,
+      "regionId": 5,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#e4a595",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R7C5",
+      "row": 7,
+      "col": 5,
+      "roomId": 5,
+      "regionId": 5,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#e4a595",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R7C6",
+      "row": 7,
+      "col": 6,
+      "roomId": 5,
+      "regionId": 5,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#e4a595",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R7C7",
+      "row": 7,
+      "col": 7,
+      "roomId": 7,
+      "regionId": 7,
+      "occupiable": true,
+      "carpet": true,
+      "water": false,
+      "objectIds": [
+        5
+      ],
+      "fill": "#e9cc9b",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R7C8",
+      "row": 7,
+      "col": 8,
+      "roomId": 7,
+      "regionId": 7,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#e9cc9b",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R7C9",
+      "row": 7,
+      "col": 9,
+      "roomId": 7,
+      "regionId": 7,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        7
+      ],
+      "fill": "#e9cc9b",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R8C1",
+      "row": 8,
+      "col": 1,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#a38a80",
+      "texture": "plain",
+      "floorType": 6,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R8C2",
+      "row": 8,
+      "col": 2,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        21
+      ],
+      "fill": "#a38a80",
+      "texture": "plain",
+      "floorType": 6,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R8C3",
+      "row": 8,
+      "col": 3,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        21
+      ],
+      "fill": "#a38a80",
+      "texture": "plain",
+      "floorType": 6,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R8C4",
+      "row": 8,
+      "col": 4,
+      "roomId": 5,
+      "regionId": 5,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        2
+      ],
+      "fill": "#e4a595",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R8C5",
+      "row": 8,
+      "col": 5,
+      "roomId": 5,
+      "regionId": 5,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#e4a595",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R8C6",
+      "row": 8,
+      "col": 6,
+      "roomId": 5,
+      "regionId": 5,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        2
+      ],
+      "fill": "#e4a595",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R8C7",
+      "row": 8,
+      "col": 7,
+      "roomId": 7,
+      "regionId": 7,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#e9cc9b",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R8C8",
+      "row": 8,
+      "col": 8,
+      "roomId": 7,
+      "regionId": 7,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#e9cc9b",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R8C9",
+      "row": 8,
+      "col": 9,
+      "roomId": 7,
+      "regionId": 7,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        7
+      ],
+      "fill": "#e9cc9b",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R9C1",
+      "row": 9,
+      "col": 1,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#a38a80",
+      "texture": "plain",
+      "floorType": 6,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R9C2",
+      "row": 9,
+      "col": 2,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        13
+      ],
+      "fill": "#a38a80",
+      "texture": "plain",
+      "floorType": 6,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R9C3",
+      "row": 9,
+      "col": 3,
+      "roomId": 4,
+      "regionId": 4,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        4
+      ],
+      "fill": "#a38a80",
+      "texture": "plain",
+      "floorType": 6,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": null
+    },
+    {
+      "id": "R9C4",
+      "row": 9,
+      "col": 4,
+      "roomId": 5,
+      "regionId": 5,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        1
+      ],
+      "fill": "#e4a595",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R9C5",
+      "row": 9,
+      "col": 5,
+      "roomId": 5,
+      "regionId": 5,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        2
+      ],
+      "fill": "#e4a595",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R9C6",
+      "row": 9,
+      "col": 6,
+      "roomId": 5,
+      "regionId": 5,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        13
+      ],
+      "fill": "#e4a595",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R9C7",
+      "row": 9,
+      "col": 7,
+      "roomId": 7,
+      "regionId": 7,
+      "occupiable": true,
+      "carpet": false,
+      "water": false,
+      "objectIds": [],
+      "fill": "#e9cc9b",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R9C8",
+      "row": 9,
+      "col": 8,
+      "roomId": 7,
+      "regionId": 7,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        13
+      ],
+      "fill": "#e9cc9b",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    },
+    {
+      "id": "R9C9",
+      "row": 9,
+      "col": 9,
+      "roomId": 7,
+      "regionId": 7,
+      "occupiable": false,
+      "carpet": false,
+      "water": false,
+      "objectIds": [
+        13
+      ],
+      "fill": "#e9cc9b",
+      "texture": "woodentile",
+      "floorType": 0,
+      "puddle": false,
+      "path": false,
+      "sand": false,
+      "textureAsset": "/assets/catalog/textures/texture_floor_woodentile.svg"
+    }
+  ],
+  "objects": [
+    {
+      "id": "object-1-3",
+      "kind": "chair",
+      "cells": [
+        "R1C3"
+      ],
+      "asset": "/assets/catalog/the-terracotta-courtyard/objects/chair.svg",
+      "x": 2,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "objectId": 2
+    },
+    {
+      "id": "object-1-7",
+      "kind": "table",
+      "cells": [
+        "R1C7"
+      ],
+      "asset": "/assets/catalog/the-terracotta-courtyard/objects/table.svg",
+      "x": 6,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "objectId": 4
+    },
+    {
+      "id": "object-1-8",
+      "kind": "plant",
+      "cells": [
+        "R1C8"
+      ],
+      "asset": "/assets/catalog/the-terracotta-courtyard/objects/plant.svg",
+      "x": 7,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "objectId": 1
+    },
+    {
+      "id": "object-2-1",
+      "kind": "chair",
+      "cells": [
+        "R2C1"
+      ],
+      "asset": "/assets/catalog/the-terracotta-courtyard/objects/chair.svg",
+      "x": 0,
+      "y": 1,
+      "width": 1,
+      "height": 1,
+      "objectId": 2
+    },
+    {
+      "id": "object-2-2",
+      "kind": "table",
+      "cells": [
+        "R2C2"
+      ],
+      "asset": "/assets/catalog/the-terracotta-courtyard/objects/table.svg",
+      "x": 1,
+      "y": 1,
+      "width": 1,
+      "height": 1,
+      "objectId": 4
+    },
+    {
+      "id": "object-2-3",
+      "kind": "table",
+      "cells": [
+        "R2C3"
+      ],
+      "asset": "/assets/catalog/the-terracotta-courtyard/objects/table.svg",
+      "x": 2,
+      "y": 1,
+      "width": 1,
+      "height": 1,
+      "objectId": 4
+    },
+    {
+      "id": "object-2-9",
+      "kind": "chair",
+      "cells": [
+        "R2C9"
+      ],
+      "asset": "/assets/catalog/the-terracotta-courtyard/objects/chair.svg",
+      "x": 8,
+      "y": 1,
+      "width": 1,
+      "height": 1,
+      "objectId": 2
+    },
+    {
+      "id": "object-3-1",
+      "kind": "shelf",
+      "cells": [
+        "R3C1"
+      ],
+      "asset": "/assets/catalog/the-terracotta-courtyard/objects/shelf.svg",
+      "x": 0,
+      "y": 2,
+      "width": 1,
+      "height": 1,
+      "objectId": 13
+    },
+    {
+      "id": "object-3-2",
+      "kind": "chair",
+      "cells": [
+        "R3C2"
+      ],
+      "asset": "/assets/catalog/the-terracotta-courtyard/objects/chair.svg",
+      "x": 1,
+      "y": 2,
+      "width": 1,
+      "height": 1,
+      "objectId": 2
+    },
+    {
+      "id": "object-3-3",
+      "kind": "chair",
+      "cells": [
+        "R3C3"
+      ],
+      "asset": "/assets/catalog/the-terracotta-courtyard/objects/chair.svg",
+      "x": 2,
+      "y": 2,
+      "width": 1,
+      "height": 1,
+      "objectId": 2
+    },
+    {
+      "id": "object-3-4",
+      "kind": "plant",
+      "cells": [
+        "R3C4"
+      ],
+      "asset": "/assets/catalog/the-terracotta-courtyard/objects/plant.svg",
+      "x": 3,
+      "y": 2,
+      "width": 1,
+      "height": 1,
+      "objectId": 1
+    },
+    {
+      "id": "object-3-9",
+      "kind": "chair",
+      "cells": [
+        "R3C9"
+      ],
+      "asset": "/assets/catalog/the-terracotta-courtyard/objects/chair.svg",
+      "x": 8,
+      "y": 2,
+      "width": 1,
+      "height": 1,
+      "objectId": 2
+    },
+    {
+      "id": "object-4-1",
+      "kind": "shelf",
+      "cells": [
+        "R4C1"
+      ],
+      "asset": "/assets/catalog/the-terracotta-courtyard/objects/shelf.svg",
+      "x": 0,
+      "y": 3,
+      "width": 1,
+      "height": 1,
+      "objectId": 13
+    },
+    {
+      "id": "object-4-6",
+      "kind": "chair",
+      "cells": [
+        "R4C6"
+      ],
+      "asset": "/assets/catalog/the-terracotta-courtyard/objects/chair.svg",
+      "x": 5,
+      "y": 3,
+      "width": 1,
+      "height": 1,
+      "objectId": 2
+    },
+    {
+      "id": "object-5-1",
+      "kind": "table",
+      "cells": [
+        "R5C1"
+      ],
+      "asset": "/assets/catalog/the-terracotta-courtyard/objects/table.svg",
+      "x": 0,
+      "y": 4,
+      "width": 1,
+      "height": 1,
+      "objectId": 4
+    },
+    {
+      "id": "object-5-2",
+      "kind": "table",
+      "cells": [
+        "R5C2"
+      ],
+      "asset": "/assets/catalog/the-terracotta-courtyard/objects/table.svg",
+      "x": 1,
+      "y": 4,
+      "width": 1,
+      "height": 1,
+      "objectId": 4
+    },
+    {
+      "id": "object-5-5",
+      "kind": "plant",
+      "cells": [
+        "R5C5"
+      ],
+      "asset": "/assets/catalog/the-terracotta-courtyard/objects/plant.svg",
+      "x": 4,
+      "y": 4,
+      "width": 1,
+      "height": 1,
+      "objectId": 1
+    },
+    {
+      "id": "object-6-5",
+      "kind": "tv",
+      "cells": [
+        "R6C5"
+      ],
+      "asset": "/assets/catalog/the-terracotta-courtyard/objects/tv.svg",
+      "x": 4,
+      "y": 5,
+      "width": 1,
+      "height": 1,
+      "objectId": 3
+    },
+    {
+      "id": "object-7-9",
+      "kind": "bed_top",
+      "cells": [
+        "R7C9",
+        "R8C9"
+      ],
+      "asset": "/assets/catalog/the-terracotta-courtyard/objects/bed_top.svg",
+      "x": 8,
+      "y": 6,
+      "width": 1,
+      "height": 2,
+      "objectId": 7
+    },
+    {
+      "id": "object-8-2",
+      "kind": "car",
+      "cells": [
+        "R8C2",
+        "R8C3"
+      ],
+      "asset": "/assets/catalog/the-terracotta-courtyard/objects/car.svg",
+      "x": 1,
+      "y": 7,
+      "width": 2,
+      "height": 1,
+      "objectId": 21
+    },
+    {
+      "id": "object-8-4",
+      "kind": "chair",
+      "cells": [
+        "R8C4"
+      ],
+      "asset": "/assets/catalog/the-terracotta-courtyard/objects/chair.svg",
+      "x": 3,
+      "y": 7,
+      "width": 1,
+      "height": 1,
+      "objectId": 2
+    },
+    {
+      "id": "object-8-6",
+      "kind": "chair",
+      "cells": [
+        "R8C6"
+      ],
+      "asset": "/assets/catalog/the-terracotta-courtyard/objects/chair.svg",
+      "x": 5,
+      "y": 7,
+      "width": 1,
+      "height": 1,
+      "objectId": 2
+    },
+    {
+      "id": "object-9-2",
+      "kind": "shelf",
+      "cells": [
+        "R9C2"
+      ],
+      "asset": "/assets/catalog/the-terracotta-courtyard/objects/shelf.svg",
+      "x": 1,
+      "y": 8,
+      "width": 1,
+      "height": 1,
+      "objectId": 13
+    },
+    {
+      "id": "object-9-3",
+      "kind": "table",
+      "cells": [
+        "R9C3"
+      ],
+      "asset": "/assets/catalog/the-terracotta-courtyard/objects/table.svg",
+      "x": 2,
+      "y": 8,
+      "width": 1,
+      "height": 1,
+      "objectId": 4
+    },
+    {
+      "id": "object-9-4",
+      "kind": "plant",
+      "cells": [
+        "R9C4"
+      ],
+      "asset": "/assets/catalog/the-terracotta-courtyard/objects/plant.svg",
+      "x": 3,
+      "y": 8,
+      "width": 1,
+      "height": 1,
+      "objectId": 1
+    },
+    {
+      "id": "object-9-5",
+      "kind": "chair",
+      "cells": [
+        "R9C5"
+      ],
+      "asset": "/assets/catalog/the-terracotta-courtyard/objects/chair.svg",
+      "x": 4,
+      "y": 8,
+      "width": 1,
+      "height": 1,
+      "objectId": 2
+    },
+    {
+      "id": "object-9-6",
+      "kind": "shelf",
+      "cells": [
+        "R9C6"
+      ],
+      "asset": "/assets/catalog/the-terracotta-courtyard/objects/shelf.svg",
+      "x": 5,
+      "y": 8,
+      "width": 1,
+      "height": 1,
+      "objectId": 13
+    },
+    {
+      "id": "object-9-8",
+      "kind": "shelf",
+      "cells": [
+        "R9C8"
+      ],
+      "asset": "/assets/catalog/the-terracotta-courtyard/objects/shelf.svg",
+      "x": 7,
+      "y": 8,
+      "width": 1,
+      "height": 1,
+      "objectId": 13
+    },
+    {
+      "id": "object-9-9",
+      "kind": "shelf",
+      "cells": [
+        "R9C9"
+      ],
+      "asset": "/assets/catalog/the-terracotta-courtyard/objects/shelf.svg",
+      "x": 8,
+      "y": 8,
+      "width": 1,
+      "height": 1,
+      "objectId": 13
+    },
+    {
+      "id": "carpet-R7C7",
+      "kind": "carpet",
+      "cells": [
+        "R7C7"
+      ],
+      "asset": "/assets/catalog/the-terracotta-courtyard/objects/carpet.svg",
+      "x": 6,
+      "y": 6,
+      "width": 1,
+      "height": 1,
+      "objectId": 5,
+      "carpet": true
+    },
+    {
+      "id": "carpet-R6C8",
+      "kind": "carpet",
+      "cells": [
+        "R6C8"
+      ],
+      "asset": "/assets/catalog/the-terracotta-courtyard/objects/carpet.svg",
+      "x": 7,
+      "y": 5,
+      "width": 1,
+      "height": 1,
+      "objectId": 5,
+      "carpet": true
+    },
+    {
+      "id": "carpet-R6C7",
+      "kind": "carpet",
+      "cells": [
+        "R6C7"
+      ],
+      "asset": "/assets/catalog/the-terracotta-courtyard/objects/carpet.svg",
+      "x": 6,
+      "y": 5,
+      "width": 1,
+      "height": 1,
+      "objectId": 5,
+      "carpet": true
+    },
+    {
+      "id": "carpet-R5C9",
+      "kind": "carpet",
+      "cells": [
+        "R5C9"
+      ],
+      "asset": "/assets/catalog/the-terracotta-courtyard/objects/carpet.svg",
+      "x": 8,
+      "y": 4,
+      "width": 1,
+      "height": 1,
+      "objectId": 5,
+      "carpet": true
+    },
+    {
+      "id": "carpet-R5C8",
+      "kind": "carpet",
+      "cells": [
+        "R5C8"
+      ],
+      "asset": "/assets/catalog/the-terracotta-courtyard/objects/carpet.svg",
+      "x": 7,
+      "y": 4,
+      "width": 1,
+      "height": 1,
+      "objectId": 5,
+      "carpet": true
+    },
+    {
+      "id": "carpet-R5C7",
+      "kind": "carpet",
+      "cells": [
+        "R5C7"
+      ],
+      "asset": "/assets/catalog/the-terracotta-courtyard/objects/carpet.svg",
+      "x": 6,
+      "y": 4,
+      "width": 1,
+      "height": 1,
+      "objectId": 5,
+      "carpet": true
+    },
+    {
+      "id": "carpet-R4C9",
+      "kind": "carpet",
+      "cells": [
+        "R4C9"
+      ],
+      "asset": "/assets/catalog/the-terracotta-courtyard/objects/carpet.svg",
+      "x": 8,
+      "y": 3,
+      "width": 1,
+      "height": 1,
+      "objectId": 5,
+      "carpet": true
+    }
+  ],
+  "rooms": [
+    {
+      "id": 0,
+      "label": "餐厅",
+      "labelEn": "Dining Room",
+      "cells": [
+        "R1C1",
+        "R1C2",
+        "R1C3",
+        "R1C4",
+        "R1C5",
+        "R2C1",
+        "R2C2",
+        "R2C3",
+        "R2C4",
+        "R3C1",
+        "R3C2",
+        "R3C3",
+        "R3C4"
+      ],
+      "fill": "#f0adad"
+    },
+    {
+      "id": 1,
+      "label": "泳池",
+      "labelEn": "Pool",
+      "cells": [
+        "R2C7",
+        "R2C8",
+        "R3C7",
+        "R3C8",
+        "R4C7",
+        "R4C8"
+      ],
+      "fill": "#628ed5"
+    },
+    {
+      "id": 3,
+      "label": "庭院",
+      "labelEn": "Courtyard",
+      "cells": [
+        "R1C6",
+        "R1C7",
+        "R1C8",
+        "R1C9",
+        "R2C5",
+        "R2C6",
+        "R2C9",
+        "R3C5",
+        "R3C6",
+        "R3C9",
+        "R4C5",
+        "R4C6",
+        "R4C9",
+        "R5C5",
+        "R5C6",
+        "R5C7",
+        "R5C8",
+        "R5C9"
+      ],
+      "fill": "#d48673"
+    },
+    {
+      "id": 4,
+      "label": "车库",
+      "labelEn": "Garage",
+      "cells": [
+        "R7C1",
+        "R7C2",
+        "R7C3",
+        "R8C1",
+        "R8C2",
+        "R8C3",
+        "R9C1",
+        "R9C2",
+        "R9C3"
+      ],
+      "fill": "#a38a80"
+    },
+    {
+      "id": 5,
+      "label": "客厅",
+      "labelEn": "Living Room",
+      "cells": [
+        "R5C4",
+        "R6C4",
+        "R6C5",
+        "R6C6",
+        "R7C4",
+        "R7C5",
+        "R7C6",
+        "R8C4",
+        "R8C5",
+        "R8C6",
+        "R9C4",
+        "R9C5",
+        "R9C6"
+      ],
+      "fill": "#e4a595"
+    },
+    {
+      "id": 6,
+      "label": "厨房",
+      "labelEn": "Kitchen",
+      "cells": [
+        "R4C1",
+        "R4C2",
+        "R4C3",
+        "R4C4",
+        "R5C1",
+        "R5C2",
+        "R5C3",
+        "R6C1",
+        "R6C2",
+        "R6C3"
+      ],
+      "fill": "#a7a59a"
+    },
+    {
+      "id": 7,
+      "label": "卧室",
+      "labelEn": "Bedroom",
+      "cells": [
+        "R6C7",
+        "R6C8",
+        "R6C9",
+        "R7C7",
+        "R7C8",
+        "R7C9",
+        "R8C7",
+        "R8C8",
+        "R8C9",
+        "R9C7",
+        "R9C8",
+        "R9C9"
+      ],
+      "fill": "#e9cc9b"
+    }
+  ],
+  "roomLabels": [
+    {
+      "id": 0,
+      "label": "餐厅",
+      "x": 200.0,
+      "y": 285.33333333333337,
+      "mainRoomId": 0,
+      "isSubarea": false
+    },
+    {
+      "id": 1,
+      "label": "泳池",
+      "x": 700.0,
+      "y": 385.33333333333337,
+      "mainRoomId": 1,
+      "isSubarea": false
+    },
+    {
+      "id": 3,
+      "label": "庭院",
+      "x": 650.0,
+      "y": 485.33333333333337,
+      "mainRoomId": 3,
+      "isSubarea": false
+    },
+    {
+      "id": 4,
+      "label": "车库",
+      "x": 150.0,
+      "y": 885.3333333333334,
+      "mainRoomId": 4,
+      "isSubarea": false
+    },
+    {
+      "id": 5,
+      "label": "客厅",
+      "x": 450.0,
+      "y": 885.3333333333334,
+      "mainRoomId": 5,
+      "isSubarea": false
+    },
+    {
+      "id": 6,
+      "label": "厨房",
+      "x": 150.0,
+      "y": 585.3333333333334,
+      "mainRoomId": 6,
+      "isSubarea": false
+    },
+    {
+      "id": 7,
+      "label": "卧室",
+      "x": 750.0,
+      "y": 885.3333333333334,
+      "mainRoomId": 7,
+      "isSubarea": false
+    }
+  ],
+  "objectNames": {
+    "1": "Plant",
+    "2": "Chair",
+    "3": "TV",
+    "4": "Table",
+    "7": "Bed",
+    "13": "Shelf",
+    "21": "Car"
+  },
+  "characters": [
+    {
+      "id": "A",
+      "name": "Agnes",
+      "portrait": "/assets/catalog/the-terracotta-courtyard/portraits/A.svg",
+      "clueId": "A-clue",
+      "clueEn": "She was beside a plant.",
+      "clueZh": "她在一株植物旁边。",
+      "sex": 1
+    },
+    {
+      "id": "B",
+      "name": "Bill",
+      "portrait": "/assets/catalog/the-terracotta-courtyard/portraits/B.svg",
+      "clueId": "B-clue",
+      "clueEn": "There was a shelf somewhere in his row, and another shelf in his column.",
+      "clueZh": "他所在的行里某处有一个架子，他所在的列里还有另一个架子。",
+      "sex": 0
+    },
+    {
+      "id": "C",
+      "name": "Chris",
+      "portrait": "/assets/catalog/the-terracotta-courtyard/portraits/C.svg",
+      "clueId": "C-clue",
+      "clueEn": "He was in the Garage.",
+      "clueZh": "他在车库。",
+      "sex": 0
+    },
+    {
+      "id": "D",
+      "name": "Dina",
+      "portrait": "/assets/catalog/the-terracotta-courtyard/portraits/D.svg",
+      "clueId": "D-clue",
+      "clueEn": "She was in the car.",
+      "clueZh": "她在汽车里。",
+      "sex": 1
+    },
+    {
+      "id": "E",
+      "name": "Eira",
+      "portrait": "/assets/catalog/the-terracotta-courtyard/portraits/E.svg",
+      "clueId": "E-clue",
+      "clueEn": "She was alone. She was west of Dina.",
+      "clueZh": "她独自一人。她在 Dina 的西边。",
+      "sex": 1
+    },
+    {
+      "id": "F",
+      "name": "Finlay",
+      "portrait": "/assets/catalog/the-terracotta-courtyard/portraits/F.svg",
+      "clueId": "F-clue",
+      "clueEn": "He was not on a carpet.",
+      "clueZh": "他不在地毯上。",
+      "sex": 0
+    },
+    {
+      "id": "G",
+      "name": "Gino",
+      "portrait": "/assets/catalog/the-terracotta-courtyard/portraits/G.svg",
+      "clueId": "G-clue",
+      "clueEn": "He was on the bed.",
+      "clueZh": "他在床上。",
+      "sex": 0
+    },
+    {
+      "id": "H",
+      "name": "Hassan",
+      "portrait": "/assets/catalog/the-terracotta-courtyard/portraits/H.svg",
+      "clueId": "H-clue",
+      "clueEn": "He was sitting in a chair.",
+      "clueZh": "他坐在椅子上。",
+      "sex": 0
+    },
+    {
+      "id": "V",
+      "name": "Vernon",
+      "portrait": "/assets/catalog/the-terracotta-courtyard/portraits/V.svg",
+      "clueId": "V-clue",
+      "clueEn": "The Victim. He was alone with the murderer.",
+      "clueZh": "被害者。他和凶手单独在一起。",
+      "sex": 0
+    }
+  ],
+  "generalClues": [],
+  "metadata": {
+    "sourceId": "puzzle-the-terracotta-courtyard-medium",
+    "sourceFile": "puzzle_the-terracotta_courtyard-medium.json",
+    "version": 2,
+    "coordinateOrder": "row_col",
+    "roomLabels": [
+      {
+        "id": 0,
+        "label": "Dining Room",
+        "x": 200.0,
+        "y": 285.33333333333337,
+        "mainRoomId": 0,
+        "isSubarea": false
+      },
+      {
+        "id": 1,
+        "label": "Pool",
+        "x": 700.0,
+        "y": 385.33333333333337,
+        "mainRoomId": 1,
+        "isSubarea": false
+      },
+      {
+        "id": 3,
+        "label": "Courtyard",
+        "x": 650.0,
+        "y": 485.33333333333337,
+        "mainRoomId": 3,
+        "isSubarea": false
+      },
+      {
+        "id": 4,
+        "label": "Garage",
+        "x": 150.0,
+        "y": 885.3333333333334,
+        "mainRoomId": 4,
+        "isSubarea": false
+      },
+      {
+        "id": 5,
+        "label": "Living Room",
+        "x": 450.0,
+        "y": 885.3333333333334,
+        "mainRoomId": 5,
+        "isSubarea": false
+      },
+      {
+        "id": 6,
+        "label": "Kitchen",
+        "x": 150.0,
+        "y": 585.3333333333334,
+        "mainRoomId": 6,
+        "isSubarea": false
+      },
+      {
+        "id": 7,
+        "label": "Bedroom",
+        "x": 750.0,
+        "y": 885.3333333333334,
+        "mainRoomId": 7,
+        "isSubarea": false
+      }
+    ],
+    "edges": [],
+    "unsupportedObjectIds": [],
+    "titleEn": "The Terracotta Courtyard",
+    "titleZh": "赤陶庭院"
+  }
+}

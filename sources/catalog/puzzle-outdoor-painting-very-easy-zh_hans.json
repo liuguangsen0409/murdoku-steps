@@ -1,0 +1,42 @@
+{
+  "PROPERTIES": {
+    "puzzle_version": "2",
+    "clue_custom_text1": "",
+    "clue_custom_text2": "",
+    "clue_custom_text3": "",
+    "player_hint_count": "4",
+    "player_hint_1_zh_hans": "要在巨石旁边，(C) 必须位于同一区域。(C) 必须在 R1；封锁 R1 的其余部分。",
+    "player_hint_1_markers": "[{\"type\":\"circle\",\"row\":0,\"col\":1,\"color\":\"#4ECDC4\"},{\"type\":\"letter_big\",\"row\":0,\"col\":1,\"color\":\"#4ECDC4\",\"letter\":\"C\"}]",
+    "player_hint_2_zh_hans": "(D) 必须在 R2、R3 或 R4 的画架旁边。(B) 在 (D) 南面一行且位于另一区域，因此在人行道上。(D) 只能在 R4 C5，而 (B) 在 R5 C6。",
+    "player_hint_2_markers": "[{\"type\":\"circle\",\"row\":3,\"col\":4,\"color\":\"#4ECDC4\"},{\"type\":\"circle\",\"row\":4,\"col\":5,\"color\":\"#4ECDC4\"},{\"type\":\"letter_big\",\"row\":3,\"col\":4,\"color\":\"#4ECDC4\",\"letter\":\"D\"},{\"type\":\"letter_big\",\"row\":4,\"col\":5,\"color\":\"#4ECDC4\",\"letter\":\"B\"}]",
+    "player_hint_3_zh_hans": "这样就把 (E) 锁定在最后一把椅子上。",
+    "player_hint_3_markers": "[{\"type\":\"circle\",\"row\":5,\"col\":3,\"color\":\"#4ECDC4\"},{\"type\":\"letter_big\",\"row\":5,\"col\":3,\"color\":\"#4ECDC4\",\"letter\":\"E\"}]",
+    "player_hint_4_zh_hans": "这样就把 (A) 锁定在 C1 的最后一格，然后把 (V) 锁定在最后剩下的一格。",
+    "player_hint_4_markers": "[{\"type\":\"circle\",\"row\":1,\"col\":0,\"color\":\"#4ECDC4\"},{\"type\":\"circle\",\"row\":2,\"col\":2,\"color\":\"#4ECDC4\"},{\"type\":\"letter_big\",\"row\":1,\"col\":0,\"color\":\"#4ECDC4\",\"letter\":\"A\"},{\"type\":\"letter_big\",\"row\":2,\"col\":2,\"color\":\"#4ECDC4\",\"letter\":\"V\"}]"
+  },
+  "CHARACTERS": {
+    "room_name_0": "人行道",
+    "room_name_1": "树林",
+    "room_name_2": "池塘",
+    "room_name_3": "空地",
+    "title_zh_hans_": "",
+    "char_name_0": "Allison",
+    "char_quote_zh_hans_0": "她在第一列。",
+    "char_subquote_zh_hans_0": "",
+    "char_name_1": "Brandon",
+    "char_quote_zh_hans_1": "他在 Donovan 南边一行，位于另一区域。",
+    "char_subquote_zh_hans_1": "",
+    "char_name_2": "Clark",
+    "char_quote_zh_hans_2": "他在巨石旁边。",
+    "char_subquote_zh_hans_2": "",
+    "char_name_3": "Donovan",
+    "char_quote_zh_hans_3": "他在画架旁边。",
+    "char_subquote_zh_hans_3": "",
+    "char_name_4": "Ellie",
+    "char_quote_zh_hans_4": "她坐在一把椅子上。",
+    "char_subquote_zh_hans_4": "",
+    "char_name_5": "Vincenza",
+    "char_quote_zh_hans_5": "被害者。和凶手单独在一起。",
+    "char_subquote_zh_hans_5": ""
+  }
+}

@@ -1,0 +1,1715 @@
+{
+  "id": "frontier-town",
+  "width": 10,
+  "height": 10,
+  "cells": [
+    {
+      "id": "R1C1",
+      "row": 1,
+      "col": 1,
+      "roomId": 4,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R1C2",
+      "row": 1,
+      "col": 2,
+      "roomId": 4,
+      "occupiable": false,
+      "carpet": false,
+      "objectIds": [
+        4
+      ]
+    },
+    {
+      "id": "R1C3",
+      "row": 1,
+      "col": 3,
+      "roomId": 4,
+      "occupiable": false,
+      "carpet": false,
+      "objectIds": [
+        13
+      ]
+    },
+    {
+      "id": "R1C4",
+      "row": 1,
+      "col": 4,
+      "roomId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R1C5",
+      "row": 1,
+      "col": 5,
+      "roomId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R1C6",
+      "row": 1,
+      "col": 6,
+      "roomId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R1C7",
+      "row": 1,
+      "col": 7,
+      "roomId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R1C8",
+      "row": 1,
+      "col": 8,
+      "roomId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R1C9",
+      "row": 1,
+      "col": 9,
+      "roomId": 1,
+      "occupiable": false,
+      "carpet": false,
+      "objectIds": [
+        16
+      ]
+    },
+    {
+      "id": "R1C10",
+      "row": 1,
+      "col": 10,
+      "roomId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": [
+        15
+      ]
+    },
+    {
+      "id": "R2C1",
+      "row": 2,
+      "col": 1,
+      "roomId": 4,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": [
+        2
+      ]
+    },
+    {
+      "id": "R2C2",
+      "row": 2,
+      "col": 2,
+      "roomId": 4,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": [
+        6
+      ]
+    },
+    {
+      "id": "R2C3",
+      "row": 2,
+      "col": 3,
+      "roomId": 4,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R2C4",
+      "row": 2,
+      "col": 4,
+      "roomId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": [
+        15
+      ]
+    },
+    {
+      "id": "R2C5",
+      "row": 2,
+      "col": 5,
+      "roomId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R2C6",
+      "row": 2,
+      "col": 6,
+      "roomId": 0,
+      "occupiable": false,
+      "carpet": false,
+      "objectIds": [
+        4
+      ]
+    },
+    {
+      "id": "R2C7",
+      "row": 2,
+      "col": 7,
+      "roomId": 0,
+      "occupiable": false,
+      "carpet": false,
+      "objectIds": [
+        4
+      ]
+    },
+    {
+      "id": "R2C8",
+      "row": 2,
+      "col": 8,
+      "roomId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R2C9",
+      "row": 2,
+      "col": 9,
+      "roomId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R2C10",
+      "row": 2,
+      "col": 10,
+      "roomId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R3C1",
+      "row": 3,
+      "col": 1,
+      "roomId": 4,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R3C2",
+      "row": 3,
+      "col": 2,
+      "roomId": 4,
+      "occupiable": false,
+      "carpet": false,
+      "objectIds": [
+        13
+      ]
+    },
+    {
+      "id": "R3C3",
+      "row": 3,
+      "col": 3,
+      "roomId": 1,
+      "occupiable": false,
+      "carpet": false,
+      "objectIds": [
+        89
+      ]
+    },
+    {
+      "id": "R3C4",
+      "row": 3,
+      "col": 4,
+      "roomId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R3C5",
+      "row": 3,
+      "col": 5,
+      "roomId": 0,
+      "occupiable": false,
+      "carpet": false,
+      "objectIds": [
+        89
+      ]
+    },
+    {
+      "id": "R3C6",
+      "row": 3,
+      "col": 6,
+      "roomId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R3C7",
+      "row": 3,
+      "col": 7,
+      "roomId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R3C8",
+      "row": 3,
+      "col": 8,
+      "roomId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": [
+        2
+      ]
+    },
+    {
+      "id": "R3C9",
+      "row": 3,
+      "col": 9,
+      "roomId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R3C10",
+      "row": 3,
+      "col": 10,
+      "roomId": 1,
+      "occupiable": false,
+      "carpet": false,
+      "objectIds": [
+        16
+      ]
+    },
+    {
+      "id": "R4C1",
+      "row": 4,
+      "col": 1,
+      "roomId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R4C2",
+      "row": 4,
+      "col": 2,
+      "roomId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R4C3",
+      "row": 4,
+      "col": 3,
+      "roomId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": [
+        2
+      ]
+    },
+    {
+      "id": "R4C4",
+      "row": 4,
+      "col": 4,
+      "roomId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R4C5",
+      "row": 4,
+      "col": 5,
+      "roomId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": [
+        2
+      ]
+    },
+    {
+      "id": "R4C6",
+      "row": 4,
+      "col": 6,
+      "roomId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R4C7",
+      "row": 4,
+      "col": 7,
+      "roomId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R4C8",
+      "row": 4,
+      "col": 8,
+      "roomId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": [
+        2
+      ]
+    },
+    {
+      "id": "R4C9",
+      "row": 4,
+      "col": 9,
+      "roomId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": [
+        15
+      ]
+    },
+    {
+      "id": "R4C10",
+      "row": 4,
+      "col": 10,
+      "roomId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R5C1",
+      "row": 5,
+      "col": 1,
+      "roomId": 1,
+      "occupiable": false,
+      "carpet": false,
+      "objectIds": [
+        16
+      ]
+    },
+    {
+      "id": "R5C2",
+      "row": 5,
+      "col": 2,
+      "roomId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R5C3",
+      "row": 5,
+      "col": 3,
+      "roomId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R5C4",
+      "row": 5,
+      "col": 4,
+      "roomId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R5C5",
+      "row": 5,
+      "col": 5,
+      "roomId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": [
+        2
+      ]
+    },
+    {
+      "id": "R5C6",
+      "row": 5,
+      "col": 6,
+      "roomId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R5C7",
+      "row": 5,
+      "col": 7,
+      "roomId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R5C8",
+      "row": 5,
+      "col": 8,
+      "roomId": 0,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": [
+        2
+      ]
+    },
+    {
+      "id": "R5C9",
+      "row": 5,
+      "col": 9,
+      "roomId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R5C10",
+      "row": 5,
+      "col": 10,
+      "roomId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R6C1",
+      "row": 6,
+      "col": 1,
+      "roomId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R6C2",
+      "row": 6,
+      "col": 2,
+      "roomId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R6C3",
+      "row": 6,
+      "col": 3,
+      "roomId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R6C4",
+      "row": 6,
+      "col": 4,
+      "roomId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R6C5",
+      "row": 6,
+      "col": 5,
+      "roomId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R6C6",
+      "row": 6,
+      "col": 6,
+      "roomId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R6C7",
+      "row": 6,
+      "col": 7,
+      "roomId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R6C8",
+      "row": 6,
+      "col": 8,
+      "roomId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R6C9",
+      "row": 6,
+      "col": 9,
+      "roomId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R6C10",
+      "row": 6,
+      "col": 10,
+      "roomId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R7C1",
+      "row": 7,
+      "col": 1,
+      "roomId": 2,
+      "occupiable": false,
+      "carpet": false,
+      "objectIds": [
+        13
+      ]
+    },
+    {
+      "id": "R7C2",
+      "row": 7,
+      "col": 2,
+      "roomId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R7C3",
+      "row": 7,
+      "col": 3,
+      "roomId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R7C4",
+      "row": 7,
+      "col": 4,
+      "roomId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R7C5",
+      "row": 7,
+      "col": 5,
+      "roomId": 1,
+      "occupiable": false,
+      "carpet": false,
+      "objectIds": [
+        16
+      ]
+    },
+    {
+      "id": "R7C6",
+      "row": 7,
+      "col": 6,
+      "roomId": 1,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R7C7",
+      "row": 7,
+      "col": 7,
+      "roomId": 6,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R7C8",
+      "row": 7,
+      "col": 8,
+      "roomId": 5,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R7C9",
+      "row": 7,
+      "col": 9,
+      "roomId": 5,
+      "occupiable": false,
+      "carpet": false,
+      "objectIds": [
+        13
+      ]
+    },
+    {
+      "id": "R7C10",
+      "row": 7,
+      "col": 10,
+      "roomId": 5,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": [
+        2
+      ]
+    },
+    {
+      "id": "R8C1",
+      "row": 8,
+      "col": 1,
+      "roomId": 2,
+      "occupiable": false,
+      "carpet": false,
+      "objectIds": [
+        89
+      ]
+    },
+    {
+      "id": "R8C2",
+      "row": 8,
+      "col": 2,
+      "roomId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R8C3",
+      "row": 8,
+      "col": 3,
+      "roomId": 2,
+      "occupiable": false,
+      "carpet": false,
+      "objectIds": [
+        13
+      ]
+    },
+    {
+      "id": "R8C4",
+      "row": 8,
+      "col": 4,
+      "roomId": 2,
+      "occupiable": false,
+      "carpet": false,
+      "objectIds": [
+        94
+      ]
+    },
+    {
+      "id": "R8C5",
+      "row": 8,
+      "col": 5,
+      "roomId": 6,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": [
+        15
+      ]
+    },
+    {
+      "id": "R8C6",
+      "row": 8,
+      "col": 6,
+      "roomId": 6,
+      "occupiable": false,
+      "carpet": false,
+      "objectIds": [
+        89
+      ]
+    },
+    {
+      "id": "R8C7",
+      "row": 8,
+      "col": 7,
+      "roomId": 6,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R8C8",
+      "row": 8,
+      "col": 8,
+      "roomId": 5,
+      "occupiable": false,
+      "carpet": false,
+      "objectIds": [
+        4
+      ]
+    },
+    {
+      "id": "R8C9",
+      "row": 8,
+      "col": 9,
+      "roomId": 5,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R8C10",
+      "row": 8,
+      "col": 10,
+      "roomId": 5,
+      "occupiable": false,
+      "carpet": false,
+      "objectIds": [
+        4
+      ]
+    },
+    {
+      "id": "R9C1",
+      "row": 9,
+      "col": 1,
+      "roomId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R9C2",
+      "row": 9,
+      "col": 2,
+      "roomId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": [
+        2
+      ]
+    },
+    {
+      "id": "R9C3",
+      "row": 9,
+      "col": 3,
+      "roomId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R9C4",
+      "row": 9,
+      "col": 4,
+      "roomId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R9C5",
+      "row": 9,
+      "col": 5,
+      "roomId": 6,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R9C6",
+      "row": 9,
+      "col": 6,
+      "roomId": 6,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R9C7",
+      "row": 9,
+      "col": 7,
+      "roomId": 5,
+      "occupiable": false,
+      "carpet": false,
+      "objectIds": [
+        4
+      ]
+    },
+    {
+      "id": "R9C8",
+      "row": 9,
+      "col": 8,
+      "roomId": 5,
+      "occupiable": false,
+      "carpet": false,
+      "objectIds": [
+        4
+      ]
+    },
+    {
+      "id": "R9C9",
+      "row": 9,
+      "col": 9,
+      "roomId": 5,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R9C10",
+      "row": 9,
+      "col": 10,
+      "roomId": 5,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R10C1",
+      "row": 10,
+      "col": 1,
+      "roomId": 2,
+      "occupiable": false,
+      "carpet": false,
+      "objectIds": [
+        13
+      ]
+    },
+    {
+      "id": "R10C2",
+      "row": 10,
+      "col": 2,
+      "roomId": 2,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R10C3",
+      "row": 10,
+      "col": 3,
+      "roomId": 2,
+      "occupiable": false,
+      "carpet": false,
+      "objectIds": [
+        13
+      ]
+    },
+    {
+      "id": "R10C4",
+      "row": 10,
+      "col": 4,
+      "roomId": 2,
+      "occupiable": false,
+      "carpet": false,
+      "objectIds": [
+        4
+      ]
+    },
+    {
+      "id": "R10C5",
+      "row": 10,
+      "col": 5,
+      "roomId": 6,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R10C6",
+      "row": 10,
+      "col": 6,
+      "roomId": 6,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": [
+        2
+      ]
+    },
+    {
+      "id": "R10C7",
+      "row": 10,
+      "col": 7,
+      "roomId": 5,
+      "occupiable": false,
+      "carpet": false,
+      "objectIds": [
+        83
+      ]
+    },
+    {
+      "id": "R10C8",
+      "row": 10,
+      "col": 8,
+      "roomId": 5,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R10C9",
+      "row": 10,
+      "col": 9,
+      "roomId": 5,
+      "occupiable": true,
+      "carpet": false,
+      "objectIds": []
+    },
+    {
+      "id": "R10C10",
+      "row": 10,
+      "col": 10,
+      "roomId": 5,
+      "occupiable": false,
+      "carpet": false,
+      "objectIds": [
+        94
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "id": "object-1-2",
+      "kind": "table",
+      "cells": [
+        "R1C2"
+      ],
+      "asset": "/assets/frontier/objects/table.svg",
+      "x": 1,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-1-3",
+      "kind": "shelf",
+      "cells": [
+        "R1C3"
+      ],
+      "asset": "/assets/frontier/objects/shelf.svg",
+      "x": 2,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-1-9",
+      "kind": "cactus",
+      "cells": [
+        "R1C9"
+      ],
+      "asset": "/assets/frontier/objects/cactus.svg",
+      "x": 8,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-1-10",
+      "kind": "horse",
+      "cells": [
+        "R1C10"
+      ],
+      "asset": "/assets/frontier/objects/horse.svg",
+      "x": 9,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-2-1",
+      "kind": "chair",
+      "cells": [
+        "R2C1"
+      ],
+      "asset": "/assets/frontier/objects/chair.svg",
+      "x": 0,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-2-2",
+      "kind": "bed",
+      "cells": [
+        "R2C2"
+      ],
+      "asset": "/assets/frontier/objects/bed.svg",
+      "x": 1,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-2-4",
+      "kind": "horse",
+      "cells": [
+        "R2C4"
+      ],
+      "asset": "/assets/frontier/objects/horse.svg",
+      "x": 3,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-2-6",
+      "kind": "table",
+      "cells": [
+        "R2C6"
+      ],
+      "asset": "/assets/frontier/objects/table.svg",
+      "x": 5,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-2-7",
+      "kind": "table",
+      "cells": [
+        "R2C7"
+      ],
+      "asset": "/assets/frontier/objects/table.svg",
+      "x": 6,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-3-2",
+      "kind": "shelf",
+      "cells": [
+        "R3C2"
+      ],
+      "asset": "/assets/frontier/objects/shelf.svg",
+      "x": 1,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-3-3",
+      "kind": "sack",
+      "cells": [
+        "R3C3"
+      ],
+      "asset": "/assets/frontier/objects/sack.svg",
+      "x": 2,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-3-5",
+      "kind": "sack",
+      "cells": [
+        "R3C5"
+      ],
+      "asset": "/assets/frontier/objects/sack.svg",
+      "x": 4,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-3-8",
+      "kind": "chair",
+      "cells": [
+        "R3C8"
+      ],
+      "asset": "/assets/frontier/objects/chair.svg",
+      "x": 7,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-3-10",
+      "kind": "cactus",
+      "cells": [
+        "R3C10"
+      ],
+      "asset": "/assets/frontier/objects/cactus.svg",
+      "x": 9,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-4-3",
+      "kind": "chair",
+      "cells": [
+        "R4C3"
+      ],
+      "asset": "/assets/frontier/objects/chair.svg",
+      "x": 2,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-4-5",
+      "kind": "chair",
+      "cells": [
+        "R4C5"
+      ],
+      "asset": "/assets/frontier/objects/chair.svg",
+      "x": 4,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-4-8",
+      "kind": "chair",
+      "cells": [
+        "R4C8"
+      ],
+      "asset": "/assets/frontier/objects/chair.svg",
+      "x": 7,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-4-9",
+      "kind": "horse",
+      "cells": [
+        "R4C9"
+      ],
+      "asset": "/assets/frontier/objects/horse.svg",
+      "x": 8,
+      "y": 3,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-5-1",
+      "kind": "cactus",
+      "cells": [
+        "R5C1"
+      ],
+      "asset": "/assets/frontier/objects/cactus.svg",
+      "x": 0,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-5-5",
+      "kind": "chair",
+      "cells": [
+        "R5C5"
+      ],
+      "asset": "/assets/frontier/objects/chair.svg",
+      "x": 4,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-5-8",
+      "kind": "chair",
+      "cells": [
+        "R5C8"
+      ],
+      "asset": "/assets/frontier/objects/chair.svg",
+      "x": 7,
+      "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-7-1",
+      "kind": "shelf",
+      "cells": [
+        "R7C1"
+      ],
+      "asset": "/assets/frontier/objects/shelf.svg",
+      "x": 0,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-7-5",
+      "kind": "cactus",
+      "cells": [
+        "R7C5"
+      ],
+      "asset": "/assets/frontier/objects/cactus.svg",
+      "x": 4,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-7-9",
+      "kind": "shelf",
+      "cells": [
+        "R7C9"
+      ],
+      "asset": "/assets/frontier/objects/shelf.svg",
+      "x": 8,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-7-10",
+      "kind": "chair",
+      "cells": [
+        "R7C10"
+      ],
+      "asset": "/assets/frontier/objects/chair.svg",
+      "x": 9,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-8-1",
+      "kind": "sack",
+      "cells": [
+        "R8C1"
+      ],
+      "asset": "/assets/frontier/objects/sack.svg",
+      "x": 0,
+      "y": 7,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-8-3",
+      "kind": "shelf",
+      "cells": [
+        "R8C3"
+      ],
+      "asset": "/assets/frontier/objects/shelf.svg",
+      "x": 2,
+      "y": 7,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-8-4",
+      "kind": "register",
+      "cells": [
+        "R8C4"
+      ],
+      "asset": "/assets/frontier/objects/register.svg",
+      "x": 3,
+      "y": 7,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-8-5",
+      "kind": "horse",
+      "cells": [
+        "R8C5"
+      ],
+      "asset": "/assets/frontier/objects/horse.svg",
+      "x": 4,
+      "y": 7,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-8-6",
+      "kind": "sack",
+      "cells": [
+        "R8C6"
+      ],
+      "asset": "/assets/frontier/objects/sack.svg",
+      "x": 5,
+      "y": 7,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-8-8",
+      "kind": "table",
+      "cells": [
+        "R8C8"
+      ],
+      "asset": "/assets/frontier/objects/table.svg",
+      "x": 7,
+      "y": 7,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-8-10",
+      "kind": "table",
+      "cells": [
+        "R8C10"
+      ],
+      "asset": "/assets/frontier/objects/table.svg",
+      "x": 9,
+      "y": 7,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-9-2",
+      "kind": "chair",
+      "cells": [
+        "R9C2"
+      ],
+      "asset": "/assets/frontier/objects/chair.svg",
+      "x": 1,
+      "y": 8,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-9-7",
+      "kind": "table",
+      "cells": [
+        "R9C7"
+      ],
+      "asset": "/assets/frontier/objects/table.svg",
+      "x": 6,
+      "y": 8,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-9-8",
+      "kind": "table",
+      "cells": [
+        "R9C8"
+      ],
+      "asset": "/assets/frontier/objects/table.svg",
+      "x": 7,
+      "y": 8,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-10-1",
+      "kind": "shelf",
+      "cells": [
+        "R10C1"
+      ],
+      "asset": "/assets/frontier/objects/shelf.svg",
+      "x": 0,
+      "y": 9,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-10-3",
+      "kind": "shelf",
+      "cells": [
+        "R10C3"
+      ],
+      "asset": "/assets/frontier/objects/shelf.svg",
+      "x": 2,
+      "y": 9,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-10-4",
+      "kind": "table",
+      "cells": [
+        "R10C4"
+      ],
+      "asset": "/assets/frontier/objects/table.svg",
+      "x": 3,
+      "y": 9,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-10-6",
+      "kind": "chair",
+      "cells": [
+        "R10C6"
+      ],
+      "asset": "/assets/frontier/objects/chair.svg",
+      "x": 5,
+      "y": 9,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-10-7",
+      "kind": "safe",
+      "cells": [
+        "R10C7"
+      ],
+      "asset": "/assets/frontier/objects/safe.svg",
+      "x": 6,
+      "y": 9,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "object-10-10",
+      "kind": "register",
+      "cells": [
+        "R10C10"
+      ],
+      "asset": "/assets/frontier/objects/register.svg",
+      "x": 9,
+      "y": 9,
+      "width": 1,
+      "height": 1
+    }
+  ],
+  "rooms": [
+    {
+      "id": 0,
+      "label": "教堂",
+      "fill": "#fdd8b4",
+      "cells": [
+        "R1C5",
+        "R1C6",
+        "R1C7",
+        "R1C8",
+        "R2C5",
+        "R2C6",
+        "R2C7",
+        "R2C8",
+        "R3C5",
+        "R3C6",
+        "R3C7",
+        "R3C8",
+        "R4C5",
+        "R4C6",
+        "R4C7",
+        "R4C8",
+        "R5C5",
+        "R5C6",
+        "R5C7",
+        "R5C8"
+      ]
+    },
+    {
+      "id": 1,
+      "label": "户外",
+      "fill": "#f3d277",
+      "cells": [
+        "R1C4",
+        "R1C9",
+        "R1C10",
+        "R2C4",
+        "R2C9",
+        "R2C10",
+        "R3C3",
+        "R3C4",
+        "R3C9",
+        "R3C10",
+        "R4C1",
+        "R4C2",
+        "R4C3",
+        "R4C4",
+        "R4C9",
+        "R4C10",
+        "R5C1",
+        "R5C2",
+        "R5C3",
+        "R5C4",
+        "R5C9",
+        "R5C10",
+        "R6C4",
+        "R6C5",
+        "R6C6",
+        "R6C7",
+        "R6C8",
+        "R6C9",
+        "R6C10",
+        "R7C4",
+        "R7C5",
+        "R7C6"
+      ]
+    },
+    {
+      "id": 2,
+      "label": "杂货店",
+      "fill": "#e4c6aa",
+      "cells": [
+        "R6C1",
+        "R6C2",
+        "R6C3",
+        "R7C1",
+        "R7C2",
+        "R7C3",
+        "R8C1",
+        "R8C2",
+        "R8C3",
+        "R8C4",
+        "R9C1",
+        "R9C2",
+        "R9C3",
+        "R9C4",
+        "R10C1",
+        "R10C2",
+        "R10C3",
+        "R10C4"
+      ]
+    },
+    {
+      "id": 4,
+      "label": "牧师家",
+      "fill": "#dac58b",
+      "cells": [
+        "R1C1",
+        "R1C2",
+        "R1C3",
+        "R2C1",
+        "R2C2",
+        "R2C3",
+        "R3C1",
+        "R3C2"
+      ]
+    },
+    {
+      "id": 5,
+      "label": "银行",
+      "fill": "#c6a586",
+      "cells": [
+        "R7C8",
+        "R7C9",
+        "R7C10",
+        "R8C8",
+        "R8C9",
+        "R8C10",
+        "R9C7",
+        "R9C8",
+        "R9C9",
+        "R9C10",
+        "R10C7",
+        "R10C8",
+        "R10C9",
+        "R10C10"
+      ]
+    },
+    {
+      "id": 6,
+      "label": "门廊",
+      "fill": "#e3c4a1",
+      "cells": [
+        "R7C7",
+        "R8C5",
+        "R8C6",
+        "R8C7",
+        "R9C5",
+        "R9C6",
+        "R10C5",
+        "R10C6"
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "id": "A",
+      "name": "Abigail",
+      "portrait": "/assets/frontier/portraits/A.svg",
+      "clueId": "A-clue",
+      "clueEn": "She was beside a cash register.",
+      "clueZh": "她在收银机旁边。"
+    },
+    {
+      "id": "B",
+      "name": "Bessie",
+      "portrait": "/assets/frontier/portraits/B.svg",
+      "clueId": "B-clue",
+      "clueEn": "She was in a corner of her area.",
+      "clueZh": "她在所在区域的一个角落。"
+    },
+    {
+      "id": "C",
+      "name": "Curtis",
+      "portrait": "/assets/frontier/portraits/C.svg",
+      "clueId": "C-clue",
+      "clueEn": "He was sitting in a chair.",
+      "clueZh": "他坐在椅子上。"
+    },
+    {
+      "id": "D",
+      "name": "Duke",
+      "portrait": "/assets/frontier/portraits/D.svg",
+      "clueId": "D-clue",
+      "clueEn": "Not the outlaw. He was beside a chair.",
+      "clueZh": "他不是亡命徒。他在椅子旁边。"
+    },
+    {
+      "id": "E",
+      "name": "Etta",
+      "portrait": "/assets/frontier/portraits/E.svg",
+      "clueId": "E-clue",
+      "clueEn": "She was in the Bank.",
+      "clueZh": "她在银行里。"
+    },
+    {
+      "id": "F",
+      "name": "Frank",
+      "portrait": "/assets/frontier/portraits/F.svg",
+      "clueId": "F-clue",
+      "clueEn": "He was sitting on a horse.",
+      "clueZh": "他骑在一匹马上。"
+    },
+    {
+      "id": "G",
+      "name": "Garrett",
+      "portrait": "/assets/frontier/portraits/G.svg",
+      "clueId": "G-clue",
+      "clueEn": "He was beside a cactus.",
+      "clueZh": "他在仙人掌旁边。"
+    },
+    {
+      "id": "H",
+      "name": "Hazel",
+      "portrait": "/assets/frontier/portraits/H.svg",
+      "clueId": "H-clue",
+      "clueEn": "She was sitting in a chair. She was with the outlaw.",
+      "clueZh": "她坐在椅子上，与亡命徒同区。"
+    },
+    {
+      "id": "I",
+      "name": "Ivy",
+      "portrait": "/assets/frontier/portraits/I.svg",
+      "clueId": "I-clue",
+      "clueEn": "She was south of Hazel, in a different area.",
+      "clueZh": "她在 Hazel 南方，且位于不同区域。"
+    },
+    {
+      "id": "V",
+      "name": "Virgil",
+      "portrait": "/assets/frontier/portraits/V.svg",
+      "clueId": "V-clue",
+      "clueEn": "The Victim. Not the outlaw. He was alone with the murderer.",
+      "clueZh": "死者。他不是亡命徒，与凶手独处。"
+    }
+  ],
+  "generalClues": [
+    {
+      "id": "general-outlaw",
+      "text": "恰好一名亡命徒，位于桌子旁；他不一定是凶手。"
+    }
+  ]
+}
