@@ -1,4 +1,10 @@
 /* Every selector is scoped to the directory, leaving the teaching workspace intact. */
+.home-page{--library-header-height:66px}
+.home-page .site-header{position:sticky;top:0;z-index:20;height:var(--library-header-height);background:#f8f7fd}
+.home-page .case-library .case-library-toolbar{position:sticky;top:var(--library-header-height);z-index:10;flex-shrink:0;padding-top:14px;background:#f0ebf8;box-shadow:0 5px 10px #302b300a}
+.home-page .case-library-toolbar::before{content:"";position:absolute;inset:0 calc((100vw - 100%) / -2);z-index:-1;background:#f0ebf8;pointer-events:none}
+@media(min-width:900px){.home-page{--library-header-height:52px}}
+@media(max-width:760px){.home-page{--library-header-height:58px}}
 .case-library{width:100%;max-width:none;margin:0;padding:45px clamp(20px,4vw,76px) 76px;background:#f0ebf8;min-height:calc(100vh - 122px);color:#29242d}
 .case-library .case-library-heading{text-align:center;margin:0 auto 29px}
 .case-library .case-library-eyebrow{font-size:10px;font-weight:800;letter-spacing:2.5px;color:#7a6e86;margin:0 0 13px}
